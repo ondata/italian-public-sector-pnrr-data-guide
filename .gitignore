@@ -1,9 +1,9 @@
 tmp*
 *.Identifier
-.quarto/*
+/.quarto/
+/_site/
 .vscode/*
 _freeze/*
-_site/*
 docs/*
 
 /.quarto/
