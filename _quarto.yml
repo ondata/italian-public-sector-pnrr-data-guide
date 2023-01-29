@@ -45,6 +45,7 @@ format:
     code-copy: true
     code-overflow: wrap
     link-external-newwindow: true
+    link-external-filter: "^(?:http:|https:)\/\/aborruso.github.io\/italian-public-sector-pnrr-data-guide"
     lang: "it-IT"
     bibliography: open-pnrr.bib
 
