@@ -1,0 +1,9 @@
+tmp*
+*.Identifier
+.quarto/*
+.vscode/*
+_freeze/*
+_site/*
+docs/*
+
+/.quarto/

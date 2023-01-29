@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: docs
+
+  preview:
+    browser: false
+    port: 6074
+
+website:
+  title: "Dati aperti sul PNRR"
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - href: introduzione.qmd
+        text: Introduzione
+      - href: fonti/opencup/index.qmd
+        text: OpenCUP
+      - href: fonti/anac/index.qmd
+        text: ANAC
+      - href: fonti/scp/index.qmd
+        text: SCP
+      - text: "---"
+      - href: osservatorio.md
+        text: Osservatorio PNRR
+      - href: openpnrr.md
+        text: Open PNRR
+
+  page-footer:
+    right: "Un sito costruito con ❤️ e con [Quarto](https://quarto.org/)."
+    left: "[CC-BY](https://creativecommons.org/licenses/by/4.0/) [#datiBeneComune](https://datibenecomune.it/)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    lang: "it-IT"
+    bibliography: open-pnrr.bib
+
+execute:
+  daemon: false
+  freeze: auto
+
