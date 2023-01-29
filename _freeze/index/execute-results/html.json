@@ -1,0 +1,11 @@
+{
+  "hash": "a361011afb0fbd37ffa9d3856f22d670",
+  "result": {
+    "markdown": "---\ntitle: I dati aperti sul PNRR\nsubtitle: Le principali fonti della Pubblica Amminsitrazione Italiana\n---\n\nQuesto sito è uno spazio per avere un quadro sulle principali fonti di dati aperti sul PNRR, a partire da quanto pubblicato sui siti della Pubblica Amministrazione Italiana.\n\nAlcune note:\n\n- sarà in continuo aggiornamento, perché nel tempo si potranno aggiungere e/o anche rimuovere alcune fonti;\n- non è un elenco completo di tutte le fonti di dati aperti sul PNRR, ma solo delle principali e legate a tutto il territorio nazionale.\n\n[[👉 Inizia da qui]{.btn .btn-primary}](introduzione.qmd)\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

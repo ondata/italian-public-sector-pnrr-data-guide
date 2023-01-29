@@ -3,7 +3,6 @@ tmp*
 /.quarto/
 /_site/
 .vscode/*
-_freeze/*
 docs/*
 
 /.quarto/
