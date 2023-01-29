@@ -1,1 +1,1 @@
-Sitemap: https://aborruso.github.io/italian-public-sector-pnrr-data-guide/sitemap.xml
+Sitemap: https://github.com/aborruso/italian-public-sector-pnrr-data-guide/sitemap.xml
