@@ -8,6 +8,7 @@ project:
 
 website:
   title: "Dati aperti sul PNRR"
+  site-url: https://aborruso.github.io/italian-public-sector-pnrr-data-guide
   page-navigation: true
   navbar:
     left:
