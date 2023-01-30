@@ -1,0 +1,11 @@
+{
+  "hash": "b119ebd0b914aa3dff8428f78c6e3494",
+  "result": {
+    "markdown": "---\ntitle: \"OpenCUP - Focus PNRR\"\n---\n\nL'ultima versione dei dati OpenCUP con focus sul PNRR è quella di [novembre 2022](https://opencup.gov.it/portale/documents/21195/0/File+CUP+opencup+pnrr_PNRR+novembre+2022new.zip).\n\nMolto importante la nota relativa che si legge sul sito:\n\n> Si sottolinea che i dati oggetto del rilascio open data, rappresentano gli **interventi candidati** nell’ambito del PNRR, **così come segnalati dai soggetti titolari dei singoli interventi in fase di generazione CUP**, ma che **potrebbero non essere ammessi ai finanziamenti del Piano** e successivamente finanziati da altre misure di spesa. **Per la lista definitiva dei progetti PNRR**, **si rimanda agli elenchi ufficiali emanati dalle Amministrazioni responsabili dei finanziamenti**.\n\n::: {.callout-caution}\n## Fai attenzione\nPer la ragione sopra indicata, non è detto che un progetto in questo elenco sia stato finanziato dal PNRR. È però un punto di partenza per fare approfondimenti sul sito della Pubblica Amministrazione correlata al progetto.\n:::\n\nÈ un file compresso zip, contenente due file in formato Excel:\n\n- uno con l’elenco dei progetti\n- l'altro con i dettagli del target.\n\n## File con l'elenco dei progetti\n\n::: {.cell execution_count=1}\n\n::: {.cell-output .cell-output-display}\n\n\nIl file si chiama `progetto_cup_pnrr(1).xlsx`, ed è composto da **184392 righe** e **35 colonne**.\n\nÈ ricco di informazioni. Tra queste:\n\n- il numero di codici CUP è pari a **145776**;\n- sono progetti riferibili a **20 regioni**, **110 province** e **7911 comuni**.\n- ...\n\n::: aside\nIl numero di Province e Comuni è maggiore del loro numero totale in Italia, perché probabilmente si fa riferimento a Comuni e Province che sono stati soppressi.\n:::\n\n\n:::\n:::\n\n\nHa qualche bruttura come:\n\n- il nome del file;\n- contiene dei caratteri non correttamente codificati, e quindi non leggibili come ad esempio `dell¿abitare`;\n- in due righe della colonna `DATA_GENERAZIONE_COMPLETO`, la data non è nello stesso formato delle altre - `AAAA-MM-GG` (ad esempio \"2020-11-27\") - ma contiene anche l'orario (ad esempio `2006-08-02 19:29:14`);\n- ...\n\n",
+    "supporting": [
+      "focus-pnrr_files/figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
