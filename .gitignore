@@ -6,3 +6,5 @@ tmp*
 docs/*
 
 /.quarto/
+
+/data/
