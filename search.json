@@ -23,9 +23,16 @@
   {
     "objectID": "fonti/opencup/focus-pnrr.html",
     "href": "fonti/opencup/focus-pnrr.html",
-    "title": "Dati aperti sul PNRR",
+    "title": "OpenCUP - Focus PNRR",
     "section": "",
-    "text": "In aliquip occaecat duis dolor. Ex enim cillum eu deserunt commodo pariatur reprehenderit consequat. Minim veniam tempor cupidatat occaecat ad qui aliqua dolore velit dolor. Ipsum consectetur ex adipisicing nulla aliqua officia laboris irure consectetur magna ea fugiat. Dolor mollit veniam mollit cupidatat eiusmod id tempor commodo voluptate sint.\nNon fugiat esse ipsum sunt nisi qui officia enim in aliquip ut. Aliquip sit ex ea velit ex elit. Cillum deserunt ad sint exercitation dolor et veniam esse tempor fugiat sunt pariatur.\nNisi anim dolore est velit ea consectetur ut Lorem et anim aliquip aliqua eiusmod. Pariatur nulla consequat deserunt eiusmod sunt consequat laboris commodo culpa culpa. Pariatur nisi amet laboris ut dolor tempor cillum ea nulla et eu. Ad ea eu consequat fugiat non. Cillum irure proident velit amet quis et quis do nisi eu velit mollit. Duis occaecat cillum ea nostrud elit voluptate commodo excepteur consequat eu eu aute minim nostrud."
+    "text": "L’ultima versione dei dati OpenCUP con focus sul PNRR è quella di novembre 2022.\nMolto importante la nota relativa che si legge sul sito:\nÈ un file compresso zip, contenente due file in formato Excel:"
+  },
+  {
+    "objectID": "fonti/opencup/focus-pnrr.html#file-con-lelenco-dei-progetti",
+    "href": "fonti/opencup/focus-pnrr.html#file-con-lelenco-dei-progetti",
+    "title": "OpenCUP - Focus PNRR",
+    "section": "File con l’elenco dei progetti",
+    "text": "File con l’elenco dei progetti\n\n\nIl file si chiama progetto_cup_pnrr(1).xlsx, ed è composto da 184392 righe e 35 colonne.\nÈ ricco di informazioni. Tra queste:\n\nil numero di codici CUP è pari a 145776;\nsono progetti riferibili a 20 regioni, 110 province e 7911 comuni.\n…\n\n\n\nIl numero di Province e Comuni è maggiore del loro numero totale in Italia, perché probabilmente si fa riferimento a Comuni e Province che sono stati soppressi.\n\n\nHa qualche bruttura come:\n\nil nome del file;\ncontiene dei caratteri non correttamente codificati, e quindi non leggibili come ad esempio dell¿abitare;\nin due righe della colonna DATA_GENERAZIONE_COMPLETO, la data non è nello stesso formato delle altre - AAAA-MM-GG (ad esempio “2020-11-27”) - ma contiene anche l’orario (ad esempio 2006-08-02 19:29:14);\n…"
   },
   {
     "objectID": "fonti/opencup/opencup-opendata.html",
