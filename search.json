@@ -81,7 +81,7 @@
     "href": "fonti/anac/index.html#il-dataset-cup",
     "title": "ANAC",
     "section": "Il dataset CUP",
-    "text": "Il dataset CUP\nL’ANAC rende disponibile il dataset “CUP”, che contiene i codici CUP, relativi agli appalti ordinari1 pubblicati.\nAd ogni CUP, è associato il Codice Identificativo Gara (CIG), un codice alfanumerico di 10 cifre che consente di identificare in maniera univoca gli elementi costitutivi delle gare d’appalto. È utile per identificare gare, lotti e contratti e quindi per tracciare le movimentazioni finanziarie degli affidamenti di lavori, servizi o forniture.\nÈ una tabella composta dalle sole due colonne CIG e CUP (vedi esempio di sotto).\n\n\n\n\n\nTabella 1:  Main Caption \n  \n    \n      CIG\n      CUP\n    \n  \n  \n    \n      5462644C6C\n      I81C11000040006\n    \n    \n      009893079C\n      000000000000000\n    \n    \n      ZBB02E5426\n      H81J09002660007\n    \n  \n\n\n\n\n\n\nAlcuni informazioni su questo dataset:\n\nè un file compresso in formato zip, che contiene al suo interno un file CSV (con separatore ; e codifica UTF-8);\nè composto (al 4 febbraio 2023) da 3.082.041 di righe;\nsono presenti un numero distinto di codici CUP pari a 1.021.454;\nsono presenti un numero distinto di codici CIG pari a 3.042.663.\n\n\n\n\n\n\n\n\n\nÈ un file non gestibile con un foglio elettronico\n\n\n\nQuesto file CSV non è gestibile con un foglio elettronico, come ad esempio Excel o LibreOffice Calc, perché il numero di righe è superiore a 1 milione (che è circa il limite massimo)."
+    "text": "Il dataset CUP\nL’ANAC rende disponibile il dataset “CUP”, che contiene i codici CUP, relativi agli appalti ordinari1 pubblicati.\nAd ogni CUP, è associato il Codice Identificativo Gara (CIG), un codice alfanumerico di 10 cifre che consente di identificare in maniera univoca gli elementi costitutivi delle gare d’appalto. È utile per identificare gare, lotti e contratti e quindi per tracciare le movimentazioni finanziarie degli affidamenti di lavori, servizi o forniture.\nÈ una tabella composta dalle sole due colonne CIG e CUP (vedi esempio di sotto).\n\n\n\nCIG\nCUP\n\n\n\n\n5462644C6C\nI81C11000040006\n\n\n009893079C\n000000000000000\n\n\nZBB02E5426\nH81J09002660007\n\n\n\n\n\nAlcuni informazioni su questo dataset:\n\nè un file compresso in formato zip, che contiene al suo interno un file CSV (con separatore ; e codifica UTF-8);\nè composto (al 4 febbraio 2023) da 3.082.041 di righe;\nsono presenti un numero distinto di codici CUP pari a 1.021.454;\nsono presenti un numero distinto di codici CIG pari a 3.042.663.\n\n\n\n\n\n\n\n\n\nÈ un file non gestibile con un foglio elettronico\n\n\n\nQuesto file CSV non è gestibile con un foglio elettronico, come ad esempio Excel o LibreOffice Calc, perché il numero di righe è superiore a 1 milione (che è circa il limite massimo)."
   },
   {
     "objectID": "fonti/anac/index.html#i-cig-legati-al-pnrr",
@@ -131,6 +131,13 @@
     "title": "OpenPNRR",
     "section": "",
     "text": "OpenPNRR ha lo scopo di monitorare e approfondire il piano nazionale di ripresa e resilienza. Offre informazioni di qualità sulla gestione, da parte del governo, delle risorse che l’Unione europea ha destinato all’Italia nell’ambito del Next generation Eu.\nIl progetto – di Fondazione Openpolis in collaborazione con il Gran Sasso Science Institute – si pone come punto di osservazione indipendente rispetto agli annunci delle istituzioni coinvolte. Crediamo infatti che iniziative di questo tipo siano essenziali per valutare l’efficacia degli interventi, controllarne la realizzazione effettiva, contrastare il rischio di sprechi e corruzione.\n➡️ https://openpnrr.it/"
+  },
+  {
+    "objectID": "guide/procedura-generale.html",
+    "href": "guide/procedura-generale.html",
+    "title": "Dati aperti sul PNRR",
+    "section": "",
+    "text": "Lorem ipsum"
   },
   {
     "objectID": "osservatorio.html",

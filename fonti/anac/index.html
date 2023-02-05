@@ -123,9 +123,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-submit-button-title": "Inviare"
   }
 }</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -259,38 +256,29 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>L’ANAC rende disponibile il dataset “<a href="https://dati.anticorruzione.it/opendata/dataset/cup">CUP</a>”, che contiene i <strong>codici CUP</strong>, relativi agli appalti ordinari<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> pubblicati.</p>
 <p>Ad ogni CUP, è associato il <strong>Codice Identificativo Gara</strong> (<strong>CIG</strong>), un codice alfanumerico di 10 cifre che consente di <strong>identificare</strong> in maniera univoca gli elementi costitutivi delle <strong>gare d’appalto</strong>.<br> È utile per identificare gare, lotti e contratti e quindi per tracciare le movimentazioni finanziarie degli affidamenti di lavori, servizi o forniture.</p>
 <p>È una tabella composta dalle sole due colonne <code>CIG</code> e <code>CUP</code> (vedi esempio di sotto).</p>
-<div class="cell" data-execution_count="2">
-<div class="cell-output cell-output-display">
-<div id="tbl-ref" class="anchored">
-
-<style type="text/css">
-</style>
-<table id="T_61eec"><caption>Tabella&nbsp;1:  Main Caption </caption>
-  <thead>
-    <tr>
-      <th id="T_61eec_level0_col0" class="col_heading level0 col0">CIG</th>
-      <th id="T_61eec_level0_col1" class="col_heading level0 col1">CUP</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td id="T_61eec_row0_col0" class="data row0 col0">5462644C6C</td>
-      <td id="T_61eec_row0_col1" class="data row0 col1">I81C11000040006</td>
-    </tr>
-    <tr>
-      <td id="T_61eec_row1_col0" class="data row1 col0">009893079C</td>
-      <td id="T_61eec_row1_col1" class="data row1 col1">000000000000000</td>
-    </tr>
-    <tr>
-      <td id="T_61eec_row2_col0" class="data row2 col0">ZBB02E5426</td>
-      <td id="T_61eec_row2_col1" class="data row2 col1">H81J09002660007</td>
-    </tr>
-  </tbody>
+<table class="table">
+<thead>
+<tr class="header">
+<th>CIG</th>
+<th>CUP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5462644C6C</td>
+<td>I81C11000040006</td>
+</tr>
+<tr class="even">
+<td>009893079C</td>
+<td>000000000000000</td>
+</tr>
+<tr class="odd">
+<td>ZBB02E5426</td>
+<td>H81J09002660007</td>
+</tr>
+</tbody>
 </table>
-</div>
-</div>
-</div>
-<div class="cell" data-execution_count="3">
+<div class="cell" data-execution_count="2">
 <div class="cell-output cell-output-display">
 <p>Alcuni informazioni su questo dataset:</p>
 <ul>
@@ -319,7 +307,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="i-cig-legati-al-pnrr">I CIG legati al PNRR</h2>
 <p>Come scritto <a href="../../fonti/opencup/index.html#focus-sul-pnrr">qui</a>, sul <strong>portale OpenCUP</strong> sono disponibili i <strong>codici CUP legati al PNRR</strong>. E nel portale ANAC c’è un elenco dei <strong>codici CUP</strong> <strong>associati</strong> ai <strong>Codici Identificativi Gara</strong> (CIG).</p>
 <p>💡Basterà quindi estrarre dal dataset ANAC tutti i CIG associati a un CUP presente anche nel dataset OpenCUP.</p>
-<p><a href="../../guide/procedura-generale.qmd"><span class="btn btn-primary">⛏️ Come fare</span></a></p>
+<p><a href="../../guide/procedura-generale.html"><span class="btn btn-primary">⛏️ Come fare</span></a></p>
 </section>
 <section id="le-informazioni-sulle-gare" class="level2">
 <h2 class="anchored" data-anchor-id="le-informazioni-sulle-gare">Le informazioni sulle gare</h2>
