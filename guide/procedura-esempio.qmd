@@ -6,4 +6,193 @@ subtitle: "Un esempio a partire dai dati del Comune di Messina"
 
 ## Introduzione
 
-In questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: OpenCUP, ANAC e SCP
+In questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: [OpenCUP](../fonti/opencup/index.qmd), [ANAC](../fonti/anac/index.qmd) e [SCP](../fonti/scp/index.qmd).
+
+## Estrazione dei codici CUP da OpenCUP
+
+```{python}
+#| echo: false
+#| warning: false
+
+!if [ ! -f ../data/messina/opencup-focus-083048-cup.csv ]; then\
+  mlr --csv filter -S '$CODI_CODICE_COMUNE=="083048"' ../data/opencup/opencup-focus-pnrr.csv >../data/messina/opencup-focus-083048.csv;\
+fi
+
+!if [ ! -f ../data/messina/opencup-focus-083048-cup.csv ]; then\
+  mlr --c2n filter -S '$CODI_CODICE_COMUNE=="083048"' then cut -f CODICE_CUP then uniq -a then sort -f CODICE_CUP ../data/opencup/opencup-focus-pnrr.csv >../data/messina/opencup-focus-083048-cup.csv;\
+fi
+
+contaCup=!<../data/messina/opencup-focus-083048-cup.csv | wc -l
+```
+
+I dati "[focus PNRR](../fonti/opencup/focus-pnrr.qmd)", hanno una colonna che contiene il codice Istat dei Comuni italiani associati ai vari progetti. Quello del Comune di Messina è `083048`.
+
+Il file di partenza è in formato Excel: per **estrarre** soltanto i dati di Messina, si cerca la colonna `CODI_CODICE_COMUNE`, si applica il filtro per il **valore `083048`** (vedi @fig-filtro-excel), si copiano e incollano i risultati in un nuovo foglio elettronico e si salva il file.
+
+Come formato di salvataggio, si sceglie `CSV (delimitato da virgola) (*.csv)`. In output il file [`opencup-focus-083048.csv`](../data/messina/opencup-focus-083048.csv).<br>
+Sono **circa 360 progetti**.
+
+![Applicare un filtro in un foglio elettronico](images/excel-filter.png){fig-alt="Applicare un filtro in un foglio elettronico" #fig-filtro-excel}
+
+E a partire da questo file estratto, è utile per i prossimi step, **salvare** in CSV anche **un file contenente la sola colonna con i valori univoci di codici CUP**.<br>
+Con un foglio elettronico si può fare un semplice copia e incolla in un nuovo foglio della sola prima colonna e salvare il tutto in CSV.<br>
+In output il file [`opencup-focus-083048-cup.csv`](../data/messina/opencup-focus-083048-cup.csv).
+
+::: {.callout-tip collapse="true"}
+## Estrarre la sola colonna con i codici CUP, da riga di comando
+È comodo farlo con [**Miller**](https://miller.readthedocs.io/en/latest/):
+
+```{.bash}
+mlr --csv cut -f CODICE_CUP then uniq -a opencup-focus-083048.csv >opencup-focus-083048-cup.csv
+```
+
+Con `cut -f CODICE_CUP` si taglia la sola colonna `CODICE_CUP` e con `uniq -a` si estraggono i soli valori univoci.
+
+:::
+
+## Estrarre i dati da ANAC, a partire dai codici CUP estratti
+
+```{python}
+#| echo: false
+#| warning: false
+
+!if [ ! -f ../data/messina/anac-cup-cig-083048.csv ]; then\
+  qsv searchset -d ";" -i -s CUP ../data/messina/opencup-focus-083048-cup.csv ../data/anac/cup_csv.csv >../data/messina/anac-cup-cig-083048.csv;\
+fi
+```
+
+Il [dataset CUP](../fonti/anac/index.qmd#il-dataset-cup) pubblicato dall'Autorità Nazionale Anticorruzione è composto da **più di 3 milioni di record**, quindi un foglio elettronico è pressoché inutilizzabile per estrarre tutti i codici `CIG` corrispondenti ai codici `CUP` estratti sopra per Messina.<br>
+È necessario utilizzare un linguaggio di programmazione o delle _utility_ dedicate alla elaborazione di file di testo strutturato (CSV, TSV, JSON, ecc.).
+
+::: {.callout}
+## Filtrare i 3 milioni di record di ANAC
+
+Si può usare il comodo ed efficiente [`qsv`](https://github.com/jqnatividad/qsv), in accoppiata con [Miller](https://miller.readthedocs.io/en/latest/), a partire dal file [`opencup-focus-083048-cup.csv`](../data/messina/opencup-focus-083048-cup.csv) con i soli codici CUP del Comune di Messina:
+
+```{.bash}
+qsv searchset -d ";" -i -s CUP opencup-focus-083048-cup.csv cup_csv.csv >anac-cup-cig-083048.csv
+```
+
+Con `-d ";"` si imposta il separatore di campo che in ANAC è `;`, con `-i -s CUP opencup-focus-083048-cup.csv` si cercano nel file ANAC nella colonna `CUP` tutti i record contenenti i codici CUP estratti per Messina.
+:::
+
+```{python}
+#| echo: false
+#| warning: false
+
+from IPython.display import display, Markdown
+import humanize
+import locale
+locale.setlocale(locale.LC_ALL,"it_IT.UTF-8")
+
+humanize.i18n.activate("it_IT")
+
+numeroRecordAnacMessina=!echo "$(<../data/messina/anac-cup-cig-083048.csv | wc -l) - 1" | bc
+numeroCupAnacMessina=!mlr --c2n count-distinct -f CUP -n  ../data/messina/anac-cup-cig-083048.csv
+numeroCigAnacMessina=!mlr --c2n count-distinct -f CIG -n  ../data/messina/anac-cup-cig-083048.csv
+
+text=f"""
+
+In output il file [`anac-cup-cig-083048.csv`](../data/messina/anac-cup-cig-083048.csv) (separatore di campo la `,`):
+
+- numero di **record** pari **{numeroRecordAnacMessina[0]}** (esclusa la riga di intestazione);
+- numero di **codici CUP** univoci **{numeroCupAnacMessina[0]}**;
+- numero di **codici CIG** univoci **{numeroCigAnacMessina[0]}**.
+
+"""
+
+!mlr --c2n cut -f CIG then uniq -a then sort -f CIG  ../data/messina/anac-cup-cig-083048.csv >../data/messina/anac-cup-cig-083048-cig.csv
+
+display(Markdown(text))
+```
+
+A partire dal file estratto è utile **estrarre** anche un **file `CSV`** con i **soli codici CIG univoci**.<br>
+Per questo esempio è stato creato il file [anac-cup-cig-083048-cig.csv](../data/messina/anac-cup-cig-083048-cig.csv).
+
+Questo file è comodo per [**interrogare le API di ANAC**](../fonti/anac/informazioni-cig.qmd#tramite-api), ed **estrarre** le **informazioni relative** a questi codici CIG estratti per Messina.<br>
+Ancora una volta, si fa notare che questa è un'operazione semplice, ma che richiedere alcune conoscenze di programmazione. Qui sotto, al click, un esempio di codice.
+
+::: {.callout-note collapse="true"}
+## Interrogare le API di ANAC ed estrarre i dati di insieme
+
+È uno [script `bash`](../script/messina/messina.sh) basato su [Miller](https://miller.readthedocs.io/en/latest/) e su [flatterer](https://flatterer.opendata.coop/).
+
+```{.bash}
+# variabile con il percorso assoluto della cartella dello script
+folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# crea le cartelle di output
+mkdir -p "$folder"/../../data/messina/rawdata/cig
+mkdir -p "$folder"/../../data/messina/cig
+
+# per ogni CIG estratto, interroga l'API di ANAC e salva il file jsonl
+while IFS="" read -r line; do
+  if [ ! -f "$folder"/../../data/messina/rawdata/cig/"$line".jsonl ]; then
+    curl -kL "https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/$line" >"$folder"/../../data/messina/rawdata/cig/"$line".jsonl
+  fi
+done <"$folder"/../../data/messina/anac-cup-cig-083048-cig.csv
+
+# unisci tutti i file jsonl in un unico file json
+if [ ! -f "$folder"/../../data/messina/anac-cig.json ]; then
+  mlrgo --ijsonl --ojson --no-jvstack  cat "$folder"/../../data/messina/rawdata/cig/*.jsonl >"$folder"/../../data/messina/anac-cig.json
+fi
+
+# estrai dal file JSON, le tabelle in esseo contenute in formato CSV
+flatterer --force "$folder"/../../data/messina/anac-cig.json "$folder"/../../data/messina/cig
+```
+:::
+
+In output diversi file `CSV` con le informazioni relative ai codici CIG estratti per Messina:
+
+- [`anac-cig.csv`](../data/messina/cig/csv/anac-cig.csv), è il file principale più ricco, con le informazioni principali;
+- [`bando_CUP.csv`](../data/messina/cig/csv/bando_CUP.csv), contiene i `CUP` correlati ai vari `CIG`;
+- [`incaricati.csv`](../data/messina/cig/csv/incaricati.csv), contiene i nomi delle persone incaricate;
+- [`bando_CPV.csv`](../data/messina/cig/csv/bando_CPV.csv), contiene i codici CPV - ovvero la categorizzazione del tipo di "oggetto" in gara - correlati ai vari `CIG`.
+
+## Estrarre i dati della Banca dati Servizio Contratti Pubblici
+
+Per estrarre i dati relativi a Messina e al PNRR dalla [Banca Dati SCP](../fonti/scp/index.qmd), si possono usare ancora una volta i **codici `CIG`** presenti nel file [anac-cup-cig-083048-cig.csv](../data/messina/anac-cup-cig-083048-cig.csv) estratto sopra.
+
+Qui sotto ad esempio i comandi necessari per estrarre i dati dai file **atti**, **esiti** e **bandi**, contenuti nella Banca Dati SCP.
+
+
+```{python}
+#| echo: false
+#| warning: false
+
+!if [ ! -f ../data/messina/scp-atti.csv ]; then\
+  qsv searchset -i -s cig ../data/messina/anac-cup-cig-083048-cig.csv ../data/scp/v_od_atti.csv >../data/messina/scp-atti-083048.csv;\
+fi
+
+!if [ ! -f ../data/messina/scp-esiti.csv ]; then\
+  qsv searchset -i -s cig ../data/messina/anac-cup-cig-083048-cig.csv ../data/scp/v_od_atti.csv >../data/messina/scp-esiti-083048.csv;\
+fi
+
+!if [ ! -f ../data/messina/scp-bandi.csv ]; then\
+  qsv searchset -i -s cig ../data/messina/anac-cup-cig-083048-cig.csv ../data/scp/v_od_atti.csv >../data/messina/scp-bandi-083048.csv;\
+fi
+```
+
+::: {.callout}
+## Estrarre dai dati SCP, i dati a partire dai CIG di Messina
+
+Si può usare ancora una volta il comodo ed efficiente [`qsv`](https://github.com/jqnatividad/qsv), a partire dal file [`anac-cup-cig-083048-cig.csv`](../data/messina/anac-cup-cig-083048-cig.csv) con i soli codici CIG legati al PNRR e relativi al Comune di Messina:
+
+```{.bash}
+# atti
+qsv searchset -i -s cig anac-cup-cig-083048-cig.csv v_od_atti.csv >scp-atti-083048.csv
+# esiti
+qsv searchset -i -s cig anac-cup-cig-083048-cig.csv v_od_atti.csv >scp-esiti-083048.csv
+# bandi
+qsv searchset -i -s cig anac-cup-cig-083048-cig.csv v_od_atti.csv >scp-bandi-083048.csv
+```
+
+Con `-i -s cig anac-cup-cig-083048-cig.csv` si cercano nei file SCP nella colonna `cig` tutti i record contenenti i codici `CIG` estratti per Messina.
+:::
+
+
+In output:
+
+- [`scp-atti-083048.csv`](../data/messina/scp-atti-083048.csv), contiene i dati relativi agli atti;
+- [`scp-esiti-083048.csv`](../data/messina/scp-esiti-083048.csv), contiene i dati relativi agli esiti;
+- [`scp-bandi-083048.csv`](../data/messina/scp-bandi-083048.csv), contiene i dati relativi ai bandi.

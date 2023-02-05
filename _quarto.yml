@@ -22,17 +22,25 @@ website:
     contents:
       - href: introduzione.qmd
         text: Introduzione
-      - href: fonti/opencup/index.qmd
-        text: OpenCUP
-      - href: fonti/anac/index.qmd
-        text: ANAC
-      - href: fonti/scp/index.qmd
-        text: SCP
+      - section: Fonti
+        contents:
+          - href: fonti/opencup/index.qmd
+            text: OpenCUP
+          - href: fonti/anac/index.qmd
+            text: ANAC
+          - href: fonti/scp/index.qmd
+            text: SCP
+      - href: guide/procedura-esempio.qmd
+        text: Esempio estrazione dati
       - text: "---"
+      - href: datibenecomune.md
+        text: datiBeneComune
       - href: osservatorio.md
         text: Osservatorio PNRR
       - href: openpnrr.md
         text: Open PNRR
+      - href: quinto-piano-governo-aperto.md
+        text: V Piano Nazionale Governo Aperto
 
   page-footer:
     right: "Un sito costruito con ❤️ e con [Quarto](https://quarto.org/)."
