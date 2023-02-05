@@ -1,0 +1,40 @@
+---
+title: "OpenBDAP"
+subtitle: "Il portale della Ragioneria Generale dello Stato"
+---
+
+> [**OpenBDAP**](https://openbdap.rgs.mef.gov.it/) è il portale della **Ragioneria Generale dello Stato** che consente di **scoprire** le tematiche della Finanza Pubblica, di **esplorare** i dati presenti all'interno della Banca Dati delle Amministrazioni Pubbliche e di **analizzare** i risultati frutto di elaborazioni personalizzate.
+
+
+## I dati correlati al PNRR
+
+**Non ci sembra** che nemmeno in questo portale **ci siano dei dati "etichettati" come PNRR** e/o che ci siano delle modalità automatiche pubbliche (**API**) per estrarre dati a partire da un codice `CUP` o da un `CIG`.
+
+Nella [sezione](https://openbdap.rgs.mef.gov.it/it/Home/ComePubblicare) "_Come pubblicare sui siti Istituzionali delle Amministrazioni Pubbliche i collegamenti ipertestuali ai dati contenuti nella BDAP_", viene indicato l'URL per esplorare le opere pubbliche di una Pubblica Amministrazione, a partire dal suo Codice Fiscale.<br>
+Questo ad esempio quello dell'ANAS (`80208450587` è il suo codice fiscale):<br>
+[https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&T=BusinessObject
+&idType=CUID&noDetailsPanel=true&X_Ente=80208450587](https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&T=BusinessObject&idType=CUID&noDetailsPanel=true&X_Ente=80208450587)
+
+➡️ **NOTA BENE**: in questa pagina in alto a destra è presente il alla "**RICERCA PER CUP**". In questo percorso alla ricerca dei dati relativi al PNRR ci sarà utile
+
+[![Pagina opere pubbliche di una PA](images/openbdap-ricerca-cup.png){#fig-openbdap-ricerca-cup}](https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&T=BusinessObject&idType=CUID&noDetailsPanel=true&X_Ente=80208450587)
+
+Al click su "**RICERCA PER CUP**" si apre il form dedicato (vedi @fig-openbdap-ricerca-cup-form).
+
+![Form ricercar per CUP](images/openbdap-form-cup.png){#fig-openbdap-ricerca-cup-form}
+
+In questo form è possibile inserire un o più codici `CUP` separati da `;` (non più di 300), e poi fare click sul tasto "Mostra CUP".<br>
+In output una tabella con i risultati della ricerca, di cui è possibile fare il download in formato `Excel`.
+
+![Risultati ricerca per CUP](images/openbdap-cup-results.png){#fig-openbdap-ricerca-cup-risultati}
+
+Il foglio elettronico di _output_ è suddiviso in tre fogli:
+
+- `Dettaglio CUP`;
+- `Dettaglio CIG`;
+- `Dettaglio Indicatori`.
+
+Quindi per estrarre da OpenBDAP dei dati relativi al PNRR, si può ancora una volta usare l'elenco dei CUP del [Focus PNRR](../opencup/focus-pnrr.qmd) di OpenCUP, come elemento di filtro.<br>
+Purtroppo **non più di 300 CUP per volta**.
+
+[Qui](../../data/openbdap/2023-02-05_openbdap.xlsx) un **esempio di _output_**.

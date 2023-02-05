@@ -196,3 +196,11 @@ In output:
 - [`scp-atti-083048.csv`](../data/messina/scp-atti-083048.csv), contiene i dati relativi agli atti;
 - [`scp-esiti-083048.csv`](../data/messina/scp-esiti-083048.csv), contiene i dati relativi agli esiti;
 - [`scp-bandi-083048.csv`](../data/messina/scp-bandi-083048.csv), contiene i dati relativi ai bandi.
+
+## Estrarre i dati da OpenBDAP
+
+OpenBDAP è un'altra fonte informativa nazionale sui contratti pubblici. Come indicato nella [sezione dedicata](../fonti/openbdap/index.qmd#i-dati-correlati-al-pnrr), è possibile fare delle ricerche per codice `CUP`, inserendo un elenco di CUP (non più di 300 per volta).
+
+Quindi ancora una volta si possono usare i [codici CUP estratti per il Comune di Messina](#estrazione-dei-codici-cup-da-opencup), ovvero quelli del file  [`opencup-focus-083048-cup.csv`](../data/messina/opencup-focus-083048-cup.csv) e usarli come filtro per la ricerca su OpenBDAP. Sono circa 360, quindi si dovranno eseguire 2 ricerche.
+
+In _output_ questo file `XLSX`, suddiviso in 3 fogli: `Dettaglio CUP`, `Dettaglio CIG` e `Dettaglio Indicatori`. Qui i dati estratti al 5 febbraio 2023: [`openbdap-083048.xlsx`](../data/messina/openbdap-083048.xlsx).

@@ -30,6 +30,8 @@ website:
             text: ANAC
           - href: fonti/scp/index.qmd
             text: SCP
+          - href: fonti/openbdap/index.qmd
+            text: OpenBDAP
       - href: guide/procedura-esempio.qmd
         text: Esempio estrazione dati
       - text: "---"
