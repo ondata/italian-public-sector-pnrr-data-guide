@@ -1,0 +1,50 @@
+---
+title: "ANAC: le informazioni correlate a un CIG"
+subtitle: "Estrarle in due modalità, via file o via API"
+format: html
+toc-depth: 4
+footnotes-hover: true
+---
+
+## Tramite file
+
+Questa modalità è dal punto di vista pratico la più semplice, ma non è la più efficiente.
+
+Il portale dei dati aperti dell'ANAC infatti rende disponibili [dei dataset](https://dati.anticorruzione.it/opendata/dataset?q=title%3Acig&res_format=CSV&sort=metadata_modified+desc), con l'**elenco mensile** dei CIG, **raggruppati per anno**.<br>
+
+[![Lista dei file sui CIG, sul sito di ANAC](images/file-cig.png){#fig-anac-cig fig-alt="Lista dei file sui CIG"}](https://dati.anticorruzione.it/opendata/dataset?q=title%3Acig&res_format=CSV&sort=metadata_modified+desc)
+
+I file per mese sono compressi in formato `ZIP` e disponibili in più formati (qui si fa riferimento al `CSV`). Sono file ricchi di informazioni, come l'oggetto della gara, la modalità di scelta del contraente, il luogo di riferimento secondo codifica Istat, i codici CPV[^CPV] per categorizzare l'oggetto della gara, l'importo, il settore, ecc. (sotto un esempio, fare click per espandere).
+
+[^CPV]: Il CPV è un sistema di classificazione unico per gli appalti pubblici volto a unificare i riferimenti utilizzati dalle amministrazioni e dagli enti appaltanti per la descrizione dell'oggetto degli appalti ([fonte](https://simap.ted.europa.eu/it/cpv)).
+
+{{< include ../../include/_anac-cig-t.md >}}
+
+Usare questi file per estrarre informazioni a partire da un elenco di CIG può essere un po' farraginoso:
+
+- dato un codice CIG - ad esempio `918052266A` - non c'è un modo semplice per capire a quale anno e e a quale mese fa riferimento. E quindi bisognerebbe scaricarli uno ad uno e verificare se i CIG di interesse sono presenti;
+- sono disponibili 16 anni di dataset, quindi circa 200 mesi e 200 file `CSV`, con milioni di CIG e di righe.
+
+
+## Tramite API
+
+Questa modalità è **più complessa**, perché richiede alcune conoscenze di base sull'accesso ai dati in modalità adeguate all'estrazione e analisi automatica (la cosiddetta _machine to machine_), ma è **più efficace e comoda**.
+
+L'Autorità Nazionale Anticorruzione mette a disposizione delle **API** per interrogare i suoi dati, a partire da un codice CIG.
+
+Le API - acronimo di _Application Programming Interface_ (interfaccia di programmazione delle applicazioni) - sono in un certo senso degli indirizzi web speciali, che restituiscono non una pagina web, ma dei dati.
+
+Questo indirizzo web speciale, questo `URL` ha questa struttura:
+```{.markdown}
+https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/numero_cig
+```
+
+Se ad esempio si vogliono ottenere le informazioni relative al CIG `918052266A` associato al CUP [`G34E21000260001`](https://opencup.gov.it/portale/progetto/-/cup/G34E21000260001), l'URL da utilizzare sarà:<br>
+<https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/918052266A>
+
+Si hanno ancora una volta diverse informazioni, e il formato file è stavolta il `JSON` (sotto un esempio, fare click per espandere).
+
+{{< include ../../include/_callout-api-anac.md >}}
+
+A partire da un elenco di CIG di proprio interesse, si dovrà per ciascuno utilizzare queste API di ANAC. Sono richieste quindi delle conoscenze per sapere leggere il formato JSON, analizzarlo e trasformarlo, così come delle conoscenze per costruire procedure automatiche per interrogare delle API (se i CIG sono 1000, è impensabile fare 1000 _click_ su 1000 URL e salvare il risultato).
+

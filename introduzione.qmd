@@ -9,6 +9,7 @@ Elenco:
 1. [**OpenCUP**](fonti/opencup/index.qmd), il portale con i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitarie o regionali o con risorse private registrate con il Codice Unico di Progetto;
 2. il [Catalogo dei dati aperti](fonti/anac/index.qmd) dell'**Autorità Nazionale Anticorruzione** (ANAC);
 3. la [**Banca dati Servizio Contratti Pubblici**](fonti/scp/index.qmd) del Servizio contratti pubblici (SCP) del Ministero delle infrastrutture e dei trasporti.
+4. **OpenBDAP**, "I Dati della Finanza Pubblica accessibili a tutti" (ℹ️ in fase di sviluppo).
 
 ::: {.callout-tip}
 ## Suggerimento

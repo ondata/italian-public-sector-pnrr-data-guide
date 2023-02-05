@@ -1,7 +1,87 @@
 ---
-title: "Introduzione"
+title: "Banca dati Servizio Contratti Pubblici - SCP"
 ---
 
-Amet nisi elit deserunt do Lorem. Ut dolor do magna anim pariatur minim sunt sint ad eiusmod consequat ad amet consectetur. In sunt est consectetur dolor proident commodo aute do nostrud deserunt sit nostrud. Aliqua ipsum duis consectetur pariatur. Laboris sunt ullamco consequat nostrud Lorem aute deserunt ut consequat dolor ad. Sit minim reprehenderit quis incididunt reprehenderit fugiat enim sunt consectetur quis et ipsum. Officia deserunt ea deserunt mollit laboris laborum eu.
+Il Ministero delle infrastrutture e dei  Trasporti pubblica - nel suo [portale dei dati aperti](https://dati.mit.gov.it/catalog/dataset/) -  il [**dataset**](https://dati.mit.gov.it/catalog/dataset/scp) che contiene gli **avvisi**, i **bandi** e gli **esiti di gara** in **formato aperto**, raccolti dalla "Banca dati SCP - Servizio Contratti Pubblici", gestita dalla Direzione Generale per la regolazione e i contratti pubblici del Ministero delle Infrastrutture e Trasporti.<br>
+I dati sono **aggiornati quotidianamente**.
 
-Ullamco quis dolor consectetur ut in labore aliqua proident minim dolor Lorem mollit adipisicing. Laboris cillum labore in sint anim incididunt exercitation tempor ut ea. Exercitation in consequat labore aliqua quis sit. Eu magna enim ad anim mollit aliqua labore consequat est. Duis ad fugiat dolor minim veniam. Culpa quis ullamco culpa cupidatat irure.
+Dal punto di vista temporale questa banca dati - rispetto a quelle di OpenCUP e di ANAC qui descritte - è quella di mezzo:
+
+1. prima quella di [OpenCUP](../opencup/index.qmd);
+2. poi questa, con avvisi e bandi (e altro);
+3. e infine [quella di ANAC](../anac/index.qmd).
+
+Prima si assegna infatti un codice CUP a un progetto, poi si fanno gli avvisi e i bandi e infine si assegnano i contratti.
+
+I dati sono in formato `CSV`, resi disponibili in quattro categorie principali, suddivise ulteriormente rispetto alla data. Le categorie sono: `atti`, `avvisi`, `bandi`, `gare non aggiudicate` e `esiti`.<br>
+I file sono accompagnati dai dei file in formato `JSON` che descrivono i soprastanti file di dati.
+
+[![I file del dataset Servizio Contratti Pubblici](images/scp-datasets.png){#fig-scp-dataset fig-alt="Lista dei file dataset Servizio Contratti Pubblici "}](https://dati.mit.gov.it/catalog/dataset/scp)
+
+Per dare l'idea dei contenuti qui pubblicati, si riporta qualche informazione di sintesi sulla risorsa [`Atti anno corrente (2022)`](https://dati.mit.gov.it/catalog/dataset/scp/resource/d803b64e-1744-4ae7-a993-93b2d62d9c7e), che è quella di maggiori dimensioni.
+
+```{python}
+#| echo: false
+#| warning: false
+
+from IPython.display import display, Markdown
+import humanize
+import locale
+locale.setlocale(locale.LC_ALL,"it_IT.UTF-8")
+
+humanize.i18n.activate("it_IT")
+
+!if [ ! -f ../../data/spc/summary_v_od_atti.csv ]; then\
+ mlrgo --csv summary ../../data/spc/v_od_atti.csv >../../data/spc/summary_v_od_atti.csv;\
+fi
+
+numero_record=!mlr --c2n cut -f count then head -n 1 ../../data/spc/summary_v_od_atti.csv
+numero_cup=!mlr --c2n  filter '$field_name=="cup"' then cut -f distinct_count ../../data/spc/summary_v_od_atti.csv
+numero_cig=!mlr --c2n  filter '$field_name=="cig"' then cut -f distinct_count ../../data/spc/summary_v_od_atti.csv
+numero_id_gara=!mlr --c2n  filter '$field_name=="id_gara"' then cut -f distinct_count ../../data/spc/summary_v_od_atti.csv
+numero_colonne=!echo "$(<../../data/spc/summary_v_od_atti.csv wc -l)-1" | bc
+
+text=f"""
+
+Alcuni informazioni correlate:
+
+- è in formato `CSV` (con separatore `,` e codifica probabilmente `UTF-8`);
+- è composto (al 4 febbraio 2023) da **{int(numero_record[0]):n}** righe e **{int(numero_colonne[0]):n}** colonne;
+- sono presenti un numero distinto di codici CUP pari a **{int(numero_cup[0]):n}**;
+- sono presenti un numero distinto di codici CIG pari a **{int(numero_cig[0]):n}**.
+- sono presenti un numero distinto di identificativi gara pari a **{int(numero_id_gara[0]):n}**.
+
+"""
+
+display(Markdown(text))
+
+```
+
+Molto ricco di contenuti, con alcune informazioni ovviamente diverse da quelle presenti su OpenCUP e ANAC  (sotto un esempio, fare click per espandere).
+
+{{< include ../../include/_spc-transposed.md >}}
+
+## I link ai documenti correlati
+
+Un elemento di grande interesse, presente in questa banca dati è quella presente nella colonna `url_documento`, con l'URL della pagina web dove è possibile trovare documenti correlati all'atto in questione.
+
+Si porta come [esempio](https://ingate.invitalia.it/esop/toolkit/opportunity/ns/7382/detail.si?isOnModification=false&_ncp=1675594340926.18822-2) quello dell'`id_gara` `1412023` e `CIG` [`918052266A`](https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A).
+
+[![Esempio di pagina con elenco documenti del bando](images/spc-link-documenti.png){#fig-scp-link-documento fig-alt="Esempio di link a documento"}](https://ingate.invitalia.it/esop/toolkit/opportunity/ns/7382/detail.si?isOnModification=false&_ncp=1675594340926.18822-2)
+
+## I dati correlati al PNRR
+
+Anche in questo caso, come per i [dati dell'Autorità Nazione Anticorruzione](../anac/index.qmd), non è disponibile un "focus" dedicato ai soli dati relativi al PNRR (come in [OpenCUP](../opencup/index.qmd#focus-sul-pnrr)), né un modo per estrarre dall'insieme completo i soli dati relativi al PNRR.
+
+Ma in questi file pubblicati su SCP sono disponibili (quasi sempre) i codici CUP e CIG. E quindi:
+
+- si potranno usare i CUP del ["focus PNRR"](../opencup/focus-pnrr.qmd) di OpenCUP per estrarre dalla banca dati SCP soltanto i dati con CUP coincidente;
+- si potranno usare i CIG correlati al PNRR ([qui](../anac/index.qmd#i-cig-legati-al-pnrr) nota correlata), per estrarre dalla banca dati SCP soltanto i dati con CIG coincidente.
+
+## Estrarre le informazioni
+
+Come estrarre soltanto i dati SCP a partire dall'elenco dei CUP e CIG correlati al PNRR?
+
+Si può fare almeno in **due modalità**, ma **entrambe non sono per tutte/i** e richiedono un po' di esperienza nell'accesso ai dati, la loro gestione e la loro trasformazione.
+
+[[👉 Approfondimento]{.btn .btn-primary}](informazioni-scp.qmd)

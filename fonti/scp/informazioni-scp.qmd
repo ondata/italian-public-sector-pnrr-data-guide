@@ -1,0 +1,48 @@
+---
+title: "SCP: accesso ai dati"
+subtitle: "Come estrarre quelli correlati al PNRR"
+---
+
+## Tramite file
+
+Questa modalità è la più semplice: si scarica il file `CSV` di proprio interesse e si filtra ad esempio tramite codici `CIG` e `CUP`.
+
+Si può fare all'interno di quasi tutti gli strumenti in cui è possibile gestire una tabella dati, ma alcuni di questi file hanno dimensioni che potrebbero rendere queste operazione lente. Se si riscontra una particolare lentezza, si consiglia di utilizzare degli strumenti dedicati all'elaborazione e analisi dati, e anche dei formati file più efficienti del CSV (come ad esempio `parquet`).
+
+## Tramite API
+
+Questa modalità è **più complessa**, perché richiede alcune conoscenze di base sull'accesso ai dati in modalità adeguate all'estrazione e analisi automatica (la cosiddetta _machine to machine_), ma è **più efficace e comoda**.
+
+Il Ministero dei Trasporti ha reso i suoi dataset interrogabili, sfruttando le caratteristiche disponibili nel motore del portale (`CKAN`). Per utilizzare le API e fare le _query_ è disponibile sul sito una mini documentazione (vedi @fig-ckan_data_api_scp).
+
+![Mini guida uso API](images/ckan_data_api_scp.png){#fig-ckan_data_api_scp fig-alt="Mini guida uso API"}
+
+La sintassi di esempio per una _query_ è (⚠️ qui sotto il ritorno a capo è soltanto per ragioni di leggibilità, non va inserito nell'URL):
+
+
+```{.markdown}
+https://dati.mit.gov.it/catalog/api/3/action/datastore_search_sql?sql=
+SELECT * from "idTabella" WHERE nomeCampo LIKE 'valoreCampo'
+```
+
+Per fare una query sui [Bandi](https://dati.mit.gov.it/catalog/dataset/scp/resource/e1d07a87-1866-4def-ae77-f1084eac88e6), basta quindi recuperare l'id della tabella (è l'ultima parte dell'URL ed è `e1d07a87-1866-4def-ae77-f1084eac88e6`, vedi esempio sotto), recuperare un codice CIG (ad esempio `918052266A`) e costruire un URL come indicato sopra:
+
+```{.markdown}
+https://dati.mit.gov.it/catalog/api/3/action/datastore_search_sql?sql=SELECT * from "e1d07a87-1866-4def-ae77-f1084eac88e6" WHERE cig LIKE '918052266A'
+```
+
+::: {.callout-note collapse="true"}
+## Come trovare l'id di una tabella?
+
+Per leggere l'id di una tabella è sufficiente leggere la parte finale dell'URL (vedi @fig-id-tabella), o fare click sul pulsante `Data API` nella pagina del dataset e leggerlo.
+
+![Nell'URL, la parte finale è l'id tabella](images/id-tabella.png){#fig-id-tabella fig-alt="Esempio di id tabella"}
+:::
+
+È necessario però codificare l'URL, in modo da sostituire gli spazi con `%20`, le virgolette con `%22`, l'apice con `%27` e l'URL diventa:
+
+<https://dati.mit.gov.it/catalog/api/3/action/datastore_search_sql?sql=SELECT%20*%20from%20%22e1d07a87-1866-4def-ae77-f1084eac88e6%22%20WHERE%20cig%20LIKE%20%27918052266A%27>
+
+Qui sotto, basta fare click, un **esempio di output**, ancora una volta in formato `JSON`.
+
+{{< include ../../include/_scp_outputAPI_bandi.md >}}

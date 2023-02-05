@@ -1,7 +1,121 @@
 ---
-title: "Introduzione"
+title: "ANAC"
+subtitle: "Il portale open data dell'Autorità Nazionale Anticorruzione e i dati di OpenCUP"
+format: html
+toc-depth: 4
 ---
 
-Amet nisi elit deserunt do Lorem. Ut dolor do magna anim pariatur minim sunt sint ad eiusmod consequat ad amet consectetur. In sunt est consectetur dolor proident commodo aute do nostrud deserunt sit nostrud. Aliqua ipsum duis consectetur pariatur. Laboris sunt ullamco consequat nostrud Lorem aute deserunt ut consequat dolor ad. Sit minim reprehenderit quis incididunt reprehenderit fugiat enim sunt consectetur quis et ipsum. Officia deserunt ea deserunt mollit laboris laborum eu.
+```{python}
+#| echo: false
+# if file does not exit download it
+!if [ ! -f ../../data/anac/cup_csv.zip ]; then\
+ curl -kL "https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv.zip" >../../data/anac/cup_csv.zip;\
+fi
 
-Ullamco quis dolor consectetur ut in labore aliqua proident minim dolor Lorem mollit adipisicing. Laboris cillum labore in sint anim incididunt exercitation tempor ut ea. Exercitation in consequat labore aliqua quis sit. Eu magna enim ad anim mollit aliqua labore consequat est. Duis ad fugiat dolor minim veniam. Culpa quis ullamco culpa cupidatat irure.
+!if [ ! -f ../../data/anac/cup_csv.csv ]; then\
+ unzip ../../data/anac/cup_csv.zip -d ../../data/anac/;\
+fi
+
+!<../../data/anac/cup_csv.csv mlr --csv --ifs ";" head >../../data/anac/tmp_cup_anac.csv
+```
+
+
+## Introduzione
+
+L'**Autorità Nazionale Anticorruzione** (ANAC) ha un [**portale open data**](https://dati.anticorruzione.it/opendata), in cui pubblica e aggiorna una gran mole di dati.<br>
+In questo non sono disponibili file, dataset o risorse associati in modo diretto al PNRR, ma è possibile estrarre diverse informazioni correlate.
+
+💡Un modo per farlo è sfruttare proprio i [dati del "focus PNRR" di OpenCUP](../opencup/focus-pnrr.qmd).
+
+## Il dataset CUP
+
+L'ANAC rende disponibile il dataset "[CUP](https://dati.anticorruzione.it/opendata/dataset/cup)", che contiene i **codici CUP**, relativi agli appalti ordinari[^appalti_ordinari] pubblicati.
+
+[^appalti_ordinari]: Quelli diversi da quelli relativi a gas, energia termica, elettricità, acqua, trasporti, servizi postali, sfruttamento di area geografica.
+
+Ad ogni CUP, è associato il **Codice Identificativo Gara** (**CIG**), un codice alfanumerico di 10 cifre che consente di **identificare** in maniera univoca gli elementi costitutivi delle **gare d'appalto**.<br>
+È utile per identificare gare, lotti e contratti e quindi per tracciare le movimentazioni finanziarie degli affidamenti di lavori, servizi o forniture.
+
+È una tabella composta dalle sole due colonne `CIG` e `CUP` (vedi esempio di sotto).
+
+```{python}
+#| echo: false
+#| label: tbl-ref
+#| tbl-cap: "Main Caption"
+import pandas as pd
+from IPython.display import display
+
+df = pd.read_csv("../../data/anac/tmp_cup_anac.csv", sep=",")
+tabella_cup_cig=df.head(3).style.hide(axis='index')
+
+display(tabella_cup_cig)
+```
+
+```{python}
+#| echo: false
+#| warning: false
+
+from IPython.display import display, Markdown
+import humanize
+import locale
+locale.setlocale(locale.LC_ALL,"it_IT.UTF-8")
+
+humanize.i18n.activate("it_IT")
+
+!if [ ! -f ../../data/anac/summary_cup_csv.csv ]; then\
+ mlrgo --csv --ifs ";" summary ../../data/anac/cup_csv.csv >../../data/anac/summary_cup_csv.csv;\
+fi
+
+numero_record=!mlr --c2n cut -f count then head -n 1 ../../data/anac/summary_cup_csv.csv
+numero_cup=!mlr --c2n  filter '$field_name=="CUP"' then cut -f distinct_count ../../data/anac/summary_cup_csv.csv
+numero_cig=!mlr --c2n  filter '$field_name=="CIG"' then cut -f distinct_count ../../data/anac/summary_cup_csv.csv
+
+text=f"""
+
+Alcuni informazioni su questo dataset:
+
+- è un file compresso in formato `zip`, che contiene al suo interno un file `CSV` (con separatore `;` e codifica `UTF-8`);
+- è composto (al 4 febbraio 2023) da **{int(numero_record[0]):n}** di righe;
+- sono presenti un numero distinto di codici CUP pari a **{int(numero_cup[0]):n}**;
+- sono presenti un numero distinto di codici CIG pari a **{int(numero_cig[0]):n}**.
+
+"""
+
+display(Markdown(text))
+```
+
+::: {.callout-note}
+## È un file non gestibile con un foglio elettronico
+
+Questo file `CSV` **non è gestibile con un foglio elettronico**, come ad esempio Excel o LibreOffice Calc, perché il numero di righe è superiore a 1 milione (che è circa il limite massimo).
+:::
+
+## I CIG legati al PNRR
+
+Come scritto [qui](../opencup/index.qmd#focus-sul-pnrr), sul **portale OpenCUP** sono disponibili i **codici CUP legati al PNRR**. E nel portale ANAC c'è un elenco dei **codici CUP** **associati** ai **Codici Identificativi Gara** (CIG).
+
+💡Basterà quindi estrarre dal dataset ANAC tutti i CIG associati a un CUP presente anche nel dataset OpenCUP.
+
+[[⛏️ Come fare ]{.btn .btn-primary}](../../guide/procedura-generale.qmd)
+
+## Le informazioni sulle gare
+
+Una volta estratti i CIG correlati al PNRR, come è possibile **trasformare** questo **elenco** di **codici** in **informazioni**?
+
+Si può fare almeno in **due modalità**, ma **entrambe non sono per tutte/i** e richiedono un po' di esperienza nell'accesso ai dati, la loro gestione e la loro trasformazione.
+
+[[👉 Approfondimento]{.btn .btn-primary}](informazioni-cig.qmd)
+
+## La pagina web di un CIG
+
+Sul portale ANAC è disponibile la [sezione _Analytics_](https://dati.anticorruzione.it/superset/dashboard/appalti/) in cui è possibile visualizzare in modo interattivo dei dati di riepilogo così come fare delle **ricerche per CIG**.
+E a ogni CIG è associata una pagina web. L'indirizzo ha questo schema di URL:<br>
+
+```{.markdown}
+https://dati.anticorruzione.it/superset/dettaglio_cig/cig
+```
+
+Quindi ad esempio nel caso del codice CUP `918052266A`, l'URL sarà<br>
+<https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A>.
+
+È molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.

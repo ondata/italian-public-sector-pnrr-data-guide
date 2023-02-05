@@ -7,4 +7,10 @@ docs/*
 
 /.quarto/
 
-/data/
+data/opencup/*
+!data/opencup/opencup_focus_pnrr.parquet
+data/anac/*
+data/scp/*
+data/spc/*
+
+_note.md

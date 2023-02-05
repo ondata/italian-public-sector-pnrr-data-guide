@@ -22,10 +22,8 @@ Nella [**sezione Open Data**](https://opencup.gov.it/portale/opendata) del sito,
 
 Caratteristiche:
 
-- viene aggiornato periodicamente, con una frequenza non documentata. Al momento è stato aggiornato **ogni 6 mesi circa** ([primo](https://opencup.gov.it/portale/-/online-il-nuovo-dataset-opencup-sulle-tematica-pnrr) e [secondo](https://opencup.gov.it/portale/-/online-il-nuovo-dataset-pnrr) annuncio);
-- e rilasciato come file compresso zip, contenente due file in formato Excel: uno con l'elenco dei progetti, e uno con i dettagli del target[^target].
-
-[^target]: [Cosa si intende con Target](https://www.italiadomani.gov.it/it/Interventi/milestone-e-target.html)
+- viene aggiornato periodicamente, con una frequenza non documentata. Al momento è stato aggiornato **tre volte**, dall'estate 2022 a gennaio 2023 ([primo](https://opencup.gov.it/portale/-/online-il-nuovo-dataset-opencup-sulle-tematica-pnrr), [secondo](https://opencup.gov.it/portale/-/online-il-nuovo-dataset-pnrr) e [terzo](https://opencup.gov.it/portale/-/piano-nazionale-di-ripresa-e-resilienza-online-i-nuovi-dati) annuncio);
+- è rilasciato, da gennaio 2023, come file singolo file in formato Excel (prima le modalità erano diverse).
 
 [[👉 Approfondimento]{.btn .btn-primary}](focus-pnrr.qmd)
 
@@ -44,6 +42,25 @@ Caratteristiche:
 - per comprendere la struttura sono disponibili dei [metadati](https://opencup.gov.it/portale/documents/21195/22370/Metadati+OpenCUP+26+07+2018.xlsx) e a una [tabella](https://opencup.gov.it/portale/documents/21195/0/tabelle+classificazioni+opencup+26+07+2018.zip) con i codici usati nelle varie colonne.
 
 
-[[👉 Approfondimento]{.btn .btn-primary}](opencup-opendata.qmd)
-
 [![Sito OpenCUP, sezione Open Data](images/open-data.png){#fig-opendata-opencup fig-alt="Open Data OpenCUP"}](https://opencup.gov.it/portale/opendata)
+
+## La pagina web di un CUP
+
+Sul portale OpenCUP è disponibile una pagina web associata a ogni codice CUP. Contiene le informazioni presenti nel file del [focus PNRR](#focus-sul-pnrr), ma formattate per essere ben leggibili a schermo.
+
+L'indirizzo web di questa pagina ha questo schema di URL:
+
+```{.markdown}
+https://opencup.gov.it/portale/progetto/-/cup/
+```
+
+Quindi ad esempio nel caso del codice CUP `J59J21000640001`, l'URL sarà<br>
+<https://opencup.gov.it/portale/progetto/-/cup/J59J21000640001/>.
+
+È molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.
+
+::: {.callout-note}
+## API di OpenCUP
+
+Al momento non è possibile accedere tramite API ai dati di OpenCUP. Ma si spera sia possibile farlo presto.
+:::
