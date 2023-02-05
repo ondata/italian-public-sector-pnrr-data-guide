@@ -28,8 +28,6 @@ website:
             text: OpenCUP
           - href: fonti/anac/index.qmd
             text: ANAC
-          - contents:
-             - href: glossario.qmd
           - href: fonti/scp/index.qmd
             text: SCP
       - href: guide/procedura-esempio.qmd
