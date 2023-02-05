@@ -38,18 +38,11 @@ Ad ogni CUP, è associato il **Codice Identificativo Gara** (**CIG**), un codice
 
 È una tabella composta dalle sole due colonne `CIG` e `CUP` (vedi esempio di sotto).
 
-```{python}
-#| echo: false
-#| label: tbl-ref
-#| tbl-cap: "Main Caption"
-import pandas as pd
-from IPython.display import display
-
-df = pd.read_csv("../../data/anac/tmp_cup_anac.csv", sep=",")
-tabella_cup_cig=df.head(3).style.hide(axis='index')
-
-display(tabella_cup_cig)
-```
+| CIG | CUP |
+| --- | --- |
+| 5462644C6C | I81C11000040006 |
+| 009893079C | 000000000000000 |
+| ZBB02E5426 | H81J09002660007 |
 
 ```{python}
 #| echo: false
