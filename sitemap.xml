@@ -2,62 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/fonti/scp/index.html</loc>
-    <lastmod>2023-02-05T21:29:07.354Z</lastmod>
+    <lastmod>2023-02-05T22:23:24.834Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/fonti/scp/informazioni-scp.html</loc>
-    <lastmod>2023-02-05T21:29:08.434Z</lastmod>
+    <lastmod>2023-02-05T22:23:25.730Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/fonti/opencup/index.html</loc>
-    <lastmod>2023-02-05T21:29:08.910Z</lastmod>
+    <lastmod>2023-02-05T22:23:26.206Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/fonti/opencup/focus-pnrr.html</loc>
-    <lastmod>2023-02-05T21:29:09.370Z</lastmod>
+    <lastmod>2023-02-05T22:23:26.686Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/fonti/openbdap/index.html</loc>
+    <lastmod>2023-02-05T22:23:27.094Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/fonti/anac/index.html</loc>
-    <lastmod>2023-02-05T21:29:09.894Z</lastmod>
+    <lastmod>2023-02-05T22:23:27.642Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/fonti/anac/informazioni-cig.html</loc>
-    <lastmod>2023-02-05T21:29:10.414Z</lastmod>
+    <lastmod>2023-02-05T22:23:28.174Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/index.html</loc>
-    <lastmod>2023-02-05T21:29:10.814Z</lastmod>
+    <lastmod>2023-02-05T22:23:28.558Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/openpnrr.html</loc>
-    <lastmod>2023-02-05T21:29:11.202Z</lastmod>
+    <lastmod>2023-02-05T22:23:28.922Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/guide/procedura-esempio.html</loc>
-    <lastmod>2023-02-05T21:29:11.810Z</lastmod>
+    <lastmod>2023-02-05T22:23:29.546Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/osservatorio.html</loc>
-    <lastmod>2023-02-05T21:29:12.190Z</lastmod>
+    <lastmod>2023-02-05T22:23:29.935Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/datibenecomune.html</loc>
-    <lastmod>2023-02-05T21:29:12.566Z</lastmod>
+    <lastmod>2023-02-05T22:23:30.323Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/quinto-piano-governo-aperto.html</loc>
-    <lastmod>2023-02-05T21:29:12.978Z</lastmod>
+    <lastmod>2023-02-05T22:23:30.695Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/introduzione.html</loc>
-    <lastmod>2023-02-05T21:29:13.374Z</lastmod>
+    <lastmod>2023-02-05T22:23:31.143Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/about.html</loc>
-    <lastmod>2023-02-05T21:29:13.774Z</lastmod>
+    <lastmod>2023-02-05T22:23:31.519Z</lastmod>
   </url>
   <url>
     <loc>https://ondata.github.io/italian-public-sector-pnrr-data-guide/glossario.html</loc>
-    <lastmod>2023-02-05T21:29:14.154Z</lastmod>
+    <lastmod>2023-02-05T22:23:31.875Z</lastmod>
   </url>
 </urlset>
