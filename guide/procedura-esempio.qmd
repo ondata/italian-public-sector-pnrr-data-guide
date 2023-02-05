@@ -1,0 +1,9 @@
+---
+title: "Estrarre le informazioni sul PNRR"
+subtitle: "Un esempio a partire dai dati del Comune di Messina"
+---
+
+
+## Introduzione
+
+In questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: OpenCUP, ANAC e SCP

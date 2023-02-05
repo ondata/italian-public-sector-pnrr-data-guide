@@ -31,15 +31,15 @@ locale.setlocale(locale.LC_ALL,"it_IT.UTF-8")
 
 humanize.i18n.activate("it_IT")
 
-!if [ ! -f ../../data/spc/summary_v_od_atti.csv ]; then\
- mlrgo --csv summary ../../data/spc/v_od_atti.csv >../../data/spc/summary_v_od_atti.csv;\
+!if [ ! -f ../../data/scp/summary_v_od_atti.csv ]; then\
+ mlrgo --csv summary ../../data/scp/v_od_atti.csv >../../data/scp/summary_v_od_atti.csv;\
 fi
 
-numero_record=!mlr --c2n cut -f count then head -n 1 ../../data/spc/summary_v_od_atti.csv
-numero_cup=!mlr --c2n  filter '$field_name=="cup"' then cut -f distinct_count ../../data/spc/summary_v_od_atti.csv
-numero_cig=!mlr --c2n  filter '$field_name=="cig"' then cut -f distinct_count ../../data/spc/summary_v_od_atti.csv
-numero_id_gara=!mlr --c2n  filter '$field_name=="id_gara"' then cut -f distinct_count ../../data/spc/summary_v_od_atti.csv
-numero_colonne=!echo "$(<../../data/spc/summary_v_od_atti.csv wc -l)-1" | bc
+numero_record=!mlr --c2n cut -f count then head -n 1 ../../data/scp/summary_v_od_atti.csv
+numero_cup=!mlr --c2n  filter '$field_name=="cup"' then cut -f distinct_count ../../data/scp/summary_v_od_atti.csv
+numero_cig=!mlr --c2n  filter '$field_name=="cig"' then cut -f distinct_count ../../data/scp/summary_v_od_atti.csv
+numero_id_gara=!mlr --c2n  filter '$field_name=="id_gara"' then cut -f distinct_count ../../data/scp/summary_v_od_atti.csv
+numero_colonne=!echo "$(<../../data/scp/summary_v_od_atti.csv wc -l)-1" | bc
 
 text=f"""
 
@@ -59,7 +59,7 @@ display(Markdown(text))
 
 Molto ricco di contenuti, con alcune informazioni ovviamente diverse da quelle presenti su OpenCUP e ANAC  (sotto un esempio, fare click per espandere).
 
-{{< include ../../include/_spc-transposed.md >}}
+{{< include ../../include/_scp-transposed.md >}}
 
 ## I link ai documenti correlati
 
@@ -67,7 +67,7 @@ Un elemento di grande interesse, presente in questa banca dati è quella present
 
 Si porta come [esempio](https://ingate.invitalia.it/esop/toolkit/opportunity/ns/7382/detail.si?isOnModification=false&_ncp=1675594340926.18822-2) quello dell'`id_gara` `1412023` e `CIG` [`918052266A`](https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A).
 
-[![Esempio di pagina con elenco documenti del bando](images/spc-link-documenti.png){#fig-scp-link-documento fig-alt="Esempio di link a documento"}](https://ingate.invitalia.it/esop/toolkit/opportunity/ns/7382/detail.si?isOnModification=false&_ncp=1675594340926.18822-2)
+[![Esempio di pagina con elenco documenti del bando](images/scp-link-documenti.png){#fig-scp-link-documento fig-alt="Esempio di link a documento"}](https://ingate.invitalia.it/esop/toolkit/opportunity/ns/7382/detail.si?isOnModification=false&_ncp=1675594340926.18822-2)
 
 ## I dati correlati al PNRR
 
