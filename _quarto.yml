@@ -8,7 +8,7 @@ project:
 
 website:
   title: "Dati aperti sul PNRR"
-  site-url: https://aborruso.github.io/italian-public-sector-pnrr-data-guide
+  site-url: https://ondata.github.io/italian-public-sector-pnrr-data-guide/
   page-navigation: true
   navbar:
     left:
@@ -28,6 +28,8 @@ website:
             text: OpenCUP
           - href: fonti/anac/index.qmd
             text: ANAC
+          - contents:
+             - href: glossario.qmd
           - href: fonti/scp/index.qmd
             text: SCP
       - href: guide/procedura-esempio.qmd
@@ -54,11 +56,10 @@ format:
     code-copy: true
     code-overflow: wrap
     link-external-newwindow: true
-    link-external-filter: "^(?:http:|https:)\/\/aborruso.github.io\/italian-public-sector-pnrr-data-guide"
+    link-external-filter: "^(?:http:|https:)\/\/ondata.github.io\/italian-public-sector-pnrr-data-guide"
     lang: "it-IT"
     bibliography: open-pnrr.bib
 
 execute:
   daemon: false
   freeze: auto
-
