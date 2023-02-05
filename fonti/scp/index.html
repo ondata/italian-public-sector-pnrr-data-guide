@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dati aperti sul PNRR - Introduzione</title>
+<title>Dati aperti sul PNRR - Banca dati Servizio Contratti Pubblici - SCP</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Introduzione</h1>
+      <h1 class="quarto-secondary-nav-title">Banca dati Servizio Contratti Pubblici - SCP</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -149,14 +149,22 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">In questa pagina</h2>
+   
+  <ul>
+  <li><a href="#i-link-ai-documenti-correlati" id="toc-i-link-ai-documenti-correlati" class="nav-link active" data-scroll-target="#i-link-ai-documenti-correlati">I link ai documenti correlati</a></li>
+  <li><a href="#i-dati-correlati-al-pnrr" id="toc-i-dati-correlati-al-pnrr" class="nav-link" data-scroll-target="#i-dati-correlati-al-pnrr">I dati correlati al PNRR</a></li>
+  <li><a href="#estrarre-le-informazioni" id="toc-estrarre-le-informazioni" class="nav-link" data-scroll-target="#estrarre-le-informazioni">Estrarre le informazioni</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Introduzione</h1>
+<h1 class="title d-none d-lg-block">Banca dati Servizio Contratti Pubblici - SCP</h1>
 </div>
 
 
@@ -171,10 +179,245 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Amet nisi elit deserunt do Lorem. Ut dolor do magna anim pariatur minim sunt sint ad eiusmod consequat ad amet consectetur. In sunt est consectetur dolor proident commodo aute do nostrud deserunt sit nostrud. Aliqua ipsum duis consectetur pariatur. Laboris sunt ullamco consequat nostrud Lorem aute deserunt ut consequat dolor ad. Sit minim reprehenderit quis incididunt reprehenderit fugiat enim sunt consectetur quis et ipsum. Officia deserunt ea deserunt mollit laboris laborum eu.</p>
-<p>Ullamco quis dolor consectetur ut in labore aliqua proident minim dolor Lorem mollit adipisicing. Laboris cillum labore in sint anim incididunt exercitation tempor ut ea. Exercitation in consequat labore aliqua quis sit. Eu magna enim ad anim mollit aliqua labore consequat est. Duis ad fugiat dolor minim veniam. Culpa quis ullamco culpa cupidatat irure.</p>
+<p>Il Ministero delle infrastrutture e dei Trasporti pubblica - nel suo <a href="https://dati.mit.gov.it/catalog/dataset/">portale dei dati aperti</a> - il <a href="https://dati.mit.gov.it/catalog/dataset/scp"><strong>dataset</strong></a> che contiene gli <strong>avvisi</strong>, i <strong>bandi</strong> e gli <strong>esiti di gara</strong> in <strong>formato aperto</strong>, raccolti dalla “Banca dati SCP - Servizio Contratti Pubblici”, gestita dalla Direzione Generale per la regolazione e i contratti pubblici del Ministero delle Infrastrutture e Trasporti.<br> I dati sono <strong>aggiornati quotidianamente</strong>.</p>
+<p>Dal punto di vista temporale questa banca dati - rispetto a quelle di OpenCUP e di ANAC qui descritte - è quella di mezzo:</p>
+<ol type="1">
+<li>prima quella di <a href="../../fonti/opencup/index.html">OpenCUP</a>;</li>
+<li>poi questa, con avvisi e bandi (e altro);</li>
+<li>e infine <a href="../../fonti/anac/index.html">quella di ANAC</a>.</li>
+</ol>
+<p>Prima si assegna infatti un codice CUP a un progetto, poi si fanno gli avvisi e i bandi e infine si assegnano i contratti.</p>
+<p>I dati sono in formato <code>CSV</code>, resi disponibili in quattro categorie principali, suddivise ulteriormente rispetto alla data. Le categorie sono: <code>atti</code>, <code>avvisi</code>, <code>bandi</code>, <code>gare non aggiudicate</code> e <code>esiti</code>.<br> I file sono accompagnati dai dei file in formato <code>JSON</code> che descrivono i soprastanti file di dati.</p>
+<div id="fig-scp-dataset" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><a href="https://dati.mit.gov.it/catalog/dataset/scp"><img src="images/scp-datasets.png" class="img-fluid figure-img" alt="Lista dei file dataset Servizio Contratti Pubblici "></a></p>
+<p></p><figcaption class="figure-caption">Figura&nbsp;1: I file del dataset Servizio Contratti Pubblici</figcaption><p></p>
+</figure>
+</div>
+<p>Per dare l’idea dei contenuti qui pubblicati, si riporta qualche informazione di sintesi sulla risorsa <a href="https://dati.mit.gov.it/catalog/dataset/scp/resource/d803b64e-1744-4ae7-a993-93b2d62d9c7e"><code>Atti anno corrente (2022)</code></a>, che è quella di maggiori dimensioni.</p>
+<div class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<p>Alcuni informazioni correlate:</p>
+<ul>
+<li>è in formato <code>CSV</code> (con separatore <code>,</code> e codifica probabilmente <code>UTF-8</code>);</li>
+<li>è composto (al 4 febbraio 2023) da <strong>683.314</strong> righe e <strong>45</strong> colonne;</li>
+<li>sono presenti un numero distinto di codici CUP pari a <strong>22.803</strong>;</li>
+<li>sono presenti un numero distinto di codici CIG pari a <strong>153.361</strong>.</li>
+<li>sono presenti un numero distinto di identificativi gara pari a <strong>131.104</strong>.</li>
+</ul>
+</div>
+</div>
+<p>Molto ricco di contenuti, con alcune informazioni ovviamente diverse da quelle presenti su OpenCUP e ANAC (sotto un esempio, fare click per espandere).</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Esempio di contenuto file “Avvisi”
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>ℹ️ <strong>nota bene</strong>: non sono elencate tutte le colonne, ma soltanto quelle che per questo CIG erano valorizzate.</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Colonna</th>
+<th>Esempio contenuto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>dt_upd</td>
+<td>04/01/2023</td>
+</tr>
+<tr class="even">
+<td>id_gara</td>
+<td>1412023</td>
+</tr>
+<tr class="odd">
+<td>oggetto_della_gara</td>
+<td>PROCEDURA DI GARA APERTA AI SENSI DEGLI ARTT. 54 E 60 DEL D.LGS. N. 50/2016, DA REALIZZARSI MEDIANTE PIATTAFORMA TELEMATICA, PER LA CONCLUSIONE DI ACCORDI QUADRO CON PIU’ OPERATORI ECONOMICI PER L’AFFIDAMENTO DI LAVORI (OG1 – OG11) E SERVIZI DI INGEGNERIA E ARCHITETTURA (E.21 – E.06 – S.03 – IA.02 – IA.04) PER LA NUOVA EDIFICAZIONE, RISTRUTTURAZIONE E RIQUALIFICAZIONE DI EDIFICI PUBBLICI RESIDENZIALI E NON.</td>
+</tr>
+<tr class="even">
+<td>numero_gara_anac</td>
+<td>8519126</td>
+</tr>
+<tr class="odd">
+<td>settore</td>
+<td>Ordinario</td>
+</tr>
+<tr class="even">
+<td>modalita_realizzazione</td>
+<td>Accordo quadro</td>
+</tr>
+<tr class="odd">
+<td>importo_gara</td>
+<td>23569628.59000</td>
+</tr>
+<tr class="even">
+<td>num_tot_lotti</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>rup</td>
+<td>GIANCARLO MASTINU</td>
+</tr>
+<tr class="even">
+<td>codice_fiscale_stazione_appaltante</td>
+<td>05678721001</td>
+</tr>
+<tr class="odd">
+<td>denominazione_stazione_appaltante</td>
+<td>INVITALIA Agenzia nazionale per l’attrazione degli investimenti e lo sviluppo di impresa S.p.A.</td>
+</tr>
+<tr class="even">
+<td>provincia_stazione_appaltante</td>
+<td>RM</td>
+</tr>
+<tr class="odd">
+<td>codice_istat_stazione_appaltante</td>
+<td>012058091</td>
+</tr>
+<tr class="even">
+<td>la_sa_agisce_per_conto_di_altro_soggetto</td>
+<td>Si</td>
+</tr>
+<tr class="odd">
+<td>soggetto_per_cui_agisce_la_sa</td>
+<td>MIMS</td>
+</tr>
+<tr class="even">
+<td>data_pubblicazione_bando</td>
+<td>2022-04-15 02:00:00</td>
+</tr>
+<tr class="odd">
+<td>data_scadenza_bando</td>
+<td>2022-05-26 02:00:00</td>
+</tr>
+<tr class="even">
+<td>id_lotto</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>cig</td>
+<td>918052266A</td>
+</tr>
+<tr class="even">
+<td>oggetto_lotto</td>
+<td>ACCORDO QUADRO OG1 - OG11 - SUB - LOTTO PRESTAZIONALE 1 – SERVIZI DI DI COLLAUDO - LOTTO GEOGRAFICO: CALABRIA - SICILIA</td>
+</tr>
+<tr class="odd">
+<td>nr_lotto</td>
+<td>7</td>
+</tr>
+<tr class="even">
+<td>somma_urgenza</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>tipo_appalto</td>
+<td>Servizi</td>
+</tr>
+<tr class="even">
+<td>imp_lotto_netto_sicurezza</td>
+<td>3987864.40000</td>
+</tr>
+<tr class="odd">
+<td>imp_sicurezza</td>
+<td>0.00000</td>
+</tr>
+<tr class="even">
+<td>imp_lotto</td>
+<td>3987864.40000</td>
+</tr>
+<tr class="odd">
+<td>cup</td>
+<td>I98I21000110001</td>
+</tr>
+<tr class="even">
+<td>cpv</td>
+<td>71315400-3</td>
+</tr>
+<tr class="odd">
+<td>categoria_prevalente</td>
+<td>fornitura di servizi</td>
+</tr>
+<tr class="even">
+<td>classifica</td>
+<td>V</td>
+</tr>
+<tr class="odd">
+<td>luogo_esecuzione_nuts</td>
+<td>ITF6</td>
+</tr>
+<tr class="even">
+<td>num_ordine</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>tipo_atto_o_documento</td>
+<td>Documentazione di gara - Bando di gara di appalto, concessione o concorso</td>
+</tr>
+<tr class="even">
+<td>data_pubblicazione_scp</td>
+<td>2022-04-22 13:53:50.482</td>
+</tr>
+<tr class="odd">
+<td>data_pubblicazione</td>
+<td>2022-04-15 02:00:00</td>
+</tr>
+<tr class="even">
+<td>data_scadenza</td>
+<td>2022-05-26 02:00:00</td>
+</tr>
+<tr class="odd">
+<td>titolo_documento</td>
+<td>Documentazione di gara</td>
+</tr>
+<tr class="even">
+<td>url_documento</td>
+<td>https://ingate.invitalia.it/esop/guest/go/opportunity/detail?opportunityId=7382</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<section id="i-link-ai-documenti-correlati" class="level2">
+<h2 class="anchored" data-anchor-id="i-link-ai-documenti-correlati">I link ai documenti correlati</h2>
+<p>Un elemento di grande interesse, presente in questa banca dati è quella presente nella colonna <code>url_documento</code>, con l’URL della pagina web dove è possibile trovare documenti correlati all’atto in questione.</p>
+<p>Si porta come <a href="https://ingate.invitalia.it/esop/toolkit/opportunity/ns/7382/detail.si?isOnModification=false&amp;_ncp=1675594340926.18822-2">esempio</a> quello dell’<code>id_gara</code> <code>1412023</code> e <code>CIG</code> <a href="https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A"><code>918052266A</code></a>.</p>
+<div id="fig-scp-link-documento" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><a href="https://ingate.invitalia.it/esop/toolkit/opportunity/ns/7382/detail.si?isOnModification=false&amp;_ncp=1675594340926.18822-2"><img src="images/spc-link-documenti.png" class="img-fluid figure-img" alt="Esempio di link a documento"></a></p>
+<p></p><figcaption class="figure-caption">Figura&nbsp;2: Esempio di pagina con elenco documenti del bando</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="i-dati-correlati-al-pnrr" class="level2">
+<h2 class="anchored" data-anchor-id="i-dati-correlati-al-pnrr">I dati correlati al PNRR</h2>
+<p>Anche in questo caso, come per i <a href="../../fonti/anac/index.html">dati dell’Autorità Nazione Anticorruzione</a>, non è disponibile un “focus” dedicato ai soli dati relativi al PNRR (come in <a href="../../fonti/opencup/index.html#focus-sul-pnrr">OpenCUP</a>), né un modo per estrarre dall’insieme completo i soli dati relativi al PNRR.</p>
+<p>Ma in questi file pubblicati su SCP sono disponibili (quasi sempre) i codici CUP e CIG. E quindi:</p>
+<ul>
+<li>si potranno usare i CUP del <a href="../../fonti/opencup/focus-pnrr.html">“focus PNRR”</a> di OpenCUP per estrarre dalla banca dati SCP soltanto i dati con CUP coincidente;</li>
+<li>si potranno usare i CIG correlati al PNRR (<a href="../../fonti/anac/index.html#i-cig-legati-al-pnrr">qui</a> nota correlata), per estrarre dalla banca dati SCP soltanto i dati con CIG coincidente.</li>
+</ul>
+</section>
+<section id="estrarre-le-informazioni" class="level2">
+<h2 class="anchored" data-anchor-id="estrarre-le-informazioni">Estrarre le informazioni</h2>
+<p>Come estrarre soltanto i dati SCP a partire dall’elenco dei CUP e CIG correlati al PNRR?</p>
+<p>Si può fare almeno in <strong>due modalità</strong>, ma <strong>entrambe non sono per tutte/i</strong> e richiedono un po’ di esperienza nell’accesso ai dati, la loro gestione e la loro trasformazione.</p>
+<p><a href="../../fonti/scp/informazioni-scp.html"><span class="btn btn-primary">👉 Approfondimento</span></a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Dati aperti sul PNRR - Introduzione</title>
+<title>Dati aperti sul PNRR - ANAC</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -60,6 +123,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Inviare"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -96,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Introduzione</h1>
+      <h1 class="quarto-secondary-nav-title">ANAC</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -150,14 +216,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">In questa pagina</h2>
+   
+  <ul>
+  <li><a href="#introduzione" id="toc-introduzione" class="nav-link active" data-scroll-target="#introduzione">Introduzione</a></li>
+  <li><a href="#il-dataset-cup" id="toc-il-dataset-cup" class="nav-link" data-scroll-target="#il-dataset-cup">Il dataset CUP</a></li>
+  <li><a href="#i-cig-legati-al-pnrr" id="toc-i-cig-legati-al-pnrr" class="nav-link" data-scroll-target="#i-cig-legati-al-pnrr">I CIG legati al PNRR</a></li>
+  <li><a href="#le-informazioni-sulle-gare" id="toc-le-informazioni-sulle-gare" class="nav-link" data-scroll-target="#le-informazioni-sulle-gare">Le informazioni sulle gare</a></li>
+  <li><a href="#la-pagina-web-di-un-cig" id="toc-la-pagina-web-di-un-cig" class="nav-link" data-scroll-target="#la-pagina-web-di-un-cig">La pagina web di un CIG</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Introduzione</h1>
+<h1 class="title d-none d-lg-block">ANAC</h1>
+<p class="subtitle lead">Il portale open data dell’Autorità Nazionale Anticorruzione e i dati di OpenCUP</p>
 </div>
 
 
@@ -172,12 +249,101 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Amet nisi elit deserunt do Lorem. Ut dolor do magna anim pariatur minim sunt sint ad eiusmod consequat ad amet consectetur. In sunt est consectetur dolor proident commodo aute do nostrud deserunt sit nostrud. Aliqua ipsum duis consectetur pariatur. Laboris sunt ullamco consequat nostrud Lorem aute deserunt ut consequat dolor ad. Sit minim reprehenderit quis incididunt reprehenderit fugiat enim sunt consectetur quis et ipsum. Officia deserunt ea deserunt mollit laboris laborum eu.</p>
-<p>Ullamco quis dolor consectetur ut in labore aliqua proident minim dolor Lorem mollit adipisicing. Laboris cillum labore in sint anim incididunt exercitation tempor ut ea. Exercitation in consequat labore aliqua quis sit. Eu magna enim ad anim mollit aliqua labore consequat est. Duis ad fugiat dolor minim veniam. Culpa quis ullamco culpa cupidatat irure.</p>
+<section id="introduzione" class="level2">
+<h2 class="anchored" data-anchor-id="introduzione">Introduzione</h2>
+<p>L’<strong>Autorità Nazionale Anticorruzione</strong> (ANAC) ha un <a href="https://dati.anticorruzione.it/opendata"><strong>portale open data</strong></a>, in cui pubblica e aggiorna una gran mole di dati.<br> In questo non sono disponibili file, dataset o risorse associati in modo diretto al PNRR, ma è possibile estrarre diverse informazioni correlate.</p>
+<p>💡Un modo per farlo è sfruttare proprio i <a href="../../fonti/opencup/focus-pnrr.html">dati del “focus PNRR” di OpenCUP</a>.</p>
+</section>
+<section id="il-dataset-cup" class="level2">
+<h2 class="anchored" data-anchor-id="il-dataset-cup">Il dataset CUP</h2>
+<p>L’ANAC rende disponibile il dataset “<a href="https://dati.anticorruzione.it/opendata/dataset/cup">CUP</a>”, che contiene i <strong>codici CUP</strong>, relativi agli appalti ordinari<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> pubblicati.</p>
+<p>Ad ogni CUP, è associato il <strong>Codice Identificativo Gara</strong> (<strong>CIG</strong>), un codice alfanumerico di 10 cifre che consente di <strong>identificare</strong> in maniera univoca gli elementi costitutivi delle <strong>gare d’appalto</strong>.<br> È utile per identificare gare, lotti e contratti e quindi per tracciare le movimentazioni finanziarie degli affidamenti di lavori, servizi o forniture.</p>
+<p>È una tabella composta dalle sole due colonne <code>CIG</code> e <code>CUP</code> (vedi esempio di sotto).</p>
+<div class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div id="tbl-ref" class="anchored">
+
+<style type="text/css">
+</style>
+<table id="T_61eec"><caption>Tabella&nbsp;1:  Main Caption </caption>
+  <thead>
+    <tr>
+      <th id="T_61eec_level0_col0" class="col_heading level0 col0">CIG</th>
+      <th id="T_61eec_level0_col1" class="col_heading level0 col1">CUP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td id="T_61eec_row0_col0" class="data row0 col0">5462644C6C</td>
+      <td id="T_61eec_row0_col1" class="data row0 col1">I81C11000040006</td>
+    </tr>
+    <tr>
+      <td id="T_61eec_row1_col0" class="data row1 col0">009893079C</td>
+      <td id="T_61eec_row1_col1" class="data row1 col1">000000000000000</td>
+    </tr>
+    <tr>
+      <td id="T_61eec_row2_col0" class="data row2 col0">ZBB02E5426</td>
+      <td id="T_61eec_row2_col1" class="data row2 col1">H81J09002660007</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display">
+<p>Alcuni informazioni su questo dataset:</p>
+<ul>
+<li>è un file compresso in formato <code>zip</code>, che contiene al suo interno un file <code>CSV</code> (con separatore <code>;</code> e codifica <code>UTF-8</code>);</li>
+<li>è composto (al 4 febbraio 2023) da <strong>3.082.041</strong> di righe;</li>
+<li>sono presenti un numero distinto di codici CUP pari a <strong>1.021.454</strong>;</li>
+<li>sono presenti un numero distinto di codici CIG pari a <strong>3.042.663</strong>.</li>
+</ul>
+</div>
+</div>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+È un file non gestibile con un foglio elettronico
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Questo file <code>CSV</code> <strong>non è gestibile con un foglio elettronico</strong>, come ad esempio Excel o LibreOffice Calc, perché il numero di righe è superiore a 1 milione (che è circa il limite massimo).</p>
+</div>
+</div>
+</section>
+<section id="i-cig-legati-al-pnrr" class="level2">
+<h2 class="anchored" data-anchor-id="i-cig-legati-al-pnrr">I CIG legati al PNRR</h2>
+<p>Come scritto <a href="../../fonti/opencup/index.html#focus-sul-pnrr">qui</a>, sul <strong>portale OpenCUP</strong> sono disponibili i <strong>codici CUP legati al PNRR</strong>. E nel portale ANAC c’è un elenco dei <strong>codici CUP</strong> <strong>associati</strong> ai <strong>Codici Identificativi Gara</strong> (CIG).</p>
+<p>💡Basterà quindi estrarre dal dataset ANAC tutti i CIG associati a un CUP presente anche nel dataset OpenCUP.</p>
+<p><a href="../../guide/procedura-generale.qmd"><span class="btn btn-primary">⛏️ Come fare</span></a></p>
+</section>
+<section id="le-informazioni-sulle-gare" class="level2">
+<h2 class="anchored" data-anchor-id="le-informazioni-sulle-gare">Le informazioni sulle gare</h2>
+<p>Una volta estratti i CIG correlati al PNRR, come è possibile <strong>trasformare</strong> questo <strong>elenco</strong> di <strong>codici</strong> in <strong>informazioni</strong>?</p>
+<p>Si può fare almeno in <strong>due modalità</strong>, ma <strong>entrambe non sono per tutte/i</strong> e richiedono un po’ di esperienza nell’accesso ai dati, la loro gestione e la loro trasformazione.</p>
+<p><a href="../../fonti/anac/informazioni-cig.html"><span class="btn btn-primary">👉 Approfondimento</span></a></p>
+</section>
+<section id="la-pagina-web-di-un-cig" class="level2">
+<h2 class="anchored" data-anchor-id="la-pagina-web-di-un-cig">La pagina web di un CIG</h2>
+<p>Sul portale ANAC è disponibile la <a href="https://dati.anticorruzione.it/superset/dashboard/appalti/">sezione <em>Analytics</em></a> in cui è possibile visualizzare in modo interattivo dei dati di riepilogo così come fare delle <strong>ricerche per CIG</strong>. E a ogni CIG è associata una pagina web. L’indirizzo ha questo schema di URL:<br></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>https://dati.anticorruzione.it/superset/dettaglio_cig/cig</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Quindi ad esempio nel caso del codice CUP <code>918052266A</code>, l’URL sarà<br> <a href="https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A" class="uri">https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A</a>.</p>
+<p>È molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.</p>
 
 
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Note</h2>
+
+<ol>
+<li id="fn1"><p>Quelli diversi da quelli relativi a gas, energia termica, elettricità, acqua, trasporti, servizi postali, sfruttamento di area geografica.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
