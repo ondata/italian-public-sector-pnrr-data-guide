@@ -133,11 +133,11 @@
     "text": "OpenPNRR ha lo scopo di monitorare e approfondire il piano nazionale di ripresa e resilienza. Offre informazioni di qualità sulla gestione, da parte del governo, delle risorse che l’Unione europea ha destinato all’Italia nell’ambito del Next generation Eu.\nIl progetto – di Fondazione Openpolis in collaborazione con il Gran Sasso Science Institute – si pone come punto di osservazione indipendente rispetto agli annunci delle istituzioni coinvolte. Crediamo infatti che iniziative di questo tipo siano essenziali per valutare l’efficacia degli interventi, controllarne la realizzazione effettiva, contrastare il rischio di sprechi e corruzione.\n➡️ https://openpnrr.it/"
   },
   {
-    "objectID": "guide/procedura-generale.html",
-    "href": "guide/procedura-generale.html",
-    "title": "Dati aperti sul PNRR",
+    "objectID": "guide/procedura-esempio.html",
+    "href": "guide/procedura-esempio.html",
+    "title": "Estrarre le informazioni sul PNRR",
     "section": "",
-    "text": "Lorem ipsum"
+    "text": "In questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: OpenCUP, ANAC e SCP"
   },
   {
     "objectID": "osservatorio.html",
