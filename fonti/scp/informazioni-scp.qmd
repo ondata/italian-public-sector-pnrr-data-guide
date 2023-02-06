@@ -34,7 +34,7 @@ https://dati.mit.gov.it/catalog/api/3/action/datastore_search_sql?sql=SELECT * f
 ::: {.callout-note collapse="true"}
 ## Come trovare l'id di una tabella?
 
-Per leggere l'id di una tabella è sufficiente leggere la parte finale dell'URL (vedi immagine sottostante), o fare click sul pulsante `Data API` nella pagina del dataset e leggerlo.
+Per leggere l'id di una tabella è sufficiente leggere la parte finale dell'URL, o fare click sul pulsante `Data API` nella pagina del dataset e leggerlo (vedi immagine sottostante).
 
 ![Nell'URL, la parte finale è l'id tabella](images/id-tabella.png){#fig-id-tabella fig-alt="Esempio di id tabella"}
 :::
