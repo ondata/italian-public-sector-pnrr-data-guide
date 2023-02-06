@@ -323,7 +323,7 @@ Filtrare i 3 milioni di record di ANAC
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si può usare il comodo ed efficiente <a href="https://github.com/jqnatividad/qsv"><code>qsv</code></a>, in accoppiata con <a href="https://miller.readthedocs.io/en/latest/">Miller</a>, a partire dal file <a href="../data/messina/opencup-focus-083048-cup.csv"><code>opencup-focus-083048-cup.csv</code></a> con i soli codici CUP del Comune di Messina:</p>
+<p>Si può usare il comodo ed efficiente <a href="https://github.com/jqnatividad/qsv"><code>qsv</code></a>, a partire dal file <a href="../data/messina/opencup-focus-083048-cup.csv"><code>opencup-focus-083048-cup.csv</code></a> (che contiene i soli codici CUP del Comune di Messina):</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-d</span> <span class="st">";"</span> <span class="at">-i</span> <span class="at">-s</span> CUP opencup-focus-083048-cup.csv cup_csv.csv <span class="op">&gt;</span>anac-cup-cig-083048.csv</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Con <code>-d ";"</code> si imposta il separatore di campo che in ANAC è <code>;</code>, con <code>-i -s CUP opencup-focus-083048-cup.csv</code> si cercano nel file ANAC nella colonna <code>CUP</code> tutti i record contenenti i codici CUP estratti per Messina.</p>
 </div>
