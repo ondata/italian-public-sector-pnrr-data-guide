@@ -73,7 +73,7 @@ Si può usare il comodo ed efficiente [`qsv`](https://github.com/jqnatividad/qsv
 qsv searchset -d ";" -i -s CUP opencup-focus-083048-cup.csv cup_csv.csv >anac-cup-cig-083048.csv
 ```
 
-Con `-d ";"` si imposta il separatore di campo che in ANAC è `;`, con `-i -s CUP opencup-focus-083048-cup.csv` si cercano nel file ANAC nella colonna `CUP` tutti i record contenenti i codici CUP estratti per Messina.
+Con `-d ";"` si imposta il separatore di campo che in ANAC è `;`, con `-i -s CUP opencup-focus-083048-cup.csv` si cercano nel file ANAC, nella colonna `CUP`, tutti i record contenenti i codici CUP estratti per Messina.
 :::
 
 ```{python}
