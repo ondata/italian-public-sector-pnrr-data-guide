@@ -18,5 +18,5 @@ L'**ordine** dell'elenco non è casuale: ti consigliamo di seguirlo e iniziare d
 
 ---
 
-In questo spazio facciamo riferimento spesso a termini come [`dataset`](glossario.md#dataset), [`dati aperti`](glossario.md#dati-aperti), ecc., che potrebbero non esserti noti.<br>Per questo abbiamo preparato una [pagina di riferimento](glossario.md).
+In questo spazio facciamo riferimento spesso a termini come [`dataset`](glossario.md#dataset), [`dati aperti`](glossario.md#dati-aperti), ecc., che potrebbero non esserti noti.<br>Per questo stiamo preparando una [pagina di riferimento](glossario.md) (ancora in costruzione).
 
