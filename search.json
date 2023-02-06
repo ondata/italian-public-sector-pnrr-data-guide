@@ -151,7 +151,7 @@
     "href": "guide/procedura-esempio.html",
     "title": "Estrarre le informazioni sul PNRR",
     "section": "",
-    "text": "In questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: OpenCUP, ANAC e SCP."
+    "text": "In questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: OpenCUP, ANAC, SCP e OpenBDAP."
   },
   {
     "objectID": "guide/procedura-esempio.html#estrazione-dei-codici-cup-da-opencup",
