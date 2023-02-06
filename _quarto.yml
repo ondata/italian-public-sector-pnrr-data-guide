@@ -8,7 +8,9 @@ project:
 
 website:
   title: "Dati aperti sul PNRR"
-  site-url: https://ondata.github.io/italian-public-sector-pnrr-data-guide/
+  site-url: https://ondata.github.io/italian-public-sector-pnrr-data-guide
+  repo-url: https://github.com/ondata/italian-public-sector-pnrr-data-guide
+  repo-actions: [edit, issue]
   page-navigation: true
   navbar:
     left:

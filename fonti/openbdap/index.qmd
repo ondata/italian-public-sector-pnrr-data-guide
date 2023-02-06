@@ -15,7 +15,7 @@ Questo ad esempio quello dell'ANAS (`80208450587` è il suo codice fiscale):<br>
 [https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&T=BusinessObject
 &idType=CUID&noDetailsPanel=true&X_Ente=80208450587](https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&T=BusinessObject&idType=CUID&noDetailsPanel=true&X_Ente=80208450587)
 
-➡️ **NOTA BENE**: in questa pagina in alto a destra è presente il alla "**RICERCA PER CUP**". In questo percorso alla ricerca dei dati relativi al PNRR ci sarà utile.
+➡️ **NOTA BENE**: in questa pagina in alto a destra è presente il link alla "**RICERCA PER CUP**". In questo percorso alla ricerca dei dati relativi al PNRR ci sarà utile.
 
 [![Pagina opere pubbliche di una PA](images/openbdap-ricerca-cup.png){#fig-openbdap-ricerca-cup}](https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&T=BusinessObject&idType=CUID&noDetailsPanel=true&X_Ente=80208450587)
 
