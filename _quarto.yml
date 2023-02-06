@@ -56,7 +56,7 @@ format:
     code-copy: true
     code-overflow: wrap
     link-external-newwindow: true
-    link-external-filter: "^(?:http:|https:)\/\/ondata.github.io\/italian-public-sector-pnrr-data-guide"
+    link-external-filter: '.*ondata\.github\.io\/italian-public-sector-pnrr-data-guide'
     lang: "it-IT"
     bibliography: open-pnrr.bib
 
