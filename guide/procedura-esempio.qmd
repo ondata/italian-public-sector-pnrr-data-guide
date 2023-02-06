@@ -67,7 +67,7 @@ Il [dataset CUP](../fonti/anac/index.qmd#il-dataset-cup) pubblicato dall'Autorit
 ::: {.callout}
 ## Filtrare i 3 milioni di record di ANAC
 
-Si può usare il comodo ed efficiente [`qsv`](https://github.com/jqnatividad/qsv), in accoppiata con [Miller](https://miller.readthedocs.io/en/latest/), a partire dal file [`opencup-focus-083048-cup.csv`](../data/messina/opencup-focus-083048-cup.csv) con i soli codici CUP del Comune di Messina:
+Si può usare il comodo ed efficiente [`qsv`](https://github.com/jqnatividad/qsv), a partire dal file [`opencup-focus-083048-cup.csv`](../data/messina/opencup-focus-083048-cup.csv) (che contiene i soli codici CUP del Comune di Messina):
 
 ```{.bash}
 qsv searchset -d ";" -i -s CUP opencup-focus-083048-cup.csv cup_csv.csv >anac-cup-cig-083048.csv
