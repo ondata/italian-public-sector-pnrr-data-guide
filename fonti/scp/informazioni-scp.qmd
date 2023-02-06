@@ -5,7 +5,7 @@ subtitle: "Come estrarre quelli correlati al PNRR"
 
 ## Tramite file
 
-Questa modalità è la più semplice: si scarica il file `CSV` di proprio interesse e si filtra ad esempio tramite codici `CIG` e `CUP`.
+Questa modalità è la più semplice: si scarica [il file `CSV`](https://dati.mit.gov.it/catalog/dataset/scp) di proprio interesse e si filtra ad esempio tramite codici `CIG` e `CUP`.
 
 Si può fare all'interno di quasi tutti gli strumenti in cui è possibile gestire una tabella dati, ma alcuni di questi file hanno dimensioni che potrebbero rendere queste operazione lente. Se si riscontra una particolare lentezza, si consiglia di utilizzare degli strumenti dedicati all'elaborazione e analisi dati, e anche dei formati file più efficienti del CSV (come ad esempio `parquet`).
 
