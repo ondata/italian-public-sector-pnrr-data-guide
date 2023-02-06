@@ -22,7 +22,7 @@ Nella [**sezione Open Data**](https://opencup.gov.it/portale/opendata) del sito,
 
 Caratteristiche:
 
-- viene aggiornato periodicamente, con una frequenza bimestrale. Al momento è stato aggiornato **tre volte**, dall'estate 2022 a gennaio 2023 ([primo](https://opencup.gov.it/portale/-/online-il-nuovo-dataset-opencup-sulle-tematica-pnrr), [secondo](https://opencup.gov.it/portale/-/online-il-nuovo-dataset-pnrr) e [terzo](https://opencup.gov.it/portale/-/piano-nazionale-di-ripresa-e-resilienza-online-i-nuovi-dati) annuncio);
+- viene aggiornato con una frequenza bimestrale. Al momento è stato fatto **tre volte**, dall'estate 2022 a gennaio 2023 ([primo](https://opencup.gov.it/portale/-/online-il-nuovo-dataset-opencup-sulle-tematica-pnrr), [secondo](https://opencup.gov.it/portale/-/online-il-nuovo-dataset-pnrr) e [terzo](https://opencup.gov.it/portale/-/piano-nazionale-di-ripresa-e-resilienza-online-i-nuovi-dati) annuncio);
 - è rilasciato, da gennaio 2023, come file singolo file in formato Excel (prima le modalità erano diverse).
 
 [[👉 Approfondimento]{.btn .btn-primary}](focus-pnrr.qmd)
