@@ -60,7 +60,7 @@
     "href": "fonti/opencup/index.html#la-pagina-web-di-un-cup",
     "title": "OpenCUP",
     "section": "La pagina web di un CUP",
-    "text": "La pagina web di un CUP\nSul portale OpenCUP è disponibile una pagina web associata a ogni codice CUP. Contiene le informazioni presenti nel file del focus PNRR, ma formattate per essere ben leggibili a schermo.\nL’indirizzo web di questa pagina ha questo schema di URL:\nhttps://opencup.gov.it/portale/progetto/-/cup/\nQuindi ad esempio nel caso del codice CUP J59J21000640001, l’URL sarà https://opencup.gov.it/portale/progetto/-/cup/J59J21000640001/.\nÈ molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.\n\n\n\n\n\n\nAPI di OpenCUP\n\n\n\nAl momento non è possibile accedere tramite API ai dati di OpenCUP. Ma si spera sia possibile farlo presto."
+    "text": "La pagina web di un CUP\nSul portale OpenCUP è disponibile una pagina web associata a ogni codice CUP. Contiene le informazioni presenti nel file del focus PNRR, ma formattate per essere ben leggibili a schermo.\nL’indirizzo web di questa pagina ha questo schema di URL:\nhttps://opencup.gov.it/portale/progetto/-/cup/\nQuindi ad esempio nel caso del codice CUP J59J21000640001, l’URL sarà https://opencup.gov.it/portale/progetto/-/cup/J59J21000640001/.\nÈ molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.\n\n\n\n\n\n\n\nAPI di OpenCUP\n\n\n\nAl momento non è possibile accedere tramite API ai dati di OpenCUP. Ma si spera sia possibile farlo presto."
   },
   {
     "objectID": "fonti/opencup/focus-pnrr.html",
