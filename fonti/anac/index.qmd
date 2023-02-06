@@ -89,7 +89,7 @@ Come scritto [qui](../opencup/index.qmd#focus-sul-pnrr), sul **portale OpenCUP**
 
 💡Basterà quindi estrarre dal dataset ANAC tutti i CIG associati a un CUP presente anche nel dataset OpenCUP.
 
-[[⛏️ Come fare ]{.btn .btn-primary}](../../guide/procedura-esempio.qmd)
+[Qui un esempio](../../guide/procedura-esempio.qmd) di come estrarre quelli per un determinato Comune.
 
 ## Le informazioni sulle gare
 
