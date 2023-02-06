@@ -6,7 +6,7 @@ subtitle: "Un esempio a partire dai dati del Comune di Messina"
 
 ## Introduzione
 
-In questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: [OpenCUP](../fonti/opencup/index.qmd), [ANAC](../fonti/anac/index.qmd) e [SCP](../fonti/scp/index.qmd).
+In questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: [OpenCUP](../fonti/opencup/index.qmd), [ANAC](../fonti/anac/index.qmd), [SCP](../fonti/scp/index.qmd) e [OpenBDAP](../fonti/openbdap/index.qmd).
 
 ## Estrazione dei codici CUP da OpenCUP
 
