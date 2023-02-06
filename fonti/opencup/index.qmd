@@ -59,6 +59,8 @@ Quindi ad esempio nel caso del codice CUP `J59J21000640001`, l'URL sarà<br>
 
 È molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.
 
+---
+
 ::: {.callout-note}
 ## API di OpenCUP
 
