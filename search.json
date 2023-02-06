@@ -102,7 +102,7 @@
     "href": "fonti/anac/index.html#i-cig-legati-al-pnrr",
     "title": "ANAC",
     "section": "I CIG legati al PNRR",
-    "text": "I CIG legati al PNRR\nCome scritto qui, sul portale OpenCUP sono disponibili i codici CUP legati al PNRR. E nel portale ANAC c’è un elenco dei codici CUP associati ai Codici Identificativi Gara (CIG).\n💡Basterà quindi estrarre dal dataset ANAC tutti i CIG associati a un CUP presente anche nel dataset OpenCUP.\n⛏️ Come fare"
+    "text": "I CIG legati al PNRR\nCome scritto qui, sul portale OpenCUP sono disponibili i codici CUP legati al PNRR. E nel portale ANAC c’è un elenco dei codici CUP associati ai Codici Identificativi Gara (CIG).\n💡Basterà quindi estrarre dal dataset ANAC tutti i CIG associati a un CUP presente anche nel dataset OpenCUP.\nQui un esempio di come estrarre quelli per un determinato Comune."
   },
   {
     "objectID": "fonti/anac/index.html#le-informazioni-sulle-gare",
