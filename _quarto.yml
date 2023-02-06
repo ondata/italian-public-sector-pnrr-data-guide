@@ -31,7 +31,7 @@ website:
           - href: fonti/anac/index.qmd
             text: ANAC
           - href: fonti/scp/index.qmd
-            text: SCP
+            text: Servizio Contratti Pubblici
           - href: fonti/openbdap/index.qmd
             text: OpenBDAP
       - href: guide/procedura-esempio.qmd
