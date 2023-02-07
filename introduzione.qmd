@@ -3,9 +3,9 @@ title: "Introduzione"
 subtitle: "Monitorare i progetti del PNRR e PNC"
 ---
 
-Il **Piano nazionale di Ripresa e Resilienza** (**PNRR**) italiano prevede investimenti pari a **191,5 miliardi di euro**, finanziati dall'Unione Europea attraverso il Dispositivo per la Ripresa e la Resilienza (RRF), a cui **si aggiungono 30,6 miliardi di risorse nazionali**, del **Piano Nazionale per gli investimenti Complementari** (PNC) confluite in un apposito Fondo nazionale complementare al PNRR, per un **totale di 222,1 miliardi di euro** (a cui si aggiungono ulteriori 13 miliardi del programma React EU).
+Il **Piano nazionale di Ripresa e Resilienza** (**PNRR**) italiano prevede investimenti pari a **191,5 miliardi di euro**, finanziati dall'Unione Europea attraverso il Dispositivo per la Ripresa e la Resilienza (RRF), a cui **si aggiungono 30,6 miliardi di risorse nazionali**, del **Piano Nazionale per gli investimenti Complementari** (**PNC**) confluite in un apposito Fondo nazionale complementare al PNRR, per un **totale di 222,1 miliardi di euro** (a cui si aggiungono ulteriori 13 miliardi del programma React EU).
 
-In questa pagina l'indice delle fonti dati nazionali sulla realizzazione dei singoli progetti d'investimento PNRR e PNC in Italia, ognuno definito da un Codice Unico di Progetto (CUP) che identifica un progetto d'investimento pubblico.<br>
+In questa pagina l'indice delle fonti dati nazionali sulla realizzazione dei singoli progetti d'investimento **PNRR** e **PNC** in Italia, ognuno definito da un Codice Unico di Progetto (CUP) che identifica un progetto d'investimento pubblico.<br>
 
 Elenco:
 
