@@ -30,17 +30,17 @@ website:
             text: OpenCUP
             contents:
               - href: fonti/opencup/focus-pnrr.qmd
-                text: Approfondimento
+                text: Focus PNRR
           - href: fonti/anac/index.qmd
             text: ANAC
             contents:
               - href: fonti/anac/informazioni-cig.qmd
-                text: Approfondimento
+                text: Estrarre i dati ANAC
           - href: fonti/scp/index.qmd
+            text: Servizio Contratti Pubblici
             contents:
               - href: fonti/scp/informazioni-scp.qmd
-                text: Approfondimento
-            text: Servizio Contratti Pubblici
+                text: Estrarre i dati SCP
           - href: fonti/openbdap/index.qmd
             text: OpenBDAP
       - href: guide/procedura-esempio.qmd
