@@ -8,7 +8,9 @@ subtitle: "Il portale della Ragioneria Generale dello Stato"
 
 ## I dati correlati al PNRR
 
-**Non ci sembra** che nemmeno in questo portale **ci siano dei dati "etichettati" come PNRR** e/o che ci siano delle modalità automatiche pubbliche (**API**) per estrarre dati a partire da un codice `CUP` o da un `CIG`.
+OpenBDAP pubblica delle estrazioni dalla banca dati BDAP/MOP, in cui sono inseriti anche i dati del [monitoraggio degli interventi finanziati solo con risorse nazionali](https://www.rgs.mef.gov.it/VERSIONE-I/attivita_istituzionali/monitoraggio/piano_nazionale_per_gli_investimenti_complementari_al_pnrr/monitoraggio_del_pnc/) del PNC - Piano nazionale per gli investimenti complementari al Piano nazionale di ripresa e resilienza (PNC). Il sistema Regis e BDAP si alimentano a vicenda.
+
+**Non ci sembra** che attualmente  in questo portale **ci siano dei dati "etichettati" come PNRR o PNC** e/o che ci siano delle modalità automatiche pubbliche aperte (**API**) per estrarre dati a partire da un codice `CUP` o da un `CIG`.
 
 Nella [sezione](https://openbdap.rgs.mef.gov.it/it/Home/ComePubblicare) "_Come pubblicare sui siti Istituzionali delle Amministrazioni Pubbliche i collegamenti ipertestuali ai dati contenuti nella BDAP_", viene indicato l'URL per esplorare le opere pubbliche di una Pubblica Amministrazione, a partire dal suo Codice Fiscale.<br>
 Questo ad esempio quello dell'ANAS (`80208450587` è il suo codice fiscale):<br>
