@@ -65,7 +65,7 @@ numero_cig=!mlr --c2n  filter '$field_name=="CIG"' then cut -f distinct_count ..
 
 text=f"""
 
-Alcuni informazioni su questo dataset:
+Alcune informazioni su questo dataset:
 
 - è un file compresso in formato `zip`, che contiene al suo interno un file `CSV` (con separatore `;` e codifica `UTF-8`);
 - è composto (al 4 febbraio 2023) da **{int(numero_record[0]):n}** di righe;

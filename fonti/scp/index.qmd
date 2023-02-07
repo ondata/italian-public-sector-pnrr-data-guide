@@ -43,7 +43,7 @@ numero_colonne=!echo "$(<../../data/scp/summary_v_od_atti.csv wc -l)-1" | bc
 
 text=f"""
 
-Alcuni informazioni correlate:
+Alcune informazioni correlate:
 
 - è in formato `CSV` (con separatore `,` e codifica probabilmente `UTF-8`);
 - è composto (al 4 febbraio 2023) da **{int(numero_record[0]):n}** righe e **{int(numero_colonne[0]):n}** colonne;
