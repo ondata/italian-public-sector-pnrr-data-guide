@@ -33,7 +33,13 @@ website:
                 text: Approfondimento
           - href: fonti/anac/index.qmd
             text: ANAC
+            contents:
+              - href: fonti/anac/informazioni-cig.qmd
+                text: Approfondimento
           - href: fonti/scp/index.qmd
+            contents:
+              - href: fonti/scp/informazioni-scp.qmd
+                text: Approfondimento
             text: Servizio Contratti Pubblici
           - href: fonti/openbdap/index.qmd
             text: OpenBDAP
