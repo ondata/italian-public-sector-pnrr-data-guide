@@ -11,7 +11,7 @@
     "href": "fonti/scp/index.html#i-link-ai-documenti-correlati",
     "title": "Banca dati Servizio Contratti Pubblici - SCP",
     "section": "I link ai documenti correlati",
-    "text": "I link ai documenti correlati\nUn elemento di grande interesse, presente in questa banca dati è quella presente nella colonna url_documento, con l’URL della pagina web dove è possibile trovare documenti correlati all’atto in questione.\nSi porta come esempio quello dell’id_gara 1412023 e CIG 918052266A.\n\n\n\nFigura 2: Esempio di pagina con elenco documenti del bando"
+    "text": "I link ai documenti correlati\nUn elemento di grande interesse, presente in questa banca dati è la colonna url_documento, con l’URL della pagina web dove è possibile trovare documenti correlati all’atto in questione.\nSi porta come esempio quello dell’id_gara 1412023 e CIG 918052266A.\n\n\n\nFigura 2: Esempio di pagina con elenco documenti del bando"
   },
   {
     "objectID": "fonti/scp/index.html#i-dati-correlati-al-pnrr",
