@@ -63,7 +63,7 @@ Molto ricco di contenuti, con alcune informazioni ovviamente diverse da quelle p
 
 ## I link ai documenti correlati
 
-Un elemento di grande interesse, presente in questa banca dati è quella presente nella colonna `url_documento`, con l'URL della pagina web dove è possibile trovare documenti correlati all'atto in questione.
+Un elemento di grande interesse, presente in questa banca dati è la colonna `url_documento`, con l'URL della pagina web dove è possibile trovare documenti correlati all'atto in questione.
 
 Si porta come [esempio](https://ingate.invitalia.it/esop/toolkit/opportunity/ns/7382/detail.si?isOnModification=false&_ncp=1675594340926.18822-2) quello dell'`id_gara` `1412023` e `CIG` [`918052266A`](https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A).
 
