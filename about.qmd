@@ -5,7 +5,7 @@ subtitle: "Il progetto sui \"Dati aperti sul PNRR\""
 
 Questo progetto è il frutto del lavoro di alcune organizzazioni e di alcune persone, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel PNRR, e che hanno collaborato sul tema in diversi contesti.
 
-Il progetto [**datiBeneComune**](https://www.datibenecomune.it/) - che chiede a Governo e Parlamento **dati aperti e _machine-readable_** sui principali **temi di interesse dei cittadini e delle cittadine**, a partire dai dati sul **PNRR** - è stato il priumo punto di partenza, di incontro e scambio.
+Il progetto [**datiBeneComune**](https://www.datibenecomune.it/) - che chiede a Governo e Parlamento **dati aperti e _machine-readable_** sui principali **temi di interesse dei cittadini e delle cittadine**, a partire dai dati sul **PNRR** - è stato il primo punto di partenza, di incontro e scambio.
 
 Ma questo _vademecum_ non sarebbe nato senza il "**fare cose, vedere gente**" in questi tre contesti:
 
