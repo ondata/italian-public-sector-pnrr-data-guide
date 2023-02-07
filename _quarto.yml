@@ -28,6 +28,9 @@ website:
         contents:
           - href: fonti/opencup/index.qmd
             text: OpenCUP
+            contents:
+              - href: fonti/opencup/focus-pnrr.qmd
+                text: Approfondimento
           - href: fonti/anac/index.qmd
             text: ANAC
           - href: fonti/scp/index.qmd
