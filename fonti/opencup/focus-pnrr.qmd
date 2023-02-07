@@ -1,5 +1,5 @@
 ---
-title: "OpenCUP - Focus PNRR"
+title: "OpenCUP: Focus PNRR"
 ---
 
 L'ultima versione dei dati OpenCUP con focus sul PNRR è quella di [gennaio 2023](https://opencup.gov.it/portale/documents/21195/117121/progetti_cup_20230120.xlsx).
