@@ -82,6 +82,6 @@ Ma in questi file pubblicati su SCP sono disponibili (quasi sempre) i codici CUP
 
 Come estrarre soltanto i dati SCP a partire dall'elenco dei CUP e CIG correlati al PNRR?
 
-Si può fare almeno in **due modalità**, ma **entrambe non sono per tutte/i** e richiedono un po' di esperienza nell'accesso ai dati, la loro gestione e la loro trasformazione.
+Si può fare almeno in **due modalità**, ma richiedono un po' di esperienza nell'accesso ai dati, la loro gestione e la loro trasformazione.
 
 [[👉 Approfondimento]{.btn .btn-primary}](informazioni-scp.qmd)

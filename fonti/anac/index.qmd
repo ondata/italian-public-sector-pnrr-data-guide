@@ -95,7 +95,7 @@ Come scritto [qui](../opencup/index.qmd#focus-sul-pnrr), sul **portale OpenCUP**
 
 Una volta estratti i CIG correlati al PNRR, come è possibile **trasformare** questo **elenco** di **codici** in **informazioni**?
 
-Si può fare almeno in **due modalità**, ma **entrambe non sono per tutte/i** e richiedono un po' di esperienza nell'accesso ai dati, la loro gestione e la loro trasformazione.
+Si può fare almeno in **due modalità**, ma richiedono un po' di esperienza nell'accesso ai dati, la loro gestione e la loro trasformazione.
 
 [[👉 Approfondimento]{.btn .btn-primary}](informazioni-cig.qmd)
 
