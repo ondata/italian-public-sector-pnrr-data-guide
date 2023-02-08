@@ -13,6 +13,11 @@ Per scrivere parte di questo testo iniziale, si è fatto riferimento a [questa p
 
 Il CUP è strumento atto a **identificare univocamente ogni progetto d'investimento pubblico** attraverso una codifica comune e valida per tutte le Amministrazioni e per i soggetti, pubblici e privati, coinvolti nel ciclo di vita dei progetti o chiamati a seguirne la realizzazione.
 
+::: {.callout-caution}
+## Attenzione
+**Al momento su OpenCUP non sono pubblicate tutte le nature progettuali**, ma **soltanto** quelle relativi ai progetti di investimento pubblico (**Lavori Pubblici, Incentivi alle imprese e Contributi per calamità naturali**). Quindi ad esempio i CUP di progetti PNRR della categoria "acquisto/realizzazione di servizi" - come quelli di [PA Digitale 2026](https://padigitale2026.gov.it/opendata/) - non sono inclusi.
+:::
+
 ## Dati PNRR
 
 ### Focus sul PNRR
