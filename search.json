@@ -25,7 +25,7 @@
     "href": "fonti/scp/index.html#estrarre-le-informazioni",
     "title": "Banca dati Servizio Contratti Pubblici - SCP",
     "section": "Estrarre le informazioni",
-    "text": "Estrarre le informazioni\nCome estrarre soltanto i dati SCP a partire dall’elenco dei CUP e CIG correlati al PNRR?\nSi può fare almeno in due modalità, ma entrambe non sono per tutte/i e richiedono un po’ di esperienza nell’accesso ai dati, la loro gestione e la loro trasformazione.\n👉 Approfondimento"
+    "text": "Estrarre le informazioni\nCome estrarre soltanto i dati SCP a partire dall’elenco dei CUP e CIG correlati al PNRR?\nSi può fare almeno in due modalità, ma richiedono un po’ di esperienza nell’accesso ai dati, la loro gestione e la loro trasformazione.\n👉 Approfondimento"
   },
   {
     "objectID": "fonti/scp/informazioni-scp.html",
@@ -109,7 +109,7 @@
     "href": "fonti/anac/index.html#le-informazioni-sulle-gare",
     "title": "ANAC",
     "section": "Le informazioni sulle gare",
-    "text": "Le informazioni sulle gare\nUna volta estratti i CIG correlati al PNRR, come è possibile trasformare questo elenco di codici in informazioni?\nSi può fare almeno in due modalità, ma entrambe non sono per tutte/i e richiedono un po’ di esperienza nell’accesso ai dati, la loro gestione e la loro trasformazione.\n👉 Approfondimento"
+    "text": "Le informazioni sulle gare\nUna volta estratti i CIG correlati al PNRR, come è possibile trasformare questo elenco di codici in informazioni?\nSi può fare almeno in due modalità, ma richiedono un po’ di esperienza nell’accesso ai dati, la loro gestione e la loro trasformazione.\n👉 Approfondimento"
   },
   {
     "objectID": "fonti/anac/index.html#la-pagina-web-di-un-cig",
