@@ -63,6 +63,13 @@
     "text": "La pagina web di un CUP\nSul portale OpenCUP è disponibile una pagina web associata a ogni codice CUP. Contiene le informazioni presenti nel file del focus PNRR, ma formattate per essere ben leggibili a schermo.\nL’indirizzo web di questa pagina ha questo schema di URL:\nhttps://opencup.gov.it/portale/progetto/-/cup/\nQuindi ad esempio nel caso del codice CUP J59J21000640001, l’URL sarà https://opencup.gov.it/portale/progetto/-/cup/J59J21000640001/.\nÈ molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.\n\n\n\n\n\n\n\nAPI di OpenCUP\n\n\n\nAl momento non è possibile accedere tramite API ai dati di OpenCUP. Ma si spera sia possibile farlo presto."
   },
   {
+    "objectID": "fonti/opencup/index.html#fare-una-ricerca-sul-sito-di-opencup",
+    "href": "fonti/opencup/index.html#fare-una-ricerca-sul-sito-di-opencup",
+    "title": "OpenCUP",
+    "section": "Fare una ricerca sul sito di OpenCUP",
+    "text": "Fare una ricerca sul sito di OpenCUP\nSu OpenCUP è presente anche una pagina di ricerca, in cui è possibile inserire uno o più parametri - anche ad esempio una parola della descrizione di un progetto - e avere restituito l’elenco dei progetti correlato.\n\n\n\nFigura 3: Il modulo di ricerca di OpenCUP"
+  },
+  {
     "objectID": "fonti/opencup/focus-pnrr.html",
     "href": "fonti/opencup/focus-pnrr.html",
     "title": "OpenCUP: Focus PNRR",
@@ -117,6 +124,13 @@
     "title": "ANAC",
     "section": "La pagina web di un CIG",
     "text": "La pagina web di un CIG\nSul portale ANAC è disponibile la sezione Analytics in cui è possibile visualizzare in modo interattivo dei dati di riepilogo così come fare delle ricerche per CIG. E a ogni CIG è associata una pagina web. L’indirizzo ha questo schema di URL:\nhttps://dati.anticorruzione.it/superset/dettaglio_cig/cig\nQuindi ad esempio nel caso del codice CUP 918052266A, l’URL sarà https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A.\nÈ molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP."
+  },
+  {
+    "objectID": "fonti/anac/index.html#fare-una-ricerca-sul-portale-anac",
+    "href": "fonti/anac/index.html#fare-una-ricerca-sul-portale-anac",
+    "title": "ANAC",
+    "section": "Fare una ricerca sul Portale ANAC",
+    "text": "Fare una ricerca sul Portale ANAC\nSu Portale è presente anche una pagina di ricerca, in cui è possibile inserire uno o più parametri - anche ad esempio una parola presente nell’oggetto - e avere restituito l’elenco delle procedure correlate.\n\n\n\nFigura 1: Il modulo di ricerca del Portale ANAC"
   },
   {
     "objectID": "fonti/anac/informazioni-cig.html",
