@@ -112,3 +112,9 @@ Quindi ad esempio nel caso del codice CUP `918052266A`, l'URL sarà<br>
 <https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A>.
 
 È molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.
+
+## Fare una ricerca sul Portale ANAC
+
+Su Portale è presente anche una [**pagina di ricerca**](https://dati.anticorruzione.it/superset/dashboard/ricerca_avanzata/), in cui è possibile inserire uno o più parametri - anche ad esempio una parola presente nell'oggetto - e avere restituito l'elenco delle procedure correlate.
+
+[![Il modulo di ricerca del Portale ANAC](images/anac-ricerca-visuale.png){#fig-opencup-visuale fig-alt="Form di ricerca del Portale ANAC"}](https://dati.anticorruzione.it/superset/dashboard/ricerca_avanzata/)
