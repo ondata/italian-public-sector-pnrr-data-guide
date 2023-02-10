@@ -26,18 +26,18 @@ website:
         text: Introduzione
       - section: Fonti
         contents:
-          - href: fonti/opencup/index.qmd
-            text: OpenCUP
+          - section: OpenCUP
+            href: fonti/opencup/index.qmd
             contents:
               - href: fonti/opencup/focus-pnrr.qmd
                 text: Focus PNRR
-          - href: fonti/anac/index.qmd
-            text: ANAC
+          - section: ANAC
+            href: fonti/anac/index.qmd
             contents:
               - href: fonti/anac/informazioni-cig.qmd
                 text: Estrarre i dati ANAC
-          - href: fonti/scp/index.qmd
-            text: Servizio Contratti Pubblici
+          - section: Servizio Contratti Pubblici
+            href: fonti/scp/index.qmd
             contents:
               - href: fonti/scp/informazioni-scp.qmd
                 text: Estrarre i dati SCP
