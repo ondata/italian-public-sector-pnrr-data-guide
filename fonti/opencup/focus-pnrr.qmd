@@ -10,7 +10,7 @@ Molto importante la nota relativa che si legge sul sito:
 
 ::: {.callout-caution}
 ## Fai attenzione
-Per la ragione sopra indicata, non è detto che un progetto in questo elenco sia stato finanziato dal PNRR. È però un punto di partenza per fare approfondimenti sul sito della Pubblica Amministrazione correlata al progetto.
+Per la ragione sopra indicata, non è detto che un progetto in questo elenco sia stato con certezza finanziato dal PNRR. È però un punto di partenza per fare approfondimenti sul sito della Pubblica Amministrazione correlata al progetto.
 :::
 
 
