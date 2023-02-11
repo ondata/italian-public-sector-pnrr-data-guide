@@ -10,7 +10,7 @@ Per comprenderlo, seguirne lo sviluppo, monitoralo e valutarne l'impatto è **ne
 Prima di passare all'elenco di alcune banche dati di interesse e a come usarle, si vogliono sottolineare **alcuni punti importanti**:
 
 - l'**accesso ai dati** e la loro analisi, è soltanto **uno degli step** di un percorso di studio e [**monitoraggio**](monitoraggio/index.qmd);
-- **fare sempre riferimento ai documenti ufficiali** in cui si assegnano dei fondi (come ad esempio i documenti della pagina di concessione del [PINQuA](https://trasparenza.mit.gov.it/index.php?id_oggetto=38&id_doc=104527)) e **partire da questi** per ulteriori approfondimenti basati su banche dati. Non sono purtroppo sempre facilmente accessibili/reperibili;
+- **fare sempre riferimento ai documenti ufficiali** in cui si assegnano dei fondi (come ad esempio i documenti di concessione del [PINQuA](https://trasparenza.mit.gov.it/index.php?id_oggetto=38&id_doc=104527)) e **partire da questi** per ulteriori approfondimenti basati su banche dati. Non sono purtroppo sempre facilmente accessibili/reperibili;
 - **contattare la Pubblica Amministrazione (PA) destinataria del fondo**, per chiedere **ulteriori informazioni**, **documentazione** e **dati**, a integrazione delle banche dati aperte (come quelle descritte sotto). Queste infatti spesso rappresentano **soltanto una parte delle informazioni necessarie** per comprendere e valutare un progetto di finanziamento pubblico.
 
 
