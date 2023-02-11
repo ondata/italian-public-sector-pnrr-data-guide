@@ -6,10 +6,20 @@ subtitle: "Le principali fonti della Pubblica Amminsitrazione Italiana"
 Le **informazioni** sul Piano Nazionale di Ripresa e Resilienza (**PNRR**) e sulla sua gestione sono ancora **poche**. Per cittadine e cittadini, associazioni, giornaliste/i, movimenti, università, centri di ricerca, aziende, ecc. è difficile e alle volte impossibile seguire un progetto e il suo impatto sul territorio e sulle persone.<br>
 Questo ha portato al lancio della campagna "[**ItaliaDomani Dati Oggi**](https://www.datibenecomune.it/2022/11/30/datioggi-pnrr-bene-comune/)", con una **lettera aperta** alla Presidente del Consiglio dei Ministri Giorgia Meloni e al Ministro per gli Affari Europei, il Sud, le Politiche di Coesione e il PNRR Raffaele Fitto.
 
-Esistono alcune banche dati nazionali, da cui è possibile estarre alcune informazioni di dettaglio e metterle (ove possibile) in correlazione tra loro. <br>
+Esistono alcune banche dati, da cui è possibile estrarre alcune informazioni di dettaglio e metterle (ove possibile) in correlazione tra loro. <br>
 Non riempono il vuoto informativo attuale, ma sono ad oggi un riferimento utile per seguire e monitorare il Piano.
 
-Questo sito è uno spazio che ha l'obiettivo di **descrivere** le **principali**, a partire da quanto pubblicato dalla **Pubblica Amministrazione italiana**.
+Questo sito ha l'obiettivo di **descrivere** le **principali**, a partire da quanto pubblicato dalla **Pubblica Amministrazione italiana**.
+
+::: {.callout-tip}
+
+# Perché l'attenzione sui dati
+
+Si rivolge a quelle **persone** che vogliono **raccogliere informazioni** sul Piano, per **correlarle** tra loro e **arricchirle**, per **monitorarlo** ed estrapolare **nuovi punti di sintesi**.
+
+📍**E l'accesso ai dati è uno dei punti necessari per farlo**.
+:::
+
 
 Alcune note:
 
