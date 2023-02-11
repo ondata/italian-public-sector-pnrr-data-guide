@@ -5,7 +5,18 @@ subtitle: "Monitorare i progetti del PNRR e PNC"
 
 Il **Piano nazionale di Ripresa e Resilienza** (**PNRR**) italiano prevede investimenti pari a **191,5 miliardi di euro**, finanziati dall'Unione Europea attraverso il Dispositivo per la Ripresa e la Resilienza (RRF), a cui **si aggiungono 30,6 miliardi di risorse nazionali**, del **Piano Nazionale per gli investimenti Complementari** (**PNC**) confluite in un apposito Fondo nazionale complementare al PNRR, per un **totale di 222,1 miliardi di euro** (a cui si aggiungono ulteriori 13 miliardi del programma React EU).
 
-In questa pagina l'indice delle fonti dati nazionali sulla realizzazione dei singoli progetti d'investimento **PNRR** e **PNC** in Italia, ognuno definito da un Codice Unico di Progetto (CUP) che identifica un progetto d'investimento pubblico.<br>
+Per comprenderlo, seguirne lo sviluppo, monitoralo e valutarne l'impatto è **necessario** poter **accedere ai dati correlati** (vedi [**I dati che Vorrei**](https://vorrei.datibenecomune.it/dati-che-vorrei/dati/)).
+
+Prima di passare all'elenco di alcune banche dati di interesse e a come usarle, si vogliono sottolineare **alcuni punti importanti**:
+
+- l'**accesso ai dati** e la loro analisi, è soltanto **uno degli step** di un percorso di studio e [**monitoraggio**](monitoraggio/index.qmd);
+- **fare sempre riferimento ai documenti ufficiali** - ove disponibili - in cui si assegnano dei fondi e **partire da questi** per ulteriori approfondimenti basati su banche dati (come ad esempio i documenti della pagina di concessione del [PINQuA](https://trasparenza.mit.gov.it/index.php?id_oggetto=38&id_doc=104527));
+- **contattare la Pubblica Amministrazione (PA) destinataria del fondo**, per chiedere **ulteriori informazioni**, **documentazione** e **dati**, a integrazione delle banche dati aperte (come quelle descritte sotto). Queste infatti spesso rappresentano **soltanto una parte delle informazioni necessarie** per comprendere e valutare un progetto di finanziamento pubblico.
+
+
+## Fonti dati nazionali
+
+A seguire un elenco delle fonti dati nazionali sulla realizzazione dei singoli progetti d'investimento **PNRR** e **PNC** in Italia, ognuno definito da un Codice Unico di Progetto (CUP) che identifica un progetto d'investimento pubblico.<br>
 
 Elenco:
 
