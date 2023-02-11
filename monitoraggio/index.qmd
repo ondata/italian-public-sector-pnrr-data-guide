@@ -1,0 +1,12 @@
+---
+title: "Monitorare il PNRR"
+format: html
+---
+
+Enim dolore reprehenderit fugiat anim velit labore non minim pariatur consequat enim duis. Velit aliquip consectetur eu consequat id commodo amet sint ullamco. Eu aute proident nulla anim excepteur enim adipisicing. Sunt deserunt do minim cupidatat minim nulla dolore magna in velit officia anim ut. Adipisicing deserunt adipisicing et ea. Esse dolor est quis dolor aliquip. Excepteur quis elit amet cillum duis.
+
+Ullamco fugiat non aliqua nulla ad laboris incididunt magna voluptate. Sint laboris occaecat fugiat ea aute culpa irure sit deserunt anim excepteur. Id esse aliqua eiusmod excepteur voluptate. Reprehenderit labore culpa in irure consectetur laborum ipsum sit ut do. Aute pariatur occaecat amet voluptate id nostrud excepteur.
+
+📍L'**accesso ai dati** è quindi **un fatto essenziale**, ma soltanto **uno dei punti** di un **percorso di monitoraggio** (come ben rappresentato dal metodo di Monithon in @fig-monitoraggio-step).
+
+![Gli step del monitoraggio civico (da [Monithon](https://www.monithon.eu/crea-un-report-di-monitoraggio-civico/))](images/Percorso-per-Crea-un-report-BLACK2-thin-1.png){fig-alt="Gli step per la creazione di un report di monitoraggio" #fig-monitoraggio-step}

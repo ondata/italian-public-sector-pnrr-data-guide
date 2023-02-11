@@ -24,6 +24,8 @@ website:
     contents:
       - href: introduzione.qmd
         text: Introduzione
+      - href: monitoraggio/index.qmd
+        text: Monitoraggio
       - section: Fonti
         contents:
           - section: OpenCUP
