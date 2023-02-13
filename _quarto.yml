@@ -50,14 +50,14 @@ website:
       - text: "---"
       - href: datibenecomune.md
         text: datiBeneComune
+      - href: rete-pnrr.md
+        text: Una rete per il monitoraggio del PNRR
       - href: osservatorio.md
         text: Osservatorio PNRR
       - href: openpnrr.md
         text: Open PNRR
       - href: quinto-piano-governo-aperto.md
-        text: V Piano Nazionale Governo Aperto
-      - href: rete-pnrr.md
-        text: Una rete per il monitoraggio del PNRR
+        text: OGP e altre iniziative istituzionali
 
   page-footer:
     right: "Un sito costruito con ❤️ e con [Quarto](https://quarto.org/)."

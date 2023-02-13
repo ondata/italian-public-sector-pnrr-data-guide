@@ -2,8 +2,16 @@
 title: dati Bene Comune
 ---
 
-Pariatur nisi occaecat cupidatat in veniam in ad excepteur ex exercitation irure commodo ut nostrud. Nisi incididunt ad ad id labore ad nostrud minim labore labore deserunt in pariatur. Incididunt voluptate velit voluptate sit quis. Nulla nisi mollit deserunt anim minim nisi irure dolor eiusmod tempor proident. Voluptate exercitation nisi nostrud aute aliqua minim ut pariatur. Laboris pariatur eiusmod dolor aute qui dolor est. Anim adipisicing in dolor sit mollit aliquip.
+[**Dati Bene Comune**](https://www.datibenecomune.it/) nasce nel 2020 su iniziativa di onData, Transparency International Italia e ActionAid Italia, per chiedere al governo italiano maggior trasparenza e dati aperti sulla pandemia di Covid19.
 
-Nulla pariatur officia laborum non anim nisi pariatur Lorem nulla reprehenderit fugiat in mollit dolore. Tempor proident officia adipisicing esse voluptate voluptate qui et occaecat sit ipsum in nulla. Culpa dolore in quis ex Lorem duis aliquip magna minim ipsum tempor Lorem labore velit. Cillum irure sunt laboris in ut dolor velit ipsum deserunt. Non nostrud quis ut ullamco duis enim duis voluptate minim eiusmod officia.
+Nel giro di pochi mesi la campagna cresce fino a raccogliere oltre 55.000 sottoscrizioni di cittadini italiani e quasi 300 organizzazioni aderenti, tra associazioni, centri di ricerca, piccole imprese, testate editoriali.
 
-Lorem sint ex proident consectetur eu aliquip aute labore ut aliqua. Pariatur irure enim anim nisi sunt duis ex elit nulla nostrud ad cupidatat. Exercitation Lorem exercitation cupidatat mollit dolor consectetur velit anim cillum tempor cupidatat quis elit.
+Dati Bene Comune riesce ad ottenere dei risultati significativi, liberando finalmente alcuni importanti dati detenuti dalla Protezione Civile e dal Ministero della Salute e cominciando una proficua interlocuzione con le istituzioni, per migliorarne la qualità e le modalità di pubblicazione.
+
+Dato il successo ottenuto anche in termini di promozione della cultura dei dati aperti, la campagna decide nel 2022 di dedicarsi ad altri ambiti di interesse pubblico, primo fra tutti il PNRR, il Piano di Ripartenza e Resilienza, che vedrà l’Italia investire oltre 200 miliardi di euro in progetti trasformativi per il paese entro il 2026.
+
+Dati Bene Comune è oggi una delle voci più autorevoli, più seguite e più ascoltate in materia di trasparenza e di riuso dei dati di pubblico interesse: supporta attivisti e giornalisti ad avviare progetti di monitoraggio civico, organizza momenti di promozione degli open data e percorsi di formazione aperti alla cittadinanza, dialoga in maniera costruttiva, ma senza compromessi al ribasso, con la politica e le amministrazioni per aumentare la qualità dei dati pubblicati.
+
+Per seguire o supportare la campagna, ti invitiamo a visitare il sito e sottoscrivere la petizione se sei una persona fisica, o a richiedere l’adesione se sei un’associazione, un collettivo, un centro di ricerca, una testata giornalistica, un’azienda privata: <https://www.datibenecomune.it/partecipa/>
+
+[![](images/datibenecomune.png)](https://www.datibenecomune.it/)
