@@ -3,9 +3,7 @@ title: "Monitorare il PNRR"
 format: html
 ---
 
-Enim dolore reprehenderit fugiat anim velit labore non minim pariatur consequat enim duis. Velit aliquip consectetur eu consequat id commodo amet sint ullamco. Eu aute proident nulla anim excepteur enim adipisicing. Sunt deserunt do minim cupidatat minim nulla dolore magna in velit officia anim ut. Adipisicing deserunt adipisicing et ea. Esse dolor est quis dolor aliquip. Excepteur quis elit amet cillum duis.
-
-Ullamco fugiat non aliqua nulla ad laboris incididunt magna voluptate. Sint laboris occaecat fugiat ea aute culpa irure sit deserunt anim excepteur. Id esse aliqua eiusmod excepteur voluptate. Reprehenderit labore culpa in irure consectetur laborum ipsum sit ut do. Aute pariatur occaecat amet voluptate id nostrud excepteur.
+Negli ultimi anni sono stati sviluppati metodi, pratiche e strumenti che hanno lo scopo di presidiare, verificare e valutare dal basso l’uso dei fondi pubblici. Si tratta del monitoraggio “civico” delle politiche pubbliche, sperimentato già da varie iniziative della società civile. La parola “civico” serve non solo per distinguerlo dal monitoraggio amministrativo, a cui non si sostituisce, ma anche per sottolineare la natura partecipativa di queste attività. Questo tipo di monitoraggio richiede, infatti, la partecipazione attiva alle politiche pubbliche per controllare l’andamento e verificare l’efficacia dei singoli interventi finanziati, nonché per raccogliere suggerimenti, idee e proposte da discutere con le amministrazioni responsabili e migliorare quindi la qualità della spesa e sollevare eventuali problematiche o punti di attenzione, su cui attivare azioni di advocacy o stimolare un dibattito pubblico informato.
 
 📍L'**accesso ai dati** è quindi **un fatto essenziale**, ma soltanto **uno dei punti** di un **percorso di monitoraggio** (come ben rappresentato dal metodo di Monithon in @fig-monitoraggio-step).
 
