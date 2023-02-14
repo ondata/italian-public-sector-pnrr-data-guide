@@ -24,7 +24,7 @@ Questo sito si rivolge a quelle **persone** che vogliono **raccogliere inform
 Alcune note:
 
 - sarà in **continuo aggiornamento**, perché nel tempo si potranno aggiungere e/o anche rimuovere alcune fonti;
-- **non è un elenco completo** di tutte le fonti di dati aperti sul PNRR, ma **solo** delle **principali** e legate a tutto il territorio **nazionale**.
+- **non è un elenco completo** di tutte le fonti di dati aperti sul PNRR, ma al momento **solo** delle **principali** e legate a tutto il territorio **nazionale**.
 
 [[👉 Inizia da qui]{.btn .btn-primary}](introduzione.qmd)
 
