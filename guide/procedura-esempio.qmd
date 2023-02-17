@@ -161,15 +161,15 @@ Qui sotto ad esempio i comandi necessari per estrarre i dati dai file **atti**, 
 #| warning: false
 
 !if [ ! -f ../data/messina/scp-atti.csv ]; then\
-  qsv searchset -i -s cig ../data/messina/anac-cup-cig-083048-cig.csv ../data/scp/v_od_atti.csv >../data/messina/scp-atti-083048.csv;\
+  qsv searchset -i -s cig ../data/messina/anac-cup-cig-083048-cig.csv ../data/scp/v_od_atti.csv | mlr --csv clean-whitespace >../data/messina/scp-atti-083048.csv;\
 fi
 
 !if [ ! -f ../data/messina/scp-esiti.csv ]; then\
-  qsv searchset -i -s cig ../data/messina/anac-cup-cig-083048-cig.csv ../data/scp/v_od_atti.csv >../data/messina/scp-esiti-083048.csv;\
+  qsv searchset -i -s cig ../data/messina/anac-cup-cig-083048-cig.csv ../data/scp/v_od_esiti.csv | mlr --csv clean-whitespace >../data/messina/scp-esiti-083048.csv;\
 fi
 
 !if [ ! -f ../data/messina/scp-bandi.csv ]; then\
-  qsv searchset -i -s cig ../data/messina/anac-cup-cig-083048-cig.csv ../data/scp/v_od_atti.csv >../data/messina/scp-bandi-083048.csv;\
+  qsv searchset -i -s cig ../data/messina/anac-cup-cig-083048-cig.csv ../data/scp/v_od_bandi.csv | mlr --csv clean-whitespace >../data/messina/scp-bandi-083048.csv;\
 fi
 ```
 
@@ -194,8 +194,8 @@ Con `-i -s cig anac-cup-cig-083048-cig.csv` si cercano nei file SCP nella colonn
 In output:
 
 - [`scp-atti-083048.csv`](../data/messina/scp-atti-083048.csv), contiene i dati relativi agli atti;
-- [`scp-esiti-083048.csv`](../data/messina/scp-esiti-083048.csv), contiene i dati relativi agli esiti;
-- [`scp-bandi-083048.csv`](../data/messina/scp-bandi-083048.csv), contiene i dati relativi ai bandi.
+- [`scp-bandi-083048.csv`](../data/messina/scp-bandi-083048.csv), contiene i dati relativi ai bandi;
+- [`scp-esiti-083048.csv`](../data/messina/scp-esiti-083048.csv), contiene i dati relativi agli esiti, ma non ci sono dati per Messina
 
 ## Estrarre i dati da OpenBDAP
 
