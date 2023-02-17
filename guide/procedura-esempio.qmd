@@ -182,9 +182,9 @@ Si può usare ancora una volta il comodo ed efficiente [`qsv`](https://github.co
 # atti
 qsv searchset -i -s cig anac-cup-cig-083048-cig.csv v_od_atti.csv >scp-atti-083048.csv
 # esiti
-qsv searchset -i -s cig anac-cup-cig-083048-cig.csv v_od_atti.csv >scp-esiti-083048.csv
+qsv searchset -i -s cig anac-cup-cig-083048-cig.csv v_od_esiti.csv >scp-esiti-083048.csv
 # bandi
-qsv searchset -i -s cig anac-cup-cig-083048-cig.csv v_od_atti.csv >scp-bandi-083048.csv
+qsv searchset -i -s cig anac-cup-cig-083048-cig.csv v_od_bandi.csv >scp-bandi-083048.csv
 ```
 
 Con `-i -s cig anac-cup-cig-083048-cig.csv` si cercano nei file SCP nella colonna `cig` tutti i record contenenti i codici `CIG` estratti per Messina.
@@ -195,7 +195,7 @@ In output:
 
 - [`scp-atti-083048.csv`](../data/messina/scp-atti-083048.csv), contiene i dati relativi agli atti;
 - [`scp-bandi-083048.csv`](../data/messina/scp-bandi-083048.csv), contiene i dati relativi ai bandi;
-- [`scp-esiti-083048.csv`](../data/messina/scp-esiti-083048.csv), contiene i dati relativi agli esiti, ma non ci sono dati per Messina
+- [`scp-esiti-083048.csv`](../data/messina/scp-esiti-083048.csv), contiene i dati relativi agli esiti (ma, al 17 febbraio 2023, **non ci sono dati sugli esiti per Messina**).
 
 ## Estrarre i dati da OpenBDAP
 
