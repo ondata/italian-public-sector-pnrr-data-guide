@@ -443,9 +443,9 @@ Estrarre dai dati SCP, i dati a partire dai CIG di Messina
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># atti</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_atti.csv <span class="op">&gt;</span>scp-atti-083048.csv</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># esiti</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_atti.csv <span class="op">&gt;</span>scp-esiti-083048.csv</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_esiti.csv <span class="op">&gt;</span>scp-esiti-083048.csv</span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># bandi</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_atti.csv <span class="op">&gt;</span>scp-bandi-083048.csv</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_bandi.csv <span class="op">&gt;</span>scp-bandi-083048.csv</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Con <code>-i -s cig anac-cup-cig-083048-cig.csv</code> si cercano nei file SCP nella colonna <code>cig</code> tutti i record contenenti i codici <code>CIG</code> estratti per Messina.</p>
 </div>
 </div>
@@ -453,7 +453,7 @@ Estrarre dai dati SCP, i dati a partire dai CIG di Messina
 <ul>
 <li><a href="../data/messina/scp-atti-083048.csv"><code>scp-atti-083048.csv</code></a>, contiene i dati relativi agli atti;</li>
 <li><a href="../data/messina/scp-bandi-083048.csv"><code>scp-bandi-083048.csv</code></a>, contiene i dati relativi ai bandi;</li>
-<li><a href="../data/messina/scp-esiti-083048.csv"><code>scp-esiti-083048.csv</code></a>, contiene i dati relativi agli esiti, ma non ci sono dati per Messina</li>
+<li><a href="../data/messina/scp-esiti-083048.csv"><code>scp-esiti-083048.csv</code></a>, contiene i dati relativi agli esiti (ma, al 17 febbraio 2023, <strong>non ci sono dati sugli esiti per Messina</strong>).</li>
 </ul>
 </section>
 <section id="estrarre-i-dati-da-openbdap" class="level2">
