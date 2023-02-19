@@ -27,4 +27,4 @@ L'**azione 5** ha per titolo "**Innovazione digitale inclusiva**":
 >
 > Si può quindi prevedere un doppio livello di soluzione del problema prospettato nella precedente sezione: il processo di standardizzazione favorisce l'interoperabilità e la possibilità di collegare fonti di dati diverse; l'adozione di uno standard maturo e diffuso a livello internazionale crea le condizioni per il monitoraggio ed il confronto con altri paesi e la semplificazione derivante dall'adozione di un formato unico e ben documentato quale OCDS dovrebbe ridurre le barriere di ingresso per i processi di governance partecipativa, favorendo così lo sviluppo di competenze da parte di cittadini ed imprese e l'innovazione digitale inclusiva.
 
-[![](images/5NAP.png)](https://open.gov.it/governo-aperto/piano-nazionale/5nap)
+[![5° Piano d'Azione Nazionale per il governo aperto](images/5NAP.png)](https://open.gov.it/governo-aperto/piano-nazionale/5nap)

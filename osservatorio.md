@@ -11,4 +11,4 @@ L'Osservatorio comprende più di 50 organizzazione della società civile con for
 
 ➡️ <https://osservatoriocivicopnrr.it/>
 
-[![](images/osservatorio.png "Osservatorio Civico PNRR")](https://osservatoriocivicopnrr.it/)
+[![Osservatorio Civico PNRR](images/osservatorio.png "Osservatorio Civico PNRR")](https://osservatoriocivicopnrr.it/)
