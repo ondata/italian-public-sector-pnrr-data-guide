@@ -3,11 +3,11 @@ title: "Informazioni"
 subtitle: "Il progetto sui \"Dati aperti sul PNRR\""
 ---
 
-Questo progetto è il frutto del lavoro di alcune organizzazioni e di alcune persone, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel PNRR, e che hanno collaborato sul tema in diversi contesti.
+La presente guida è a cura dall'[**associazione onData**](https://www.ondata.it/), in collaborazione con altre organizzazioni e di alcune persone, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel PNRR, e che hanno collaborato sul tema in diversi contesti.
 
 Il progetto [**datiBeneComune**](https://www.datibenecomune.it/) - che chiede a Governo e Parlamento **dati aperti e _machine-readable_** sui principali **temi di interesse dei cittadini e delle cittadine**, a partire dai dati sul **PNRR** - è stato il primo punto di partenza, di incontro e scambio.
 
-Ma questo _vademecum_ non sarebbe nato senza il "**fare cose, vedere gente**" in questi contesti:
+Questo _vademecum_ non sarebbe nato senza il "**fare cose, vedere gente**" in questi contesti:
 
 - le riunioni dei tavoli dell'[Azione 5.02](https://open.gov.it/governo-aperto/piano-nazionale/5nap/azione-5/impegno-502) - Standard aperti per l’inclusività e la partecipazione della società civile nel monitoraggio della spesa pubblica - del "**5° Piano d’Azione Nazionale per il governo aperto**", a cui hanno partecipato e partecipano alcuni dei soggetti che hanno contribuito a questo progetto;
 - l'[**Osservatorio Civico PNRR**](https://osservatoriocivicopnrr.it/) e le sue scuole di monitoraggio. Vivendole e alimentandole, è emerso quanto potesse essere utile un _vademecum_ per i cittadini e le cittadine, per aiutarli a capire meglio il PNRR e a monitorarlo e sono venute fuori diverse idee poi sviluppate qui;
