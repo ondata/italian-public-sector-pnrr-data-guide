@@ -3,7 +3,7 @@ title: "Informazioni"
 subtitle: "Il progetto sui \"Dati aperti sul PNRR\""
 ---
 
-La presente guida è a cura dall'[**associazione onData**](https://www.ondata.it/), in collaborazione con altre organizzazioni e di alcune persone, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel PNRR, e che hanno collaborato sul tema in diversi contesti.
+La presente guida è a cura dall'[**associazione onData**](https://www.ondata.it/), in collaborazione con **altre organizzazioni** e **altre persone**, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel PNRR, e che hanno collaborato sul tema in diversi contesti.
 
 Il progetto [**datiBeneComune**](https://www.datibenecomune.it/) - che chiede a Governo e Parlamento **dati aperti e _machine-readable_** sui principali **temi di interesse dei cittadini e delle cittadine**, a partire dai dati sul **PNRR** - è stato il primo punto di partenza, di incontro e scambio.
 
