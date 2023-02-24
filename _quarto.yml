@@ -81,6 +81,8 @@ format:
     link-external-filter: '^.*ondata\.github\.io\/italian-public-sector-pnrr-data-guide'
     lang: "it-IT"
     bibliography: open-pnrr.bib
+    filters:
+      - risorse/newpagelink.lua
 
 execute:
   daemon: false

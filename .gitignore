@@ -15,3 +15,5 @@ data/spc/*
 data/messina/rawdata/*
 
 _note.md
+
+/.luarc.json
