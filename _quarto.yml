@@ -60,10 +60,10 @@ website:
             text: Open PNRR
           - href: https://www.monithon.eu/it/
             text: Monithon
-            target: _blank
+            target: "_blank"
           - href: https://www.thinktankperiod.org/
             text: think tank Period
-            target: _blank
+            target: "_blank"
       - href: quinto-piano-governo-aperto.md
         text: OGP e altre iniziative istituzionali
 
