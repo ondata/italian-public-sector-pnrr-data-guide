@@ -331,10 +331,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="tramite-file" class="level2">
 <h2 class="anchored" data-anchor-id="tramite-file">Tramite file</h2>
 <p>Questa modalità è dal punto di vista pratico la più semplice, ma non è la più efficiente.</p>
-<p>Il portale dei dati aperti dell’ANAC infatti rende disponibili <a href="https://dati.anticorruzione.it/opendata/dataset?q=title%3Acig&amp;res_format=CSV&amp;sort=metadata_modified+desc">dei dataset</a>, con l’<strong>elenco mensile</strong> dei CIG, <strong>raggruppati per anno</strong>.<br></p>
+<p>Il portale dei dati aperti dell’ANAC infatti rende disponibili <a href="https://dati.anticorruzione.it/opendata/dataset?q=title%3Acig&amp;res_format=CSV&amp;sort=metadata_modified+desc" target="_blank">dei dataset</a>, con l’<strong>elenco mensile</strong> dei CIG, <strong>raggruppati per anno</strong>.<br></p>
 <div id="fig-anac-cig" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><a href="https://dati.anticorruzione.it/opendata/dataset?q=title%3Acig&amp;res_format=CSV&amp;sort=metadata_modified+desc"><img src="images/file-cig.png" class="img-fluid figure-img" alt="Lista dei file sui CIG"></a></p>
+<p><a href="https://dati.anticorruzione.it/opendata/dataset?q=title%3Acig&amp;res_format=CSV&amp;sort=metadata_modified+desc" target="_blank"><img src="images/file-cig.png" class="img-fluid figure-img" alt="Lista dei file sui CIG"></a></p>
 <p></p><figcaption class="figure-caption">Figura&nbsp;1: Lista dei file sui CIG, sul sito di ANAC</figcaption><p></p>
 </figure>
 </div>
@@ -498,7 +498,7 @@ Esempio di contenuto file sui CIG di ANAC
 <p>Le API - acronimo di <em>Application Programming Interface</em> (interfaccia di programmazione delle applicazioni) - sono in un certo senso degli indirizzi web speciali, che restituiscono non una pagina web, ma dei dati.</p>
 <p>Questo indirizzo web speciale, questo <code>URL</code> ha questa struttura:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/numero_cig</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Se ad esempio si vogliono ottenere le informazioni relative al CIG <code>918052266A</code> associato al CUP <a href="https://opencup.gov.it/portale/progetto/-/cup/G34E21000260001"><code>G34E21000260001</code></a>, l’URL da utilizzare sarà:<br> <a href="https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/918052266A" class="uri">https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/918052266A</a></p>
+<p>Se ad esempio si vogliono ottenere le informazioni relative al CIG <code>918052266A</code> associato al CUP <a href="https://opencup.gov.it/portale/progetto/-/cup/G34E21000260001" target="_blank"><code>G34E21000260001</code></a>, l’URL da utilizzare sarà:<br> <a href="https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/918052266A" class="uri" target="_blank">https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/918052266A</a></p>
 <p>Si hanno ancora una volta diverse informazioni, e il formato file è stavolta il <code>JSON</code> (sotto un esempio, fare click per espandere).</p>
 <div class="callout callout-style-default callout-note callout-captioned">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
@@ -644,7 +644,7 @@ Output delle API ANAC, per il CIG <code>918052266A</code>
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Note</h2>
 
 <ol>
-<li id="fn1"><p>Il CPV è un sistema di classificazione unico per gli appalti pubblici volto a unificare i riferimenti utilizzati dalle amministrazioni e dagli enti appaltanti per la descrizione dell’oggetto degli appalti (<a href="https://simap.ted.europa.eu/it/cpv">fonte</a>).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>Il CPV è un sistema di classificazione unico per gli appalti pubblici volto a unificare i riferimenti utilizzati dalle amministrazioni e dagli enti appaltanti per la descrizione dell’oggetto degli appalti (<a href="https://simap.ted.europa.eu/it/cpv" target="_blank">fonte</a>).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -895,8 +895,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a> <a href="https://datibenecomune.it/">#datiBeneComune</a></div>   
-    <div class="nav-footer-right">Un sito costruito con ❤️ e con <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-left"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY</a> <a href="https://datibenecomune.it/" target="_blank">#datiBeneComune</a></div>   
+    <div class="nav-footer-right">Un sito costruito con ❤️ e con <a href="https://quarto.org/" target="_blank">Quarto</a>.</div>
   </div>
 </footer>
 
