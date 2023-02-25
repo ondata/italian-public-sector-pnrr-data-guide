@@ -63,6 +63,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Dati aperti sul PNRR - OpenCUP: Focus PNRR">
+<meta property="og:description" content="Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi.">
+<meta property="og:image" content="https://pnrr.datibenecomune.it//images/cover-og.png">
+<meta property="og:site-name" content="Dati aperti sul PNRR">
+<meta property="og:locale" content="it_IT">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="Dati aperti sul PNRR - OpenCUP: Focus PNRR">
+<meta name="twitter:description" content="Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi.">
+<meta name="twitter:image" content="https://pnrr.datibenecomune.it//images/cover-og.png">
+<meta name="twitter:creator" content="@ondatait">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
 </head>
 
 <body class="nav-sidebar docked nav-fixed slimcontent">
@@ -237,6 +251,12 @@ ul.task-list li input[type="checkbox"] {
   <a href="../../quinto-piano-governo-aperto.html" class="sidebar-item-text sidebar-link">OGP e altre iniziative istituzionali</a>
   </div>
 </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://vorrei.datibenecomune.it/" class="sidebar-item-text sidebar-link">I dati che vorrei</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -265,7 +285,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>L’ultima versione dei dati OpenCUP con focus sul PNRR è quella di <a href="https://opencup.gov.it/portale/documents/21195/117121/progetti_cup_20230120.xlsx" target="_blank">gennaio 2023</a>.</p>
+<p>L’ultima versione dei dati OpenCUP con focus sul PNRR è quella di <a href="https://opencup.gov.it/portale/documents/21195/117121/progetti_cup_20230120.xlsx">gennaio 2023</a>.</p>
 <p>Molto importante la nota relativa che si legge sul sito:</p>
 <blockquote class="blockquote">
 <p>Si sottolinea che i dati oggetto del rilascio open data, rappresentano gli <strong>interventi candidati</strong> nell’ambito del PNRR, <strong>così come segnalati dai soggetti titolari dei singoli interventi in fase di generazione CUP</strong>, ma che <strong>potrebbero non essere ammessi ai finanziamenti del Piano</strong> e successivamente finanziati da altre misure di spesa. <strong>Per la lista definitiva dei progetti PNRR</strong>, <strong>si rimanda agli elenchi ufficiali emanati dalle Amministrazioni responsabili dei finanziamenti</strong>.</p>
@@ -285,7 +305,7 @@ Fai attenzione
 </div>
 <div class="cell page-columns page-full" data-execution_count="1">
 <div class="cell-output cell-output-display page-columns page-full">
-<p>Il file si chiama <a href="https://opencup.gov.it/portale/documents/21195/117121/progetti_cup_20230120.xlsx" target="_blank"><code>progetti_cup_20230120.xlsx</code></a>, ed è composto da <strong>221.479 righe</strong> e <strong>35 colonne</strong>.</p>
+<p>Il file si chiama <a href="https://opencup.gov.it/portale/documents/21195/117121/progetti_cup_20230120.xlsx"><code>progetti_cup_20230120.xlsx</code></a>, ed è composto da <strong>221.479 righe</strong> e <strong>35 colonne</strong>.</p>
 <p>Inoltre:</p>
 <ul>
 <li>il numero di codici CUP è pari a <strong>171.886</strong>;</li>
@@ -324,7 +344,7 @@ Formato di pubblicazione alternativo
 <div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Note</h2>
 
 <ol>
-<li id="fn1"><p>il formato <code>parquet</code> <a href="https://parquet.apache.org/" class="uri" target="_blank">https://parquet.apache.org/</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>il formato <code>parquet</code> <a href="https://parquet.apache.org/" class="uri">https://parquet.apache.org/</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -545,7 +565,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^.*ondata\.github\.io\/italian-public-sector-pnrr-data-guide/);
+      var filterRegex = new RegExp(/^.*pnrr\.datibenecomune\.it\//);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
@@ -575,8 +595,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY</a> <a href="https://datibenecomune.it/" target="_blank">#datiBeneComune</a></div>   
-    <div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/fonti/opencup/focus-pnrr.qmd" class="toc-action">Modifica questa pagina</a></p><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/issues/new" class="toc-action">Segnala un problema</a></p></div></div></div><div class="nav-footer-right">Un sito costruito con ❤️ e con <a href="https://quarto.org/" target="_blank">Quarto</a>.</div>
+    <div class="nav-footer-left"><a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a> <a href="https://datibenecomune.it/">#datiBeneComune</a></div>   
+    <div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/fonti/opencup/focus-pnrr.qmd" class="toc-action">Modifica questa pagina</a></p><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/issues/new" class="toc-action">Segnala un problema</a></p></div></div></div><div class="nav-footer-right">Un sito costruito con ❤️ e con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
 

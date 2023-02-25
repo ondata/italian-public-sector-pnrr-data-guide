@@ -126,6 +126,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 <link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Dati aperti sul PNRR - ANAC">
+<meta property="og:description" content="Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi.">
+<meta property="og:image" content="https://pnrr.datibenecomune.it//images/cover-og.png">
+<meta property="og:site-name" content="Dati aperti sul PNRR">
+<meta property="og:locale" content="it_IT">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="Dati aperti sul PNRR - ANAC">
+<meta name="twitter:description" content="Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi.">
+<meta name="twitter:image" content="https://pnrr.datibenecomune.it//images/cover-og.png">
+<meta name="twitter:creator" content="@ondatait">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -300,6 +314,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="../../quinto-piano-governo-aperto.html" class="sidebar-item-text sidebar-link">OGP e altre iniziative istituzionali</a>
   </div>
 </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://vorrei.datibenecomune.it/" class="sidebar-item-text sidebar-link">I dati che vorrei</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -342,12 +362,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="introduzione" class="level2">
 <h2 class="anchored" data-anchor-id="introduzione">Introduzione</h2>
-<p>L’<strong>Autorità Nazionale Anticorruzione</strong> (ANAC) ha un <a href="https://dati.anticorruzione.it/opendata" target="_blank"><strong>portale open data</strong></a>, in cui pubblica e aggiorna una gran mole di dati.<br> In questo non sono disponibili file, dataset o risorse associati in modo diretto al PNRR, ma è possibile estrarre diverse informazioni correlate.</p>
+<p>L’<strong>Autorità Nazionale Anticorruzione</strong> (ANAC) ha un <a href="https://dati.anticorruzione.it/opendata"><strong>portale open data</strong></a>, in cui pubblica e aggiorna una gran mole di dati.<br> In questo non sono disponibili file, dataset o risorse associati in modo diretto al PNRR, ma è possibile estrarre diverse informazioni correlate.</p>
 <p>💡Un modo per farlo è sfruttare proprio i <a href="../../fonti/opencup/focus-pnrr.html">dati del “focus PNRR” di OpenCUP</a>.</p>
 </section>
 <section id="il-dataset-cup" class="level2">
 <h2 class="anchored" data-anchor-id="il-dataset-cup">Il dataset CUP</h2>
-<p>L’ANAC rende disponibile il dataset “<a href="https://dati.anticorruzione.it/opendata/dataset/cup" target="_blank">CUP</a>”, che contiene i <strong>codici CUP</strong>, relativi agli appalti ordinari<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> pubblicati.</p>
+<p>L’ANAC rende disponibile il dataset “<a href="https://dati.anticorruzione.it/opendata/dataset/cup">CUP</a>”, che contiene i <strong>codici CUP</strong>, relativi agli appalti ordinari<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> pubblicati.</p>
 <p>Ad ogni CUP, è associato il <strong>Codice Identificativo Gara</strong> (<strong>CIG</strong>), un codice alfanumerico di 10 cifre che consente di <strong>identificare</strong> in maniera univoca gli elementi costitutivi delle <strong>gare d’appalto</strong>.<br> È utile per identificare gare, lotti e contratti e quindi per tracciare le movimentazioni finanziarie degli affidamenti di lavori, servizi o forniture.</p>
 <p>È una tabella composta dalle sole due colonne <code>CIG</code> e <code>CUP</code> (vedi esempio di sotto).</p>
 <table class="table">
@@ -411,17 +431,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="la-pagina-web-di-un-cig" class="level2">
 <h2 class="anchored" data-anchor-id="la-pagina-web-di-un-cig">La pagina web di un CIG</h2>
-<p>Sul portale ANAC è disponibile la <a href="https://dati.anticorruzione.it/superset/dashboard/appalti/" target="_blank">sezione <em>Analytics</em></a> in cui è possibile visualizzare in modo interattivo dei dati di riepilogo così come fare delle <strong>ricerche per CIG</strong>. E a ogni CIG è associata una pagina web. L’indirizzo ha questo schema di URL:<br></p>
+<p>Sul portale ANAC è disponibile la <a href="https://dati.anticorruzione.it/superset/dashboard/appalti/">sezione <em>Analytics</em></a> in cui è possibile visualizzare in modo interattivo dei dati di riepilogo così come fare delle <strong>ricerche per CIG</strong>. E a ogni CIG è associata una pagina web. L’indirizzo ha questo schema di URL:<br></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>https://dati.anticorruzione.it/superset/dettaglio_cig/cig</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Quindi ad esempio nel caso del codice CUP <code>918052266A</code>, l’URL sarà<br> <a href="https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A" class="uri" target="_blank">https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A</a>.</p>
+<p>Quindi ad esempio nel caso del codice CUP <code>918052266A</code>, l’URL sarà<br> <a href="https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A" class="uri">https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A</a>.</p>
 <p>È molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.</p>
 </section>
 <section id="fare-una-ricerca-sul-portale-anac" class="level2">
 <h2 class="anchored" data-anchor-id="fare-una-ricerca-sul-portale-anac">Fare una ricerca sul Portale ANAC</h2>
-<p>Su Portale è presente anche una <a href="https://dati.anticorruzione.it/superset/dashboard/ricerca_avanzata/" target="_blank"><strong>pagina di ricerca</strong></a>, in cui è possibile inserire uno o più parametri - anche ad esempio una parola presente nell’oggetto - e avere restituito l’elenco delle procedure correlate.</p>
+<p>Su Portale è presente anche una <a href="https://dati.anticorruzione.it/superset/dashboard/ricerca_avanzata/"><strong>pagina di ricerca</strong></a>, in cui è possibile inserire uno o più parametri - anche ad esempio una parola presente nell’oggetto - e avere restituito l’elenco delle procedure correlate.</p>
 <div id="fig-opencup-visuale" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><a href="https://dati.anticorruzione.it/superset/dashboard/ricerca_avanzata/" target="_blank"><img src="images/anac-ricerca-visuale.png" class="img-fluid figure-img" alt="Form di ricerca del Portale ANAC"></a></p>
+<p><a href="https://dati.anticorruzione.it/superset/dashboard/ricerca_avanzata/"><img src="images/anac-ricerca-visuale.png" class="img-fluid figure-img" alt="Form di ricerca del Portale ANAC"></a></p>
 <p></p><figcaption class="figure-caption">Figura&nbsp;1: Il modulo di ricerca del Portale ANAC</figcaption><p></p>
 </figure>
 </div>
@@ -654,7 +674,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^.*ondata\.github\.io\/italian-public-sector-pnrr-data-guide/);
+      var filterRegex = new RegExp(/^.*pnrr\.datibenecomune\.it\//);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
@@ -684,8 +704,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY</a> <a href="https://datibenecomune.it/" target="_blank">#datiBeneComune</a></div>   
-    <div class="nav-footer-right">Un sito costruito con ❤️ e con <a href="https://quarto.org/" target="_blank">Quarto</a>.</div>
+    <div class="nav-footer-left"><a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a> <a href="https://datibenecomune.it/">#datiBeneComune</a></div>   
+    <div class="nav-footer-right">Un sito costruito con ❤️ e con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
 

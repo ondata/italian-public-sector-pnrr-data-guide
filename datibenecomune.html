@@ -63,6 +63,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Dati aperti sul PNRR - dati Bene Comune">
+<meta property="og:description" content="Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi.">
+<meta property="og:image" content="https://pnrr.datibenecomune.it//images/cover-og.png">
+<meta property="og:site-name" content="Dati aperti sul PNRR">
+<meta property="og:locale" content="it_IT">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="Dati aperti sul PNRR - dati Bene Comune">
+<meta name="twitter:description" content="Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi.">
+<meta name="twitter:image" content="https://pnrr.datibenecomune.it//images/cover-og.png">
+<meta name="twitter:creator" content="@ondatait">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -237,6 +251,12 @@ ul.task-list li input[type="checkbox"] {
   <a href="./quinto-piano-governo-aperto.html" class="sidebar-item-text sidebar-link">OGP e altre iniziative istituzionali</a>
   </div>
 </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://vorrei.datibenecomune.it/" class="sidebar-item-text sidebar-link">I dati che vorrei</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -265,15 +285,15 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><a href="https://www.datibenecomune.it/" target="_blank"><strong>Dati Bene Comune</strong></a> nasce nel 2020 su iniziativa di onData, Transparency International Italia e ActionAid Italia, per chiedere al governo italiano maggior trasparenza e dati aperti sulla pandemia di Covid19.</p>
+<p><a href="https://www.datibenecomune.it/"><strong>Dati Bene Comune</strong></a> nasce nel 2020 su iniziativa di onData, Transparency International Italia e ActionAid Italia, per chiedere al governo italiano maggior trasparenza e dati aperti sulla pandemia di Covid19.</p>
 <p>Nel giro di pochi mesi la campagna cresce fino a raccogliere oltre 55.000 sottoscrizioni di cittadini italiani e quasi 300 organizzazioni aderenti, tra associazioni, centri di ricerca, piccole imprese, testate editoriali.</p>
 <p>Dati Bene Comune riesce ad ottenere dei risultati significativi, liberando finalmente alcuni importanti dati detenuti dalla Protezione Civile e dal Ministero della Salute e cominciando una proficua interlocuzione con le istituzioni, per migliorarne la qualità e le modalità di pubblicazione.</p>
 <p>Dato il successo ottenuto anche in termini di promozione della cultura dei dati aperti, la campagna decide nel 2022 di dedicarsi ad altri ambiti di interesse pubblico, primo fra tutti il PNRR, il Piano di Ripartenza e Resilienza, che vedrà l’Italia investire oltre 200 miliardi di euro in progetti trasformativi per il paese entro il 2026.</p>
 <p>Dati Bene Comune è oggi una delle voci più autorevoli, più seguite e più ascoltate in materia di trasparenza e di riuso dei dati di pubblico interesse: supporta attivisti e giornalisti ad avviare progetti di monitoraggio civico, organizza momenti di promozione degli open data e percorsi di formazione aperti alla cittadinanza, dialoga in maniera costruttiva, ma senza compromessi al ribasso, con la politica e le amministrazioni per aumentare la qualità dei dati pubblicati.</p>
-<p>Per seguire o supportare la campagna, ti invitiamo a visitare il sito e sottoscrivere la petizione se sei una persona fisica, o a richiedere l’adesione se sei un’associazione, un collettivo, un centro di ricerca, una testata giornalistica, un’azienda privata: <a href="https://www.datibenecomune.it/partecipa/" class="uri" target="_blank">https://www.datibenecomune.it/partecipa/</a></p>
+<p>Per seguire o supportare la campagna, ti invitiamo a visitare il sito e sottoscrivere la petizione se sei una persona fisica, o a richiedere l’adesione se sei un’associazione, un collettivo, un centro di ricerca, una testata giornalistica, un’azienda privata: <a href="https://www.datibenecomune.it/partecipa/" class="uri">https://www.datibenecomune.it/partecipa/</a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.datibenecomune.it/" target="_blank"><img src="images/datibenecomune.png" class="img-fluid figure-img"></a></p>
+<p><a href="https://www.datibenecomune.it/"><img src="images/datibenecomune.png" class="img-fluid figure-img"></a></p>
 </figure>
 </div>
 
@@ -498,7 +518,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^.*ondata\.github\.io\/italian-public-sector-pnrr-data-guide/);
+      var filterRegex = new RegExp(/^.*pnrr\.datibenecomune\.it\//);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
@@ -528,8 +548,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY</a> <a href="https://datibenecomune.it/" target="_blank">#datiBeneComune</a></div>   
-    <div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/datibenecomune.md" class="toc-action">Modifica questa pagina</a></p><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/issues/new" class="toc-action">Segnala un problema</a></p></div></div></div><div class="nav-footer-right">Un sito costruito con ❤️ e con <a href="https://quarto.org/" target="_blank">Quarto</a>.</div>
+    <div class="nav-footer-left"><a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a> <a href="https://datibenecomune.it/">#datiBeneComune</a></div>   
+    <div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/datibenecomune.md" class="toc-action">Modifica questa pagina</a></p><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/issues/new" class="toc-action">Segnala un problema</a></p></div></div></div><div class="nav-footer-right">Un sito costruito con ❤️ e con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
 

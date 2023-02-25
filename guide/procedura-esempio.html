@@ -125,6 +125,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 <link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Dati aperti sul PNRR - Estrarre le informazioni sul PNRR">
+<meta property="og:description" content="Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi.">
+<meta property="og:image" content="https://pnrr.datibenecomune.it//images/cover-og.png">
+<meta property="og:site-name" content="Dati aperti sul PNRR">
+<meta property="og:locale" content="it_IT">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="Dati aperti sul PNRR - Estrarre le informazioni sul PNRR">
+<meta name="twitter:description" content="Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi.">
+<meta name="twitter:image" content="https://pnrr.datibenecomune.it//images/cover-og.png">
+<meta name="twitter:creator" content="@ondatait">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -299,6 +313,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="../quinto-piano-governo-aperto.html" class="sidebar-item-text sidebar-link">OGP e altre iniziative istituzionali</a>
   </div>
 </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://vorrei.datibenecomune.it/" class="sidebar-item-text sidebar-link">I dati che vorrei</a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -366,7 +386,7 @@ Estrarre la sola colonna con i codici CUP, da riga di comando
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>È comodo farlo con <a href="https://miller.readthedocs.io/en/latest/" target="_blank"><strong>Miller</strong></a>:</p>
+<p>È comodo farlo con <a href="https://miller.readthedocs.io/en/latest/"><strong>Miller</strong></a>:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mlr</span> <span class="at">--csv</span> cut <span class="at">-f</span> CODICE_CUP then uniq <span class="at">-a</span> opencup-focus-083048.csv <span class="op">&gt;</span>opencup-focus-083048-cup.csv</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Con <code>cut -f CODICE_CUP</code> si taglia la sola colonna <code>CODICE_CUP</code> e con <code>uniq -a</code> si estraggono i soli valori univoci.</p>
 </div>
@@ -386,7 +406,7 @@ Filtrare i 3 milioni di record di ANAC
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si può usare il comodo ed efficiente <a href="https://github.com/jqnatividad/qsv" target="_blank"><code>qsv</code></a>, a partire dal file <a href="../data/messina/opencup-focus-083048-cup.csv"><code>opencup-focus-083048-cup.csv</code></a> (che contiene i soli codici CUP del Comune di Messina):</p>
+<p>Si può usare il comodo ed efficiente <a href="https://github.com/jqnatividad/qsv"><code>qsv</code></a>, a partire dal file <a href="../data/messina/opencup-focus-083048-cup.csv"><code>opencup-focus-083048-cup.csv</code></a> (che contiene i soli codici CUP del Comune di Messina):</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-d</span> <span class="st">";"</span> <span class="at">-i</span> <span class="at">-s</span> CUP opencup-focus-083048-cup.csv cup_csv.csv <span class="op">&gt;</span>anac-cup-cig-083048.csv</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Con <code>-d ";"</code> si imposta il separatore di campo che in ANAC è <code>;</code>, con <code>-i -s CUP opencup-focus-083048-cup.csv</code> si cercano nel file ANAC, nella colonna <code>CUP</code>, tutti i record contenenti i codici CUP estratti per Messina.</p>
 </div>
@@ -415,7 +435,7 @@ Interrogare le API di ANAC ed estrarre i dati di insieme
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>È uno <a href="../script/messina/messina.sh">script <code>bash</code></a> basato su <a href="https://miller.readthedocs.io/en/latest/" target="_blank">Miller</a> e su <a href="https://flatterer.opendata.coop/" target="_blank">flatterer</a>.</p>
+<p>È uno <a href="../script/messina/messina.sh">script <code>bash</code></a> basato su <a href="https://miller.readthedocs.io/en/latest/">Miller</a> e su <a href="https://flatterer.opendata.coop/">flatterer</a>.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># variabile con il percorso assoluto della cartella dello script</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="va">folder</span><span class="op">=</span><span class="st">"</span><span class="va">$(</span><span class="bu">cd</span> <span class="st">"</span><span class="va">$(</span><span class="fu">dirname</span> <span class="st">"</span><span class="va">${BASH_SOURCE</span><span class="op">[</span><span class="dv">0</span><span class="op">]</span><span class="va">}</span><span class="st">"</span><span class="va">)</span><span class="st">"</span> <span class="kw">&amp;&amp;</span> <span class="bu">pwd</span><span class="va">)</span><span class="st">"</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -462,7 +482,7 @@ Estrarre dai dati SCP, i dati a partire dai CIG di Messina
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si può usare ancora una volta il comodo ed efficiente <a href="https://github.com/jqnatividad/qsv" target="_blank"><code>qsv</code></a>, a partire dal file <a href="../data/messina/anac-cup-cig-083048-cig.csv"><code>anac-cup-cig-083048-cig.csv</code></a> con i soli codici CIG legati al PNRR e relativi al Comune di Messina:</p>
+<p>Si può usare ancora una volta il comodo ed efficiente <a href="https://github.com/jqnatividad/qsv"><code>qsv</code></a>, a partire dal file <a href="../data/messina/anac-cup-cig-083048-cig.csv"><code>anac-cup-cig-083048-cig.csv</code></a> con i soli codici CIG legati al PNRR e relativi al Comune di Messina:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># atti</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_atti.csv <span class="op">&gt;</span>scp-atti-083048.csv</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># esiti</span></span>
@@ -707,7 +727,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^.*ondata\.github\.io\/italian-public-sector-pnrr-data-guide/);
+      var filterRegex = new RegExp(/^.*pnrr\.datibenecomune\.it\//);
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
@@ -734,8 +754,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left"><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY</a> <a href="https://datibenecomune.it/" target="_blank">#datiBeneComune</a></div>   
-    <div class="nav-footer-right">Un sito costruito con ❤️ e con <a href="https://quarto.org/" target="_blank">Quarto</a>.</div>
+    <div class="nav-footer-left"><a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a> <a href="https://datibenecomune.it/">#datiBeneComune</a></div>   
+    <div class="nav-footer-right">Un sito costruito con ❤️ e con <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
 

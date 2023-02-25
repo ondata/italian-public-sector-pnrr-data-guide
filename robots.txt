@@ -1,1 +1,1 @@
-Sitemap: https://ondata.github.io/italian-public-sector-pnrr-data-guide/sitemap.xml
+Sitemap: https://pnrr.datibenecomune.it/sitemap.xml
