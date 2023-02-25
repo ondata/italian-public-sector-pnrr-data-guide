@@ -8,7 +8,7 @@ project:
 
 website:
   title: "Dati aperti sul PNRR"
-  site-url: https://ondata.github.io/italian-public-sector-pnrr-data-guide
+  site-url: https://pnrr.datibenecomune.it/
   repo-url: https://github.com/ondata/italian-public-sector-pnrr-data-guide
   repo-actions: [edit, issue]
   page-navigation: true
@@ -66,6 +66,19 @@ website:
             target: "_blank"
       - href: quinto-piano-governo-aperto.md
         text: OGP e altre iniziative istituzionali
+      - text: "---"
+      - href: https://vorrei.datibenecomune.it/
+        text: I dati che vorrei
+
+  twitter-card:
+    creator: "@ondatait"
+    card-style: summary_large_image
+    image: "/images/cover-og.png"
+    description: "Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi."
+  open-graph:
+    locale: it_IT
+    image: "/images/cover-og.png"
+    description: "Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi."
 
 
   page-footer:
@@ -80,11 +93,8 @@ format:
     code-copy: true
     code-overflow: wrap
     link-external-newwindow: true
-    link-external-filter: '^.*ondata\.github\.io\/italian-public-sector-pnrr-data-guide'
+    link-external-filter: '^.*pnrr\.datibenecomune\.it\/'
     lang: "it-IT"
-    bibliography: open-pnrr.bib
-    filters:
-      - risorse/newpagelink.lua
 
 execute:
   daemon: false
