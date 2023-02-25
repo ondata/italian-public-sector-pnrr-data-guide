@@ -1,6 +1,9 @@
 ---
 title: "I dati aperti sul PNRR"
 subtitle: "Le principali fonti della Pubblica Amministrazione Italiana"
+format:
+  html:
+    toc: false
 ---
 
 Le **informazioni** sul Piano Nazionale di Ripresa e Resilienza (**PNRR**) e sulla sua gestione sono ancora **poche**. Per cittadine e cittadini, associazioni, giornaliste/i, movimenti, università, centri di ricerca, aziende, ecc. è difficile e alle volte impossibile seguire un progetto e il suo impatto sul territorio e sulle persone.<br>

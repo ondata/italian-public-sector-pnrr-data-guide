@@ -1,5 +1,8 @@
 ---
 title: dati Bene Comune
+format:
+  html:
+    toc: false
 ---
 
 [**Dati Bene Comune**](https://www.datibenecomune.it/) nasce nel 2020 su iniziativa di onData, Transparency International Italia e ActionAid Italia, per chiedere al governo italiano maggior trasparenza e dati aperti sulla pandemia di Covid19.

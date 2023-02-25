@@ -1,6 +1,9 @@
 ---
 title: "Informazioni"
 subtitle: "Il progetto sui \"Dati aperti sul PNRR\""
+format:
+  html:
+    toc: false
 ---
 
 La presente guida è a cura dall'[**associazione onData**](https://www.ondata.it/), in collaborazione con **altre organizzazioni** e **altre persone**, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel PNRR, e che hanno collaborato sul tema in diversi contesti.

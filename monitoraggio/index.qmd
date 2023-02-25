@@ -1,6 +1,8 @@
 ---
 title: "Il Monitoraggio civico"
-format: html
+format:
+  html:
+    toc: false
 ---
 
 Negli ultimi anni sono stati sviluppati metodi, pratiche e strumenti che hanno lo scopo di presidiare, verificare e valutare dal basso l'uso dei fondi pubblici. Si tratta del monitoraggio “civico” delle politiche pubbliche, sperimentato già da varie iniziative della società civile. La parola “civico” serve non solo per distinguerlo dal monitoraggio amministrativo, a cui non si sostituisce, ma anche per sottolineare la natura partecipativa di queste attività.<br>
