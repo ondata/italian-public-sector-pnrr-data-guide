@@ -12,6 +12,7 @@ website:
   repo-url: https://github.com/ondata/italian-public-sector-pnrr-data-guide
   repo-actions: [edit, issue]
   page-navigation: true
+  favicon: images/favicon.png
   navbar:
     left:
       - href: index.qmd
