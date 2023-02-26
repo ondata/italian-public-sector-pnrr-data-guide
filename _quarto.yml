@@ -13,7 +13,7 @@ website:
   title: "Dati aperti sul PNRR"
   site-url: https://pnrr.datibenecomune.it/
   repo-url: https://github.com/ondata/italian-public-sector-pnrr-data-guide
-  repo-actions: [edit, issue]
+  repo-actions: [edit]
   page-navigation: true
   favicon: images/favicon.png
   navbar:
