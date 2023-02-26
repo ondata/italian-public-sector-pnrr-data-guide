@@ -73,6 +73,7 @@ website:
       - text: "---"
       - href: https://vorrei.datibenecomune.it/
         text: I dati che vorrei
+        target: "_blank"
 
   twitter-card:
     creator: "@ondatait"
