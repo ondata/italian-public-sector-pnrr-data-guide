@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.220">
+<meta name="generator" content="quarto-1.3.228">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,6 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -299,12 +300,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://www.monithon.eu/it/" class="sidebar-item-text sidebar-link">Monithon</a>
+  <a href="https://www.monithon.eu/it/" class="sidebar-item-text sidebar-link" target="&quot;_blank&quot;">Monithon</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://www.thinktankperiod.org/" class="sidebar-item-text sidebar-link">think tank Period</a>
+  <a href="https://www.thinktankperiod.org/" class="sidebar-item-text sidebar-link" target="&quot;_blank&quot;">think tank Period</a>
   </div>
 </li>
       </ul>
@@ -375,12 +376,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </figure>
 </div>
 <p>E a partire da questo file estratto, è utile per i prossimi step, <strong>salvare</strong> in CSV anche <strong>un file contenente la sola colonna con i valori univoci di codici CUP</strong>.<br> Con un foglio elettronico si può fare un semplice copia e incolla in un nuovo foglio della sola prima colonna e salvare il tutto in CSV.<br> In output il file <a href="../data/messina/opencup-focus-083048-cup.csv"><code>opencup-focus-083048-cup.csv</code></a>.</p>
-<div class="callout callout-style-default callout-tip callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Estrarre la sola colonna con i codici CUP, da riga di comando
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -397,12 +398,12 @@ Estrarre la sola colonna con i codici CUP, da riga di comando
 <section id="estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti" class="level2">
 <h2 class="anchored" data-anchor-id="estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti">Estrarre i dati da ANAC, a partire dai codici CUP estratti</h2>
 <p>Il <a href="../fonti/anac/index.html#il-dataset-cup">dataset CUP</a> pubblicato dall’Autorità Nazionale Anticorruzione è composto da <strong>più di 3 milioni di record</strong>, quindi un foglio elettronico è pressoché inutilizzabile per estrarre tutti i codici <code>CIG</code> corrispondenti ai codici <code>CUP</code> estratti sopra per Messina.<br> È necessario utilizzare un linguaggio di programmazione o delle <em>utility</em> dedicate alla elaborazione di file di testo strutturato (CSV, TSV, JSON, ecc.).</p>
-<div class="callout callout-style-simple callout-none no-icon callout-captioned">
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Filtrare i 3 milioni di record di ANAC
 </div>
 </div>
@@ -424,12 +425,12 @@ Filtrare i 3 milioni di record di ANAC
 </div>
 <p>A partire dal file estratto è utile <strong>estrarre</strong> anche un <strong>file <code>CSV</code></strong> con i <strong>soli codici CIG univoci</strong>.<br> Per questo esempio è stato creato il file <a href="../data/messina/anac-cup-cig-083048-cig.csv">anac-cup-cig-083048-cig.csv</a>.</p>
 <p>Questo file è comodo per <a href="../fonti/anac/informazioni-cig.html#tramite-api"><strong>interrogare le API di ANAC</strong></a>, ed <strong>estrarre</strong> le <strong>informazioni relative</strong> a questi codici CIG estratti per Messina.<br> Ancora una volta, si fa notare che questa è un’operazione semplice, ma che richiedere alcune conoscenze di programmazione. Qui sotto, al click, un esempio di codice.</p>
-<div class="callout callout-style-default callout-note callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Interrogare le API di ANAC ed estrarre i dati di insieme
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -473,12 +474,12 @@ Interrogare le API di ANAC ed estrarre i dati di insieme
 <h2 class="anchored" data-anchor-id="estrarre-i-dati-della-banca-dati-servizio-contratti-pubblici">Estrarre i dati della Banca dati Servizio Contratti Pubblici</h2>
 <p>Per estrarre i dati relativi a Messina e al PNRR dalla <a href="../fonti/scp/index.html">Banca Dati SCP</a>, si possono usare ancora una volta i <strong>codici <code>CIG</code></strong> presenti nel file <a href="../data/messina/anac-cup-cig-083048-cig.csv">anac-cup-cig-083048-cig.csv</a> estratto sopra.</p>
 <p>Qui sotto ad esempio i comandi necessari per estrarre i dati dai file <strong>atti</strong>, <strong>esiti</strong> e <strong>bandi</strong>, contenuti nella Banca Dati SCP.</p>
-<div class="callout callout-style-simple callout-none no-icon callout-captioned">
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Estrarre dai dati SCP, i dati a partire dai CIG di Messina
 </div>
 </div>

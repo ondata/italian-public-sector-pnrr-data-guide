@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.220">
+<meta name="generator" content="quarto-1.3.228">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,6 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -300,12 +301,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://www.monithon.eu/it/" class="sidebar-item-text sidebar-link">Monithon</a>
+  <a href="https://www.monithon.eu/it/" class="sidebar-item-text sidebar-link" target="&quot;_blank&quot;">Monithon</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://www.thinktankperiod.org/" class="sidebar-item-text sidebar-link">think tank Period</a>
+  <a href="https://www.thinktankperiod.org/" class="sidebar-item-text sidebar-link" target="&quot;_blank&quot;">think tank Period</a>
   </div>
 </li>
       </ul>
@@ -368,12 +369,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </figure>
 </div>
 <p>I file per mese sono compressi in formato <code>ZIP</code> e disponibili in più formati (qui si fa riferimento al <code>CSV</code>). Sono file ricchi di informazioni, come l’oggetto della gara, la modalità di scelta del contraente, il luogo di riferimento secondo codifica Istat, i codici CPV<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> per categorizzare l’oggetto della gara, l’importo, il settore, ecc. (sotto un esempio, fare click per espandere).</p>
-<div class="callout callout-style-default callout-note callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Esempio di contenuto file sui CIG di ANAC
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -529,12 +530,12 @@ Esempio di contenuto file sui CIG di ANAC
 <div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/numero_cig</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Se ad esempio si vogliono ottenere le informazioni relative al CIG <code>918052266A</code> associato al CUP <a href="https://opencup.gov.it/portale/progetto/-/cup/G34E21000260001"><code>G34E21000260001</code></a>, l’URL da utilizzare sarà:<br> <a href="https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/918052266A" class="uri">https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/918052266A</a></p>
 <p>Si hanno ancora una volta diverse informazioni, e il formato file è stavolta il <code>JSON</code> (sotto un esempio, fare click per espandere).</p>
-<div class="callout callout-style-default callout-note callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Output delle API ANAC, per il CIG <code>918052266A</code>
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
