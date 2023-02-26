@@ -1,4 +1,5 @@
 # options apply to all posts in this folder
+sidebar: false
 
 # freeze computational output
 freeze: auto
