@@ -13,9 +13,8 @@ categories:
 Il [**portale nazionale dei dati aperti**](https://dati.gov.it/), contiene l'elenco di quei dati pubblicati dalle pubbliche amministrazioni italiane che rispettano le [linee guida open data](https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/index.html).
 :::
 
-Sul portale nazionale dei dati aperti sono pubblicati i dati aperti gestiti dalla **Regione Piemonte**.
-
-È di recentissima pubblicazione nel portale nazionale il dataset denominato "[**Progetti PNRR gestiti dalla Regione Piemonte - dettagli**](https://dati.gov.it/view-dataset/dataset?id=5506399a-c01b-4bc5-a3ec-ed25a90539d9)".
+Sul portale nazionale dei dati aperti sono pubblicati i dati aperti gestiti dalla **Regione Piemonte**.<br>
+È di recentissima pubblicazione in questo, il dataset denominato "[**Progetti PNRR gestiti dalla Regione Piemonte - dettagli**](https://dati.gov.it/view-dataset/dataset?id=5506399a-c01b-4bc5-a3ec-ed25a90539d9)".
 
 > Il dataset contiene le informazioni relative agli importi dei progetti del PNRR che vedono come soggetto attuatore la Regione Piemonte. Viene mostrato il dettaglio relativo alla Missione, alla Componente e alla Misura. I totali delle risorse assegnate per ciascun progetto (identificato da un CUP) sono ripartiti tra i comuni di localizzazione dei beneficiari, sulla base della tipologia di **ricaduta territoriale**: comune singolo, più comuni, tutta la provincia, tutta la regione. In caso di progetto con beneficiari multipli, la ricaduta territoriale teorica del progetto viene calcolata ripartendo il totale delle risorse assegnate dal progetto sulla base del peso relativo della popolazione di ogni comune di localizzazione rispetto alla popolazione totale dell'aggregazione di comuni considerata.
 
@@ -31,14 +30,10 @@ Qui sotto un esempio di contenuto della tabella dati:
 | componente | M6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale |
 | misura | M6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita') |
 | id_intervento | M6C1I1.3 |
-| cup | [F19J22000790006](https://opencup.gov.it/portale/progetto/-/cup/F19J22000790006/) |
+| cup | [F19J22000790006](https://opencup.gov.it/portale/progetto/-/cup/F19J22000790006/)^[Il link al codice CUP non è presente nel file originale. È stato aggiunto per dare conto di quanto è possibile fare sul sito [OpenCUP](../../fonti/opencup/index.qmd#la-pagina-web-di-un-cup)] |
 | titolo_progetto | OSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74 |
 | tot_risorse_assegnate_a_regione_piemonte | 2460498,0 |
 | note | Progetto localizzato nel comune TORINO |
-
-::: aside
-Il link al codice CUP non è presente nel file originale. È stato aggiunto per dare conto di quanto possibile su [OpenCUP](../../fonti/opencup/index.qmd#la-pagina-web-di-un-cup).
-:::
 
 È presente una colonna con il codice `CUP`, quindi è teoricamente possibile **arricchire il dettaglio informativo** a partire dalle banche dati [OpenCUP](../../fonti/opencup/), [ANAC](../../fonti/anac/), [Servizio Contratti Pubblici](../../fonti/scp/) e [OpenBDAP](../../fonti/openbdap/) (così come nell'[esempio](../../guide/procedura-esempio.qmd) per il Comune di Messina).<br>
 Questi ad esempio [i 🧮 dati](regpie-Coordfondi_pnrr_opendata_23951-focus-open_cup.csv) estraibili dal [Focus PNRR di OpenCUP](../../fonti/opencup/focus-pnrr.qmd).
