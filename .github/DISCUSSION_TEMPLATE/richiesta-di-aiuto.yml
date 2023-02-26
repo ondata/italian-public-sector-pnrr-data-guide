@@ -8,6 +8,6 @@ body:
 - type: textarea
   attributes:
     label: Testo
-    description: Scrivi il testo della tua richiesta
+    description: "Scrivi il testo della tua richiesta:"
   validations:
     required: true

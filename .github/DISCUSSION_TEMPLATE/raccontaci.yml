@@ -4,10 +4,10 @@ body:
 - type: markdown
   attributes:
     value: |
-      Qui rispondiamo a richieste di aiuto legate a quanto descritto [in questa guida guida](https://pnrr.datibenecomune.it/), **non** a **domande generiche** sui dati del PNRR.<br>Non è un servizio per richiedere la scrittura gratuita di script, procedure, testi, ecc..<br>Raccontaci cosa hai provato a fare e dove ti sei bloccato, possiamo provare ad aiutarti.
+      Se [**questa guida**](https://pnrr.datibenecomune.it/) ti è stata utile per **comprendere meglio** qualcosa sul PNRR, se l'hai usata per impostare un'**azione di monitoraggio**, se l'hai usata per **costruire qualcosa di nuovo**, raccontacelo qui.
 - type: textarea
   attributes:
     label: Testo
-    description: Scrivi il testo della tua richiesta
+    description: "Scrivi qui il tuo racconto:"
   validations:
     required: true
