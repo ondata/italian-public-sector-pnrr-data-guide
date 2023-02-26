@@ -21,6 +21,7 @@ Per la ragione sopra indicata, non è detto che un progetto in questo elenco sia
 from IPython.display import display, Markdown
 import humanize
 import locale
+import re
 locale.setlocale(locale.LC_ALL,"it_IT.UTF-8")
 
 humanize.i18n.activate("it_IT")
@@ -55,6 +56,8 @@ importo_finanziato=!<../../data/opencup/opencup-focus-pnrr.csv mlr --c2n cut -f 
     then uniq -a then stats1 -a min,max,mode,p75,mean,sum -f IMPO_COSTO_PROGETTO,IMPO_IMPORTO_FINANZIATO  >tmp_costi.csv;\
 fi
 
+importo_finanziato=re.sub("\.", ",",list({humanize.intword(int(importo_finanziato[0]))})[0])
+
 text=f"""
 
 Il file si chiama [`progetti_cup_20230120.xlsx`](https://opencup.gov.it/portale/documents/21195/117121/progetti_cup_20230120.xlsx), ed è composto da **{int(righe[0]):n} righe** e **{int(colonne[0])} colonne**.
@@ -65,7 +68,9 @@ Inoltre:
 - il numero di codici CUP è pari a **{int(numero_cup[0]):n}**;
 - sono progetti riferibili a **{int(numero_stati[0])} stati**, e per l'**Italia** (più del 99% dei progetti) a **{int(numero_regioni[0])} regioni**, **{int(numero_province[0])} province** e **{int(numero_comuni[0]):n} comuni**.
 - fanno riferimento a **{int(numero_settori[0])} settori** di intervento;
-- l'importo finanziato totale è pari a **{humanize.intword(int(importo_finanziato[0]))} di €**.
+- l'importo finanziato totale è pari a **{importo_finanziato} di €**.
+
+
 
 ::: aside
 Il numero di Province e Comuni è maggiore del loro numero totale in Italia, perché probabilmente si fa riferimento a Comuni e Province che sono stati soppressi.
