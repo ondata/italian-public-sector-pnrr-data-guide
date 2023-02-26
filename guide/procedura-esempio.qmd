@@ -209,3 +209,5 @@ In _output_ questo file `XLSX`, suddiviso in 3 fogli: `Dettaglio CUP`, `Dettagli
 
 In **questo [foglio elettronico](https://docs.google.com/spreadsheets/d/1qD4AwS_DLoEckTvir0ndK14BXCtfDyC_dZkAi6cNjlA/edit?usp=sharing)** tutti gli _output_ estratti (fanno riferimento a quanto disponibile a inizio febbraio del 2023).<br>
 Aprendolo si può avere un'idea di quali tipi di informazioni è possibile estrarre da queste fonti.
+
+[![Foglio elettronico con i dati raccolti per Messina](images/dati-raccolti.png){fig-alt="Foglio elettronico con i dati raccolti relativi al Comune di Messina" #fig-foglio-dati-messina}](https://docs.google.com/spreadsheets/d/1qD4AwS_DLoEckTvir0ndK14BXCtfDyC_dZkAi6cNjlA/edit?usp=sharing)
