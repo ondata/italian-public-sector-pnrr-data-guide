@@ -1,0 +1,23 @@
+---
+title: "Partecipare"
+format:
+  html:
+    toc: false
+---
+
+Abbiamo creato [uno spazio](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose) per ricevere questi contributi:
+
+- **proposte**, per proposte e suggerimenti su questo spazio;
+- **racconti**, per raccontarci in cosa è stato utile questo vademecum;
+- **richieste di aiuto**, per richieste legate a quanto descritto in questa guida.
+
+::: {.callout-important}
+## Richiesto account GitHub
+
+Per fare richieste di aiuto, proposte, raccontarci come hai usato questa guisa, sarà [**necessario creare un account su GitHub**](https://github.com/signup).<br>Basta rispondere alle domande che ti verranno fatte e infine scegliere il piano gratuito.
+
+:::
+
+[[👉 Partecipa]{.btn .btn-primary}](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose)
+
+[![](images/partecipare.png)](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose)

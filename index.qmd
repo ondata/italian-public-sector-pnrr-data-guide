@@ -29,5 +29,5 @@ Alcune note:
 - sarà in **continuo aggiornamento**, perché nel tempo si potranno aggiungere e/o anche rimuovere alcune fonti;
 - **non è un elenco completo** di tutte le fonti di dati aperti sul PNRR, ma al momento **solo** delle **principali** e legate a tutto il territorio **nazionale**.
 
-[[👉 Inizia da qui]{.btn .btn-primary}](introduzione.qmd)
+[[👉 Inizia da qui]{.btn .btn-primary}](introduzione.qmd) [[☝️ Partecipa]{.btn .btn-success}](partecipa.qmd)
 

@@ -4,7 +4,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      Qui rispondiamo a richieste di aiuto legate a quanto descritto [in questa guida guida](https://pnrr.datibenecomune.it/), **non** a **domande generiche** sui dati del PNRR.<br>Non è un servizio per richiedere la scrittura gratuita di script, procedure, testi, ecc..<br>Raccontaci cosa hai provato a fare e dove ti sei bloccato, possiamo provare ad aiutarti.
+      Qui rispondiamo a richieste di aiuto legate a quanto descritto [in questa guida](https://pnrr.datibenecomune.it/), **non** a **domande generiche** sui dati del PNRR.<br>Non è un servizio per richiedere la scrittura gratuita di script, procedure, testi, ecc..<br>Raccontaci cosa hai provato a fare e dove ti sei bloccato, possiamo provare ad aiutarti.
 - type: textarea
   attributes:
     label: Testo
