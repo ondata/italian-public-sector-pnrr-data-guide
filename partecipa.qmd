@@ -1,8 +1,5 @@
 ---
 title: "Partecipare"
-format:
-  html:
-    toc: false
 ---
 
 Abbiamo creato [uno spazio](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose) per raccogliere questi tipi di contributo, su questo vademecum:
@@ -20,4 +17,39 @@ Per fare richieste di aiuto, proposte, raccontarci come hai usato questa guida, 
 
 [[☝️ Partecipa]{.btn .btn-success}](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose)
 
-[![](images/partecipare.png)](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose)
+[![Le categorie dello spazio di partecipazione](images/partecipare.png){fig-alt="Le categorie dello spazio di partecipazione" #fig-partecipazione}](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose)
+
+## Come funziona lo spazio di partecipazione
+
+### Scrivere un nuovo messaggio
+
+È molto **simile a un forum**, diviso per categorie. Dovrai iniziare proprio dallo **scegliere una delle categorie** (vedi @fig-partecipazione).
+
+Poi dovrai creare un messaggio con un **buon titolo** e una **buona descrizione** (vedi @fig-partecipazione-messaggio).
+
+![Esempio di messaggio](images/esempio-discussione.png){fig-alt="Esempio di messaggio" #fig-partecipazione-messaggio}
+
+L'ultimo passo sarà quello di fare _click_ su `Start discussion`.
+
+### Rispondere a un messaggio
+
+Sotto 1️⃣ ogni messaggio c'è 2️⃣ lo spazio per rispondere (vedi @fig-partecipazione-messaggio-rispondere).
+
+Inoltre, se ci si iscrive allo spazio di discussione, sarà possibile farlo anche via e-mail.
+
+![Rispondere a un messaggio](images/rispondere-messaggio.png){fig-alt="Esempio di messaggio" #fig-partecipazione-messaggio-rispondere}
+
+
+### Per rimanere aggiornata/o
+
+Riceverai automaticamente gli avvisi per tutte le risposte ai tuoi messaggi.
+
+Potrai inoltre iscriverti soltanto a tutte le risposte a uno specifico messaggio, aprendolo e facendo click su `Subscribe` (vedi @fig-partecipazione-messaggio-iscrizione).
+
+![Iscriversi agli aggiornamenti di un messaggio](images/iscrizione-messaggio.png){fig-alt="Iscriversi agli aggiornamenti di un messaggio" #fig-partecipazione-messaggio-iscrizione}
+
+Infine potrai iscriverti a tutte le discussioni, seguendo i passi di @fig-partecipazione-iscriversi.
+
+🫶 Se credi che questo progetto sia utile, **per favore scegli questa modalità**. Uno spazio di partecipazione ha bisogno - sembra banale - di partecipazione.
+
+![Come iscriversi a tutte le discussioni](images/github-watch-discussions.gif){fig-alt="Come iscriversi a tutte le discussioni" #fig-partecipazione-iscriversi}
