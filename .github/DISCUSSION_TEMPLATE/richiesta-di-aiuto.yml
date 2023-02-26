@@ -1,20 +1,13 @@
 labels: [aiuto]
 body:
-- type: dropdown
+- type: markdown
   attributes:
-    label: Select Topic Area
-    description: What would you like to discuss?
-    options:
-      - "Product Feedback"
-      - "Question"
-      - "Bug"
-      - "Show & Tell"
-      - "General"
-  validations:
-    required: true
+    value: |
+      ## Richiesta di aiuto
+      Qui rispondiamo a richieste di aiuto legate a quanto descritto [in questa guida guida](https://pnrr.datibenecomune.it/), non a domande generiche sui dati del PNRR.
 - type: textarea
   attributes:
-    label: Body
-    description: Start your discussion!
+    label: Testo
+    description: Scrivi il testo della tua richista
   validations:
     required: true
