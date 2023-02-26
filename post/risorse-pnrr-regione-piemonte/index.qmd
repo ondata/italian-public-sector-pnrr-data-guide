@@ -30,7 +30,7 @@ import pandas as pd
 
 df=pd.read_csv("riga-esempio.csv")
 
-(df.style.hide_index().set_table_attributes("class='dataframe table-hover table-small table-responsive'"))
+(df.style.hide_index().set_table_attributes("class='dataframe table-striped table-small table-responsive'"))
 
 ```
 
