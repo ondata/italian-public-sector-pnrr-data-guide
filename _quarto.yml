@@ -20,6 +20,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: notizie.qmd
+        text: Aggiornamenti
       - about.qmd
 
   sidebar:
@@ -87,7 +89,11 @@ website:
 
 
   page-footer:
-    right: "Un sito costruito con ❤️ e con [Quarto](https://quarto.org/)."
+    right:
+      - icon: rss
+        href: notizie.xml
+      - icon: github
+        href: https://github.com/ondata/italian-public-sector-pnrr-data-guide
     left: "[CC-BY](https://creativecommons.org/licenses/by/4.0/) [#datiBeneComune](https://datibenecomune.it/)"
 
 format:
@@ -100,6 +106,7 @@ format:
     link-external-newwindow: true
     link-external-filter: '^.*pnrr\.datibenecomune\.it\/'
     lang: "it-IT"
+    include-in-header: include/rss.html
 
 execute:
   daemon: false

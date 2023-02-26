@@ -17,3 +17,7 @@ Questo _vademecum_ non sarebbe nato senza il "**fare cose, vedere gente**" in qu
 - una [**rete** della **società civile** per il monitoraggio del PNRR](rete-pnrr.md), che condividono regolarmente stato dell'arte e criticità delle loro iniziative e progettualità sul tema e concordano iniziative congiunte.
 
 Questa ricchezza di esperienze ci spinge a pensare che questo progetto possa essere **un bene comune**, che possa ricevere contributi e suggerimenti da parte di tutte le persone che vogliano contribuire a renderlo sempre più utile, completo e aggiornato.
+
+---
+
+Questo sito è costruito con ❤️ e con [Quarto](https://quarto.org/).
