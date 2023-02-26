@@ -44,5 +44,5 @@ Questi ad esempio [i 🧮 dati](regpie-Coordfondi_pnrr_opendata_23951-focus-open
 
 ## Mancanza codici Istat dei Comuni
 
-È un peccato che i riferimenti geografici (il nome dei Comuni) non siano associati ai relativi codici Istat. Questo rende i dati meno direttamente elaborabili e da mettere in relazione con altre banche dati.
+È un peccato che i riferimenti geografici (i nomi dei Comuni) non siano associati ai relativi codici Istat. Questo rende i dati meno direttamente elaborabili e da mettere in relazione con altre banche dati.
 :::
