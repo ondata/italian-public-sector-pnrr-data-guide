@@ -1,0 +1,17 @@
+---
+title: Lorem
+format:
+  html:
+    toc: false
+search: false
+execute:
+  echo: false
+listing:
+  - id: fonti
+    template: fonti.ejs
+---
+
+You can review the following documents for additional information:
+
+::: {#fonti}
+:::

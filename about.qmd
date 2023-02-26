@@ -6,17 +6,20 @@ format:
     toc: false
 ---
 
-La presente guida è a cura dall'[**associazione onData**](https://www.ondata.it/), in collaborazione con **altre organizzazioni** e **altre persone**, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel PNRR, e che hanno collaborato sul tema in diversi contesti.
+La presente guida è a cura dall'[**associazione onData**](https://www.ondata.it/), in collaborazione con **altre organizzazioni** e **altre persone**, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel Piano Nazionale Ripresa e Resilienza (PNRR), e che hanno collaborato sul tema in diversi contesti.
 
-Il progetto [**datiBeneComune**](https://www.datibenecomune.it/) - che chiede a Governo e Parlamento **dati aperti e _machine-readable_** sui principali **temi di interesse dei cittadini e delle cittadine**, a partire dai dati sul **PNRR** - è stato il primo punto di partenza, di incontro e scambio.
+È una **guida** al **monitoraggio civico** del PNRR **attraverso i dati attualmente disponibili**. Si propone di affiancare le cittadine e i cittadini nel monitoraggio civico di un piano che avrà un impatto decisivo sul futuro del nostro Paese.<br>
+I dati aperti sono ancora pochi e ci piace pensare che presto saranno interamente pubblicati.
+
+In attesa **apriamo questo spazio come un bene comune** per tutte/i coloro che vorranno usarlo e/o contribuire ad arricchirlo.
 
 Questo _vademecum_ non sarebbe nato senza il "**fare cose, vedere gente**" in questi contesti:
 
+- il progetto [**datiBeneComune**](https://www.datibenecomune.it/) - che chiede a Governo e Parlamento **dati aperti e _machine-readable_** sui principali **temi di interesse dei cittadini e delle cittadine**, a partire dai dati sul **PNRR**;
 - le riunioni dei tavoli dell'[Azione 5.02](https://open.gov.it/governo-aperto/piano-nazionale/5nap/azione-5/impegno-502) - Standard aperti per l’inclusività e la partecipazione della società civile nel monitoraggio della spesa pubblica - del "**5° Piano d’Azione Nazionale per il governo aperto**", a cui hanno partecipato e partecipano alcuni dei soggetti che hanno contribuito a questo progetto;
 - l'[**Osservatorio Civico PNRR**](https://osservatoriocivicopnrr.it/) e le sue scuole di monitoraggio. Vivendole e alimentandole, è emerso quanto potesse essere utile un _vademecum_ per i cittadini e le cittadine, per aiutarli a capire meglio il PNRR e a monitorarlo e sono venute fuori diverse idee poi sviluppate qui;
 - una [**rete** della **società civile** per il monitoraggio del PNRR](rete-pnrr.md), che condividono regolarmente stato dell'arte e criticità delle loro iniziative e progettualità sul tema e concordano iniziative congiunte.
 
-Questa ricchezza di esperienze ci spinge a pensare che questo progetto possa essere **un bene comune**, che possa ricevere contributi e suggerimenti da parte di tutte le persone che vogliano contribuire a renderlo sempre più utile, completo e aggiornato.
 
 ---
 
