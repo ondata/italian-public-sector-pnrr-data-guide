@@ -12,7 +12,7 @@ listing:
     contents: fonti.yml
 ---
 
-A seguire le fonti dati descritte in questo vademecum.
+A seguire le fonti dati descritte in questo _vademecum_.
 
 ::: {#fonti}
 :::
