@@ -11,7 +11,7 @@ La presente guida è a cura dall'[**associazione onData**](https://www.ondata.it
 È una **guida** al **monitoraggio civico** del PNRR **attraverso i dati attualmente disponibili**. Si propone di affiancare le cittadine e i cittadini nel monitoraggio civico di un piano che avrà un impatto decisivo sul futuro del nostro Paese.<br>
 I dati aperti sono ancora pochi e ci piace pensare che presto saranno interamente pubblicati.
 
-In attesa **apriamo questo spazio come un bene comune** per tutte/i coloro che vorranno usarlo e/o [contribuire ad arricchirlo](partecipa.qmd).
+Nell'attesa, **apriamo questo spazio come un bene comune** per tutte/i coloro che vorranno usarlo e/o [contribuire ad arricchirlo](partecipa.qmd).
 
 Questo _vademecum_ non sarebbe nato senza il "**fare cose, vedere gente**" in questi contesti:
 
