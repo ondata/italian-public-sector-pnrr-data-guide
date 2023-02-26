@@ -52,4 +52,4 @@ Infine potrai iscriverti a tutte le discussioni, seguendo i passi di @fig-partec
 
 🫶 Se credi che questo progetto sia utile, **per favore scegli questa modalità**. Uno spazio di partecipazione ha bisogno - sembra banale - di partecipazione.
 
-![Come iscriversi a tutte le discussioni](images/github-watch-discussions.gif){fig-alt="Come iscriversi a tutte le discussioni" #fig-partecipazione-iscriversi}
+[![Come iscriversi a tutte le discussioni](images/github-watch-discussions.gif){fig-alt="Come iscriversi a tutte le discussioni" #fig-partecipazione-iscriversi}](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions)
