@@ -20,20 +20,18 @@ Sul portale nazionale dei dati aperti sono pubblicati i dati aperti gestiti dall
 
 Qui sotto un esempio di contenuto della tabella dati:
 
-| Colonna | Esempio contenuto |
-| --- | --- |
-| sigla_provincia | TO |
-| comune | TORINO |
-| tipologia_di_ricaduta_territoriale | Comune singolo |
-| ricaduta_territoriale | 2460498,0 |
-| missione | M6 Salute |
-| componente | M6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale |
-| misura | M6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita') |
-| id_intervento | M6C1I1.3 |
-| cup | [F19J22000790006](https://opencup.gov.it/portale/progetto/-/cup/F19J22000790006/)^[Il link al codice CUP non è presente nel file originale. È stato aggiunto per dare conto di quanto è possibile fare sul sito [OpenCUP](../../fonti/opencup/index.qmd#la-pagina-web-di-un-cup)] |
-| titolo_progetto | OSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74 |
-| tot_risorse_assegnate_a_regione_piemonte | 2460498,0 |
-| note | Progetto localizzato nel comune TORINO |
+```{python}
+#| echo: false
+#| warning: false
+#| output: false
+
+import pandas as pd
+
+df=pd.read_csv("riga-esempio.csv")
+
+(df.style.hide_index().set_table_attributes("class='dataframe table-hover'"))
+
+```
 
 È presente una colonna con il codice `CUP`, quindi è teoricamente possibile **arricchire il dettaglio informativo** a partire dalle banche dati [OpenCUP](../../fonti/opencup/), [ANAC](../../fonti/anac/), [Servizio Contratti Pubblici](../../fonti/scp/) e [OpenBDAP](../../fonti/openbdap/) (così come nell'[esempio](../../guide/procedura-esempio.qmd) per il Comune di Messina).
 
