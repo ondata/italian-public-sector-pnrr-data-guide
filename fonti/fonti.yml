@@ -1,11 +1,11 @@
-- categoria: Fonti nazionali
+- categoria: Nazionali
   elementi:
     - titolo: OpenCUP
-      href: fonti/opencup/index.qmd
+      href: opencup/index.qmd
     - titolo:  ANAC
-      href: fonti/anac/index.qmd
+      href: anac/index.qmd
     - titolo:  Servizio Contratti Pubblici
-      href: fonti/scp/index.qmd
+      href: scp/index.qmd
     - titolo:  OpenBDAP
-      href: fonti/openbdap/index.qmd
+      href: openbdap/index.qmd
 

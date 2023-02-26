@@ -1,5 +1,5 @@
 ---
-title: Lorem
+title: Fonti
 format:
   html:
     toc: false
@@ -9,9 +9,10 @@ execute:
 listing:
   - id: fonti
     template: fonti.ejs
+    contents: fonti.yml
 ---
 
-You can review the following documents for additional information:
+A seguire le fonti dati descritte in questo vademecum.
 
 ::: {#fonti}
 :::

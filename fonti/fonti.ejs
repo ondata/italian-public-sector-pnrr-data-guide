@@ -1,8 +1,12 @@
 ```{=html}
 <% for (const item of items) { %>
   <h2><%- item.categoria %></h2>
-  <% for (const elementi of item.elementi) { %>
-    <p><%- item.titolo %></p>
-  <% } %>
+  <ul class="list">
+    <% for (const elemento of item.elementi) { %>
+        <li>
+          <a href="<%- elemento.href %>"><%= elemento.titolo %></a>
+        </li>
+    <% } %>
+  </ul>
 <% } %>
 ```

@@ -34,6 +34,7 @@ website:
       - href: monitoraggio/index.qmd
         text: Monitoraggio
       - section: Fonti
+        href: fonti/fonti.qmd
         contents:
           - section: OpenCUP
             href: fonti/opencup/index.qmd
