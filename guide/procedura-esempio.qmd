@@ -1,6 +1,7 @@
 ---
 title: "Estrarre le informazioni sul PNRR"
 subtitle: "Un esempio a partire dai dati del Comune di Messina"
+description: "Una guida su come estrarre i dati relativi al PNRR relativi a un comune, dalle banche dati di OpenCUP, ANAC, Servizio Contratti Pubblici e OpenBDAP"
 ---
 
 
