@@ -32,8 +32,7 @@ Nota
 <p>Il <a href="https://dati.gov.it/"><strong>portale nazionale dei dati aperti</strong></a>, contiene l’elenco di quei dati pubblicati dalle pubbliche amministrazioni italiane che rispettano le <a href="https://docs.italia.it/AgID/documenti-in-consultazione/lg-opendata-docs/it/bozza/index.html">linee guida open data</a>.</p>
 </div>
 </div>
-<p>Sul portale nazionale dei dati aperti sono pubblicati i dati aperti gestiti dalla <strong>Regione Piemonte</strong>.</p>
-<p>È di recentissima pubblicazione nel portale nazionale il dataset denominato “<a href="https://dati.gov.it/view-dataset/dataset?id=5506399a-c01b-4bc5-a3ec-ed25a90539d9"><strong>Progetti PNRR gestiti dalla Regione Piemonte - dettagli</strong></a>”.</p>
+<p>Sul portale nazionale dei dati aperti sono pubblicati i dati aperti gestiti dalla <strong>Regione Piemonte</strong>.<br> È di recentissima pubblicazione in questo, il dataset denominato “<a href="https://dati.gov.it/view-dataset/dataset?id=5506399a-c01b-4bc5-a3ec-ed25a90539d9"><strong>Progetti PNRR gestiti dalla Regione Piemonte - dettagli</strong></a>”.</p>
 <blockquote class="blockquote">
 <p>Il dataset contiene le informazioni relative agli importi dei progetti del PNRR che vedono come soggetto attuatore la Regione Piemonte. Viene mostrato il dettaglio relativo alla Missione, alla Componente e alla Misura. I totali delle risorse assegnate per ciascun progetto (identificato da un CUP) sono ripartiti tra i comuni di localizzazione dei beneficiari, sulla base della tipologia di <strong>ricaduta territoriale</strong>: comune singolo, più comuni, tutta la provincia, tutta la regione. In caso di progetto con beneficiari multipli, la ricaduta territoriale teorica del progetto viene calcolata ripartendo il totale delle risorse assegnate dal progetto sulla base del peso relativo della popolazione di ogni comune di localizzazione rispetto alla popolazione totale dell’aggregazione di comuni considerata.</p>
 </blockquote>
@@ -80,7 +79,7 @@ Nota
 </tr>
 <tr class="odd">
 <td>cup</td>
-<td><a href="https://opencup.gov.it/portale/progetto/-/cup/F19J22000790006/">F19J22000790006</a></td>
+<td><a href="https://opencup.gov.it/portale/progetto/-/cup/F19J22000790006/">F19J22000790006</a><sup>1</sup></td>
 </tr>
 <tr class="even">
 <td>titolo_progetto</td>
@@ -96,10 +95,7 @@ Nota
 </tr>
 </tbody>
 </table>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p>Il link al codice CUP non è presente nel file originale. È stato aggiunto per dare conto di quanto possibile su <a href="../../fonti/opencup/index.html#la-pagina-web-di-un-cup">OpenCUP</a>.</p>
-</div></div><p>È presente una colonna con il codice <code>CUP</code>, quindi è teoricamente possibile <strong>arricchire il dettaglio informativo</strong> a partire dalle banche dati <a href="../../fonti/opencup/">OpenCUP</a>, <a href="../../fonti/anac/">ANAC</a>, <a href="../../fonti/scp/">Servizio Contratti Pubblici</a> e <a href="../../fonti/openbdap/">OpenBDAP</a> (così come nell’<a href="../../guide/procedura-esempio.html">esempio</a> per il Comune di Messina).<br> Questi ad esempio <a href="regpie-Coordfondi_pnrr_opendata_23951-focus-open_cup.csv">i 🧮 dati</a> estraibili dal <a href="../../fonti/opencup/focus-pnrr.html">Focus PNRR di OpenCUP</a>.</p>
+<p>È presente una colonna con il codice <code>CUP</code>, quindi è teoricamente possibile <strong>arricchire il dettaglio informativo</strong> a partire dalle banche dati <a href="../../fonti/opencup/">OpenCUP</a>, <a href="../../fonti/anac/">ANAC</a>, <a href="../../fonti/scp/">Servizio Contratti Pubblici</a> e <a href="../../fonti/openbdap/">OpenBDAP</a> (così come nell’<a href="../../guide/procedura-esempio.html">esempio</a> per il Comune di Messina).<br> Questi ad esempio <a href="regpie-Coordfondi_pnrr_opendata_23951-focus-open_cup.csv">i 🧮 dati</a> estraibili dal <a href="../../fonti/opencup/focus-pnrr.html">Focus PNRR di OpenCUP</a>.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -116,7 +112,13 @@ Mancanza codici Istat dei Comuni
 
 
 
- ]]></description>
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Note</h2>
+
+<ol>
+<li id="fn1"><p>Il link al codice CUP non è presente nel file originale. È stato aggiunto per dare conto di quanto è possibile fare sul sito <a href="../../fonti/opencup/index.html#la-pagina-web-di-un-cup">OpenCUP</a>↩︎</p></li>
+</ol>
+</section></div> ]]></description>
   <category>regioni</category>
   <category>piemonte</category>
   <category>dati</category>
