@@ -5,16 +5,16 @@ format:
     toc: false
 ---
 
-Abbiamo creato [uno spazio](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose) per ricevere questi contributi:
+Abbiamo creato [uno spazio](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose) per raccogliere questi tipi di contributo, su questo vademecum:
 
-- **proposte**, per proposte e suggerimenti su questo spazio;
-- **racconti**, per raccontarci in cosa è stato utile questo vademecum;
-- **richieste di aiuto**, per richieste legate a quanto descritto in questa guida.
+- **proposte**, per proposte e suggerimenti;
+- **racconti**, per raccontarci in cosa ti è stato utile;
+- **richieste di aiuto**, per richieste legate ai suoi contenuti e ai suoi obiettivi.
 
 ::: {.callout-important}
 ## Richiesto account GitHub
 
-Per fare richieste di aiuto, proposte, raccontarci come hai usato questa guisa, sarà [**necessario creare un account su GitHub**](https://github.com/signup).<br>Basta rispondere alle domande che ti verranno fatte e infine scegliere il piano gratuito.
+Per fare richieste di aiuto, proposte, raccontarci come hai usato questa guida, sarà [**necessario creare un account su GitHub**](https://github.com/signup).<br>Basta rispondere alle domande che ti verranno fatte e infine scegliere il piano gratuito.
 
 :::
 
