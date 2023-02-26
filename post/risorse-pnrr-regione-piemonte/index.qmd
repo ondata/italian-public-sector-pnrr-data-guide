@@ -35,7 +35,8 @@ Qui sotto un esempio di contenuto della tabella dati:
 | tot_risorse_assegnate_a_regione_piemonte | 2460498,0 |
 | note | Progetto localizzato nel comune TORINO |
 
-È presente una colonna con il codice `CUP`, quindi è teoricamente possibile **arricchire il dettaglio informativo** a partire dalle banche dati [OpenCUP](../../fonti/opencup/), [ANAC](../../fonti/anac/), [Servizio Contratti Pubblici](../../fonti/scp/) e [OpenBDAP](../../fonti/openbdap/) (così come nell'[esempio](../../guide/procedura-esempio.qmd) per il Comune di Messina).<br>
+È presente una colonna con il codice `CUP`, quindi è teoricamente possibile **arricchire il dettaglio informativo** a partire dalle banche dati [OpenCUP](../../fonti/opencup/), [ANAC](../../fonti/anac/), [Servizio Contratti Pubblici](../../fonti/scp/) e [OpenBDAP](../../fonti/openbdap/) (così come nell'[esempio](../../guide/procedura-esempio.qmd) per il Comune di Messina).
+
 Questi ad esempio [i 🧮 dati](regpie-Coordfondi_pnrr_opendata_23951-focus-open_cup.csv) estraibili dal [Focus PNRR di OpenCUP](../../fonti/opencup/focus-pnrr.qmd).
 
 
