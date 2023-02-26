@@ -94,7 +94,7 @@ website:
         href: notizie.xml
       - icon: github
         href: https://github.com/ondata/italian-public-sector-pnrr-data-guide
-    left: "[CC-BY](https://creativecommons.org/licenses/by/4.0/) [#datiBeneComune](https://datibenecomune.it/)"
+    left: "Contenuti in [CC-BY](https://creativecommons.org/licenses/by/4.0/)"
 
 format:
   html:
