@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
   - "googlecd08604f4edafe6e.html"
+  - "CNAME"
 
   preview:
     browser: false
