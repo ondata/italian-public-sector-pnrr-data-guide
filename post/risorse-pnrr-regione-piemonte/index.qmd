@@ -18,18 +18,19 @@ Sul portale nazionale dei dati aperti sono pubblicati i dati aperti gestiti dall
 
 > Il dataset contiene le informazioni relative agli importi dei progetti del PNRR che vedono come soggetto attuatore la Regione Piemonte. Viene mostrato il dettaglio relativo alla Missione, alla Componente e alla Misura. I totali delle risorse assegnate per ciascun progetto (identificato da un CUP) sono ripartiti tra i comuni di localizzazione dei beneficiari, sulla base della tipologia di **ricaduta territoriale**: comune singolo, più comuni, tutta la provincia, tutta la regione. In caso di progetto con beneficiari multipli, la ricaduta territoriale teorica del progetto viene calcolata ripartendo il totale delle risorse assegnate dal progetto sulla base del peso relativo della popolazione di ogni comune di localizzazione rispetto alla popolazione totale dell'aggregazione di comuni considerata.
 
-Qui sotto un esempio di contenuto della tabella dati:
+Qui sotto un esempio di contenuto della  tabella dati:
 
 ```{python}
 #| echo: false
 #| warning: false
-#| output: false
+#| label: tbl-ref
+#| tbl-cap: "Una riga di esempio della tabella dati"
 
 import pandas as pd
 
 df=pd.read_csv("riga-esempio.csv")
 
-(df.style.hide_index().set_table_attributes("class='dataframe table-hover'"))
+(df.style.hide_index().set_table_attributes("class='dataframe table-hover table-small table-responsive'"))
 
 ```
 

@@ -1,7 +1,7 @@
 # options apply to all posts in this folder
 
 # freeze computational output
-freeze: true
+freeze: auto
 
 # Enable banner style title blocks
 title-block-banner: "#75aadb"
