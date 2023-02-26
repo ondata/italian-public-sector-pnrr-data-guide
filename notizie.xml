@@ -43,62 +43,62 @@ Nota
 </style>
 
 <div id="tbl-ref" class="anchored">
-<table id="T_43ae1" class="dataframe table-striped table-small table-responsive table table-sm" data-quarto-postprocess="true">
+<table id="T_a0606" class="dataframe table-striped table-small table-responsive table table-sm" data-quarto-postprocess="true">
 <caption>Tabella&nbsp;1: Una riga di esempio della tabella dati</caption>
 <thead>
 <tr class="header">
-<th id="T_43ae1_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">Colonna</th>
-<th id="T_43ae1_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">Esempio contenuto</th>
+<th id="T_a0606_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">Colonna</th>
+<th id="T_a0606_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">Esempio contenuto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td id="T_43ae1_row0_col0" class="data row0 col0">sigla_provincia</td>
-<td id="T_43ae1_row0_col1" class="data row0 col1">TO</td>
+<td id="T_a0606_row0_col0" class="data row0 col0">sigla_provincia</td>
+<td id="T_a0606_row0_col1" class="data row0 col1">TO</td>
 </tr>
 <tr class="even">
-<td id="T_43ae1_row1_col0" class="data row1 col0">comune</td>
-<td id="T_43ae1_row1_col1" class="data row1 col1">TORINO</td>
+<td id="T_a0606_row1_col0" class="data row1 col0">comune</td>
+<td id="T_a0606_row1_col1" class="data row1 col1">TORINO</td>
 </tr>
 <tr class="odd">
-<td id="T_43ae1_row2_col0" class="data row2 col0">tipologia_di_ricaduta_territoriale</td>
-<td id="T_43ae1_row2_col1" class="data row2 col1">Comune singolo</td>
+<td id="T_a0606_row2_col0" class="data row2 col0">tipologia_di_ricaduta_territoriale</td>
+<td id="T_a0606_row2_col1" class="data row2 col1">Comune singolo</td>
 </tr>
 <tr class="even">
-<td id="T_43ae1_row3_col0" class="data row3 col0">ricaduta_territoriale</td>
-<td id="T_43ae1_row3_col1" class="data row3 col1">2460498,0</td>
+<td id="T_a0606_row3_col0" class="data row3 col0">ricaduta_territoriale</td>
+<td id="T_a0606_row3_col1" class="data row3 col1">2460498,0</td>
 </tr>
 <tr class="odd">
-<td id="T_43ae1_row4_col0" class="data row4 col0">missione</td>
-<td id="T_43ae1_row4_col1" class="data row4 col1">M6 Salute</td>
+<td id="T_a0606_row4_col0" class="data row4 col0">missione</td>
+<td id="T_a0606_row4_col1" class="data row4 col1">M6 Salute</td>
 </tr>
 <tr class="even">
-<td id="T_43ae1_row5_col0" class="data row5 col0">componente</td>
-<td id="T_43ae1_row5_col1" class="data row5 col1">M6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale</td>
+<td id="T_a0606_row5_col0" class="data row5 col0">componente</td>
+<td id="T_a0606_row5_col1" class="data row5 col1">M6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale</td>
 </tr>
 <tr class="odd">
-<td id="T_43ae1_row6_col0" class="data row6 col0">misura</td>
-<td id="T_43ae1_row6_col1" class="data row6 col1">M6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')</td>
+<td id="T_a0606_row6_col0" class="data row6 col0">misura</td>
+<td id="T_a0606_row6_col1" class="data row6 col1">M6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')</td>
 </tr>
 <tr class="even">
-<td id="T_43ae1_row7_col0" class="data row7 col0">id_intervento</td>
-<td id="T_43ae1_row7_col1" class="data row7 col1">M6C1I1.3</td>
+<td id="T_a0606_row7_col0" class="data row7 col0">id_intervento</td>
+<td id="T_a0606_row7_col1" class="data row7 col1">M6C1I1.3</td>
 </tr>
 <tr class="odd">
-<td id="T_43ae1_row8_col0" class="data row8 col0">cup</td>
-<td id="T_43ae1_row8_col1" class="data row8 col1">F19J22000790006</td>
+<td id="T_a0606_row8_col0" class="data row8 col0">cup</td>
+<td id="T_a0606_row8_col1" class="data row8 col1">F19J22000790006</td>
 </tr>
 <tr class="even">
-<td id="T_43ae1_row9_col0" class="data row9 col0">titolo_progetto</td>
-<td id="T_43ae1_row9_col1" class="data row9 col1">OSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74</td>
+<td id="T_a0606_row9_col0" class="data row9 col0">titolo_progetto</td>
+<td id="T_a0606_row9_col1" class="data row9 col1">OSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74</td>
 </tr>
 <tr class="odd">
-<td id="T_43ae1_row10_col0" class="data row10 col0">tot_risorse_assegnate_a_regione_piemonte</td>
-<td id="T_43ae1_row10_col1" class="data row10 col1">2460498,0</td>
+<td id="T_a0606_row10_col0" class="data row10 col0">tot_risorse_assegnate_a_regione_piemonte</td>
+<td id="T_a0606_row10_col1" class="data row10 col1">2460498,0</td>
 </tr>
 <tr class="even">
-<td id="T_43ae1_row11_col0" class="data row11 col0">note</td>
-<td id="T_43ae1_row11_col1" class="data row11 col1">Progetto localizzato nel comune TORINO</td>
+<td id="T_a0606_row11_col0" class="data row11 col0">note</td>
+<td id="T_a0606_row11_col1" class="data row11 col1">Progetto localizzato nel comune TORINO</td>
 </tr>
 </tbody>
 </table>
