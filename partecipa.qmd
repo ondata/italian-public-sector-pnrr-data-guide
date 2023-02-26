@@ -18,6 +18,6 @@ Per fare richieste di aiuto, proposte, raccontarci come hai usato questa guisa, 
 
 :::
 
-[[👉 Partecipa]{.btn .btn-primary}](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose)
+[[☝️ Partecipa]{.btn .btn-success}](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose)
 
 [![](images/partecipare.png)](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose)
