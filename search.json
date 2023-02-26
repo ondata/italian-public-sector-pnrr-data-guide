@@ -264,5 +264,12 @@
     "title": "Estrarre le informazioni sul PNRR",
     "section": "Estrarre i dati da OpenBDAP",
     "text": "Estrarre i dati da OpenBDAP\nOpenBDAP è un’altra fonte informativa nazionale sui contratti pubblici. Come indicato nella sezione dedicata, è possibile fare delle ricerche per codice CUP, inserendo un elenco di CUP (non più di 300 per volta).\nQuindi ancora una volta si possono usare i codici CUP estratti per il Comune di Messina, ovvero quelli del file opencup-focus-083048-cup.csv e usarli come filtro per la ricerca su OpenBDAP. Sono circa 360, quindi si dovranno eseguire 2 ricerche.\nIn output questo file XLSX, suddiviso in 3 fogli: Dettaglio CUP, Dettaglio CIG e Dettaglio Indicatori. Qui i dati estratti al 5 febbraio 2023: openbdap-083048.xlsx."
+  },
+  {
+    "objectID": "guide/procedura-esempio.html#insieme-dei-dati-raccolti.",
+    "href": "guide/procedura-esempio.html#insieme-dei-dati-raccolti.",
+    "title": "Estrarre le informazioni sul PNRR",
+    "section": "Insieme dei dati raccolti.",
+    "text": "Insieme dei dati raccolti.\nIn questo foglio elettronico tutti gli output estratti (fanno riferimento a quanto disponibile a inizio febbraio del 2023). Aprendolo si può avere un’idea di quali tipi di informazioni è possibile estrarre da queste fonti."
   }
 ]
