@@ -1,5 +1,6 @@
 ---
 title: "Banca dati Servizio Contratti Pubblici - SCP"
+description: "Quali sono i dati aperti presenti su Servizio Contratti Pubblici, associabili al PNRR"
 ---
 
 Il Ministero delle infrastrutture e dei  Trasporti pubblica - nel suo [portale dei dati aperti](https://dati.mit.gov.it/catalog/dataset/) -  il [**dataset**](https://dati.mit.gov.it/catalog/dataset/scp) che contiene gli **avvisi**, i **bandi** e gli **esiti di gara** in **formato aperto**, raccolti dalla "Banca dati SCP - Servizio Contratti Pubblici", gestita dalla Direzione Generale per la regolazione e i contratti pubblici del Ministero delle Infrastrutture e Trasporti.<br>
