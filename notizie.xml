@@ -12,6 +12,148 @@
 <generator>quarto-1.3.228</generator>
 <lastBuildDate>Tue, 28 Feb 2023 00:00:00 GMT</lastBuildDate>
 <item>
+  <title>test</title>
+  <link>https://pnrr.datibenecomune.it/post/risorse-pnrr-regione-piemonte/table.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display" data-execution_count="1">
+
+
+<table id="T_338fc" class="dataframe table-striped table-sm table-responsive table" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th id="T_338fc_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">Colonna</th>
+<th id="T_338fc_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">Esempio contenuto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td id="T_338fc_row0_col0" class="data row0 col0">sigla_provincia</td>
+<td id="T_338fc_row0_col1" class="data row0 col1">TO</td>
+</tr>
+<tr class="even">
+<td id="T_338fc_row1_col0" class="data row1 col0">comune</td>
+<td id="T_338fc_row1_col1" class="data row1 col1">TORINO</td>
+</tr>
+<tr class="odd">
+<td id="T_338fc_row2_col0" class="data row2 col0">tipologia_di_ricaduta_territoriale</td>
+<td id="T_338fc_row2_col1" class="data row2 col1">Comune singolo</td>
+</tr>
+<tr class="even">
+<td id="T_338fc_row3_col0" class="data row3 col0">ricaduta_territoriale</td>
+<td id="T_338fc_row3_col1" class="data row3 col1">2460498,0</td>
+</tr>
+<tr class="odd">
+<td id="T_338fc_row4_col0" class="data row4 col0">missione</td>
+<td id="T_338fc_row4_col1" class="data row4 col1">M6 Salute</td>
+</tr>
+<tr class="even">
+<td id="T_338fc_row5_col0" class="data row5 col0">componente</td>
+<td id="T_338fc_row5_col1" class="data row5 col1">M6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale</td>
+</tr>
+<tr class="odd">
+<td id="T_338fc_row6_col0" class="data row6 col0">misura</td>
+<td id="T_338fc_row6_col1" class="data row6 col1">M6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')</td>
+</tr>
+<tr class="even">
+<td id="T_338fc_row7_col0" class="data row7 col0">id_intervento</td>
+<td id="T_338fc_row7_col1" class="data row7 col1">M6C1I1.3</td>
+</tr>
+<tr class="odd">
+<td id="T_338fc_row8_col0" class="data row8 col0">cup</td>
+<td id="T_338fc_row8_col1" class="data row8 col1">F19J22000790006</td>
+</tr>
+<tr class="even">
+<td id="T_338fc_row9_col0" class="data row9 col0">titolo_progetto</td>
+<td id="T_338fc_row9_col1" class="data row9 col1">OSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74</td>
+</tr>
+<tr class="odd">
+<td id="T_338fc_row10_col0" class="data row10 col0">tot_risorse_assegnate_a_regione_piemonte</td>
+<td id="T_338fc_row10_col1" class="data row10 col1">2460498,0</td>
+</tr>
+<tr class="even">
+<td id="T_338fc_row11_col0" class="data row11 col0">note</td>
+<td id="T_338fc_row11_col1" class="data row11 col1">Progetto localizzato nel comune TORINO</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<table class="table-striped table-sm table-responsive table">
+<caption></caption>
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Colonna</th>
+<th>Esempio contenuto</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>sigla_provincia</td>
+<td>TO</td>
+</tr>
+<tr class="even">
+<td>comune</td>
+<td>TORINO</td>
+</tr>
+<tr class="odd">
+<td>tipologia_di_ricaduta_territoriale</td>
+<td>Comune singolo</td>
+</tr>
+<tr class="even">
+<td>ricaduta_territoriale</td>
+<td>2460498,0</td>
+</tr>
+<tr class="odd">
+<td>missione</td>
+<td>M6 Salute</td>
+</tr>
+<tr class="even">
+<td>componente</td>
+<td>M6C1 Reti di prossimità, strutture e telemedicina per l’assistenza sanitaria territoriale</td>
+</tr>
+<tr class="odd">
+<td>misura</td>
+<td>M6C1I1.3 Rafforzamento dell’assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita’)</td>
+</tr>
+<tr class="even">
+<td>id_intervento</td>
+<td>M6C1I1.3</td>
+</tr>
+<tr class="odd">
+<td>cup</td>
+<td>F19J22000790006</td>
+</tr>
+<tr class="even">
+<td>titolo_progetto</td>
+<td>OSPEDALI DI COMUNITA’ - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74</td>
+</tr>
+<tr class="odd">
+<td>tot_risorse_assegnate_a_regione_piemonte</td>
+<td>2460498,0</td>
+</tr>
+<tr class="even">
+<td>note</td>
+<td>Progetto localizzato nel comune TORINO</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ ]]></description>
+  <guid>https://pnrr.datibenecomune.it/post/risorse-pnrr-regione-piemonte/table.html</guid>
+  <pubDate>Tue, 28 Feb 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Progetti PNRR gestiti dalla Regione Piemonte</title>
   <link>https://pnrr.datibenecomune.it/post/risorse-pnrr-regione-piemonte/index.html</link>
   <description><![CDATA[ 
@@ -41,61 +183,61 @@ Nota
 <div class="cell-output cell-output-display" data-execution_count="1">
 
 
-<table id="T_8da6c" class="dataframe table-striped table-small table-responsive table table-sm" data-quarto-postprocess="true">
+<table id="T_982c6" class="dataframe table-striped table-sm table-responsive table" data-quarto-postprocess="true">
 <thead>
 <tr class="header">
-<th id="T_8da6c_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">Colonna</th>
-<th id="T_8da6c_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">Esempio contenuto</th>
+<th id="T_982c6_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">Colonna</th>
+<th id="T_982c6_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">Esempio contenuto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td id="T_8da6c_row0_col0" class="data row0 col0">sigla_provincia</td>
-<td id="T_8da6c_row0_col1" class="data row0 col1">TO</td>
+<td id="T_982c6_row0_col0" class="data row0 col0">sigla_provincia</td>
+<td id="T_982c6_row0_col1" class="data row0 col1">TO</td>
 </tr>
 <tr class="even">
-<td id="T_8da6c_row1_col0" class="data row1 col0">comune</td>
-<td id="T_8da6c_row1_col1" class="data row1 col1">TORINO</td>
+<td id="T_982c6_row1_col0" class="data row1 col0">comune</td>
+<td id="T_982c6_row1_col1" class="data row1 col1">TORINO</td>
 </tr>
 <tr class="odd">
-<td id="T_8da6c_row2_col0" class="data row2 col0">tipologia_di_ricaduta_territoriale</td>
-<td id="T_8da6c_row2_col1" class="data row2 col1">Comune singolo</td>
+<td id="T_982c6_row2_col0" class="data row2 col0">tipologia_di_ricaduta_territoriale</td>
+<td id="T_982c6_row2_col1" class="data row2 col1">Comune singolo</td>
 </tr>
 <tr class="even">
-<td id="T_8da6c_row3_col0" class="data row3 col0">ricaduta_territoriale</td>
-<td id="T_8da6c_row3_col1" class="data row3 col1">2460498,0</td>
+<td id="T_982c6_row3_col0" class="data row3 col0">ricaduta_territoriale</td>
+<td id="T_982c6_row3_col1" class="data row3 col1">2460498,0</td>
 </tr>
 <tr class="odd">
-<td id="T_8da6c_row4_col0" class="data row4 col0">missione</td>
-<td id="T_8da6c_row4_col1" class="data row4 col1">M6 Salute</td>
+<td id="T_982c6_row4_col0" class="data row4 col0">missione</td>
+<td id="T_982c6_row4_col1" class="data row4 col1">M6 Salute</td>
 </tr>
 <tr class="even">
-<td id="T_8da6c_row5_col0" class="data row5 col0">componente</td>
-<td id="T_8da6c_row5_col1" class="data row5 col1">M6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale</td>
+<td id="T_982c6_row5_col0" class="data row5 col0">componente</td>
+<td id="T_982c6_row5_col1" class="data row5 col1">M6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale</td>
 </tr>
 <tr class="odd">
-<td id="T_8da6c_row6_col0" class="data row6 col0">misura</td>
-<td id="T_8da6c_row6_col1" class="data row6 col1">M6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')</td>
+<td id="T_982c6_row6_col0" class="data row6 col0">misura</td>
+<td id="T_982c6_row6_col1" class="data row6 col1">M6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')</td>
 </tr>
 <tr class="even">
-<td id="T_8da6c_row7_col0" class="data row7 col0">id_intervento</td>
-<td id="T_8da6c_row7_col1" class="data row7 col1">M6C1I1.3</td>
+<td id="T_982c6_row7_col0" class="data row7 col0">id_intervento</td>
+<td id="T_982c6_row7_col1" class="data row7 col1">M6C1I1.3</td>
 </tr>
 <tr class="odd">
-<td id="T_8da6c_row8_col0" class="data row8 col0">cup</td>
-<td id="T_8da6c_row8_col1" class="data row8 col1">F19J22000790006</td>
+<td id="T_982c6_row8_col0" class="data row8 col0">cup</td>
+<td id="T_982c6_row8_col1" class="data row8 col1">F19J22000790006</td>
 </tr>
 <tr class="even">
-<td id="T_8da6c_row9_col0" class="data row9 col0">titolo_progetto</td>
-<td id="T_8da6c_row9_col1" class="data row9 col1">OSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74</td>
+<td id="T_982c6_row9_col0" class="data row9 col0">titolo_progetto</td>
+<td id="T_982c6_row9_col1" class="data row9 col1">OSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74</td>
 </tr>
 <tr class="odd">
-<td id="T_8da6c_row10_col0" class="data row10 col0">tot_risorse_assegnate_a_regione_piemonte</td>
-<td id="T_8da6c_row10_col1" class="data row10 col1">2460498,0</td>
+<td id="T_982c6_row10_col0" class="data row10 col0">tot_risorse_assegnate_a_regione_piemonte</td>
+<td id="T_982c6_row10_col1" class="data row10 col1">2460498,0</td>
 </tr>
 <tr class="even">
-<td id="T_8da6c_row11_col0" class="data row11 col0">note</td>
-<td id="T_8da6c_row11_col1" class="data row11 col1">Progetto localizzato nel comune TORINO</td>
+<td id="T_982c6_row11_col0" class="data row11 col0">note</td>
+<td id="T_982c6_row11_col1" class="data row11 col1">Progetto localizzato nel comune TORINO</td>
 </tr>
 </tbody>
 </table>
