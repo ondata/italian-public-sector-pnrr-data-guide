@@ -5,8 +5,8 @@ sidebar: false
 freeze: auto
 
 # Enable banner style title blocks
-title-block-banner: "#75aadb"
-title-block-banner-color: "#ffffff"
+title-block-banner: "#195496"
+title-block-banner-color: body
 
 
 knitr:

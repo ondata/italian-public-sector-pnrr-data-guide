@@ -1,13 +1,17 @@
 ---
 title: "Notizie"
+subtitle: Per rimanere aggiornati su questo progetto
 listing:
+  sort: "date desc"
   contents:
     - post
     - "!table*"
-  sort: "date desc"
-  type: default
-  categories: true
   sort-ui: false
   filter-ui: false
+  categories: true
   feed: true
+page-layout: full
+title-block-banner: "#195496"
+title-block-banner-color: body
+search: false
 ---
