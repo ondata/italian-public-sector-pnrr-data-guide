@@ -22,7 +22,6 @@ Qui sotto un esempio di contenuto della  tabella dati:
 ```{python}
 #| echo: false
 #| warning: false
-#| label: tbl-piemonte-esempio
 
 import pandas as pd
 
