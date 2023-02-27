@@ -22,8 +22,7 @@ Qui sotto un esempio di contenuto della  tabella dati:
 ```{python}
 #| echo: false
 #| warning: false
-#| label: tbl-ref
-#| tbl-cap: "Una riga di esempio della tabella dati"
+#| label: tbl-piemonte-esempio
 
 import pandas as pd
 
