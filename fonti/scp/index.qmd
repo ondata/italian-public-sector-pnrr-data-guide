@@ -66,9 +66,9 @@ Molto ricco di contenuti, con alcune informazioni ovviamente diverse da quelle p
 
 Un elemento di grande interesse, presente in questa banca dati è la colonna `url_documento`, con l'URL della pagina web dove è possibile trovare documenti correlati all'atto in questione.
 
-Si porta come [esempio](https://ingate.invitalia.it/esop/toolkit/opportunity/ns/7382/detail.si?isOnModification=false&_ncp=1675594340926.18822-2) quello dell'`id_gara` `1412023` e `CIG` [`918052266A`](https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A).
+Si porta come [esempio](https://ingate.invitalia.it/esop/guest/go/opportunity/detail?opportunityId=7382) quello dell'`id_gara` `1412023` e `CIG` [`918052266A`](https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A).
 
-[![Esempio di pagina con elenco documenti del bando](images/scp-link-documenti.png){#fig-scp-link-documento fig-alt="Esempio di link a documento"}](https://ingate.invitalia.it/esop/toolkit/opportunity/ns/7382/detail.si?isOnModification=false&_ncp=1675594340926.18822-2)
+[![Esempio di pagina con elenco documenti del bando](images/scp-link-documenti.png){#fig-scp-link-documento fig-alt="Esempio di link a documento"}](https://ingate.invitalia.it/esop/guest/go/opportunity/detail?opportunityId=7382)
 
 ## I dati correlati al PNRR
 
