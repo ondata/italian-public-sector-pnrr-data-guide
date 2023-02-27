@@ -3,6 +3,7 @@ title: "Notizie"
 listing:
   contents:
     - post
+    - "!table*"
   sort: "date desc"
   type: default
   categories: true
