@@ -39,7 +39,7 @@ Caratteristiche:
 
 Su OpenCUP ci sono anche i [dati aperti](https://opencup.gov.it/portale/opendata) di tutti i progetti, anche quelli non legati al PNRR (vedi @fig-opendata-opencup).<br>
 Si possono scaricare e filtrare, ed estrarre soltanto quelli legati al PNRR, cercando ad esempio la stringa "PNRR" in tutte le righe delle tabelle correlate.<br>
-C'è però una differenza importante con il [dataset precedente](#focus-pnrr): quest'ultimo è un dato "curato", estratto e "validato" dai curatori del sito, mentre il filtro sui generici dati aperti, fatto usando la stringa "PNRR" (o altri filtri), potrebbe contenere errori.
+C'è però una differenza importante con il [dataset precedente](#focus-pnrr): quest'ultimo è un dato "curato", estratto e "validato" dai curatori del sito di OpenCUP, mentre un filtro basato su scelte personali potrebbe essere basato su presupposti sbagliati (ad esempio la stringa "PNRR" potrebbe non essere necessaria e/o sufficiente), con i conseguenti errori del caso.
 
 Caratteristiche:
 
