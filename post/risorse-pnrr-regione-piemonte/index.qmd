@@ -7,6 +7,7 @@ categories:
   - regioni
   - piemonte
   - dati
+image: piemonte-pnrr.png
 ---
 
 ::: {.callout-note}
