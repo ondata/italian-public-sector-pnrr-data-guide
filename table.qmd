@@ -1,11 +1,9 @@
 ---
 title: "test"
-date: "2023-02-28"
-draft: false
 search: false
 ---
 
-
+## Python output
 
 ```{python}
 #| echo: false
@@ -19,6 +17,7 @@ df=pd.read_csv("riga-esempio.csv")
 
 ```
 
+## Markdown output
 
 | Colonna | Esempio contenuto |
 | --- | --- |

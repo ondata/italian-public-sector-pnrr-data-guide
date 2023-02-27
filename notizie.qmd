@@ -5,7 +5,6 @@ listing:
   sort: "date desc"
   contents:
     - post
-    - "!table*"
   sort-ui: false
   filter-ui: false
   categories: true
