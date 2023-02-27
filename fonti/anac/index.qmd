@@ -45,6 +45,8 @@ Ad ogni CUP, è associato il **Codice Identificativo Gara** (**CIG**), un codice
 | 009893079C | 000000000000000 |
 | ZBB02E5426 | H81J09002660007 |
 
+: {.striped .sm .responsive}
+
 ```{python}
 #| echo: false
 #| warning: false

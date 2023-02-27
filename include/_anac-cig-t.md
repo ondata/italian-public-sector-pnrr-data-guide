@@ -36,4 +36,6 @@
 | descrizione_cpv | LAVORI DI STABILIZZAZIONE DEL TERRENO |
 | flag_prevalente | 1 |
 
+: {.striped .sm .responsive}
+
 :::
