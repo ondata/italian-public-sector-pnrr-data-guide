@@ -45,4 +45,6 @@
 | titolo_documento | Documentazione di gara |
 | url_documento | https://ingate.invitalia.it/esop/guest/go/opportunity/detail?opportunityId=7382 |
 
+: {.striped .sm .responsive}
+
 :::
