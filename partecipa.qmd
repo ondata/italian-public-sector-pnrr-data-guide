@@ -2,7 +2,7 @@
 title: "Partecipare"
 ---
 
-Abbiamo creato [uno spazio](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose) per raccogliere questi tipi di contributo, su questo vademecum:
+Abbiamo creato [uno spazio](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose) per raccogliere questi contributi su questo _vademecum_:
 
 - **proposte**, per proposte e suggerimenti;
 - **racconti**, per raccontarci in cosa ti è stato utile;
