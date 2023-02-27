@@ -16,11 +16,6 @@ website:
   repo-actions: [edit]
   page-navigation: true
   favicon: images/favicon.png
-  search:
-    algolia:
-      index-name: pnrr_datibenecomune
-      application-id: 17QKHI448N
-      search-only-api-key: d9b971a4d2e716d83e09c6187868b4e6
   navbar:
     title: false
     left:
