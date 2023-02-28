@@ -21,6 +21,14 @@ Questo _vademecum_ non sarebbe nato senza il "**fare cose, vedere gente**" in qu
 - una [**rete** della **società civile** per il monitoraggio del PNRR](rete-pnrr.md), che condividono regolarmente stato dell'arte e criticità delle loro iniziative e progettualità sul tema e concordano iniziative congiunte.
 
 
+## Licenza
+
+La licenza scelta è la [`CC-BY-4.0`](https://creativecommons.org/licenses/by/4.0/deed.it) (Creative Commons Attribution 4.0 International). Quindi sei libero di usare come preferisci i contenuti di questo spazio, avendo cura di citare la fonte.
+
+### Come citare la fonte
+
+A titolo d'esempio, è sufficiente indicare "[Vademecum PNRR a cura dell'associazione onData](https://pnrr.datibenecomune.it/)" (inserendo anche il link alla home, <https://pnrr.datibenecomune.it>).
+
 ---
 
 Questo sito è costruito con ❤️ e con [Quarto](https://quarto.org/).
