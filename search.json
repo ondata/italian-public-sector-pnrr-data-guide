@@ -46,7 +46,7 @@
     "href": "fonti/opencup/index.html#fare-una-ricerca-sul-sito-di-opencup",
     "title": "OpenCUP",
     "section": "Fare una ricerca sul sito di OpenCUP",
-    "text": "Fare una ricerca sul sito di OpenCUP\nSu OpenCUP è presente anche una pagina di ricerca, in cui è possibile inserire uno o più parametri - anche ad esempio una parola della descrizione di un progetto - e avere restituito l’elenco dei progetti correlato.\n\n\n\nFigura 3: Il modulo di ricerca di OpenCUP"
+    "text": "Fare una ricerca sul sito di OpenCUP\nSu OpenCUP è presente anche una pagina di ricerca, in cui è possibile inserire uno o più parametri - anche ad esempio una parola della descrizione di un progetto - e avere restituito l’elenco dei progetti correlato.\n\n\n\nFigura 3: Il modulo di ricerca di OpenCUP\n\n\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare."
   },
   {
     "objectID": "fonti/scp/index.html",
@@ -74,7 +74,7 @@
     "href": "fonti/scp/index.html#estrarre-le-informazioni",
     "title": "Banca dati Servizio Contratti Pubblici - SCP",
     "section": "Estrarre le informazioni",
-    "text": "Estrarre le informazioni\nCome estrarre soltanto i dati SCP a partire dall’elenco dei CUP e CIG correlati al PNRR?\nSi può fare almeno in due modalità, ma richiedono un po’ di esperienza nell’accesso ai dati, la loro gestione e la loro trasformazione.\n👉 Approfondimento"
+    "text": "Estrarre le informazioni\nCome estrarre soltanto i dati SCP a partire dall’elenco dei CUP e CIG correlati al PNRR?\nSi può fare almeno in due modalità, ma richiedono un po’ di esperienza nell’accesso ai dati, la loro gestione e la loro trasformazione.\n👉 Approfondimento\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare."
   },
   {
     "objectID": "fonti/scp/informazioni-scp.html",
@@ -102,7 +102,7 @@
     "href": "fonti/openbdap/index.html#i-dati-correlati-al-pnrr",
     "title": "OpenBDAP",
     "section": "I dati correlati al PNRR",
-    "text": "I dati correlati al PNRR\nOpenBDAP pubblica delle estrazioni dalla banca dati BDAP/MOP, in cui sono inseriti anche i dati del monitoraggio degli interventi finanziati solo con risorse nazionali del PNC - Piano nazionale per gli investimenti complementari al Piano nazionale di ripresa e resilienza (PNC). Il sistema Regis e BDAP si alimentano a vicenda.\nNon ci sembra che attualmente  in questo portale ci siano dei dati “etichettati” come PNRR o PNC e/o che ci siano delle modalità automatiche pubbliche aperte (API) per estrarre dati a partire da un codice CUP o da un CIG.\nNella sezione “Come pubblicare sui siti Istituzionali delle Amministrazioni Pubbliche i collegamenti ipertestuali ai dati contenuti nella BDAP”, viene indicato l’URL per esplorare le opere pubbliche di una Pubblica Amministrazione, a partire dal suo Codice Fiscale. Questo ad esempio quello dell’ANAS (80208450587 è il suo codice fiscale): https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&T=BusinessObject &idType=CUID&noDetailsPanel=true&X_Ente=80208450587\n➡️ NOTA BENE: in questa pagina in alto a destra è presente il link alla “RICERCA PER CUP”. In questo percorso alla ricerca dei dati relativi al PNRR ci sarà utile.\n\n\n\nFigura 1: Pagina opere pubbliche di una PA\n\n\nAl click su “RICERCA PER CUP” si apre il form dedicato (vedi Figura 2).\n\n\n\nFigura 2: Form ricercar per CUP\n\n\nIn questo form è possibile inserire uno o più codici CUP separati da ; (non più di 300), e poi fare click sul tasto “Mostra CUP”. In output una tabella con i risultati della ricerca, di cui è possibile fare il download in formato Excel.\n\n\n\nFigura 3: Risultati ricerca per CUP\n\n\nIl foglio elettronico di output è suddiviso in tre fogli:\n\nDettaglio CUP;\nDettaglio CIG;\nDettaglio Indicatori.\n\nQuindi per estrarre da OpenBDAP dei dati relativi al PNRR, si può ancora una volta usare l’elenco dei CUP del Focus PNRR di OpenCUP, come elemento di filtro. Purtroppo non più di 300 CUP per volta.\nQui un esempio di output."
+    "text": "I dati correlati al PNRR\nOpenBDAP pubblica delle estrazioni dalla banca dati BDAP/MOP, in cui sono inseriti anche i dati del monitoraggio degli interventi finanziati solo con risorse nazionali del PNC - Piano nazionale per gli investimenti complementari al Piano nazionale di ripresa e resilienza (PNC). Il sistema Regis e BDAP si alimentano a vicenda.\nNon ci sembra che attualmente  in questo portale ci siano dei dati “etichettati” come PNRR o PNC e/o che ci siano delle modalità automatiche pubbliche aperte (API) per estrarre dati a partire da un codice CUP o da un CIG.\nNella sezione “Come pubblicare sui siti Istituzionali delle Amministrazioni Pubbliche i collegamenti ipertestuali ai dati contenuti nella BDAP”, viene indicato l’URL per esplorare le opere pubbliche di una Pubblica Amministrazione, a partire dal suo Codice Fiscale. Questo ad esempio quello dell’ANAS (80208450587 è il suo codice fiscale): https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&T=BusinessObject &idType=CUID&noDetailsPanel=true&X_Ente=80208450587\n➡️ NOTA BENE: in questa pagina in alto a destra è presente il link alla “RICERCA PER CUP”. In questo percorso alla ricerca dei dati relativi al PNRR ci sarà utile.\n\n\n\nFigura 1: Pagina opere pubbliche di una PA\n\n\nAl click su “RICERCA PER CUP” si apre il form dedicato (vedi Figura 2).\n\n\n\nFigura 2: Form ricercar per CUP\n\n\nIn questo form è possibile inserire uno o più codici CUP separati da ; (non più di 300), e poi fare click sul tasto “Mostra CUP”. In output una tabella con i risultati della ricerca, di cui è possibile fare il download in formato Excel.\n\n\n\nFigura 3: Risultati ricerca per CUP\n\n\nIl foglio elettronico di output è suddiviso in tre fogli:\n\nDettaglio CUP;\nDettaglio CIG;\nDettaglio Indicatori.\n\nQuindi per estrarre da OpenBDAP dei dati relativi al PNRR, si può ancora una volta usare l’elenco dei CUP del Focus PNRR di OpenCUP, come elemento di filtro. Purtroppo non più di 300 CUP per volta.\nQui un esempio di output.\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare."
   },
   {
     "objectID": "fonti/anac/index.html",
@@ -144,7 +144,7 @@
     "href": "fonti/anac/index.html#fare-una-ricerca-sul-portale-anac",
     "title": "ANAC",
     "section": "Fare una ricerca sul Portale ANAC",
-    "text": "Fare una ricerca sul Portale ANAC\nSu Portale è presente anche una pagina di ricerca, in cui è possibile inserire uno o più parametri - anche ad esempio una parola presente nell’oggetto - e avere restituito l’elenco delle procedure correlate.\n\n\n\nFigura 1: Il modulo di ricerca del Portale ANAC"
+    "text": "Fare una ricerca sul Portale ANAC\nSu Portale è presente anche una pagina di ricerca, in cui è possibile inserire uno o più parametri - anche ad esempio una parola presente nell’oggetto - e avere restituito l’elenco delle procedure correlate.\n\n\n\nFigura 1: Il modulo di ricerca del Portale ANAC\n\n\n\n\n\n\n\n\nNota\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare."
   },
   {
     "objectID": "fonti/anac/informazioni-cig.html",
@@ -179,7 +179,7 @@
     "href": "about.html#licenza",
     "title": "Informazioni",
     "section": "Licenza",
-    "text": "Licenza\nLa licenza scelta è la CC-BY-4.0 (Creative Commons Attribution 4.0 International). Quindi sei libero di usare come preferisci i contenuti di questo spazio, avendo cura di citare la fonte.\n\nCome citare la fonte\nA titolo d’esempio, è sufficiente indicare “Vademecum PNRR a cura dell’associazione onData” (inserendo anche il link alla home, https://pnrr.datibenecomune.it).\n\nQuesto sito è costruito con ❤️, ⚒️, un po’ di 🤯 e con Quarto."
+    "text": "Licenza\nLa licenza scelta è la CC-BY-4.0 (Creative Commons Attribution 4.0 International). Quindi sei libero di usare come preferisci i contenuti di questo spazio, avendo cura di citare la fonte.\n\nCome citare la fonte\nA titolo d’esempio, è sufficiente indicare “Vademecum PNRR a cura dell’associazione onData” (inserendo anche il link alla home, https://pnrr.datibenecomune.it).\n\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare.\n\n\n\nQuesto sito è costruito con ❤️, ⚒️, un po’ di 🤯 e con Quarto."
   },
   {
     "objectID": "index.html",
@@ -305,6 +305,6 @@
     "href": "guide/procedura-esempio.html#insieme-dei-dati-raccolti.",
     "title": "Estrarre le informazioni sul PNRR",
     "section": "Insieme dei dati raccolti.",
-    "text": "Insieme dei dati raccolti.\nIn questo foglio elettronico tutti gli output estratti (fanno riferimento a quanto disponibile a inizio febbraio del 2023). Aprendolo si può avere un’idea di quali tipi di informazioni è possibile estrarre da queste fonti.\n\n\n\nFigura 2: Foglio elettronico con i dati raccolti per Messina"
+    "text": "Insieme dei dati raccolti.\nIn questo foglio elettronico tutti gli output estratti (fanno riferimento a quanto disponibile a inizio febbraio del 2023). Aprendolo si può avere un’idea di quali tipi di informazioni è possibile estrarre da queste fonti.\n\n\n\nFigura 2: Foglio elettronico con i dati raccolti per Messina\n\n\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare."
   }
 ]
