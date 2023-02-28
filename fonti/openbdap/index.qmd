@@ -41,3 +41,5 @@ Quindi per estrarre da OpenBDAP dei dati relativi al PNRR, si può ancora una vo
 Purtroppo **non più di 300 CUP per volta**.
 
 [Qui](../../data/openbdap/2023-02-05_openbdap.xlsx) un **esempio di _output_**.
+
+{{< include ../../include/_partecipa.md >}}

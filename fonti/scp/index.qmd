@@ -86,3 +86,5 @@ Come estrarre soltanto i dati SCP a partire dall'elenco dei CUP e CIG correlati 
 Si può fare almeno in **due modalità**, ma richiedono un po' di esperienza nell'accesso ai dati, la loro gestione e la loro trasformazione.
 
 [[👉 Approfondimento]{.btn .btn-primary}](informazioni-scp.qmd)
+
+{{< include ../../include/_partecipa.md >}}
