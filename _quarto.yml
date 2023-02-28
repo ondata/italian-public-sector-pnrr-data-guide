@@ -103,7 +103,7 @@ website:
         href: https://github.com/ondata/italian-public-sector-pnrr-data-guide
       - icon: rss
         href: notizie.xml
-    left: "Contenuti in [CC-BY](https://creativecommons.org/licenses/by/4.0/)"
+    left: "[Licenza](/about.qmd#licenza)"
 
 format:
   html:
