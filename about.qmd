@@ -27,7 +27,7 @@ La licenza scelta è la [`CC-BY-4.0`](https://creativecommons.org/licenses/by/4.
 
 ### Come citare la fonte
 
-A titolo d'esempio, è sufficiente indicare "[Vademecum PNRR a cura dell'associazione onData](https://pnrr.datibenecomune.it/)" (inserendo anche il link alla home, <https://pnrr.datibenecomune.it>).
+A titolo d'esempio, è sufficiente indicare "[Vademecum PNRR a cura dell'associazione onData](https://pnrr.datibenecomune.it/)" (inserendo anche il link alla home, `https://pnrr.datibenecomune.it`).
 
 ---
 
