@@ -3,7 +3,7 @@ title: "Informazioni"
 subtitle: "Il progetto sui \"Dati aperti sul PNRR\""
 format:
   html:
-    toc: false
+    toc: true
 ---
 
 La presente guida è a cura dall'[**associazione onData**](https://www.ondata.it/), in collaborazione con **altre organizzazioni** e **altre persone**, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel Piano Nazionale Ripresa e Resilienza (PNRR), e che hanno collaborato sul tema in diversi contesti.
@@ -23,7 +23,7 @@ Questo _vademecum_ non sarebbe nato senza il "**fare cose, vedere gente**" in qu
 
 ## Licenza
 
-La licenza scelta è la [`CC-BY-4.0`](https://creativecommons.org/licenses/by/4.0/deed.it) (Creative Commons Attribution 4.0 International). Quindi sei libero di usare come preferisci i contenuti di questo spazio, avendo cura di citare la fonte.
+La licenza scelta è la [`CC-BY-4.0`](https://creativecommons.org/licenses/by/4.0/deed.it) (Creative Commons Attribution 4.0 International). Quindi sei libero di usare come preferisci i contenuti di questo spazio, avendo cura di [citare la fonte](#come-citare-la-fonte).
 
 ### Come citare la fonte
 
