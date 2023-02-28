@@ -10,4 +10,4 @@ Questo tipo di monitoraggio richiede, infatti, la partecipazione attiva alle pol
 
 📍L'**accesso ai dati** è quindi **un fatto essenziale**, ma soltanto **uno dei punti** di un **percorso di monitoraggio** (come ben rappresentato dal metodo di Monithon in @fig-monitoraggio-step).
 
-![Gli step del monitoraggio civico (da [Monithon](https://www.monithon.eu/crea-un-report-di-monitoraggio-civico/))](images/Percorso-per-Crea-un-report-BLACK2-thin-1.png){fig-alt="Gli step per la creazione di un report di monitoraggio" #fig-monitoraggio-step}
+![Gli step del monitoraggio civico (da [Monithon](https://www.monithon.eu/crea-un-report-di-monitoraggio-civico/))](images/Percorso-Crea-Report.png){fig-alt="Gli step per la creazione di un report di monitoraggio" #fig-monitoraggio-step}
