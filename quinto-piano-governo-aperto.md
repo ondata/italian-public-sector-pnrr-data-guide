@@ -33,4 +33,4 @@ L'**azione 5** ha per titolo "**Innovazione digitale inclusiva**":
 
 Come scritto [qui](about.qmd), l'idea e lo sviluppo di questo *vademecum* nascono grazie a diversi incontri, scambi di idee e proposte tra varie persone e organizzazioni.
 
-Uno dei luoghi in cui si è realizzato tutto questo è proprio il tavolo dell'azione 5.02 del Piano.
+Uno dei luoghi in cui si è realizzato e si sta realizzando tutto questo è proprio il tavolo dell'azione 5.02 del Piano.
