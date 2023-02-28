@@ -31,4 +31,4 @@ A titolo d'esempio, è sufficiente indicare "[Vademecum PNRR a cura dell'associa
 
 ---
 
-Questo sito è costruito con ❤️ e con [Quarto](https://quarto.org/).
+Questo sito è costruito con ❤️, ⚒️, un po' di 🤯 e con [Quarto](https://quarto.org/).
