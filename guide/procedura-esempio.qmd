@@ -62,8 +62,8 @@ Con `cut -f CODICE_CUP` si taglia la sola colonna `CODICE_CUP` e con `uniq -a` s
 fi
 ```
 
-Il [dataset CUP](../fonti/anac/index.qmd#il-dataset-cup) pubblicato dall'Autorità Nazionale Anticorruzione è composto da **più di 3 milioni di record**, quindi un foglio elettronico è pressoché inutilizzabile per estrarre tutti i codici `CIG` corrispondenti ai codici `CUP` estratti sopra per Messina.<br>
-È necessario utilizzare un linguaggio di programmazione o delle _utility_ dedicate alla elaborazione di file di testo strutturato (CSV, TSV, JSON, ecc.).
+Il [dataset CUP](../fonti/anac/index.qmd#il-dataset-cup) pubblicato dall'Autorità Nazionale Anticorruzione è composto da **più di 3 milioni di record**, quindi con un foglio elettronico è pressoché impossibile estrarre tutti i codici `CIG` corrispondenti ai codici `CUP` estratti sopra per Messina.<br>
+È necessario utilizzare un linguaggio di programmazione o delle _utility_ dedicate alla elaborazione di file di testo strutturato (`CSV`, `TSV`, `JSON`, ecc.).
 
 ::: {.callout}
 ## Filtrare i 3 milioni di record di ANAC
