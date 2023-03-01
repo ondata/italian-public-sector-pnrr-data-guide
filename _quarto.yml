@@ -23,7 +23,11 @@ website:
         text: Home
       - href: notizie.qmd
         text: Aggiornamenti
-      - about.qmd
+      - href: about.qmd
+        text: Informazioni
+      - href: https://www.datibenecomune.it/
+        text: "datiBeneComune"
+        target: "_blank"
     tools:
       - icon: github
         href: https://github.com/ondata/italian-public-sector-pnrr-data-guide
