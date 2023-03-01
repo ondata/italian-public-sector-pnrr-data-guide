@@ -4,6 +4,11 @@ subtitle: "Il portale open data dell'Autorità Nazionale Anticorruzione e i dati
 format: html
 toc-depth: 4
 description-meta: "Quali sono i dati aperti presenti sul portale ANAC, associabili al PNRR"
+website:
+  twitter-card:
+    description: "Quali sono i dati aperti presenti sul portale ANAC, associabili al PNRR"
+  open-graph:
+    description: "Quali sono i dati aperti presenti sul portale ANAC, associabili al PNRR"
 ---
 
 ```{python}
