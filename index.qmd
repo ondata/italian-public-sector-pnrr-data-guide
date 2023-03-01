@@ -1,6 +1,7 @@
 ---
 title: "I dati aperti sul PNRR"
 subtitle: "Le principali fonti della Pubblica Amministrazione Italiana"
+description-meta: "Open Data PNRR: per chi vuole capire come raccogliere informazioni sul Piano - correlarle tra loro e arricchirle - e poi monitorarlo."
 format:
   html:
     toc: false

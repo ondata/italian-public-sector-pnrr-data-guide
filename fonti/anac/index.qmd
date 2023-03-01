@@ -3,7 +3,7 @@ title: "ANAC"
 subtitle: "Il portale open data dell'Autorità Nazionale Anticorruzione e i dati di OpenCUP"
 format: html
 toc-depth: 4
-description: "Quali sono i dati aperti presenti sul portale ANAC, associabili al PNRR"
+description-meta: "Quali sono i dati aperti presenti sul portale ANAC, associabili al PNRR"
 ---
 
 ```{python}

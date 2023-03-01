@@ -1,6 +1,1 @@
 /* css styles */
-
-/* non visualizzare la descrizione nelle pagine, ma falla rimanere nei metadata per SEO*/
-#title-block-header .description {
-    display: none;
-}

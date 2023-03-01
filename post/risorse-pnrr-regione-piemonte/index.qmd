@@ -1,6 +1,7 @@
 ---
 title: "Progetti PNRR gestiti dalla Regione Piemonte"
 description: "Nuova pubblicazione sul portale Open Data Nazionale"
+description-meta: "Nuova pubblicazione sul portale Open Data Nazionale: dati PNRR della Regione Piemonte"
 date: "2023-02-28"
 draft: false
 categories:
