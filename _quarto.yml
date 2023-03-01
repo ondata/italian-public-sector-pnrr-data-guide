@@ -90,11 +90,11 @@ website:
     creator: "@ondatait"
     card-style: summary_large_image
     image: "/images/cover-og.png"
-    description: "Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi."
+    description: "Open Data PNRR: per chi vuole capire come raccogliere informazioni sul Piano - correlarle tra loro e arricchirle - e poi monitorarlo."
   open-graph:
     locale: it_IT
     image: "/images/cover-og.png"
-    description: "Per chi vuole raccogliere informazioni sul Piano, correlarle tra loro e arricchirle, e per monitorarlo ed estrapolare nuovi punti di sintesi."
+    description: "Open Data PNRR: per chi vuole capire come raccogliere informazioni sul Piano - correlarle tra loro e arricchirle - e poi monitorarlo."
 
 
   page-footer:
