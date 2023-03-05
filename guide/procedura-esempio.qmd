@@ -82,7 +82,7 @@ Quindi, a partire dai CUP associati al Comune di Messina [estratti sopra](#estra
 
 [^join]: vedi [Wikipedia](https://www.wikiwand.com/it/Join%20(SQL)).
 
-![I dati verranno incrociati (un `JOIN`), sfruttando la coincidenza dei CUP](images/opencup-focus-join-anac-083048.png){fig-alt="Join tra dati OpenCUP e ANAC" #fig-join-opencup-anac}
+![I dati verranno incrociati (un `JOIN`), sfruttando la coincidenza dei `CUP`](images/opencup-focus-join-anac-083048.png){fig-alt="Join tra dati OpenCUP e ANAC" #fig-join-opencup-anac}
 
 Per farlo si può usare il comodo ed efficiente [`qsv`](https://github.com/jqnatividad/qsv), a partire dai  file [`opencup-focus-083048-cup.csv`](../data/messina/opencup-focus-083048-cup.csv) (che contiene i soli codici CUP del Comune di Messina) e [`cup_csv.csv`](https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv.zip) (che è il file di ANAC):
 
@@ -187,6 +187,9 @@ In output diversi file `CSV` con le informazioni relative ai codici CIG estratti
 ## Estrarre i dati della Banca dati Servizio Contratti Pubblici
 
 Per estrarre i dati relativi a Messina e al PNRR dalla [Banca Dati SCP](../fonti/scp/index.qmd), si possono usare i **codici `CIG`** presenti nel file [anac-cup-cig-083048-cig.csv](../data/messina/anac-cup-cig-083048-cig.csv) estratto [sopra](#estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti).
+
+![I dati verranno incrociati (un `JOIN`), sfruttando la coincidenza dei `CIG`](images/scp-join-anac-083048.png){fig-alt="Join tra dati SCP e ANAC" #fig-join-scp-anac}
+
 
 Qui sotto ad esempio i comandi necessari per estrarre i dati dai file **atti**, **esiti** e **bandi**, contenuti nella Banca Dati SCP.
 
