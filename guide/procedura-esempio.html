@@ -335,7 +335,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti" id="toc-estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti" class="nav-link" data-scroll-target="#estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti">Estrarre i dati da ANAC, a partire dai codici CUP estratti</a></li>
   <li><a href="#estrarre-i-dati-della-banca-dati-servizio-contratti-pubblici" id="toc-estrarre-i-dati-della-banca-dati-servizio-contratti-pubblici" class="nav-link" data-scroll-target="#estrarre-i-dati-della-banca-dati-servizio-contratti-pubblici">Estrarre i dati della Banca dati Servizio Contratti Pubblici</a></li>
   <li><a href="#estrarre-i-dati-da-openbdap" id="toc-estrarre-i-dati-da-openbdap" class="nav-link" data-scroll-target="#estrarre-i-dati-da-openbdap">Estrarre i dati da OpenBDAP</a></li>
-  <li><a href="#insieme-dei-dati-raccolti." id="toc-insieme-dei-dati-raccolti." class="nav-link" data-scroll-target="#insieme-dei-dati-raccolti.">Insieme dei dati raccolti.</a></li>
+  <li><a href="#insieme-dei-dati-raccolti" id="toc-insieme-dei-dati-raccolti" class="nav-link" data-scroll-target="#insieme-dei-dati-raccolti">Insieme dei dati raccolti</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/guide/procedura-esempio.qmd" class="toc-action">Modifica questa pagina</a></p></div></div></nav>
     </div>
@@ -368,7 +368,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="estrazione-dei-codici-cup-da-opencup">Estrazione dei codici CUP da OpenCUP</h2>
 <p>I dati “<a href="../fonti/opencup/focus-pnrr.html">focus PNRR</a>”, hanno una colonna che contiene il codice Istat dei Comuni italiani associati ai vari progetti. Quello del Comune di Messina è <code>083048</code>.</p>
 <p>Il file di partenza è in formato Excel: per <strong>estrarre</strong> soltanto i dati di Messina, si cerca la colonna <code>CODI_CODICE_COMUNE</code>, si applica il filtro per il <strong>valore <code>083048</code></strong> (vedi <a href="#fig-filtro-excel">Figura&nbsp;1</a>), si copiano e incollano i risultati in un nuovo foglio elettronico e si salva il file.</p>
-<p>Come formato di salvataggio, si sceglie <code>CSV (delimitato da virgola) (*.csv)</code>. In output il file <a href="../data/messina/opencup-focus-083048.csv"><code>opencup-focus-083048.csv</code></a>.<br> Sono <strong>circa 360 progetti</strong>.</p>
+<p>Come formato di <em>output</em>, si sceglie <code>CSV (delimitato da virgola) (*.csv)</code>. È il file <a href="../data/messina/opencup-focus-083048.csv"><code>opencup-focus-083048.csv</code></a>.<br> Sono <strong>circa 360 progetti</strong>.</p>
 <div id="fig-filtro-excel" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/excel-filter.png" class="img-fluid figure-img" alt="Applicare un filtro in un foglio elettronico"></p>
@@ -397,22 +397,46 @@ Estrarre la sola colonna con i codici CUP, da riga di comando
 </section>
 <section id="estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti" class="level2">
 <h2 class="anchored" data-anchor-id="estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti">Estrarre i dati da ANAC, a partire dai codici CUP estratti</h2>
-<p>Il <a href="../fonti/anac/index.html#il-dataset-cup">dataset CUP</a> pubblicato dall’Autorità Nazionale Anticorruzione è composto da <strong>più di 3 milioni di record</strong>, quindi con un foglio elettronico è pressoché impossibile estrarre tutti i codici <code>CIG</code> corrispondenti ai codici <code>CUP</code> estratti sopra per Messina.<br> È necessario utilizzare un linguaggio di programmazione o delle <em>utility</em> dedicate alla elaborazione di file di testo strutturato (<code>CSV</code>, <code>TSV</code>, <code>JSON</code>, ecc.).</p>
-<div class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<p>Il <a href="../fonti/anac/index.html#il-dataset-cup">dataset CUP</a> pubblicato dall’Autorità Nazionale Anticorruzione è composto da <strong>più di 3 milioni di record</strong>, quindi con è “lavorabile” con un foglio elettronico (troppe righe).<br> È necessario utilizzare un linguaggio di programmazione o delle <em>utility</em> dedicate alla elaborazione di file di testo strutturato (<code>CSV</code>, <code>TSV</code>, <code>JSON</code>, ecc.).</p>
+<p>Il file di riferimento ha soltanto le colonne <code>CIG</code> e <code>CUP</code>.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>CIG</th>
+<th>CUP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5462644C6C</td>
+<td>I81C11000040006</td>
+</tr>
+<tr class="even">
+<td>009893079C</td>
+<td>000000000000000</td>
+</tr>
+<tr class="odd">
+<td>ZBB02E5426</td>
+<td>H81J09002660007</td>
+</tr>
+</tbody>
+</table>
+<p>Quindi, a partire dai CUP associati al Comune di Messina <a href="#estrazione-dei-codici-cup-da-opencup">estratti sopra</a>, bisogna estrarre dai dati ANAC soltanto le righe con i codici CUP corrispondenti. I due dataset si devono incrociare tra loro (si definisce <code>JOIN</code><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>), usando al la coincidenza tra i <code>CUP</code> come filtro.</p>
+<div id="fig-join-opencup-anac" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/opencup-focus-join-anac-083048.png" class="img-fluid figure-img" alt="Join tra dati OpenCUP e ANAC"></p>
+<p></p><figcaption class="figure-caption">Figura&nbsp;2: I dati verranno incrociati (un <code>JOIN</code>), sfruttando la coincidenza dei CUP</figcaption><p></p>
+</figure>
 </div>
-<div class="callout-title-container flex-fill">
-Filtrare i 3 milioni di record di ANAC
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Si può usare il comodo ed efficiente <a href="https://github.com/jqnatividad/qsv"><code>qsv</code></a>, a partire dal file <a href="../data/messina/opencup-focus-083048-cup.csv"><code>opencup-focus-083048-cup.csv</code></a> (che contiene i soli codici CUP del Comune di Messina):</p>
+<p>Per farlo si può usare il comodo ed efficiente <a href="https://github.com/jqnatividad/qsv"><code>qsv</code></a>, a partire dai file <a href="../data/messina/opencup-focus-083048-cup.csv"><code>opencup-focus-083048-cup.csv</code></a> (che contiene i soli codici CUP del Comune di Messina) e <a href="https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv.zip"><code>cup_csv.csv</code></a> (che è il file di ANAC):</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-d</span> <span class="st">";"</span> <span class="at">-i</span> <span class="at">-s</span> CUP opencup-focus-083048-cup.csv cup_csv.csv <span class="op">&gt;</span>anac-cup-cig-083048.csv</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Con <code>-d ";"</code> si imposta il separatore di campo che in ANAC è <code>;</code>, con <code>-i -s CUP opencup-focus-083048-cup.csv</code> si cercano nel file ANAC, nella colonna <code>CUP</code>, tutti i record contenenti i codici CUP estratti per Messina.</p>
-</div>
-</div>
+<p>Alcune note sul comando:</p>
+<ul>
+<li><code>-d ";"</code> per impostare il separatore di campo che nel <code>cup_csv.csv</code> di ANAC è <code>;</code></li>
+<li><code>-i</code>, per fare una ricerca che non tenga conto di “maiuscole” e “miniscole”;</li>
+<li><code>-s CUP</code>, per definire la colonna su cui eseguire la ricerca dei <code>CUP</code>;</li>
+<li>e infine il file che verrà usato come filtro <code>opencup-focus-083048-cup.csv</code> e quello da cui verranno estratti i file.</li>
+</ul>
 <div class="cell" data-execution_count="3">
 <div class="cell-output cell-output-display">
 <p>In output il file <a href="../data/messina/anac-cup-cig-083048.csv"><code>anac-cup-cig-083048.csv</code></a> (separatore di campo la <code>,</code>):</p>
@@ -424,7 +448,28 @@ Filtrare i 3 milioni di record di ANAC
 </div>
 </div>
 <p>A partire dal file estratto è utile <strong>estrarre</strong> anche un <strong>file <code>CSV</code></strong> con i <strong>soli codici CIG univoci</strong>.<br> Per questo esempio è stato creato il file <a href="../data/messina/anac-cup-cig-083048-cig.csv">anac-cup-cig-083048-cig.csv</a>.</p>
-<p>Questo file è comodo per <a href="../fonti/anac/informazioni-cig.html#tramite-api"><strong>interrogare le API di ANAC</strong></a>, ed <strong>estrarre</strong> le <strong>informazioni relative</strong> a questi codici CIG estratti per Messina.<br> Ancora una volta, si fa notare che questa è un’operazione semplice, ma che richiedere alcune conoscenze di programmazione. Qui sotto, al click, un esempio di codice.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Estrarre la lista dei valori univoci dei CIG
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Si può usare <a href="https://miller.readthedocs.io/en/6.7.0/">Miller</a>.</p>
+<pre class="{bash}"><code>mlr --c2n cut -f CIG then uniq -a anac-cup-cig-083048.csv &gt;anac-cup-cig-083048-cig.csv</code></pre>
+<ul>
+<li><code>cut -f CIG</code>, per estrarre soltanto la colonna <code>CIG</code>;</li>
+<li><code>then uniq -a</code>, per rimuovere eventuali doppioni.</li>
+</ul>
+</div>
+</div>
+</div>
+<p>Questo file è comodo per <a href="../fonti/anac/informazioni-cig.html#tramite-api"><strong>interrogare le API di ANAC</strong></a>, ed <strong>estrarre</strong> le <strong>informazioni relative</strong> a questi codici CIG estratti per Messina.<br> Questa è un’operazione semplice, ma richiede alcune conoscenze di programmazione. Qui sotto, al click, un esempio di codice.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -437,28 +482,28 @@ Interrogare le API di ANAC ed estrarre i dati di insieme
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>È uno <a href="../script/messina/messina.sh">script <code>bash</code></a> basato su <a href="https://miller.readthedocs.io/en/latest/">Miller</a> e su <a href="https://flatterer.opendata.coop/">flatterer</a>.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># variabile con il percorso assoluto della cartella dello script</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="va">folder</span><span class="op">=</span><span class="st">"</span><span class="va">$(</span><span class="bu">cd</span> <span class="st">"</span><span class="va">$(</span><span class="fu">dirname</span> <span class="st">"</span><span class="va">${BASH_SOURCE</span><span class="op">[</span><span class="dv">0</span><span class="op">]</span><span class="va">}</span><span class="st">"</span><span class="va">)</span><span class="st">"</span> <span class="kw">&amp;&amp;</span> <span class="bu">pwd</span><span class="va">)</span><span class="st">"</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># crea le cartelle di output</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/../../data/messina/rawdata/cig</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/../../data/messina/cig</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># per ogni CIG estratto, interroga l'API di ANAC e salva il file jsonl</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="va">IFS</span><span class="op">=</span><span class="st">""</span> <span class="bu">read</span> <span class="at">-r</span> <span class="va">line</span><span class="kw">;</span> <span class="cf">do</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> <span class="bu">[</span> <span class="ot">!</span> <span class="ot">-f</span> <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/../../data/messina/rawdata/cig/<span class="st">"</span><span class="va">$line</span><span class="st">"</span>.jsonl <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="ex">curl</span> <span class="at">-kL</span> <span class="st">"https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/</span><span class="va">$line</span><span class="st">"</span> <span class="op">&gt;</span><span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/../../data/messina/rawdata/cig/<span class="st">"</span><span class="va">$line</span><span class="st">"</span>.jsonl</span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="cf">fi</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span> <span class="op">&lt;</span><span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/../../data/messina/anac-cup-cig-083048-cig.csv</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># unisci tutti i file jsonl in un unico file json</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="ot">!</span> <span class="ot">-f</span> <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/../../data/messina/anac-cig.json <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  <span class="ex">mlrgo</span> <span class="at">--ijsonl</span> <span class="at">--ojson</span> <span class="at">--no-jvstack</span>  cat <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/../../data/messina/rawdata/cig/<span class="pp">*</span>.jsonl <span class="op">&gt;</span><span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/../../data/messina/anac-cig.json</span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="co"># estrai dal file JSON, le tabelle in esseo contenute in formato CSV</span></span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="ex">flatterer</span> <span class="at">--force</span> <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/../../data/messina/anac-cig.json <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/../../data/messina/cig</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>È uno script <code>bash</code> basato su <a href="https://miller.readthedocs.io/en/latest/">Miller</a> e su <a href="https://flatterer.opendata.coop/">flatterer</a>.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># variabile con il percorso assoluto della cartella dello script</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="va">folder</span><span class="op">=</span><span class="st">"</span><span class="va">$(</span><span class="bu">cd</span> <span class="st">"</span><span class="va">$(</span><span class="fu">dirname</span> <span class="st">"</span><span class="va">${BASH_SOURCE</span><span class="op">[</span><span class="dv">0</span><span class="op">]</span><span class="va">}</span><span class="st">"</span><span class="va">)</span><span class="st">"</span> <span class="kw">&amp;&amp;</span> <span class="bu">pwd</span><span class="va">)</span><span class="st">"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># crea le cartelle di output</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/rawdata/cig</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/cig</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># per ogni CIG estratto, interroga l'API di ANAC e salva il file jsonl</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="va">IFS</span><span class="op">=</span><span class="st">""</span> <span class="bu">read</span> <span class="at">-r</span> <span class="va">line</span><span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> <span class="bu">[</span> <span class="ot">!</span> <span class="ot">-f</span> <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/rawdata/cig/<span class="st">"</span><span class="va">$line</span><span class="st">"</span>.jsonl <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="ex">curl</span> <span class="at">-kL</span> <span class="st">"https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/</span><span class="va">$line</span><span class="st">"</span> <span class="op">&gt;</span><span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/rawdata/cig/<span class="st">"</span><span class="va">$line</span><span class="st">"</span>.jsonl</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>  <span class="cf">fi</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span> <span class="op">&lt;</span><span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/anac-cup-cig-083048-cig.csv</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co"># unisci tutti i file jsonl in un unico file json</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="bu">[</span> <span class="ot">!</span> <span class="ot">-f</span> <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/anac-cig.json <span class="bu">]</span><span class="kw">;</span> <span class="cf">then</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>  <span class="ex">mlr</span> <span class="at">--ijsonl</span> <span class="at">--ojson</span> <span class="at">--no-jvstack</span>  cat <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/rawdata/cig/<span class="pp">*</span>.jsonl <span class="op">&gt;</span><span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/anac-cig.json</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="cf">fi</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="co"># estrai dal file JSON, le tabelle in esseo contenute in formato CSV</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="ex">flatterer</span> <span class="at">--force</span> <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/anac-cig.json <span class="st">"</span><span class="va">$folder</span><span class="st">"</span>/cig</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 </div>
@@ -472,7 +517,7 @@ Interrogare le API di ANAC ed estrarre i dati di insieme
 </section>
 <section id="estrarre-i-dati-della-banca-dati-servizio-contratti-pubblici" class="level2">
 <h2 class="anchored" data-anchor-id="estrarre-i-dati-della-banca-dati-servizio-contratti-pubblici">Estrarre i dati della Banca dati Servizio Contratti Pubblici</h2>
-<p>Per estrarre i dati relativi a Messina e al PNRR dalla <a href="../fonti/scp/index.html">Banca Dati SCP</a>, si possono usare ancora una volta i <strong>codici <code>CIG</code></strong> presenti nel file <a href="../data/messina/anac-cup-cig-083048-cig.csv">anac-cup-cig-083048-cig.csv</a> estratto sopra.</p>
+<p>Per estrarre i dati relativi a Messina e al PNRR dalla <a href="../fonti/scp/index.html">Banca Dati SCP</a>, si possono usare i <strong>codici <code>CIG</code></strong> presenti nel file <a href="../data/messina/anac-cup-cig-083048-cig.csv">anac-cup-cig-083048-cig.csv</a> estratto <a href="#estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti">sopra</a>.</p>
 <p>Qui sotto ad esempio i comandi necessari per estrarre i dati dai file <strong>atti</strong>, <strong>esiti</strong> e <strong>bandi</strong>, contenuti nella Banca Dati SCP.</p>
 <div class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -485,12 +530,12 @@ Estrarre dai dati SCP, i dati a partire dai CIG di Messina
 </div>
 <div class="callout-body-container callout-body">
 <p>Si può usare ancora una volta il comodo ed efficiente <a href="https://github.com/jqnatividad/qsv"><code>qsv</code></a>, a partire dal file <a href="../data/messina/anac-cup-cig-083048-cig.csv"><code>anac-cup-cig-083048-cig.csv</code></a> con i soli codici CIG legati al PNRR e relativi al Comune di Messina:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># atti</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_atti.csv <span class="op">&gt;</span>scp-atti-083048.csv</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># esiti</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_esiti.csv <span class="op">&gt;</span>scp-esiti-083048.csv</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># bandi</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_bandi.csv <span class="op">&gt;</span>scp-bandi-083048.csv</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># atti</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_atti.csv <span class="op">&gt;</span>scp-atti-083048.csv</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># esiti</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_esiti.csv <span class="op">&gt;</span>scp-esiti-083048.csv</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># bandi</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="ex">qsv</span> searchset <span class="at">-i</span> <span class="at">-s</span> cig anac-cup-cig-083048-cig.csv v_od_bandi.csv <span class="op">&gt;</span>scp-bandi-083048.csv</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Con <code>-i -s cig anac-cup-cig-083048-cig.csv</code> si cercano nei file SCP nella colonna <code>cig</code> tutti i record contenenti i codici <code>CIG</code> estratti per Messina.</p>
 </div>
 </div>
@@ -507,13 +552,13 @@ Estrarre dai dati SCP, i dati a partire dai CIG di Messina
 <p>Quindi ancora una volta si possono usare i <a href="#estrazione-dei-codici-cup-da-opencup">codici CUP estratti per il Comune di Messina</a>, ovvero quelli del file <a href="../data/messina/opencup-focus-083048-cup.csv"><code>opencup-focus-083048-cup.csv</code></a> e usarli come filtro per la ricerca su OpenBDAP. Sono circa 360, quindi si dovranno eseguire 2 ricerche.</p>
 <p>In <em>output</em> questo file <code>XLSX</code>, suddiviso in 3 fogli: <code>Dettaglio CUP</code>, <code>Dettaglio CIG</code> e <code>Dettaglio Indicatori</code>. Qui i dati estratti al 5 febbraio 2023: <a href="../data/messina/openbdap-083048.xlsx"><code>openbdap-083048.xlsx</code></a>.</p>
 </section>
-<section id="insieme-dei-dati-raccolti." class="level2">
-<h2 class="anchored" data-anchor-id="insieme-dei-dati-raccolti.">Insieme dei dati raccolti.</h2>
+<section id="insieme-dei-dati-raccolti" class="level2">
+<h2 class="anchored" data-anchor-id="insieme-dei-dati-raccolti">Insieme dei dati raccolti</h2>
 <p>In <strong>questo <a href="https://docs.google.com/spreadsheets/d/1qD4AwS_DLoEckTvir0ndK14BXCtfDyC_dZkAi6cNjlA/edit?usp=sharing">foglio elettronico</a></strong> tutti gli <em>output</em> estratti (fanno riferimento a quanto disponibile a inizio febbraio del 2023).<br> Aprendolo si può avere un’idea di quali tipi di informazioni è possibile estrarre da queste fonti.</p>
 <div id="fig-foglio-dati-messina" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><a href="https://docs.google.com/spreadsheets/d/1qD4AwS_DLoEckTvir0ndK14BXCtfDyC_dZkAi6cNjlA/edit?usp=sharing"><img src="images/dati-raccolti.png" class="img-fluid figure-img" alt="Foglio elettronico con i dati raccolti relativi al Comune di Messina"></a></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;2: Foglio elettronico con i dati raccolti per Messina</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figura&nbsp;3: Foglio elettronico con i dati raccolti per Messina</figcaption><p></p>
 </figure>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -533,7 +578,13 @@ Partecipa
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Note</h2>
+
+<ol>
+<li id="fn1"><p>vedi <a href="https://www.wikiwand.com/it/Join%20(SQL)">Wikipedia</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
