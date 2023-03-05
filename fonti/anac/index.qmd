@@ -7,8 +7,10 @@ description-meta: "Quali sono i dati aperti presenti sul portale ANAC, associabi
 website:
   twitter-card:
     description: "Quali sono i dati aperti presenti sul portale ANAC, associabili al PNRR"
+    image: "anac.png"
   open-graph:
     description: "Quali sono i dati aperti presenti sul portale ANAC, associabili al PNRR"
+    image: "anac.png"
 ---
 
 ```{python}

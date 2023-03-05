@@ -5,8 +5,10 @@ description-meta: "Quali sono i dati aperti sul PNRR presenti in OpenCUP e come 
 website:
   twitter-card:
     description: "Quali sono i dati aperti sul PNRR presenti in OpenCUP e come utilizzarli"
+    image: "opencup.png"
   open-graph:
     description: "Quali sono i dati aperti sul PNRR presenti in OpenCUP e come utilizzarli"
+    image: "opencup.png"
 ---
 
 [OpenCUP](https://opencup.gov.it/portale/) mette a disposizione di tutti - cittadini, istituzioni ed altri enti - i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitarie o regionali o con risorse private registrate con il Codice Unico di Progetto.
