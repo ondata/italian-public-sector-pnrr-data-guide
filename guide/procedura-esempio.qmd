@@ -35,7 +35,7 @@ I dati "[focus PNRR](../fonti/opencup/focus-pnrr.qmd)", hanno una colonna che co
 
 Il file di partenza è in formato Excel: per **estrarre** soltanto i dati di Messina, si cerca la colonna `CODI_CODICE_COMUNE`, si applica il filtro per il **valore `083048`** (vedi @fig-filtro-excel), si copiano e incollano i risultati in un nuovo foglio elettronico e si salva il file.
 
-Come formato di salvataggio, si sceglie `CSV (delimitato da virgola) (*.csv)`. In output il file [`opencup-focus-083048.csv`](../data/messina/opencup-focus-083048.csv).<br>
+Come formato di _output_, si sceglie `CSV (delimitato da virgola) (*.csv)`. È il file [`opencup-focus-083048.csv`](../data/messina/opencup-focus-083048.csv).<br>
 Sono **circa 360 progetti**.
 
 ![Applicare un filtro in un foglio elettronico](images/excel-filter.png){fig-alt="Applicare un filtro in un foglio elettronico" #fig-filtro-excel}
@@ -67,20 +67,35 @@ Con `cut -f CODICE_CUP` si taglia la sola colonna `CODICE_CUP` e con `uniq -a` s
 fi
 ```
 
-Il [dataset CUP](../fonti/anac/index.qmd#il-dataset-cup) pubblicato dall'Autorità Nazionale Anticorruzione è composto da **più di 3 milioni di record**, quindi con un foglio elettronico è pressoché impossibile estrarre tutti i codici `CIG` corrispondenti ai codici `CUP` estratti sopra per Messina.<br>
+Il [dataset CUP](../fonti/anac/index.qmd#il-dataset-cup) pubblicato dall'Autorità Nazionale Anticorruzione è composto da **più di 3 milioni di record**, quindi con è "lavorabile" con un foglio elettronico (troppe righe).<br>
 È necessario utilizzare un linguaggio di programmazione o delle _utility_ dedicate alla elaborazione di file di testo strutturato (`CSV`, `TSV`, `JSON`, ecc.).
 
-::: {.callout}
-## Filtrare i 3 milioni di record di ANAC
+Il file di riferimento ha soltanto le colonne `CIG` e `CUP`.
 
-Si può usare il comodo ed efficiente [`qsv`](https://github.com/jqnatividad/qsv), a partire dal file [`opencup-focus-083048-cup.csv`](../data/messina/opencup-focus-083048-cup.csv) (che contiene i soli codici CUP del Comune di Messina):
+| CIG | CUP |
+| --- | --- |
+| 5462644C6C | I81C11000040006 |
+| 009893079C | 000000000000000 |
+| ZBB02E5426 | H81J09002660007 |
+
+Quindi, a partire dai CUP associati al Comune di Messina [estratti sopra](#estrazione-dei-codici-cup-da-opencup), bisogna estrarre dai dati ANAC soltanto le righe con i codici CUP corrispondenti. I due dataset si devono incrociare tra loro (si definisce `JOIN`[^join]), usando al la coincidenza tra i `CUP` come filtro.
+
+[^join]: vedi [Wikipedia](https://www.wikiwand.com/it/Join%20(SQL)).
+
+![I dati verranno incrociati (un `JOIN`), sfruttando la coincidenza dei CUP](images/opencup-focus-join-anac-083048.png){fig-alt="Join tra dati OpenCUP e ANAC" #fig-join-opencup-anac}
+
+Per farlo si può usare il comodo ed efficiente [`qsv`](https://github.com/jqnatividad/qsv), a partire dai  file [`opencup-focus-083048-cup.csv`](../data/messina/opencup-focus-083048-cup.csv) (che contiene i soli codici CUP del Comune di Messina) e [`cup_csv.csv`](https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv.zip) (che è il file di ANAC):
 
 ```{.bash}
 qsv searchset -d ";" -i -s CUP opencup-focus-083048-cup.csv cup_csv.csv >anac-cup-cig-083048.csv
 ```
 
-Con `-d ";"` si imposta il separatore di campo che in ANAC è `;`, con `-i -s CUP opencup-focus-083048-cup.csv` si cercano nel file ANAC, nella colonna `CUP`, tutti i record contenenti i codici CUP estratti per Messina.
-:::
+Alcune note sul comando:
+
+- `-d ";"` per impostare il separatore di campo che nel `cup_csv.csv` di ANAC è `;`
+- `-i`, per fare una ricerca che non tenga conto di "maiuscole" e "miniscole";
+- `-s CUP`, per definire la colonna su cui eseguire la ricerca dei `CUP`;
+- e infine il file che verrà usato come filtro `opencup-focus-083048-cup.csv` e quello da cui verranno estratti i file.
 
 ```{python}
 #| echo: false
@@ -115,36 +130,50 @@ display(Markdown(text))
 A partire dal file estratto è utile **estrarre** anche un **file `CSV`** con i **soli codici CIG univoci**.<br>
 Per questo esempio è stato creato il file [anac-cup-cig-083048-cig.csv](../data/messina/anac-cup-cig-083048-cig.csv).
 
+::: {.callout-tip collapse="true"}
+## Estrarre la lista dei valori univoci dei CIG
+
+Si può usare [Miller](https://miller.readthedocs.io/en/6.7.0/).
+
+```{bash}
+mlr --c2n cut -f CIG then uniq -a anac-cup-cig-083048.csv >anac-cup-cig-083048-cig.csv
+```
+
+- `cut -f CIG`, per estrarre soltanto la colonna `CIG`;
+- `then uniq -a`, per rimuovere eventuali doppioni.
+
+:::
+
 Questo file è comodo per [**interrogare le API di ANAC**](../fonti/anac/informazioni-cig.qmd#tramite-api), ed **estrarre** le **informazioni relative** a questi codici CIG estratti per Messina.<br>
-Ancora una volta, si fa notare che questa è un'operazione semplice, ma che richiedere alcune conoscenze di programmazione. Qui sotto, al click, un esempio di codice.
+Questa è un'operazione semplice, ma richiede alcune conoscenze di programmazione. Qui sotto, al click, un esempio di codice.
 
 ::: {.callout-note collapse="true"}
 ## Interrogare le API di ANAC ed estrarre i dati di insieme
 
-È uno [script `bash`](../script/messina/messina.sh) basato su [Miller](https://miller.readthedocs.io/en/latest/) e su [flatterer](https://flatterer.opendata.coop/).
+È uno script `bash` basato su [Miller](https://miller.readthedocs.io/en/latest/) e su [flatterer](https://flatterer.opendata.coop/).
 
 ```{.bash}
 # variabile con il percorso assoluto della cartella dello script
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # crea le cartelle di output
-mkdir -p "$folder"/../../data/messina/rawdata/cig
-mkdir -p "$folder"/../../data/messina/cig
+mkdir -p "$folder"/rawdata/cig
+mkdir -p "$folder"/cig
 
 # per ogni CIG estratto, interroga l'API di ANAC e salva il file jsonl
 while IFS="" read -r line; do
-  if [ ! -f "$folder"/../../data/messina/rawdata/cig/"$line".jsonl ]; then
-    curl -kL "https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/$line" >"$folder"/../../data/messina/rawdata/cig/"$line".jsonl
+  if [ ! -f "$folder"/rawdata/cig/"$line".jsonl ]; then
+    curl -kL "https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/$line" >"$folder"/rawdata/cig/"$line".jsonl
   fi
-done <"$folder"/../../data/messina/anac-cup-cig-083048-cig.csv
+done <"$folder"/anac-cup-cig-083048-cig.csv
 
 # unisci tutti i file jsonl in un unico file json
-if [ ! -f "$folder"/../../data/messina/anac-cig.json ]; then
-  mlrgo --ijsonl --ojson --no-jvstack  cat "$folder"/../../data/messina/rawdata/cig/*.jsonl >"$folder"/../../data/messina/anac-cig.json
+if [ ! -f "$folder"/anac-cig.json ]; then
+  mlr --ijsonl --ojson --no-jvstack  cat "$folder"/rawdata/cig/*.jsonl >"$folder"/anac-cig.json
 fi
 
 # estrai dal file JSON, le tabelle in esseo contenute in formato CSV
-flatterer --force "$folder"/../../data/messina/anac-cig.json "$folder"/../../data/messina/cig
+flatterer --force "$folder"/anac-cig.json "$folder"/cig
 ```
 :::
 
@@ -157,7 +186,7 @@ In output diversi file `CSV` con le informazioni relative ai codici CIG estratti
 
 ## Estrarre i dati della Banca dati Servizio Contratti Pubblici
 
-Per estrarre i dati relativi a Messina e al PNRR dalla [Banca Dati SCP](../fonti/scp/index.qmd), si possono usare ancora una volta i **codici `CIG`** presenti nel file [anac-cup-cig-083048-cig.csv](../data/messina/anac-cup-cig-083048-cig.csv) estratto sopra.
+Per estrarre i dati relativi a Messina e al PNRR dalla [Banca Dati SCP](../fonti/scp/index.qmd), si possono usare i **codici `CIG`** presenti nel file [anac-cup-cig-083048-cig.csv](../data/messina/anac-cup-cig-083048-cig.csv) estratto [sopra](#estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti).
 
 Qui sotto ad esempio i comandi necessari per estrarre i dati dai file **atti**, **esiti** e **bandi**, contenuti nella Banca Dati SCP.
 
@@ -211,7 +240,7 @@ Quindi ancora una volta si possono usare i [codici CUP estratti per il Comune di
 
 In _output_ questo file `XLSX`, suddiviso in 3 fogli: `Dettaglio CUP`, `Dettaglio CIG` e `Dettaglio Indicatori`. Qui i dati estratti al 5 febbraio 2023: [`openbdap-083048.xlsx`](../data/messina/openbdap-083048.xlsx).
 
-## Insieme dei dati raccolti.
+## Insieme dei dati raccolti
 
 In **questo [foglio elettronico](https://docs.google.com/spreadsheets/d/1qD4AwS_DLoEckTvir0ndK14BXCtfDyC_dZkAi6cNjlA/edit?usp=sharing)** tutti gli _output_ estratti (fanno riferimento a quanto disponibile a inizio febbraio del 2023).<br>
 Aprendolo si può avere un'idea di quali tipi di informazioni è possibile estrarre da queste fonti.

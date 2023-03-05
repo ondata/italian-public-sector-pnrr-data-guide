@@ -1,0 +1,19 @@
+---
+title: "Parità di genere PNRR"
+description: "Parità di genere PNRR"
+description-meta: "Parità di genere PNRR"
+website:
+  twitter-card:
+    description: "Parità di genere PNRR"
+  open-graph:
+    description: "Parità di genere PNRR"
+date: "2023-03-10"
+draft: true
+categories:
+  - regioni
+  - piemonte
+  - dati
+image: piemonte-pnrr.png
+---
+
+Lorem
