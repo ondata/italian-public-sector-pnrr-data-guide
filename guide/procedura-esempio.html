@@ -425,7 +425,7 @@ Estrarre la sola colonna con i codici CUP, da riga di comando
 <div id="fig-join-opencup-anac" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/opencup-focus-join-anac-083048.png" class="img-fluid figure-img" alt="Join tra dati OpenCUP e ANAC"></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;2: I dati verranno incrociati (un <code>JOIN</code>), sfruttando la coincidenza dei CUP</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figura&nbsp;2: I dati verranno incrociati (un <code>JOIN</code>), sfruttando la coincidenza dei <code>CUP</code></figcaption><p></p>
 </figure>
 </div>
 <p>Per farlo si può usare il comodo ed efficiente <a href="https://github.com/jqnatividad/qsv"><code>qsv</code></a>, a partire dai file <a href="../data/messina/opencup-focus-083048-cup.csv"><code>opencup-focus-083048-cup.csv</code></a> (che contiene i soli codici CUP del Comune di Messina) e <a href="https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv.zip"><code>cup_csv.csv</code></a> (che è il file di ANAC):</p>
@@ -518,6 +518,12 @@ Interrogare le API di ANAC ed estrarre i dati di insieme
 <section id="estrarre-i-dati-della-banca-dati-servizio-contratti-pubblici" class="level2">
 <h2 class="anchored" data-anchor-id="estrarre-i-dati-della-banca-dati-servizio-contratti-pubblici">Estrarre i dati della Banca dati Servizio Contratti Pubblici</h2>
 <p>Per estrarre i dati relativi a Messina e al PNRR dalla <a href="../fonti/scp/index.html">Banca Dati SCP</a>, si possono usare i <strong>codici <code>CIG</code></strong> presenti nel file <a href="../data/messina/anac-cup-cig-083048-cig.csv">anac-cup-cig-083048-cig.csv</a> estratto <a href="#estrarre-i-dati-da-anac-a-partire-dai-codici-cup-estratti">sopra</a>.</p>
+<div id="fig-join-scp-anac" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/scp-join-anac-083048.png" class="img-fluid figure-img" alt="Join tra dati SCP e ANAC"></p>
+<p></p><figcaption class="figure-caption">Figura&nbsp;3: I dati verranno incrociati (un <code>JOIN</code>), sfruttando la coincidenza dei <code>CIG</code></figcaption><p></p>
+</figure>
+</div>
 <p>Qui sotto ad esempio i comandi necessari per estrarre i dati dai file <strong>atti</strong>, <strong>esiti</strong> e <strong>bandi</strong>, contenuti nella Banca Dati SCP.</p>
 <div class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -558,7 +564,7 @@ Estrarre dai dati SCP, i dati a partire dai CIG di Messina
 <div id="fig-foglio-dati-messina" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><a href="https://docs.google.com/spreadsheets/d/1qD4AwS_DLoEckTvir0ndK14BXCtfDyC_dZkAi6cNjlA/edit?usp=sharing"><img src="images/dati-raccolti.png" class="img-fluid figure-img" alt="Foglio elettronico con i dati raccolti relativi al Comune di Messina"></a></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;3: Foglio elettronico con i dati raccolti per Messina</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figura&nbsp;4: Foglio elettronico con i dati raccolti per Messina</figcaption><p></p>
 </figure>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
