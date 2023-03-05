@@ -4,9 +4,6 @@ project:
   resources:
   - "googlecd08604f4edafe6e.html"
   - "CNAME"
-  - "fonti/anac/anac.png"
-  - "fonti/scp/scp.png"
-  - "fonti/openbdap/openbdap.png"
   preview:
     browser: false
     port: 6074

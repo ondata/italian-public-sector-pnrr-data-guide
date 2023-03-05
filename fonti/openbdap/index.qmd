@@ -9,6 +9,8 @@ website:
   open-graph:
     description: "Quali sono i dati aperti presenti sul portale OpenBDAP, associabili al PNRR"
     image: "openbdap.png"
+resources:
+  - "openbdap.png"
 ---
 
 > [**OpenBDAP**](https://openbdap.rgs.mef.gov.it/) è il portale della **Ragioneria Generale dello Stato** che consente di **scoprire** le tematiche della Finanza Pubblica, di **esplorare** i dati presenti all'interno della Banca Dati delle Amministrazioni Pubbliche e di **analizzare** i risultati frutto di elaborazioni personalizzate.

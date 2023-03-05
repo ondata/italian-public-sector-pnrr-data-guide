@@ -11,6 +11,8 @@ website:
   open-graph:
     description: "Quali sono i dati aperti presenti sul portale ANAC, associabili al PNRR"
     image: "anac.png"
+resources:
+  - "anac.png"
 ---
 
 ```{python}
