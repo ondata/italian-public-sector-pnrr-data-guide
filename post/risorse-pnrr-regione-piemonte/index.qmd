@@ -42,7 +42,7 @@ df=pd.read_csv("riga-esempio.csv")
 
 Questi ad esempio [i 🧮 dati](regpie-Coordfondi_pnrr_opendata_23951-focus-open_cup.csv) estraibili dal [Focus PNRR di OpenCUP](../../fonti/opencup/focus-pnrr.qmd).
 
-
+![Incrocio dati via `CUP`, dei dati OpenCUP e regione Piemonte](focus-pnrr-join-regione-piemonte.png){fig-alt="Incrocio dati OpenCUP con quelli di regione Piemonte" #fig-join-focus-pnrr-piemonte}
 
 ::: {.callout-warning}
 
