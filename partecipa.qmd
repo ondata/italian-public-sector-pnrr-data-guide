@@ -2,7 +2,7 @@
 title: "Partecipare"
 ---
 
-Abbiamo creato [uno spazio](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose) per raccogliere questi contributi su questo _vademecum_:
+Abbiamo creato [uno spazio](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions) per raccogliere questi contributi su questo _vademecum_:
 
 - **proposte**, per proposte e suggerimenti;
 - **racconti**, per raccontarci in cosa ti è stato utile;
@@ -15,21 +15,22 @@ Per fare richieste di aiuto, proposte, raccontarci come hai usato questa guida, 
 
 :::
 
-[[☝️ Partecipa]{.btn .btn-success}](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose)
+[[☝️ Partecipa]{.btn .btn-success}](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions)
 
-[![Le categorie dello spazio di partecipazione](images/partecipare.png){fig-alt="Le categorie dello spazio di partecipazione" #fig-partecipazione}](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose)
+[![Le categorie dello spazio di partecipazione](images/partecipare.png){fig-alt="Le categorie dello spazio di partecipazione" #fig-partecipazione}](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions)
 
 ## Come funziona lo spazio di partecipazione
 
 ### Scrivere un nuovo messaggio
 
-È molto **simile a un forum**, diviso per categorie. Dovrai iniziare proprio dallo **scegliere una delle categorie** (vedi @fig-partecipazione).
+È molto **simile a un forum**, diviso per categorie:
 
-Poi dovrai creare un messaggio con un **buon titolo** e una **buona descrizione** (vedi @fig-partecipazione-messaggio).
+- iniziare dal fare click su [`New discussion`](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/new/choose);
+- scegliere una delle **categorie**;
+- inserire un **titolo chiaro** e una **buona descrizione**;
+- e infine fare click su `Start discussion`.
 
-![Esempio di messaggio](images/esempio-discussione.png){fig-alt="Esempio di messaggio" #fig-partecipazione-messaggio}
-
-L'ultimo passo sarà quello di fare _click_ su `Start discussion`.
+![Esempio creazione nuovo messaggio](images/new-discussion.gif){fig-alt="Esempio creazione nuovo messaggio" #fig-partecipazione-messaggio-animato}
 
 ### Rispondere a un messaggio
 
