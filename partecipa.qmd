@@ -43,7 +43,7 @@ Inoltre, se ci si iscrive allo spazio di discussione, sarà possibile farlo anch
 
 ### Per rimanere aggiornata/o
 
-Riceverai automaticamente gli avvisi per tutte le risposte ai tuoi messaggi.
+Riceverai automaticamente gli avvisi via e-mail, per tutte le risposte ai tuoi messaggi.
 
 Potrai inoltre iscriverti soltanto a tutte le risposte a uno specifico messaggio, aprendolo e facendo click su `Subscribe` (vedi @fig-partecipazione-messaggio-iscrizione).
 
