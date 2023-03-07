@@ -9,6 +9,13 @@ website:
     description: "Una guida su come estrarre i dati relativi al PNRR relativi a un comune, dalle banche dati di OpenCUP, ANAC, Servizio Contratti Pubblici e OpenBDAP"
 ---
 
+::: {.callout-note}
+
+## Perché abbiamo scelto Messina per questo esempio
+
+L'associazione onData è stata coinvolta nella [**Scuola di Monitoraggio Civico del PNRR** di **Messina**](http://parliamentwatch.it/2023/03/07/monitorare-il-pnrr-3/), organizzata dall'**Osservatorio Civico PNRR** in collaborazione con **Parliament Watch Italia**. Per quell'occasione è stata raccontato il flusso di lavoro e sono stati resi disponibili i dati di esempio.
+
+:::
 
 ## Introduzione
 
