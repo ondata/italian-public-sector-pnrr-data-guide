@@ -360,6 +360,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Perché abbiamo scelto Messina per questo esempio
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>L’associazione onData è stata coinvolta nella <a href="http://parliamentwatch.it/2023/03/07/monitorare-il-pnrr-3/"><strong>Scuola di Monitoraggio Civico del PNRR</strong> di <strong>Messina</strong></a>, organizzata dall’<strong>Osservatorio Civico PNRR</strong> in collaborazione con <strong>Parliament Watch Italia</strong>. Per quell’occasione è stata raccontato il flusso di lavoro e sono stati resi disponibili i dati di esempio.</p>
+</div>
+</div>
 <section id="introduzione" class="level2">
 <h2 class="anchored" data-anchor-id="introduzione">Introduzione</h2>
 <p>In questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: <a href="../fonti/opencup/index.html">OpenCUP</a>, <a href="../fonti/anac/index.html">ANAC</a>, <a href="../fonti/scp/index.html">SCP</a> e <a href="../fonti/openbdap/index.html">OpenBDAP</a>.</p>
@@ -377,7 +390,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <p>E a partire da questo file estratto, è utile per i prossimi step, <strong>salvare</strong> in CSV anche <strong>un file contenente la sola colonna con i valori univoci di codici CUP</strong>.<br> Con un foglio elettronico si può fare un semplice copia e incolla in un nuovo foglio della sola prima colonna e salvare il tutto in CSV.<br> In output il file <a href="../data/messina/opencup-focus-083048-cup.csv"><code>opencup-focus-083048-cup.csv</code></a>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -386,7 +399,7 @@ Estrarre la sola colonna con i codici CUP, da riga di comando
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>È comodo farlo con <a href="https://miller.readthedocs.io/en/latest/"><strong>Miller</strong></a>:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mlr</span> <span class="at">--csv</span> cut <span class="at">-f</span> CODICE_CUP then uniq <span class="at">-a</span> opencup-focus-083048.csv <span class="op">&gt;</span>opencup-focus-083048-cup.csv</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -449,7 +462,7 @@ Estrarre la sola colonna con i codici CUP, da riga di comando
 </div>
 <p>A partire dal file estratto è utile <strong>estrarre</strong> anche un <strong>file <code>CSV</code></strong> con i <strong>soli codici CIG univoci</strong>.<br> Per questo esempio è stato creato il file <a href="../data/messina/anac-cup-cig-083048-cig.csv">anac-cup-cig-083048-cig.csv</a>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -458,7 +471,7 @@ Estrarre la lista dei valori univoci dei CIG
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Si può usare <a href="https://miller.readthedocs.io/en/6.7.0/">Miller</a>.</p>
 <pre class="{bash}"><code>mlr --c2n cut -f CIG then uniq -a anac-cup-cig-083048.csv &gt;anac-cup-cig-083048-cig.csv</code></pre>
@@ -471,7 +484,7 @@ Estrarre la lista dei valori univoci dei CIG
 </div>
 <p>Questo file è comodo per <a href="../fonti/anac/informazioni-cig.html#tramite-api"><strong>interrogare le API di ANAC</strong></a>, ed <strong>estrarre</strong> le <strong>informazioni relative</strong> a questi codici CIG estratti per Messina.<br> Questa è un’operazione semplice, ma richiede alcune conoscenze di programmazione. Qui sotto, al click, un esempio di codice.</p>
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -480,7 +493,7 @@ Interrogare le API di ANAC ed estrarre i dati di insieme
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>È uno script <code>bash</code> basato su <a href="https://miller.readthedocs.io/en/latest/">Miller</a> e su <a href="https://flatterer.opendata.coop/">flatterer</a>.</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># variabile con il percorso assoluto della cartella dello script</span></span>

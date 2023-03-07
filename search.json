@@ -277,7 +277,14 @@
     "href": "guide/procedura-esempio.html",
     "title": "Estrarre le informazioni sul PNRR",
     "section": "",
-    "text": "In questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: OpenCUP, ANAC, SCP e OpenBDAP."
+    "text": "Perché abbiamo scelto Messina per questo esempio\n\n\n\nL’associazione onData è stata coinvolta nella Scuola di Monitoraggio Civico del PNRR di Messina, organizzata dall’Osservatorio Civico PNRR in collaborazione con Parliament Watch Italia. Per quell’occasione è stata raccontato il flusso di lavoro e sono stati resi disponibili i dati di esempio."
+  },
+  {
+    "objectID": "guide/procedura-esempio.html#introduzione",
+    "href": "guide/procedura-esempio.html#introduzione",
+    "title": "Estrarre le informazioni sul PNRR",
+    "section": "Introduzione",
+    "text": "Introduzione\nIn questa pagina verrà sviluppato un esempio completo, per estrarre le informazioni sul PNRR legate al Comune di Messina, a partire dalle fonti dati descritte in questa guida: OpenCUP, ANAC, SCP e OpenBDAP."
   },
   {
     "objectID": "guide/procedura-esempio.html#estrazione-dei-codici-cup-da-opencup",
