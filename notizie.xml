@@ -9,7 +9,7 @@
 <link>https://pnrr.datibenecomune.it/notizie.html</link>
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.228</generator>
+<generator>quarto-1.3.253</generator>
 <lastBuildDate>Tue, 28 Feb 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Progetti PNRR gestiti dalla Regione Piemonte</title>
@@ -39,9 +39,11 @@ Il dataset descritto non è più disponibile.
 <p>Qui sotto un esempio di contenuto della tabella dati:</p>
 <div class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display" data-execution_count="1">
+<style type="text/css">
+</style>
 
-
-<table id="T_0ce66" class="dataframe table-striped table-sm table-responsive table" data-quarto-postprocess="true">
+<div class="table-responsive">
+<table id="T_0ce66" class="dataframe table-striped table-sm table" data-quarto-postprocess="true">
 <thead>
 <tr class="header">
 <th id="T_0ce66_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">Colonna</th>
@@ -99,6 +101,7 @@ Il dataset descritto non è più disponibile.
 </tr>
 </tbody>
 </table>
+</div>
 </div>
 </div>
 <p>È presente una colonna con il codice <code>CUP</code>, quindi è teoricamente possibile <strong>arricchire il dettaglio informativo</strong> a partire dalle banche dati <a href="../../fonti/opencup/">OpenCUP</a>, <a href="../../fonti/anac/">ANAC</a>, <a href="../../fonti/scp/">Servizio Contratti Pubblici</a> e <a href="../../fonti/openbdap/">OpenBDAP</a> (così come nell’<a href="../../guide/procedura-esempio.html">esempio</a> per il Comune di Messina).</p>
