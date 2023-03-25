@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "introduzione.html",
+    "href": "introduzione.html",
+    "title": "Introduzione",
+    "section": "",
+    "text": "Il Piano nazionale di Ripresa e Resilienza (PNRR) italiano prevede investimenti pari a 191,5 miliardi di euro, finanziati dall’Unione Europea attraverso il Dispositivo per la Ripresa e la Resilienza (RRF), a cui si aggiungono 30,6 miliardi di risorse nazionali, del Piano Nazionale per gli investimenti Complementari (PNC) confluite in un apposito Fondo nazionale complementare al PNRR, per un totale di 222,1 miliardi di euro (a cui si aggiungono ulteriori 13 miliardi del programma React EU).\nPer comprenderlo, seguirne lo sviluppo, monitoralo e valutarne l’impatto è necessario poter accedere ai dati correlati (vedi I dati che Vorrei).\nPrima di passare all’elenco di alcune banche dati di interesse e a come usarle, si vogliono sottolineare alcuni punti importanti:"
+  },
+  {
+    "objectID": "introduzione.html#fonti-dati-nazionali",
+    "href": "introduzione.html#fonti-dati-nazionali",
+    "title": "Introduzione",
+    "section": "Fonti dati nazionali",
+    "text": "Fonti dati nazionali\nA seguire un elenco delle fonti dati nazionali sulla realizzazione dei singoli progetti d’investimento PNRR e PNC in Italia, ognuno definito da un Codice Unico di Progetto (CUP) che identifica un progetto d’investimento pubblico.\nElenco:\n\nReGIS, è lo strumento unico attraverso cui le Amministrazioni centrali e territoriali interessate devono adempiere agli obblighi di monitoraggio, rendicontazione e controllo delle misure e dei progetti finanziati dal PNRR. Il portale pubblica per adesso alcune estrazioni di dati in formato aperto, sul monitoraggio della programmazione di spesa e investimenti delle misure sul portale Italia Domani, ancora poco relativamente a livello di progetti e stato di avanzamento. Il sistema è gestito da Ministero dell’Economia e delle Finanze – Dipartimento della Ragioneria Generale dello Stato – Servizio Centrale per il PNRR;\nOpenCUP, il portale con i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitarie o regionali o con risorse private registrate con il Codice Unico di Progetto ed è gestito dalla Presidenza del Consiglio dei Ministri - Dipartimento per la programmazione e il coordinamento della politica economica (DIPE);\nil Catalogo dei dati aperti di alcune informazioni estratte dalla Banca dati nazionale dei contratti pubblici (BDNCP) relativi alle gare ed appalti, con relativo codice identificativo della gara gestito dall’Autorità Nazionale Anticorruzione (ANAC);\nla Banca dati Servizio Contratti Pubblici del Servizio contratti pubblici (SCP) del Ministero delle infrastrutture e dei trasporti (MIT);\nOpenBDAP, portale OpenBDAP sezione “Opere pubbliche” dove sono pubblicati i dati di monitoraggio delle opere inviati alla BDAP dagli enti (pubblici o privati) che realizzano opere pubbliche ed è gestito dalla Ragioneria Generale dello Stato (RGS/MEF).\n\n\n\n\n\n\n\nSuggerimento\n\n\n\nL’ordine dell’elenco non è casuale: ti consigliamo di seguirlo e iniziare da OpenCUP.\n\n\n\nIn questo spazio facciamo riferimento spesso a termini come dataset, dati aperti, ecc., che potrebbero non esserti noti.Per questo stiamo preparando una pagina di riferimento (ancora in costruzione)."
+  },
+  {
+    "objectID": "glossario.html",
+    "href": "glossario.html",
+    "title": "Glossario",
+    "section": "",
+    "text": "Dati aperti\nI dati che presentano le seguenti caratteristiche:\n\nsono disponibili secondo i termini di una licenza o di una previsione normativa che ne permetta l’utilizzo da parte di chiunque, anche per finalità commerciali, in formato disaggregato;\nsono accessibili attraverso le tecnologie dell’informazione e della comunicazione, ivi comprese le reti telematiche pubbliche e private, in formati aperti ai sensi della lettera l-bis), sono adatti all’utilizzo automatico da parte di programmi per elaboratori e sono provvisti dei relativi metadati;\nsono resi disponibili gratuitamente attraverso le tecnologie dell’informazione e della comunicazione, ivi comprese le reti telematiche pubbliche e private, oppure sono resi disponibili ai costi marginali sostenuti per la loro riproduzione e divulgazione.\n\nVedi Codice dell’Amministrazione Digitale\n\n\nDataset\nQuando facciamo riferimento ai dati, spesso usiamo il termine dataset. È un termine più generale che può fare riferimento a un singolo file, a una banca dati e quasi sempre a una raccolta di più risorse (file, indirizzi web, API, ecc.).\nVedi glossario dei “I dati che Vorrei”."
+  },
+  {
     "objectID": "openpnrr.html",
     "href": "openpnrr.html",
     "title": "OpenPNRR",
@@ -7,11 +28,60 @@
     "text": "OpenPNRR ha lo scopo di monitorare e approfondire il piano nazionale di ripresa e resilienza. Offre informazioni di qualità sulla gestione, da parte del governo, delle risorse che l’Unione europea ha destinato all’Italia nell’ambito del Next generation Eu.\nIl progetto – di Fondazione Openpolis in collaborazione con il Gran Sasso Science Institute – si pone come punto di osservazione indipendente rispetto agli annunci delle istituzioni coinvolte. Crediamo infatti che iniziative di questo tipo siano essenziali per valutare l’efficacia degli interventi, controllarne la realizzazione effettiva, contrastare il rischio di sprechi e corruzione.\n➡️ https://openpnrr.it/"
   },
   {
-    "objectID": "monitoraggio/index.html",
-    "href": "monitoraggio/index.html",
-    "title": "Il Monitoraggio civico",
+    "objectID": "osservatorio.html",
+    "href": "osservatorio.html",
+    "title": "Osservatorio Civico PNRR",
     "section": "",
-    "text": "Negli ultimi anni sono stati sviluppati metodi, pratiche e strumenti che hanno lo scopo di presidiare, verificare e valutare dal basso l’uso dei fondi pubblici. Si tratta del monitoraggio “civico” delle politiche pubbliche, sperimentato già da varie iniziative della società civile. La parola “civico” serve non solo per distinguerlo dal monitoraggio amministrativo, a cui non si sostituisce, ma anche per sottolineare la natura partecipativa di queste attività. Questo tipo di monitoraggio richiede, infatti, la partecipazione attiva alle politiche pubbliche per controllare l’andamento e verificare l’efficacia dei singoli interventi finanziati, nonché per raccogliere suggerimenti, idee e proposte da discutere con le amministrazioni responsabili e migliorare quindi la qualità della spesa e sollevare eventuali problematiche o punti di attenzione, su cui attivare azioni di advocacy o stimolare un dibattito pubblico informato.\n📍L’accesso ai dati è quindi un fatto essenziale, ma soltanto uno dei punti di un percorso di monitoraggio (come ben rappresentato dal metodo di Monithon in Figura 1).\n\n\n\nFigura 1: Gli step del monitoraggio civico (da Monithon)"
+    "text": "L’Osservatorio Civico nasce nell’ambito del programma Follow the Money - ideato all’interno del Festival della partecipazione 2020 – con l’obiettivo di monitorare l’inclusività del processo decisionale di costruzione del Piano Nazionale Ripresa e Resilienza e la trasparenza durante l’implementazione dei progetti.\nL’Osservatorio comprende più di 50 organizzazione della società civile con forte esperienza nel settore della trasparenza e del monitoraggio delle politiche pubbliche e con competenze tematiche più specifiche, come quelle ambientali, di parità di genere o legate alla transizione digitale.\n➡️ https://osservatoriocivicopnrr.it/\n\n\n\nOsservatorio Civico PNRR"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Informazioni",
+    "section": "",
+    "text": "La presente guida è a cura dall’associazione onData, in collaborazione con altre organizzazioni e altre persone, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel Piano Nazionale Ripresa e Resilienza (PNRR), e che hanno collaborato sul tema in diversi contesti.\nÈ una guida al monitoraggio civico del PNRR attraverso i dati attualmente disponibili. Si propone di affiancare le cittadine e i cittadini nel monitoraggio civico di un piano che avrà un impatto decisivo sul futuro del nostro Paese. I dati aperti sono ancora pochi e ci piace pensare che presto saranno interamente pubblicati.\nNell’attesa, apriamo questo spazio come un bene comune per tutte/i coloro che vorranno usarlo e/o contribuire ad arricchirlo.\nQuesto vademecum non sarebbe nato senza il “fare cose, vedere gente” in questi contesti:"
+  },
+  {
+    "objectID": "about.html#licenza",
+    "href": "about.html#licenza",
+    "title": "Informazioni",
+    "section": "Licenza",
+    "text": "Licenza\nLa licenza scelta è la CC-BY-4.0 (Creative Commons Attribution 4.0 International). Quindi sei libero di usare come preferisci i contenuti di questo spazio, avendo cura di citare la fonte.\n\nCome citare la fonte\nA titolo d’esempio, è sufficiente indicare “Vademecum PNRR a cura dell’associazione onData” (inserendo anche il link alla home, https://pnrr.datibenecomune.it).\n\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare.\n\n\n\nQuesto sito è costruito con ❤️, ⚒️, un po’ di 🤯 e con Quarto."
+  },
+  {
+    "objectID": "post/risorse-pnrr-regione-piemonte/index.html",
+    "href": "post/risorse-pnrr-regione-piemonte/index.html",
+    "title": "Progetti PNRR gestiti dalla Regione Piemonte",
+    "section": "",
+    "text": "Il dataset descritto non è più disponibile.\n\n\n\nÈ stato rimosso dal portale di origine - quello della Regione Piemonte - e dal 6 marzo 2023 non è più disponibile nel portale nazionale dei dati aperti. Non ne conosciamo le ragioni. Qui la copia della pagina web quando era ancora online e qui la copia del dataset.\n\n\nSul portale nazionale dei dati aperti sono pubblicati i dati aperti gestiti dalla Regione Piemonte: è di recentissima pubblicazione, il dataset denominato “Progetti PNRR gestiti dalla Regione Piemonte - dettagli”.\n\nIl dataset contiene le informazioni relative agli importi dei progetti del PNRR che vedono come soggetto attuatore la Regione Piemonte. Viene mostrato il dettaglio relativo alla Missione, alla Componente e alla Misura. I totali delle risorse assegnate per ciascun progetto (identificato da un CUP) sono ripartiti tra i comuni di localizzazione dei beneficiari, sulla base della tipologia di ricaduta territoriale: comune singolo, più comuni, tutta la provincia, tutta la regione. In caso di progetto con beneficiari multipli, la ricaduta territoriale teorica del progetto viene calcolata ripartendo il totale delle risorse assegnate dal progetto sulla base del peso relativo della popolazione di ogni comune di localizzazione rispetto alla popolazione totale dell’aggregazione di comuni considerata.\n\nQui sotto un esempio di contenuto della tabella dati:\n\n\n\n\n\n\n\n\nColonna\nEsempio contenuto\n\n\n\n\nsigla_provincia\nTO\n\n\ncomune\nTORINO\n\n\ntipologia_di_ricaduta_territoriale\nComune singolo\n\n\nricaduta_territoriale\n2460498,0\n\n\nmissione\nM6 Salute\n\n\ncomponente\nM6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale\n\n\nmisura\nM6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')\n\n\nid_intervento\nM6C1I1.3\n\n\ncup\nF19J22000790006\n\n\ntitolo_progetto\nOSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74\n\n\ntot_risorse_assegnate_a_regione_piemonte\n2460498,0\n\n\nnote\nProgetto localizzato nel comune TORINO\n\n\n\n\n\n\nÈ presente una colonna con il codice CUP, quindi è teoricamente possibile arricchire il dettaglio informativo a partire dalle banche dati OpenCUP, ANAC, Servizio Contratti Pubblici e OpenBDAP (così come nell’esempio per il Comune di Messina).\nQuesti ad esempio i 🧮 dati estraibili dal Focus PNRR di OpenCUP.\n\n\n\nFigura 1: Incrocio dati via CUP, dei dati OpenCUP e regione Piemonte\n\n\n\n\n\n\n\n\nMancanza codici Istat dei Comuni\n\n\n\nÈ un peccato che i riferimenti geografici (i nomi dei Comuni) non siano associati ai relativi codici Istat. Questo rende i dati meno direttamente elaborabili e da mettere in relazione con altre banche dati."
+  },
+  {
+    "objectID": "datibenecomune.html",
+    "href": "datibenecomune.html",
+    "title": "dati Bene Comune",
+    "section": "",
+    "text": "Dati Bene Comune nasce nel 2020 su iniziativa di onData, Transparency International Italia e ActionAid Italia, per chiedere al governo italiano maggior trasparenza e dati aperti sulla pandemia di Covid19.\nNel giro di pochi mesi la campagna cresce fino a raccogliere oltre 55.000 sottoscrizioni di cittadini italiani e quasi 300 organizzazioni aderenti, tra associazioni, centri di ricerca, piccole imprese, testate editoriali.\nDati Bene Comune riesce ad ottenere dei risultati significativi, liberando finalmente alcuni importanti dati detenuti dalla Protezione Civile e dal Ministero della Salute e cominciando una proficua interlocuzione con le istituzioni, per migliorarne la qualità e le modalità di pubblicazione.\nDato il successo ottenuto anche in termini di promozione della cultura dei dati aperti, la campagna decide nel 2022 di dedicarsi ad altri ambiti di interesse pubblico, primo fra tutti il PNRR, il Piano di Ripartenza e Resilienza, che vedrà l’Italia investire oltre 200 miliardi di euro in progetti trasformativi per il paese entro il 2026.\nDati Bene Comune è oggi una delle voci più autorevoli, più seguite e più ascoltate in materia di trasparenza e di riuso dei dati di pubblico interesse: supporta attivisti e giornalisti ad avviare progetti di monitoraggio civico, organizza momenti di promozione degli open data e percorsi di formazione aperti alla cittadinanza, dialoga in maniera costruttiva, ma senza compromessi al ribasso, con la politica e le amministrazioni per aumentare la qualità dei dati pubblicati.\nPer seguire o supportare la campagna, ti invitiamo a visitare il sito e sottoscrivere la petizione se sei una persona fisica, o a richiedere l’adesione se sei un’associazione, un collettivo, un centro di ricerca, una testata giornalistica, un’azienda privata: https://www.datibenecomune.it/partecipa/"
+  },
+  {
+    "objectID": "quinto-piano-governo-aperto.html",
+    "href": "quinto-piano-governo-aperto.html",
+    "title": "La partecipazione dell’Italia all’Open Government Partnership",
+    "section": "",
+    "text": "La partecipazione dell’Italia all’Open Government Partnership è assicurata dalla Presidenza del Consiglio dei Ministri – Dipartimento della Funzione Pubblica (DFP), in veste di Governo italiano. Tale ruolo comporta l’impegno a promuovere e attuare i principi del governo aperto a livello nazionale, attraverso la definizione e attuazione dei Piani d’Azione Nazionale (NAP).\nÈ in corso l’attuazione del 5° Piano d’Azione Nazionale per il governo aperto 2022-2023 (5NAP), un processo di co-creazione che ha visto la collaborazione tra tutti gli stakeholders pubblici e privati interessati alle politiche di governo aperto."
+  },
+  {
+    "objectID": "quinto-piano-governo-aperto.html#lazione-5-del-piano",
+    "href": "quinto-piano-governo-aperto.html#lazione-5-del-piano",
+    "title": "La partecipazione dell’Italia all’Open Government Partnership",
+    "section": "L’azione 5 del piano",
+    "text": "L’azione 5 del piano\nL’azione 5 ha per titolo “Innovazione digitale inclusiva”:\n\nl’innovazione digitale è il principio su cui si basano le politiche di governo aperto ed è l’intervento essenziale e trasversale a tutti gli altri principi: trasparenza, partecipazione civica, lotta alla corruzione, accountability.\n\nÈ suddiviso in diversi impegni, di cui il 5.02 è denominato “Standard aperti per l’inclusività e la partecipazione della società civile nel monitoraggio della spesa pubblica”.\n\nQual è il problema che l’impegno affronterà?\n\nI cittadini e le organizzazioni della società civile lamentano la carenza di fonti di dati aperte e fruibili per monitorare la spesa pubblica in maniera capillare. I dati condivisi dalle pubbliche amministrazioni sono spesso pubblicati sotto forma di indicatori, in forma aggregata o seguendo schemi particolari che replicano i formati di raccolta o derivano dalle esigenze particolari dell’amministrazione che li raccoglie: a volte è difficile collegare dati provenienti da diverse amministrazioni, confrontarli con fonti aperte o commerciali o con quelli di altri paesi.\nIl problema è reso ancora più grave dal quadro di bassa alfabetizzazione digitale esistente nel nostro paese, che impedisce una piena fruizione delle fonti di dati pubbliche anche quando queste esistono e sono disponibili e più in generale non favorisce l’inclusione della società civile in processi di analisi e monitoraggio. Il superamento di questo problema costituisce un fattore abilitante per un’innovazione digitale inclusiva.\n\n\n\nIn che modo l’impegno contribuirà a risolvere il problema?\n\nL’adozione di formati standard e regole comuni per la pubblicazione dei dati sugli appalti, sia a livello nazionale che europeo, favorisce il coinvolgimento della società civile nel monitoraggio della spesa pubblica ed il confronto con quanto avviene in altri paesi. L’utilizzo di standard condivisi favorirà l’analisi delle iniziative inserite nel PNRR.\nSi può quindi prevedere un doppio livello di soluzione del problema prospettato nella precedente sezione: il processo di standardizzazione favorisce l’interoperabilità e la possibilità di collegare fonti di dati diverse; l’adozione di uno standard maturo e diffuso a livello internazionale crea le condizioni per il monitoraggio ed il confronto con altri paesi e la semplificazione derivante dall’adozione di un formato unico e ben documentato quale OCDS dovrebbe ridurre le barriere di ingresso per i processi di governance partecipativa, favorendo così lo sviluppo di competenze da parte di cittadini ed imprese e l’innovazione digitale inclusiva.\n\n\n\n\n5° Piano d’Azione Nazionale per il governo aperto"
+  },
+  {
+    "objectID": "quinto-piano-governo-aperto.html#questo-vademecum-e-il-5-piano",
+    "href": "quinto-piano-governo-aperto.html#questo-vademecum-e-il-5-piano",
+    "title": "La partecipazione dell’Italia all’Open Government Partnership",
+    "section": "Questo vademecum e il 5° Piano",
+    "text": "Questo vademecum e il 5° Piano\nCome scritto qui, l’idea e lo sviluppo di questo vademecum nascono grazie a diversi incontri, scambi di idee e proposte tra varie persone e organizzazioni.\nUno dei luoghi in cui si è realizzato e si sta realizzando tutto questo è proprio il tavolo dell’azione 5.02 del Piano."
   },
   {
     "objectID": "partecipa.html",
@@ -28,11 +98,67 @@
     "text": "Come funziona lo spazio di partecipazione\n\nScrivere un nuovo messaggio\nÈ molto simile a un forum, diviso per categorie:\n\niniziare dal fare click su New discussion;\nscegliere una delle categorie;\ninserire un titolo chiaro e una buona descrizione;\ne infine fare click su Start discussion.\n\n\n\n\nFigura 2: Esempio creazione nuovo messaggio\n\n\n\n\nRispondere a un messaggio\nSotto 1️⃣ ogni messaggio c’è 2️⃣ lo spazio per rispondere (vedi Figura 3).\nInoltre, se ci si iscrive allo spazio di discussione, sarà possibile farlo anche via e-mail.\n\n\n\nFigura 3: Rispondere a un messaggio\n\n\n\n\nPer rimanere aggiornata/o\nRiceverai automaticamente gli avvisi via e-mail, per tutte le risposte ai tuoi messaggi.\nPotrai inoltre iscriverti soltanto a tutte le risposte a uno specifico messaggio, aprendolo e facendo click su Subscribe (vedi Figura 4).\n\n\n\nFigura 4: Iscriversi agli aggiornamenti di un messaggio\n\n\nInfine potrai iscriverti a tutte le discussioni, seguendo i passi di Figura 5.\n🫶 Se credi che questo progetto sia utile, per favore scegli questa modalità. Uno spazio di partecipazione ha bisogno - sembra banale - di partecipazione.\n\n\n\nFigura 5: Come iscriversi a tutte le discussioni"
   },
   {
-    "objectID": "glossario.html",
-    "href": "glossario.html",
-    "title": "Glossario",
+    "objectID": "flowchart.html",
+    "href": "flowchart.html",
+    "title": "Dati aperti sul PNRR",
     "section": "",
-    "text": "Dati aperti\nI dati che presentano le seguenti caratteristiche:\n\nsono disponibili secondo i termini di una licenza o di una previsione normativa che ne permetta l’utilizzo da parte di chiunque, anche per finalità commerciali, in formato disaggregato;\nsono accessibili attraverso le tecnologie dell’informazione e della comunicazione, ivi comprese le reti telematiche pubbliche e private, in formati aperti ai sensi della lettera l-bis), sono adatti all’utilizzo automatico da parte di programmi per elaboratori e sono provvisti dei relativi metadati;\nsono resi disponibili gratuitamente attraverso le tecnologie dell’informazione e della comunicazione, ivi comprese le reti telematiche pubbliche e private, oppure sono resi disponibili ai costi marginali sostenuti per la loro riproduzione e divulgazione.\n\nVedi Codice dell’Amministrazione Digitale\n\n\nDataset\nQuando facciamo riferimento ai dati, spesso usiamo il termine dataset. È un termine più generale che può fare riferimento a un singolo file, a una banca dati e quasi sempre a una raccolta di più risorse (file, indirizzi web, API, ecc.).\nVedi glossario dei “I dati che Vorrei”."
+    "text": "graph TD\nANAC[/ANAC/]\nOpenBdap[/OpenBdap/]\nSCP[/SCP/]\nFocusPNRR[/Focus PNRR/]\nCodiciCUP[Codici CUP]\nCIG[Codici CIG]\nOpenCUP([OpenCUP]) --&gt; FocusPNRR --&gt; CodiciCUP\nCodiciCUP --&gt;ANAC & OpenBdap\nANAC--&gt;CIG\nCIG--&gt;SCP"
+  },
+  {
+    "objectID": "notizie.html",
+    "href": "notizie.html",
+    "title": "Notizie",
+    "section": "",
+    "text": "Progetti PNRR gestiti dalla Regione Piemonte\n\n\n\n\n\n\n\nregioni\n\n\npiemonte\n\n\ndati\n\n\n\n\nNuova pubblicazione sul portale Open Data Nazionale\n\n\n\n\n\n\n28 feb 2023\n\n\n\n\n\n\nNessun risultato"
+  },
+  {
+    "objectID": "monitoraggio/index.html",
+    "href": "monitoraggio/index.html",
+    "title": "Il Monitoraggio civico",
+    "section": "",
+    "text": "Negli ultimi anni sono stati sviluppati metodi, pratiche e strumenti che hanno lo scopo di presidiare, verificare e valutare dal basso l’uso dei fondi pubblici. Si tratta del monitoraggio “civico” delle politiche pubbliche, sperimentato già da varie iniziative della società civile. La parola “civico” serve non solo per distinguerlo dal monitoraggio amministrativo, a cui non si sostituisce, ma anche per sottolineare la natura partecipativa di queste attività. Questo tipo di monitoraggio richiede, infatti, la partecipazione attiva alle politiche pubbliche per controllare l’andamento e verificare l’efficacia dei singoli interventi finanziati, nonché per raccogliere suggerimenti, idee e proposte da discutere con le amministrazioni responsabili e migliorare quindi la qualità della spesa e sollevare eventuali problematiche o punti di attenzione, su cui attivare azioni di advocacy o stimolare un dibattito pubblico informato.\n📍L’accesso ai dati è quindi un fatto essenziale, ma soltanto uno dei punti di un percorso di monitoraggio (come ben rappresentato dal metodo di Monithon in Figura 1).\n\n\n\nFigura 1: Gli step del monitoraggio civico (da Monithon)"
+  },
+  {
+    "objectID": "rete-pnrr.html",
+    "href": "rete-pnrr.html",
+    "title": "Una rete della società civile per il monitoraggio del PNRR",
+    "section": "",
+    "text": "A partire da settembre 2021, grazie al sostegno della Fondazione Open Society, è stato avviato un tavolo di coordinamento tra alcune organizzazioni della società civile impegnate sui temi della trasparenza e della accountability e del monitoraggio del PNRR.\nAll’interno di questo tavolo le organizzazioni condividono regolarmente stato dell’arte e criticità delle loro iniziative e progettualità sul tema e concordano iniziative congiunte.\nÈ all’interno di questo spazio che a novembre 2023 è stata avviata la campagna #italiadomanidatioggi, con la redazione di una lettera aperta per chiedere l’apertura dei dati ed informazioni sui progetti del PNRR. Alla lettera hanno aderito 67 organizzazioni e reti della società civile.\nDel tavolo di coordinamento fanno parte:\n\nActionAid Italia E.T.S.;\nAssociazione onData;\nFondazione Openpolis;\ninfo.nodes;\nMonithon Europe E.T.S.;\nPeriod Think Tank - APS."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "I dati aperti sul PNRR",
+    "section": "",
+    "text": "Le informazioni sul Piano Nazionale di Ripresa e Resilienza (PNRR) e sulla sua gestione sono ancora poche. Per cittadine e cittadini, associazioni, giornaliste/i, movimenti, università, centri di ricerca, aziende, ecc. è difficile e alle volte impossibile seguire un progetto e il suo impatto sul territorio e sulle persone. Questo ha portato al lancio della campagna “ItaliaDomani Dati Oggi”, con una lettera aperta alla Presidente del Consiglio dei Ministri Giorgia Meloni e al Ministro per gli Affari Europei, il Sud, le Politiche di Coesione e il PNRR Raffaele Fitto.\nEsistono alcune banche dati, da cui è possibile estrarre alcune informazioni di dettaglio e metterle (ove possibile) in correlazione tra loro. Non riempiono il vuoto informativo attuale, ma sono ad oggi un riferimento utile per seguire e monitorare il Piano.\nQuesto sito ha l’obiettivo di descrivere le principali, a partire da quanto pubblicato dalla Pubblica Amministrazione italiana.\n\n\n\n\n\n\nPerché l’attenzione sui dati\n\n\n\nQuesto sito si rivolge a quelle persone che vogliono raccogliere informazioni sul Piano, per correlarle tra loro e arricchirle, per monitorarlo ed estrapolare nuovi punti di sintesi.\n📍 E l’accesso ai dati è uno dei passi necessari per farlo.\n\n\nAlcune note:\n\nsarà in continuo aggiornamento, perché nel tempo si potranno aggiungere e/o anche rimuovere alcune fonti;\nnon è un elenco completo di tutte le fonti di dati aperti sul PNRR, ma al momento solo delle principali e legate a tutto il territorio nazionale.\n\n👉 Inizia da qui ☝️ Partecipa"
+  },
+  {
+    "objectID": "table.html",
+    "href": "table.html",
+    "title": "test",
+    "section": "",
+    "text": "Colonna\nEsempio contenuto\n\n\n\n\nsigla_provincia\nTO\n\n\ncomune\nTORINO\n\n\ntipologia_di_ricaduta_territoriale\nComune singolo\n\n\nricaduta_territoriale\n2460498,0\n\n\nmissione\nM6 Salute\n\n\ncomponente\nM6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale\n\n\nmisura\nM6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')\n\n\nid_intervento\nM6C1I1.3\n\n\ncup\nF19J22000790006\n\n\ntitolo_progetto\nOSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74\n\n\ntot_risorse_assegnate_a_regione_piemonte\n2460498,0\n\n\nnote\nProgetto localizzato nel comune TORINO"
+  },
+  {
+    "objectID": "table.html#python-output",
+    "href": "table.html#python-output",
+    "title": "test",
+    "section": "",
+    "text": "Colonna\nEsempio contenuto\n\n\n\n\nsigla_provincia\nTO\n\n\ncomune\nTORINO\n\n\ntipologia_di_ricaduta_territoriale\nComune singolo\n\n\nricaduta_territoriale\n2460498,0\n\n\nmissione\nM6 Salute\n\n\ncomponente\nM6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale\n\n\nmisura\nM6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')\n\n\nid_intervento\nM6C1I1.3\n\n\ncup\nF19J22000790006\n\n\ntitolo_progetto\nOSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74\n\n\ntot_risorse_assegnate_a_regione_piemonte\n2460498,0\n\n\nnote\nProgetto localizzato nel comune TORINO"
+  },
+  {
+    "objectID": "table.html#markdown-output",
+    "href": "table.html#markdown-output",
+    "title": "test",
+    "section": "Markdown output",
+    "text": "Markdown output\n\n\n\n\n\n\n\n\n\nColonna\nEsempio contenuto\n\n\n\n\nsigla_provincia\nTO\n\n\ncomune\nTORINO\n\n\ntipologia_di_ricaduta_territoriale\nComune singolo\n\n\nricaduta_territoriale\n2460498,0\n\n\nmissione\nM6 Salute\n\n\ncomponente\nM6C1 Reti di prossimità, strutture e telemedicina per l’assistenza sanitaria territoriale\n\n\nmisura\nM6C1I1.3 Rafforzamento dell’assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita’)\n\n\nid_intervento\nM6C1I1.3\n\n\ncup\nF19J22000790006\n\n\ntitolo_progetto\nOSPEDALI DI COMUNITA’ - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74\n\n\ntot_risorse_assegnate_a_regione_piemonte\n2460498,0\n\n\nnote\nProgetto localizzato nel comune TORINO"
+  },
+  {
+    "objectID": "table.html#wide-markdown-table",
+    "href": "table.html#wide-markdown-table",
+    "title": "test",
+    "section": "Wide Markdown table",
+    "text": "Wide Markdown table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCODICE_CUP\nCODICE_TEMATICA\nNOME_TEMATICA\nCODICE_TEMPLATE\nDESCRIZIONE_TEMPLATE\nCODI_CODICE_NATURA\nDESC_DESCRIZIONE_NATURA\nCODI_CODICE_TIPOLOGIA\nDESC_DESCRIZIONE_TIPOLOGIA\nDESCRIZIONE_AGGREGATA\nSOGGETTO_TITOLARE\nPIVA_SOGGETTO\nUNITA_ORGANIZZATIVA\nSTRUMENTO_PROGRAMMAZIONE\nCODICE_STATO\nSTATO\nCODI_CODICE_REGIONE\nREGIONE\nCODI_CODICE_PROVINCIA\nPROVINCIA\nCODI_CODICE_COMUNE\nCOMUNE\nCODICE_SETTORE_INTERVENTO\nSETTORE_INTERVENTO\nCODICE_SOTTOSETTORE_INTERVENTO\nSOTTOSETTORE_INTERVENTO\nCODICE_CATEGORIA_INTERVENTO\nCATEGORIA_INTERVENTO\nANNO_DECISIONE\nDATA_GENERAZIONE_COMPLETO\nIMPO_COSTO_PROGETTO\nIMPO_IMPORTO_FINANZIATO\nSTATO_PROGETTO\nTIPO_PROGETTO\nTAG_DATA_FINE_VALIDITA\n\n\n\n\nG19J22001290007\n528\nM6C2: Innovazione, ricerca e digitalizzazione del servizio sanitario - I1.1:Ammodernamento del parco tecnologico e digitale ospedaliero\n\n\n01\nACQUISTO DI BENI\n00\nNUOVA FORNITURA\nA.O.U. CITTA’ DELLA SALUTE E DELLA SCIENZA DI TORINOCORSO BRAMANTE 88/90SISTEMI POLIFUNZIONALI PER RADIOLOGIA DIGITALE DIRETTA (DR) _OSPEDALE SAN GIOVANNI BATTISTA MOLINETTE_10\nAZIENDA OSPEDALIERA CITTA’ DELLA SALUTE E DELLA SCIENZA\n10771180014\nS.C. PROVVEDITORATO/ECONOMATO\nPIANO NAZIONALE DI RIPRESA E RESILIENZA_x000D_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\nITALIA\n01\nPIEMONTE\n001\nTORINO\n001272\nTORINO\n05\nINFRASTRUTTURE SOCIALI\n30\nSANITARIE\n111\nSTRUTTURE OSPEDALIERE\n2022\n2022-02-17\n244000\n244000\nAttivo\nProgetto Normale\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJ61F22002840006\n400\nM1C1: Digitalizzazione, innovazione e sicurezza nella PA - I1.4:Servizi digitali e esperienza dei cittadini\n2205010\nPCM - Dipartimento per la trasformazione digitale - PNRR M1C1 investimento 1.4 “servizi e cittadinanza digitale”, misura 1.4.3 “adozione piattaforma pagoPA”- ALTRI ENTI\n02\nACQUISTO O REALIZZAZIONE DI SERVIZI\n19\nAPPLICATIVI E PIATTAFORME WEB\nPIATTAFORMA PAGOPATERRITORIO NAZIONALEATTIVAZIONE SERVIZI\nREGIONE PIEMONTE\n80087670016\nSETTORE SISTEMA INFORMATIVO REGIONALE\nPNRR MISSIONE 1 COMPONENTE 1 INVESTIMENTO1.4 “SERVIZI E CITTADINANZA DIGITALE”, MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA”\n5\nITALIA\n01\nPIEMONTE\n\n\n\n\n10\nSERVIZI PER LA P.A. E PER LA COLLETTIVITA’\n02\nSERVIZI E APPLICAZIONI INFORMATICHE PER I CITTADINI E LE IMPRESE\n001\nSERVIZI ED APPLICAZIONI PER IL PUBBLICO\n2022\n2022-09-13\n297328\n297328\nAttivo\nProgetto Normale\n\n\n\nG19J22001350007\n529\nM6C2: Innovazione, ricerca e digitalizzazione del servizio sanitario - I1.2:Verso un ospedale sicuro e sostenibile\n\n\n01\nACQUISTO DI BENI\n00\nNUOVA FORNITURA\nA.O.U. CITTA’ DELLA SALUTE E DELLA SCIENZA DI TORINOCORSO BRAMANTE 88/90MULTIDISCIPLINARI/INTERNISTICI _ OSPEDALE SAN GIOVANNI BATTISTA MOLINETTE_17\nAZIENDA OSPEDALIERA CITTA’ DELLA SALUTE E DELLA SCIENZA\n10771180014\nS.C. PROVVEDITORATO/ECONOMATO\nPIANO NAZIONALE DI RIPRESA E RESILIENZA_x000D_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\nITALIA\n01\nPIEMONTE\n001\nTORINO\n001272\nTORINO\n05\nINFRASTRUTTURE SOCIALI\n30\nSANITARIE\n111\nSTRUTTURE OSPEDALIERE\n2022\n2022-02-17\n82000\n82000\nAttivo\nProgetto Normale\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJ61F22002850006\n400\nM1C1: Digitalizzazione, innovazione e sicurezza nella PA - I1.4:Servizi digitali e esperienza dei cittadini\n2205009\nPCM - Dipartimento per la trasformazione digitale - PNRR M1C1  Investimento 1.4 “Servizi e cittadinanza digitale” Sub-investimento 1.4.3 “Adozione APP IO” - ALTRI ENTI\n02\nACQUISTO O REALIZZAZIONE DI SERVIZI\n19\nAPPLICATIVI E PIATTAFORME WEB\nAPPLICAZIONE APP IOTERRITORIO NAZIONALEATTIVAZIONE SERVIZI\nREGIONE PIEMONTE\n80087670016\nSETTORE SISTEMA INFORMATIVO REGIONALE\nPNRR MISSIONE 1 COMPONENTE 1 INVESTIMENTO1.4 “SERVIZI E CITTADINANZA DIGITALE”, MISURA 1.4.3 “ADOZIONE APP IO”.\n5\nITALIA\n01\nPIEMONTE\n\n\n\n\n10\nSERVIZI PER LA P.A. E PER LA COLLETTIVITA’\n02\nSERVIZI E APPLICAZIONI INFORMATICHE PER I CITTADINI E LE IMPRESE\n001\nSERVIZI ED APPLICAZIONI PER IL PUBBLICO\n2022\n2022-09-13\n297320\n297320\nAttivo\nProgetto Normale\n\n\n\nG19J22001360007\n528\nM6C2: Innovazione, ricerca e digitalizzazione del servizio sanitario - I1.1:Ammodernamento del parco tecnologico e digitale ospedaliero\n\n\n01\nACQUISTO DI BENI\n00\nNUOVA FORNITURA\nA.O.U. CITTA’ DELLA SALUTE E DELLA SCIENZA DI TORINOCORSO BRAMANTE 88/90CARDIOLOGICI_OSPEDALE SAN GIOVANNI BATTISTA MOLINETTE_18\nAZIENDA OSPEDALIERA CITTA’ DELLA SALUTE E DELLA SCIENZA\n10771180014\nS.C. PROVVEDITORATO/ECONOMATO\nPIANO NAZIONALE DI RIPRESA E RESILIENZA_x000D_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\nITALIA\n01\nPIEMONTE\n001\nTORINO\n001272\nTORINO\n05\nINFRASTRUTTURE SOCIALI\n30\nSANITARIE\n111\nSTRUTTURE OSPEDALIERE\n2022\n2022-02-17\n82000\n82000\nAttivo\nProgetto Normale"
   },
   {
     "objectID": "fonti/opencup/focus-pnrr.html",
@@ -75,6 +201,13 @@
     "title": "OpenCUP",
     "section": "Fare una ricerca sul sito di OpenCUP",
     "text": "Fare una ricerca sul sito di OpenCUP\nSu OpenCUP è presente anche una pagina di ricerca, in cui è possibile inserire uno o più parametri - anche ad esempio una parola della descrizione di un progetto - e avere restituito l’elenco dei progetti correlato.\n\n\n\nFigura 3: Il modulo di ricerca di OpenCUP\n\n\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare."
+  },
+  {
+    "objectID": "fonti/fonti.html",
+    "href": "fonti/fonti.html",
+    "title": "Fonti",
+    "section": "",
+    "text": "A seguire le fonti dati descritte in questo vademecum.\n\n  Nazionali\n  \n        \n          OpenCUP\n        \n        \n          ANAC\n        \n        \n          Servizio Contratti Pubblici\n        \n        \n          OpenBDAP\n        \n  \n\nNessun risultato"
   },
   {
     "objectID": "fonti/scp/informazioni-scp.html",
@@ -124,6 +257,20 @@
     "title": "Banca dati Servizio Contratti Pubblici - SCP",
     "section": "Estrarre le informazioni",
     "text": "Estrarre le informazioni\nCome estrarre soltanto i dati SCP a partire dall’elenco dei CUP e CIG correlati al PNRR?\nSi può fare almeno in due modalità, ma richiedono un po’ di esperienza nell’accesso ai dati, la loro gestione e la loro trasformazione.\n👉 Approfondimento\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare."
+  },
+  {
+    "objectID": "fonti/openbdap/index.html",
+    "href": "fonti/openbdap/index.html",
+    "title": "OpenBDAP",
+    "section": "",
+    "text": "OpenBDAP è il portale della Ragioneria Generale dello Stato che consente di scoprire le tematiche della Finanza Pubblica, di esplorare i dati presenti all’interno della Banca Dati delle Amministrazioni Pubbliche e di analizzare i risultati frutto di elaborazioni personalizzate."
+  },
+  {
+    "objectID": "fonti/openbdap/index.html#i-dati-correlati-al-pnrr",
+    "href": "fonti/openbdap/index.html#i-dati-correlati-al-pnrr",
+    "title": "OpenBDAP",
+    "section": "I dati correlati al PNRR",
+    "text": "I dati correlati al PNRR\nOpenBDAP pubblica delle estrazioni dalla banca dati BDAP/MOP, in cui sono inseriti anche i dati del monitoraggio degli interventi finanziati solo con risorse nazionali del PNC - Piano nazionale per gli investimenti complementari al Piano nazionale di ripresa e resilienza (PNC). Il sistema Regis e BDAP si alimentano a vicenda.\nNon ci sembra che attualmente  in questo portale ci siano dei dati “etichettati” come PNRR o PNC e/o che ci siano delle modalità automatiche pubbliche aperte (API) per estrarre dati a partire da un codice CUP o da un CIG.\nNella sezione “Come pubblicare sui siti Istituzionali delle Amministrazioni Pubbliche i collegamenti ipertestuali ai dati contenuti nella BDAP”, viene indicato l’URL per esplorare le opere pubbliche di una Pubblica Amministrazione, a partire dal suo Codice Fiscale. Questo ad esempio quello dell’ANAS (80208450587 è il suo codice fiscale): https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&T=BusinessObject &idType=CUID&noDetailsPanel=true&X_Ente=80208450587\n➡️ NOTA BENE: in questa pagina in alto a destra è presente il link alla “RICERCA PER CUP”. In questo percorso alla ricerca dei dati relativi al PNRR ci sarà utile.\n\n\n\nFigura 1: Pagina opere pubbliche di una PA\n\n\nAl click su “RICERCA PER CUP” si apre il form dedicato (vedi Figura 2).\n\n\n\nFigura 2: Form ricercar per CUP\n\n\nIn questo form è possibile inserire uno o più codici CUP separati da ; (non più di 300), e poi fare click sul tasto “Mostra CUP”. In output una tabella con i risultati della ricerca, di cui è possibile fare il download in formato Excel.\n\n\n\nFigura 3: Risultati ricerca per CUP\n\n\nIl foglio elettronico di output è suddiviso in tre fogli:\n\nDettaglio CUP;\nDettaglio CIG;\nDettaglio Indicatori.\n\nQuindi per estrarre da OpenBDAP dei dati relativi al PNRR, si può ancora una volta usare l’elenco dei CUP del Focus PNRR di OpenCUP, come elemento di filtro. Purtroppo non più di 300 CUP per volta.\nQui un esempio di output.\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare."
   },
   {
     "objectID": "fonti/anac/informazioni-cig.html",
@@ -210,48 +357,6 @@
     "text": "Note\n\n\nQuelli diversi da quelli relativi a gas, energia termica, elettricità, acqua, trasporti, servizi postali, sfruttamento di area geografica.↩︎"
   },
   {
-    "objectID": "fonti/openbdap/index.html",
-    "href": "fonti/openbdap/index.html",
-    "title": "OpenBDAP",
-    "section": "",
-    "text": "OpenBDAP è il portale della Ragioneria Generale dello Stato che consente di scoprire le tematiche della Finanza Pubblica, di esplorare i dati presenti all’interno della Banca Dati delle Amministrazioni Pubbliche e di analizzare i risultati frutto di elaborazioni personalizzate."
-  },
-  {
-    "objectID": "fonti/openbdap/index.html#i-dati-correlati-al-pnrr",
-    "href": "fonti/openbdap/index.html#i-dati-correlati-al-pnrr",
-    "title": "OpenBDAP",
-    "section": "I dati correlati al PNRR",
-    "text": "I dati correlati al PNRR\nOpenBDAP pubblica delle estrazioni dalla banca dati BDAP/MOP, in cui sono inseriti anche i dati del monitoraggio degli interventi finanziati solo con risorse nazionali del PNC - Piano nazionale per gli investimenti complementari al Piano nazionale di ripresa e resilienza (PNC). Il sistema Regis e BDAP si alimentano a vicenda.\nNon ci sembra che attualmente  in questo portale ci siano dei dati “etichettati” come PNRR o PNC e/o che ci siano delle modalità automatiche pubbliche aperte (API) per estrarre dati a partire da un codice CUP o da un CIG.\nNella sezione “Come pubblicare sui siti Istituzionali delle Amministrazioni Pubbliche i collegamenti ipertestuali ai dati contenuti nella BDAP”, viene indicato l’URL per esplorare le opere pubbliche di una Pubblica Amministrazione, a partire dal suo Codice Fiscale. Questo ad esempio quello dell’ANAS (80208450587 è il suo codice fiscale): https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&T=BusinessObject &idType=CUID&noDetailsPanel=true&X_Ente=80208450587\n➡️ NOTA BENE: in questa pagina in alto a destra è presente il link alla “RICERCA PER CUP”. In questo percorso alla ricerca dei dati relativi al PNRR ci sarà utile.\n\n\n\nFigura 1: Pagina opere pubbliche di una PA\n\n\nAl click su “RICERCA PER CUP” si apre il form dedicato (vedi Figura 2).\n\n\n\nFigura 2: Form ricercar per CUP\n\n\nIn questo form è possibile inserire uno o più codici CUP separati da ; (non più di 300), e poi fare click sul tasto “Mostra CUP”. In output una tabella con i risultati della ricerca, di cui è possibile fare il download in formato Excel.\n\n\n\nFigura 3: Risultati ricerca per CUP\n\n\nIl foglio elettronico di output è suddiviso in tre fogli:\n\nDettaglio CUP;\nDettaglio CIG;\nDettaglio Indicatori.\n\nQuindi per estrarre da OpenBDAP dei dati relativi al PNRR, si può ancora una volta usare l’elenco dei CUP del Focus PNRR di OpenCUP, come elemento di filtro. Purtroppo non più di 300 CUP per volta.\nQui un esempio di output.\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare."
-  },
-  {
-    "objectID": "fonti/fonti.html",
-    "href": "fonti/fonti.html",
-    "title": "Fonti",
-    "section": "",
-    "text": "A seguire le fonti dati descritte in questo vademecum.\n\n  Nazionali\n  \n        \n          OpenCUP\n        \n        \n          ANAC\n        \n        \n          Servizio Contratti Pubblici\n        \n        \n          OpenBDAP\n        \n  \n\nNessun risultato"
-  },
-  {
-    "objectID": "introduzione.html",
-    "href": "introduzione.html",
-    "title": "Introduzione",
-    "section": "",
-    "text": "Il Piano nazionale di Ripresa e Resilienza (PNRR) italiano prevede investimenti pari a 191,5 miliardi di euro, finanziati dall’Unione Europea attraverso il Dispositivo per la Ripresa e la Resilienza (RRF), a cui si aggiungono 30,6 miliardi di risorse nazionali, del Piano Nazionale per gli investimenti Complementari (PNC) confluite in un apposito Fondo nazionale complementare al PNRR, per un totale di 222,1 miliardi di euro (a cui si aggiungono ulteriori 13 miliardi del programma React EU).\nPer comprenderlo, seguirne lo sviluppo, monitoralo e valutarne l’impatto è necessario poter accedere ai dati correlati (vedi I dati che Vorrei).\nPrima di passare all’elenco di alcune banche dati di interesse e a come usarle, si vogliono sottolineare alcuni punti importanti:"
-  },
-  {
-    "objectID": "introduzione.html#fonti-dati-nazionali",
-    "href": "introduzione.html#fonti-dati-nazionali",
-    "title": "Introduzione",
-    "section": "Fonti dati nazionali",
-    "text": "Fonti dati nazionali\nA seguire un elenco delle fonti dati nazionali sulla realizzazione dei singoli progetti d’investimento PNRR e PNC in Italia, ognuno definito da un Codice Unico di Progetto (CUP) che identifica un progetto d’investimento pubblico.\nElenco:\n\nReGIS, è lo strumento unico attraverso cui le Amministrazioni centrali e territoriali interessate devono adempiere agli obblighi di monitoraggio, rendicontazione e controllo delle misure e dei progetti finanziati dal PNRR. Il portale pubblica per adesso alcune estrazioni di dati in formato aperto, sul monitoraggio della programmazione di spesa e investimenti delle misure sul portale Italia Domani, ancora poco relativamente a livello di progetti e stato di avanzamento. Il sistema è gestito da Ministero dell’Economia e delle Finanze – Dipartimento della Ragioneria Generale dello Stato – Servizio Centrale per il PNRR;\nOpenCUP, il portale con i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitarie o regionali o con risorse private registrate con il Codice Unico di Progetto ed è gestito dalla Presidenza del Consiglio dei Ministri - Dipartimento per la programmazione e il coordinamento della politica economica (DIPE);\nil Catalogo dei dati aperti di alcune informazioni estratte dalla Banca dati nazionale dei contratti pubblici (BDNCP) relativi alle gare ed appalti, con relativo codice identificativo della gara gestito dall’Autorità Nazionale Anticorruzione (ANAC);\nla Banca dati Servizio Contratti Pubblici del Servizio contratti pubblici (SCP) del Ministero delle infrastrutture e dei trasporti (MIT);\nOpenBDAP, portale OpenBDAP sezione “Opere pubbliche” dove sono pubblicati i dati di monitoraggio delle opere inviati alla BDAP dagli enti (pubblici o privati) che realizzano opere pubbliche ed è gestito dalla Ragioneria Generale dello Stato (RGS/MEF).\n\n\n\n\n\n\n\nSuggerimento\n\n\n\nL’ordine dell’elenco non è casuale: ti consigliamo di seguirlo e iniziare da OpenCUP.\n\n\n\nIn questo spazio facciamo riferimento spesso a termini come dataset, dati aperti, ecc., che potrebbero non esserti noti.Per questo stiamo preparando una pagina di riferimento (ancora in costruzione)."
-  },
-  {
-    "objectID": "datibenecomune.html",
-    "href": "datibenecomune.html",
-    "title": "dati Bene Comune",
-    "section": "",
-    "text": "Dati Bene Comune nasce nel 2020 su iniziativa di onData, Transparency International Italia e ActionAid Italia, per chiedere al governo italiano maggior trasparenza e dati aperti sulla pandemia di Covid19.\nNel giro di pochi mesi la campagna cresce fino a raccogliere oltre 55.000 sottoscrizioni di cittadini italiani e quasi 300 organizzazioni aderenti, tra associazioni, centri di ricerca, piccole imprese, testate editoriali.\nDati Bene Comune riesce ad ottenere dei risultati significativi, liberando finalmente alcuni importanti dati detenuti dalla Protezione Civile e dal Ministero della Salute e cominciando una proficua interlocuzione con le istituzioni, per migliorarne la qualità e le modalità di pubblicazione.\nDato il successo ottenuto anche in termini di promozione della cultura dei dati aperti, la campagna decide nel 2022 di dedicarsi ad altri ambiti di interesse pubblico, primo fra tutti il PNRR, il Piano di Ripartenza e Resilienza, che vedrà l’Italia investire oltre 200 miliardi di euro in progetti trasformativi per il paese entro il 2026.\nDati Bene Comune è oggi una delle voci più autorevoli, più seguite e più ascoltate in materia di trasparenza e di riuso dei dati di pubblico interesse: supporta attivisti e giornalisti ad avviare progetti di monitoraggio civico, organizza momenti di promozione degli open data e percorsi di formazione aperti alla cittadinanza, dialoga in maniera costruttiva, ma senza compromessi al ribasso, con la politica e le amministrazioni per aumentare la qualità dei dati pubblicati.\nPer seguire o supportare la campagna, ti invitiamo a visitare il sito e sottoscrivere la petizione se sei una persona fisica, o a richiedere l’adesione se sei un’associazione, un collettivo, un centro di ricerca, una testata giornalistica, un’azienda privata: https://www.datibenecomune.it/partecipa/"
-  },
-  {
     "objectID": "guide/procedura-esempio.html",
     "href": "guide/procedura-esempio.html",
     "title": "Estrarre le informazioni sul PNRR",
@@ -306,110 +411,5 @@
     "title": "Estrarre le informazioni sul PNRR",
     "section": "Note",
     "text": "Note\n\n\nvedi Wikipedia.↩︎"
-  },
-  {
-    "objectID": "table.html",
-    "href": "table.html",
-    "title": "test",
-    "section": "",
-    "text": "Colonna\nEsempio contenuto\n\n\n\n\nsigla_provincia\nTO\n\n\ncomune\nTORINO\n\n\ntipologia_di_ricaduta_territoriale\nComune singolo\n\n\nricaduta_territoriale\n2460498,0\n\n\nmissione\nM6 Salute\n\n\ncomponente\nM6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale\n\n\nmisura\nM6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')\n\n\nid_intervento\nM6C1I1.3\n\n\ncup\nF19J22000790006\n\n\ntitolo_progetto\nOSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74\n\n\ntot_risorse_assegnate_a_regione_piemonte\n2460498,0\n\n\nnote\nProgetto localizzato nel comune TORINO"
-  },
-  {
-    "objectID": "table.html#python-output",
-    "href": "table.html#python-output",
-    "title": "test",
-    "section": "",
-    "text": "Colonna\nEsempio contenuto\n\n\n\n\nsigla_provincia\nTO\n\n\ncomune\nTORINO\n\n\ntipologia_di_ricaduta_territoriale\nComune singolo\n\n\nricaduta_territoriale\n2460498,0\n\n\nmissione\nM6 Salute\n\n\ncomponente\nM6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale\n\n\nmisura\nM6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')\n\n\nid_intervento\nM6C1I1.3\n\n\ncup\nF19J22000790006\n\n\ntitolo_progetto\nOSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74\n\n\ntot_risorse_assegnate_a_regione_piemonte\n2460498,0\n\n\nnote\nProgetto localizzato nel comune TORINO"
-  },
-  {
-    "objectID": "table.html#markdown-output",
-    "href": "table.html#markdown-output",
-    "title": "test",
-    "section": "Markdown output",
-    "text": "Markdown output\n\n\n\n\n\n\n\n\n\nColonna\nEsempio contenuto\n\n\n\n\nsigla_provincia\nTO\n\n\ncomune\nTORINO\n\n\ntipologia_di_ricaduta_territoriale\nComune singolo\n\n\nricaduta_territoriale\n2460498,0\n\n\nmissione\nM6 Salute\n\n\ncomponente\nM6C1 Reti di prossimità, strutture e telemedicina per l’assistenza sanitaria territoriale\n\n\nmisura\nM6C1I1.3 Rafforzamento dell’assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita’)\n\n\nid_intervento\nM6C1I1.3\n\n\ncup\nF19J22000790006\n\n\ntitolo_progetto\nOSPEDALI DI COMUNITA’ - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74\n\n\ntot_risorse_assegnate_a_regione_piemonte\n2460498,0\n\n\nnote\nProgetto localizzato nel comune TORINO"
-  },
-  {
-    "objectID": "table.html#wide-markdown-table",
-    "href": "table.html#wide-markdown-table",
-    "title": "test",
-    "section": "Wide Markdown table",
-    "text": "Wide Markdown table\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCODICE_CUP\nCODICE_TEMATICA\nNOME_TEMATICA\nCODICE_TEMPLATE\nDESCRIZIONE_TEMPLATE\nCODI_CODICE_NATURA\nDESC_DESCRIZIONE_NATURA\nCODI_CODICE_TIPOLOGIA\nDESC_DESCRIZIONE_TIPOLOGIA\nDESCRIZIONE_AGGREGATA\nSOGGETTO_TITOLARE\nPIVA_SOGGETTO\nUNITA_ORGANIZZATIVA\nSTRUMENTO_PROGRAMMAZIONE\nCODICE_STATO\nSTATO\nCODI_CODICE_REGIONE\nREGIONE\nCODI_CODICE_PROVINCIA\nPROVINCIA\nCODI_CODICE_COMUNE\nCOMUNE\nCODICE_SETTORE_INTERVENTO\nSETTORE_INTERVENTO\nCODICE_SOTTOSETTORE_INTERVENTO\nSOTTOSETTORE_INTERVENTO\nCODICE_CATEGORIA_INTERVENTO\nCATEGORIA_INTERVENTO\nANNO_DECISIONE\nDATA_GENERAZIONE_COMPLETO\nIMPO_COSTO_PROGETTO\nIMPO_IMPORTO_FINANZIATO\nSTATO_PROGETTO\nTIPO_PROGETTO\nTAG_DATA_FINE_VALIDITA\n\n\n\n\nG19J22001290007\n528\nM6C2: Innovazione, ricerca e digitalizzazione del servizio sanitario - I1.1:Ammodernamento del parco tecnologico e digitale ospedaliero\n\n\n01\nACQUISTO DI BENI\n00\nNUOVA FORNITURA\nA.O.U. CITTA’ DELLA SALUTE E DELLA SCIENZA DI TORINOCORSO BRAMANTE 88/90SISTEMI POLIFUNZIONALI PER RADIOLOGIA DIGITALE DIRETTA (DR) _OSPEDALE SAN GIOVANNI BATTISTA MOLINETTE_10\nAZIENDA OSPEDALIERA CITTA’ DELLA SALUTE E DELLA SCIENZA\n10771180014\nS.C. PROVVEDITORATO/ECONOMATO\nPIANO NAZIONALE DI RIPRESA E RESILIENZA_x000D_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\nITALIA\n01\nPIEMONTE\n001\nTORINO\n001272\nTORINO\n05\nINFRASTRUTTURE SOCIALI\n30\nSANITARIE\n111\nSTRUTTURE OSPEDALIERE\n2022\n2022-02-17\n244000\n244000\nAttivo\nProgetto Normale\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJ61F22002840006\n400\nM1C1: Digitalizzazione, innovazione e sicurezza nella PA - I1.4:Servizi digitali e esperienza dei cittadini\n2205010\nPCM - Dipartimento per la trasformazione digitale - PNRR M1C1 investimento 1.4 “servizi e cittadinanza digitale”, misura 1.4.3 “adozione piattaforma pagoPA”- ALTRI ENTI\n02\nACQUISTO O REALIZZAZIONE DI SERVIZI\n19\nAPPLICATIVI E PIATTAFORME WEB\nPIATTAFORMA PAGOPATERRITORIO NAZIONALEATTIVAZIONE SERVIZI\nREGIONE PIEMONTE\n80087670016\nSETTORE SISTEMA INFORMATIVO REGIONALE\nPNRR MISSIONE 1 COMPONENTE 1 INVESTIMENTO1.4 “SERVIZI E CITTADINANZA DIGITALE”, MISURA 1.4.3 “ADOZIONE PIATTAFORMA PAGOPA”\n5\nITALIA\n01\nPIEMONTE\n\n\n\n\n10\nSERVIZI PER LA P.A. E PER LA COLLETTIVITA’\n02\nSERVIZI E APPLICAZIONI INFORMATICHE PER I CITTADINI E LE IMPRESE\n001\nSERVIZI ED APPLICAZIONI PER IL PUBBLICO\n2022\n2022-09-13\n297328\n297328\nAttivo\nProgetto Normale\n\n\n\nG19J22001350007\n529\nM6C2: Innovazione, ricerca e digitalizzazione del servizio sanitario - I1.2:Verso un ospedale sicuro e sostenibile\n\n\n01\nACQUISTO DI BENI\n00\nNUOVA FORNITURA\nA.O.U. CITTA’ DELLA SALUTE E DELLA SCIENZA DI TORINOCORSO BRAMANTE 88/90MULTIDISCIPLINARI/INTERNISTICI _ OSPEDALE SAN GIOVANNI BATTISTA MOLINETTE_17\nAZIENDA OSPEDALIERA CITTA’ DELLA SALUTE E DELLA SCIENZA\n10771180014\nS.C. PROVVEDITORATO/ECONOMATO\nPIANO NAZIONALE DI RIPRESA E RESILIENZA_x000D_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\nITALIA\n01\nPIEMONTE\n001\nTORINO\n001272\nTORINO\n05\nINFRASTRUTTURE SOCIALI\n30\nSANITARIE\n111\nSTRUTTURE OSPEDALIERE\n2022\n2022-02-17\n82000\n82000\nAttivo\nProgetto Normale\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJ61F22002850006\n400\nM1C1: Digitalizzazione, innovazione e sicurezza nella PA - I1.4:Servizi digitali e esperienza dei cittadini\n2205009\nPCM - Dipartimento per la trasformazione digitale - PNRR M1C1  Investimento 1.4 “Servizi e cittadinanza digitale” Sub-investimento 1.4.3 “Adozione APP IO” - ALTRI ENTI\n02\nACQUISTO O REALIZZAZIONE DI SERVIZI\n19\nAPPLICATIVI E PIATTAFORME WEB\nAPPLICAZIONE APP IOTERRITORIO NAZIONALEATTIVAZIONE SERVIZI\nREGIONE PIEMONTE\n80087670016\nSETTORE SISTEMA INFORMATIVO REGIONALE\nPNRR MISSIONE 1 COMPONENTE 1 INVESTIMENTO1.4 “SERVIZI E CITTADINANZA DIGITALE”, MISURA 1.4.3 “ADOZIONE APP IO”.\n5\nITALIA\n01\nPIEMONTE\n\n\n\n\n10\nSERVIZI PER LA P.A. E PER LA COLLETTIVITA’\n02\nSERVIZI E APPLICAZIONI INFORMATICHE PER I CITTADINI E LE IMPRESE\n001\nSERVIZI ED APPLICAZIONI PER IL PUBBLICO\n2022\n2022-09-13\n297320\n297320\nAttivo\nProgetto Normale\n\n\n\nG19J22001360007\n528\nM6C2: Innovazione, ricerca e digitalizzazione del servizio sanitario - I1.1:Ammodernamento del parco tecnologico e digitale ospedaliero\n\n\n01\nACQUISTO DI BENI\n00\nNUOVA FORNITURA\nA.O.U. CITTA’ DELLA SALUTE E DELLA SCIENZA DI TORINOCORSO BRAMANTE 88/90CARDIOLOGICI_OSPEDALE SAN GIOVANNI BATTISTA MOLINETTE_18\nAZIENDA OSPEDALIERA CITTA’ DELLA SALUTE E DELLA SCIENZA\n10771180014\nS.C. PROVVEDITORATO/ECONOMATO\nPIANO NAZIONALE DI RIPRESA E RESILIENZA_x000D_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n5\nITALIA\n01\nPIEMONTE\n001\nTORINO\n001272\nTORINO\n05\nINFRASTRUTTURE SOCIALI\n30\nSANITARIE\n111\nSTRUTTURE OSPEDALIERE\n2022\n2022-02-17\n82000\n82000\nAttivo\nProgetto Normale"
-  },
-  {
-    "objectID": "quinto-piano-governo-aperto.html",
-    "href": "quinto-piano-governo-aperto.html",
-    "title": "La partecipazione dell’Italia all’Open Government Partnership",
-    "section": "",
-    "text": "La partecipazione dell’Italia all’Open Government Partnership è assicurata dalla Presidenza del Consiglio dei Ministri – Dipartimento della Funzione Pubblica (DFP), in veste di Governo italiano. Tale ruolo comporta l’impegno a promuovere e attuare i principi del governo aperto a livello nazionale, attraverso la definizione e attuazione dei Piani d’Azione Nazionale (NAP).\nÈ in corso l’attuazione del 5° Piano d’Azione Nazionale per il governo aperto 2022-2023 (5NAP), un processo di co-creazione che ha visto la collaborazione tra tutti gli stakeholders pubblici e privati interessati alle politiche di governo aperto."
-  },
-  {
-    "objectID": "quinto-piano-governo-aperto.html#lazione-5-del-piano",
-    "href": "quinto-piano-governo-aperto.html#lazione-5-del-piano",
-    "title": "La partecipazione dell’Italia all’Open Government Partnership",
-    "section": "L’azione 5 del piano",
-    "text": "L’azione 5 del piano\nL’azione 5 ha per titolo “Innovazione digitale inclusiva”:\n\nl’innovazione digitale è il principio su cui si basano le politiche di governo aperto ed è l’intervento essenziale e trasversale a tutti gli altri principi: trasparenza, partecipazione civica, lotta alla corruzione, accountability.\n\nÈ suddiviso in diversi impegni, di cui il 5.02 è denominato “Standard aperti per l’inclusività e la partecipazione della società civile nel monitoraggio della spesa pubblica”.\n\nQual è il problema che l’impegno affronterà?\n\nI cittadini e le organizzazioni della società civile lamentano la carenza di fonti di dati aperte e fruibili per monitorare la spesa pubblica in maniera capillare. I dati condivisi dalle pubbliche amministrazioni sono spesso pubblicati sotto forma di indicatori, in forma aggregata o seguendo schemi particolari che replicano i formati di raccolta o derivano dalle esigenze particolari dell’amministrazione che li raccoglie: a volte è difficile collegare dati provenienti da diverse amministrazioni, confrontarli con fonti aperte o commerciali o con quelli di altri paesi.\nIl problema è reso ancora più grave dal quadro di bassa alfabetizzazione digitale esistente nel nostro paese, che impedisce una piena fruizione delle fonti di dati pubbliche anche quando queste esistono e sono disponibili e più in generale non favorisce l’inclusione della società civile in processi di analisi e monitoraggio. Il superamento di questo problema costituisce un fattore abilitante per un’innovazione digitale inclusiva.\n\n\n\nIn che modo l’impegno contribuirà a risolvere il problema?\n\nL’adozione di formati standard e regole comuni per la pubblicazione dei dati sugli appalti, sia a livello nazionale che europeo, favorisce il coinvolgimento della società civile nel monitoraggio della spesa pubblica ed il confronto con quanto avviene in altri paesi. L’utilizzo di standard condivisi favorirà l’analisi delle iniziative inserite nel PNRR.\nSi può quindi prevedere un doppio livello di soluzione del problema prospettato nella precedente sezione: il processo di standardizzazione favorisce l’interoperabilità e la possibilità di collegare fonti di dati diverse; l’adozione di uno standard maturo e diffuso a livello internazionale crea le condizioni per il monitoraggio ed il confronto con altri paesi e la semplificazione derivante dall’adozione di un formato unico e ben documentato quale OCDS dovrebbe ridurre le barriere di ingresso per i processi di governance partecipativa, favorendo così lo sviluppo di competenze da parte di cittadini ed imprese e l’innovazione digitale inclusiva.\n\n\n\n\n5° Piano d’Azione Nazionale per il governo aperto"
-  },
-  {
-    "objectID": "quinto-piano-governo-aperto.html#questo-vademecum-e-il-5-piano",
-    "href": "quinto-piano-governo-aperto.html#questo-vademecum-e-il-5-piano",
-    "title": "La partecipazione dell’Italia all’Open Government Partnership",
-    "section": "Questo vademecum e il 5° Piano",
-    "text": "Questo vademecum e il 5° Piano\nCome scritto qui, l’idea e lo sviluppo di questo vademecum nascono grazie a diversi incontri, scambi di idee e proposte tra varie persone e organizzazioni.\nUno dei luoghi in cui si è realizzato e si sta realizzando tutto questo è proprio il tavolo dell’azione 5.02 del Piano."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Informazioni",
-    "section": "",
-    "text": "La presente guida è a cura dall’associazione onData, in collaborazione con altre organizzazioni e altre persone, che si sono incontrate e confrontate sul tema dei dati aperti e della trasparenza nel Piano Nazionale Ripresa e Resilienza (PNRR), e che hanno collaborato sul tema in diversi contesti.\nÈ una guida al monitoraggio civico del PNRR attraverso i dati attualmente disponibili. Si propone di affiancare le cittadine e i cittadini nel monitoraggio civico di un piano che avrà un impatto decisivo sul futuro del nostro Paese. I dati aperti sono ancora pochi e ci piace pensare che presto saranno interamente pubblicati.\nNell’attesa, apriamo questo spazio come un bene comune per tutte/i coloro che vorranno usarlo e/o contribuire ad arricchirlo.\nQuesto vademecum non sarebbe nato senza il “fare cose, vedere gente” in questi contesti:"
-  },
-  {
-    "objectID": "about.html#licenza",
-    "href": "about.html#licenza",
-    "title": "Informazioni",
-    "section": "Licenza",
-    "text": "Licenza\nLa licenza scelta è la CC-BY-4.0 (Creative Commons Attribution 4.0 International). Quindi sei libero di usare come preferisci i contenuti di questo spazio, avendo cura di citare la fonte.\n\nCome citare la fonte\nA titolo d’esempio, è sufficiente indicare “Vademecum PNRR a cura dell’associazione onData” (inserendo anche il link alla home, https://pnrr.datibenecomune.it).\n\n\n\n\n\n\n\nPartecipa\n\n\n\nSe vuoi fare delle proposte su questo vademecum, se vuoi raccontarci come l’hai usato, se hai bisogno di aiuto in merito, ecco come fare.\n\n\n\nQuesto sito è costruito con ❤️, ⚒️, un po’ di 🤯 e con Quarto."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "I dati aperti sul PNRR",
-    "section": "",
-    "text": "Le informazioni sul Piano Nazionale di Ripresa e Resilienza (PNRR) e sulla sua gestione sono ancora poche. Per cittadine e cittadini, associazioni, giornaliste/i, movimenti, università, centri di ricerca, aziende, ecc. è difficile e alle volte impossibile seguire un progetto e il suo impatto sul territorio e sulle persone. Questo ha portato al lancio della campagna “ItaliaDomani Dati Oggi”, con una lettera aperta alla Presidente del Consiglio dei Ministri Giorgia Meloni e al Ministro per gli Affari Europei, il Sud, le Politiche di Coesione e il PNRR Raffaele Fitto.\nEsistono alcune banche dati, da cui è possibile estrarre alcune informazioni di dettaglio e metterle (ove possibile) in correlazione tra loro. Non riempiono il vuoto informativo attuale, ma sono ad oggi un riferimento utile per seguire e monitorare il Piano.\nQuesto sito ha l’obiettivo di descrivere le principali, a partire da quanto pubblicato dalla Pubblica Amministrazione italiana.\n\n\n\n\n\n\nPerché l’attenzione sui dati\n\n\n\nQuesto sito si rivolge a quelle persone che vogliono raccogliere informazioni sul Piano, per correlarle tra loro e arricchirle, per monitorarlo ed estrapolare nuovi punti di sintesi.\n📍 E l’accesso ai dati è uno dei passi necessari per farlo.\n\n\nAlcune note:\n\nsarà in continuo aggiornamento, perché nel tempo si potranno aggiungere e/o anche rimuovere alcune fonti;\nnon è un elenco completo di tutte le fonti di dati aperti sul PNRR, ma al momento solo delle principali e legate a tutto il territorio nazionale.\n\n👉 Inizia da qui ☝️ Partecipa"
-  },
-  {
-    "objectID": "notizie.html",
-    "href": "notizie.html",
-    "title": "Notizie",
-    "section": "",
-    "text": "Progetti PNRR gestiti dalla Regione Piemonte\n\n\n\n\n\n\n\nregioni\n\n\npiemonte\n\n\ndati\n\n\n\n\nNuova pubblicazione sul portale Open Data Nazionale\n\n\n\n\n\n\n28 feb 2023\n\n\n\n\n\n\nNessun risultato"
-  },
-  {
-    "objectID": "post/risorse-pnrr-regione-piemonte/index.html",
-    "href": "post/risorse-pnrr-regione-piemonte/index.html",
-    "title": "Progetti PNRR gestiti dalla Regione Piemonte",
-    "section": "",
-    "text": "Il dataset descritto non è più disponibile.\n\n\n\nÈ stato rimosso dal portale di origine - quello della Regione Piemonte - e dal 6 marzo 2023 non è più disponibile nel portale nazionale dei dati aperti. Non ne conosciamo le ragioni. Qui la copia della pagina web quando era ancora online e qui la copia del dataset.\n\n\nSul portale nazionale dei dati aperti sono pubblicati i dati aperti gestiti dalla Regione Piemonte: è di recentissima pubblicazione, il dataset denominato “Progetti PNRR gestiti dalla Regione Piemonte - dettagli”.\n\nIl dataset contiene le informazioni relative agli importi dei progetti del PNRR che vedono come soggetto attuatore la Regione Piemonte. Viene mostrato il dettaglio relativo alla Missione, alla Componente e alla Misura. I totali delle risorse assegnate per ciascun progetto (identificato da un CUP) sono ripartiti tra i comuni di localizzazione dei beneficiari, sulla base della tipologia di ricaduta territoriale: comune singolo, più comuni, tutta la provincia, tutta la regione. In caso di progetto con beneficiari multipli, la ricaduta territoriale teorica del progetto viene calcolata ripartendo il totale delle risorse assegnate dal progetto sulla base del peso relativo della popolazione di ogni comune di localizzazione rispetto alla popolazione totale dell’aggregazione di comuni considerata.\n\nQui sotto un esempio di contenuto della tabella dati:\n\n\n\n\n\n\n\n\nColonna\nEsempio contenuto\n\n\n\n\nsigla_provincia\nTO\n\n\ncomune\nTORINO\n\n\ntipologia_di_ricaduta_territoriale\nComune singolo\n\n\nricaduta_territoriale\n2460498,0\n\n\nmissione\nM6 Salute\n\n\ncomponente\nM6C1 Reti di prossimità, strutture e telemedicina per l'assistenza sanitaria territoriale\n\n\nmisura\nM6C1I1.3 Rafforzamento dell'assistenza sanitaria intermedia e delle sue strutture (Ospedali di Comunita')\n\n\nid_intervento\nM6C1I1.3\n\n\ncup\nF19J22000790006\n\n\ntitolo_progetto\nOSPEDALI DI COMUNITA' - TORINO, EX ASTANTERIA MARTINI, VIA CIGNA 74\n\n\ntot_risorse_assegnate_a_regione_piemonte\n2460498,0\n\n\nnote\nProgetto localizzato nel comune TORINO\n\n\n\n\n\n\nÈ presente una colonna con il codice CUP, quindi è teoricamente possibile arricchire il dettaglio informativo a partire dalle banche dati OpenCUP, ANAC, Servizio Contratti Pubblici e OpenBDAP (così come nell’esempio per il Comune di Messina).\nQuesti ad esempio i 🧮 dati estraibili dal Focus PNRR di OpenCUP.\n\n\n\nFigura 1: Incrocio dati via CUP, dei dati OpenCUP e regione Piemonte\n\n\n\n\n\n\n\n\nMancanza codici Istat dei Comuni\n\n\n\nÈ un peccato che i riferimenti geografici (i nomi dei Comuni) non siano associati ai relativi codici Istat. Questo rende i dati meno direttamente elaborabili e da mettere in relazione con altre banche dati."
-  },
-  {
-    "objectID": "flowchart.html",
-    "href": "flowchart.html",
-    "title": "Dati aperti sul PNRR",
-    "section": "",
-    "text": "graph TD\nANAC[/ANAC/]\nOpenBdap[/OpenBdap/]\nSCP[/SCP/]\nFocusPNRR[/Focus PNRR/]\nCodiciCUP[Codici CUP]\nCIG[Codici CIG]\nOpenCUP([OpenCUP]) --&gt; FocusPNRR --&gt; CodiciCUP\nCodiciCUP --&gt;ANAC & OpenBdap\nANAC--&gt;CIG\nCIG--&gt;SCP"
-  },
-  {
-    "objectID": "osservatorio.html",
-    "href": "osservatorio.html",
-    "title": "Osservatorio Civico PNRR",
-    "section": "",
-    "text": "L’Osservatorio Civico nasce nell’ambito del programma Follow the Money - ideato all’interno del Festival della partecipazione 2020 – con l’obiettivo di monitorare l’inclusività del processo decisionale di costruzione del Piano Nazionale Ripresa e Resilienza e la trasparenza durante l’implementazione dei progetti.\nL’Osservatorio comprende più di 50 organizzazione della società civile con forte esperienza nel settore della trasparenza e del monitoraggio delle politiche pubbliche e con competenze tematiche più specifiche, come quelle ambientali, di parità di genere o legate alla transizione digitale.\n➡️ https://osservatoriocivicopnrr.it/\n\n\n\nOsservatorio Civico PNRR"
-  },
-  {
-    "objectID": "rete-pnrr.html",
-    "href": "rete-pnrr.html",
-    "title": "Una rete della società civile per il monitoraggio del PNRR",
-    "section": "",
-    "text": "A partire da settembre 2021, grazie al sostegno della Fondazione Open Society, è stato avviato un tavolo di coordinamento tra alcune organizzazioni della società civile impegnate sui temi della trasparenza e della accountability e del monitoraggio del PNRR.\nAll’interno di questo tavolo le organizzazioni condividono regolarmente stato dell’arte e criticità delle loro iniziative e progettualità sul tema e concordano iniziative congiunte.\nÈ all’interno di questo spazio che a novembre 2023 è stata avviata la campagna #italiadomanidatioggi, con la redazione di una lettera aperta per chiedere l’apertura dei dati ed informazioni sui progetti del PNRR. Alla lettera hanno aderito 67 organizzazioni e reti della società civile.\nDel tavolo di coordinamento fanno parte:\n\nActionAid Italia E.T.S.;\nAssociazione onData;\nFondazione Openpolis;\ninfo.nodes;\nMonithon Europe E.T.S.;\nPeriod Think Tank - APS."
   }
 ]
