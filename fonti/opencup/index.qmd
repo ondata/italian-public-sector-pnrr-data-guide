@@ -13,7 +13,7 @@ resources:
   - "opencup.png"
 ---
 
-[OpenCUP](https://opencup.gov.it/portale/) mette a disposizione di tutti - cittadini, istituzioni ed altri enti - i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitarie o regionali o con risorse private registrate con il Codice Unico di Progetto.
+[OpenCUP](https://www.opencup.gov.it/) mette a disposizione di tutti - cittadini, istituzioni ed altri enti - i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitarie o regionali o con risorse private registrate con il Codice Unico di Progetto.
 
 Il **Codice Unico di Progetto ([CUP](https://www.programmazioneeconomica.gov.it/sistema-mipcup/che-cose-il-cup/))** è il **codice** che **identifica** un **progetto d'investimento pubblico** ed è lo strumento cardine per il funzionamento del Sistema di **Monitoraggio** degli **Investimenti** **Pubblici** ([MIP](https://www.programmazioneeconomica.gov.it/sistema-mipcup/che-cose/)).
 
@@ -32,21 +32,21 @@ Il CUP è strumento atto a **identificare univocamente ogni progetto d'investime
 
 ### Focus sul PNRR
 
-Nella [**sezione Open Data**](https://opencup.gov.it/portale/opendata) del sito, a partire dall'estate 2022, viene periodicamente aggiornato un dataset dedicato al PNRR.<br>
+Nella [**sezione Open Data**](https://www.opencup.gov.it/portale/web/opencup/opendata) del sito, a partire dall'estate 2022, viene periodicamente aggiornato un dataset dedicato al PNRR.<br>
 È inserito nella parte alta della pagina (vedi @fig-focus-pnrr).
 
 Caratteristiche:
 
-- viene aggiornato con una frequenza bimestrale. Al momento è stato fatto **tre volte**, dall'estate 2022 a gennaio 2023 ([primo](https://opencup.gov.it/portale/-/online-il-nuovo-dataset-opencup-sulle-tematica-pnrr), [secondo](https://opencup.gov.it/portale/-/online-il-nuovo-dataset-pnrr) e [terzo](https://opencup.gov.it/portale/-/piano-nazionale-di-ripresa-e-resilienza-online-i-nuovi-dati) annuncio);
+- viene aggiornato con una frequenza bimestrale. Al momento è stato fatto **tre volte**, dall'estate 2022 a gennaio 2023 ([primo](https://www.opencup.gov.it/portale/web/opencup/-/online-il-nuovo-dataset-opencup-sulle-tematica-pnrr), [secondo](https://www.opencup.gov.it/portale/web/opencup/-/online-il-nuovo-dataset-pnrr) e [terzo](https://www.opencup.gov.it/portale/web/opencup/-/piano-nazionale-di-ripresa-e-resilienza-online-i-nuovi-dati) annuncio);
 - è rilasciato, da gennaio 2023, come file singolo file in formato Excel (prima le modalità erano diverse).
 
 [[👉 Approfondimento]{.btn .btn-primary}](focus-pnrr.qmd)
 
-[![Sito OpenCUP, focus PNRR](images/focus-pnrr.png){#fig-focus-pnrr fig-alt="Focus PNRR OpenCUP"}](https://opencup.gov.it/portale/opendata)
+[![Sito OpenCUP, focus PNRR](images/focus-pnrr.png){#fig-focus-pnrr fig-alt="Focus PNRR OpenCUP"}](https://www.opencup.gov.it/portale/web/opencup/opendata)
 
 ### Progetti Open Data
 
-Su OpenCUP ci sono anche i [dati aperti](https://opencup.gov.it/portale/opendata) di tutti i progetti, anche quelli non legati al PNRR (vedi @fig-opendata-opencup).<br>
+Su OpenCUP ci sono anche i [dati aperti](https://www.opencup.gov.it/portale/web/opencup/opendata) di tutti i progetti, anche quelli non legati al PNRR (vedi @fig-opendata-opencup).<br>
 Si possono scaricare e filtrare, ed estrarre soltanto quelli legati al PNRR, cercando ad esempio la stringa "PNRR" in tutte le righe delle tabelle correlate.<br>
 C'è però una differenza importante con il [dataset precedente](#focus-pnrr): quest'ultimo è un dato "curato", estratto e "validato" dai curatori del sito di OpenCUP, mentre un filtro basato su scelte personali potrebbe essere basato su presupposti sbagliati (ad esempio la stringa "PNRR" potrebbe non essere necessaria e/o sufficiente), con i conseguenti errori del caso.
 
@@ -57,7 +57,7 @@ Caratteristiche:
 - per comprendere la struttura sono disponibili dei [metadati](https://opencup.gov.it/portale/documents/21195/22370/Metadati+OpenCUP+26+07+2018.xlsx) e a una [tabella](https://opencup.gov.it/portale/documents/21195/0/tabelle+classificazioni+opencup+26+07+2018.zip) con i codici usati nelle varie colonne.
 
 
-[![Sito OpenCUP, sezione Open Data](images/open-data.png){#fig-opendata-opencup fig-alt="Open Data OpenCUP"}](https://opencup.gov.it/portale/opendata)
+[![Sito OpenCUP, sezione Open Data](images/open-data.png){#fig-opendata-opencup fig-alt="Open Data OpenCUP"}](https://www.opencup.gov.it/portale/web/opencup/opendata)
 
 ## La pagina web di un CUP
 
