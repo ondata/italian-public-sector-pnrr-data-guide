@@ -17,3 +17,6 @@ data/messina/rawdata/*
 _note.md
 
 /.luarc.json
+
+### data
+!data/opencup/progetti_cup_20230120.xlsx
