@@ -66,6 +66,8 @@ website:
             text: OpenBDAP
       - href: guide/procedura-esempio.qmd
         text: Esempio estrazione dati
+      - href: strumenti/foia.md
+        text: FOIA
       - text: "---"
       - section: Rete monitoraggio PNRR
         href: rete-pnrr.md
