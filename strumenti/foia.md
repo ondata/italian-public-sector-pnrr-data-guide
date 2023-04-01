@@ -6,12 +6,12 @@ institute: "[ActionAid Italia](https://www.actionaid.it/)"
 format:
   html:
     toc: true
-description-meta: "PNRR: se i dati non li trovo, posso fare una richiesta FOIA"
+description-meta: "PNRR - E se i dati non li trovo? Posso fare una richiesta FOIA"
 website:
   twitter-card:
-    description: "PNRR: se i dati non li trovo, posso fare una richiesta FOIA"
+    description: "PNRR - E se i dati non li trovo? Posso fare una richiesta FOIA"
   open-graph:
-    description: "PNRR: se i dati non li trovo, posso fare una richiesta FOIA"
+    description: "PNRR - E se i dati non li trovo? Posso fare una richiesta FOIA"
 ---
 
 ## Che cos'è?
