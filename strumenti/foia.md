@@ -2,7 +2,7 @@
 title: "E se le informazioni non le trovo?"
 subtitle:  "Ci sta il FOIA (Freedom of Information Act)"
 author: Alberto Pampalone
-institute: "[ActionAid Italia](https://www.actionaid.it/)"
+institute: "[Osservatorio Civico PNRR](https://osservatoriocivicopnrr.it/)"
 format:
   html:
     toc: true
