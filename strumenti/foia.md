@@ -1,6 +1,6 @@
 ---
 title: "E se le informazioni non le trovo?"
-subtitle:  "Ci sta il FOIA (Freedom of Information Act)"
+subtitle:  "Puoi fare una richiesta FOIA (Freedom of Information Act)"
 author: Alberto Pampalone
 institute: "[Osservatorio Civico PNRR](https://osservatoriocivicopnrr.it/)"
 format:
