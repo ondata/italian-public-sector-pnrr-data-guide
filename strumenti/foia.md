@@ -68,5 +68,5 @@ La P.A. richiede il rimborso dei soli costi vivi sostenuti per la riproduzione s
 
 Infine, se non la P.A. non rispondesse oppure decide di non darti i dati/documenti richiesti, vi sono ulteriori possibilità: ossia la richiesta di riesame, sino al ricorso al Tribunale Amministrativo Regionale.
 
-Per approfondire, ti rimandiamo al documento che segue - realizzato per la Scuola di Monitoraggio Civico sul Piano di Ripresa e Resilienza (PNRR) dell'[Osservatorio Civico PNRR](https://www.osservatoriocivicopnrr.it/) -  dove puoi trovare tutte le informazioni complete relative al FOIA:<br>
-<https://www.osservatoriocivicopnrr.it/images/files/Presentazione_FOIA_Bologna.pdf>
+Per **approfondire**, ti rimandiamo al documento che segue - realizzato per la Scuola di Monitoraggio Civico sul Piano di Ripresa e Resilienza dell'[Osservatorio Civico PNRR](https://www.osservatoriocivicopnrr.it/) -  dove puoi trovare tutte le informazioni complete relative al FOIA:<br>
+➡️ <https://www.osservatoriocivicopnrr.it/images/files/Presentazione_FOIA_Bologna.pdf>
