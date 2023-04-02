@@ -1,0 +1,33 @@
+---
+title: "Le richieste FOIA"
+description: "Aggiunta una guida breve sul come fare una richiesta FOIA"
+description-meta: "Aggiunta una guida breve sul come fare una richiesta FOIA"
+website:
+  twitter-card:
+    description: "Aggiunta una guida breve sul come fare una richiesta FOIA"
+  open-graph:
+    description: "Aggiunta una guida breve sul come fare una richiesta FOIA"
+date: "2023-04-01"
+draft: true
+categories:
+  - strumenti
+image: ItaliaDomani-datioggi-foia-pnrr-bene-comune.png
+format:
+  html:
+    toc: false
+---
+
+Una richiesta **FOIA**, acronimo di *Freedom of Information Act*, è un'istanza presentata da una persona o un'organizzazione, per richiedere la divulgazione di informazioni o documenti detenuti da un'agenzia governativa o da un'organizzazione pubblica.<br>
+Ogni cittadino ha il diritto di conoscere ciò che il governo sta facendo in suo nome e ciò che accade all'interno delle organizzazioni pubbliche.
+
+E **se vuoi accedere a dati e informazioni che non sono ancora pubblici**, puoi usare questo strumento.
+
+➡️ Per questa ragione, abbiamo **aggiunto** a questo vademecum [**una guida breve sul come fare una richiesta FOIA**](../../strumenti/foia.md), a cura di Alberto Pampalone, uno dei principali animatori dell'Osservatorio Civico PNRR.
+
+## L'esempio della richiesta FOIA sui dati PNRR che abbiamo presentato a febbraio 2023
+
+A febbraio, insieme a tante altre organizzazioni, [abbiamo sottoscritto e sostenuto la richiesta FOIA di OpenPolis](https://www.datibenecomune.it/2023/02/07/datioggi-foia-pnrr-bene-comune/).
+
+La risposta (vedi sotto) non è stata valutata soddisfacente e allora - come previsto dalla normativa - abbiamo presentato una richiesta di riesame.
+
+![Risposta alla richiesta FOIA](risposta-foia-pnrr.png)
