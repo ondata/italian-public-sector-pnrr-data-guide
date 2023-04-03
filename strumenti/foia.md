@@ -2,7 +2,7 @@
 title: "E se le informazioni non le trovo?"
 subtitle:  "Puoi fare una richiesta FOIA (Freedom of Information Act)"
 author: Alberto Pampalone
-institute: "[Osservatorio Civico PNRR](https://osservatoriocivicopnrr.it/)"
+institute: "[ActionAid Italia](https://www.actionaid.it/)"
 format:
   html:
     toc: true
