@@ -7,8 +7,8 @@ website:
     description: "Aggiunta una guida breve sul come fare una richiesta FOIA"
   open-graph:
     description: "Aggiunta una guida breve sul come fare una richiesta FOIA"
-date: "2023-04-01"
-draft: true
+date: "2023-04-11"
+draft: false
 categories:
   - strumenti
 image: ItaliaDomani-datioggi-foia-pnrr-bene-comune.png
