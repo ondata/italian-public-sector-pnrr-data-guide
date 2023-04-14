@@ -7,18 +7,18 @@ docs/*
 
 /.quarto/
 
-data/opencup/*
-!data/opencup/opencup_focus_pnrr.parquet
-data/anac/*
-data/scp/*
-data/spc/*
-data/messina/rawdata/*
 
 _note.md
 
 /.luarc.json
 
 ### data
+data/opencup/*
+!data/opencup/opencup_focus_pnrr.parquet
+data/anac/*
+data/scp/*
+data/spc/*
+data/messina/rawdata/*
 !data/opencup/progetti_cup_20230120.xlsx
 !data/opencup/progetti_cup_20230120.csv.gz
 !data/anac/cup_csv.zip
