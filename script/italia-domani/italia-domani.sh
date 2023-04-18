@@ -1,0 +1,23 @@
+#!/bin/bash
+
+set -x
+set -e
+set -u
+set -o pipefail
+
+folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+mkdir -p "$folder"/processing
+
+data="$folder/../../data/italia-domani/rawdata"
+
+foglio="TC_Comuni"
+qsv excel -s "$foglio" -Q "$data"/PNRR_Localizzazione_Metadati.xlsx > "$folder"/processing/italia-domani.csv
+
+# '$COD_ISTAT=fmtnum($COD_ISTAT,"%06d")'
+# Codice Comune Codice Provincia
+iconv -f windows-1252 -t utf-8 < "$data"/PNRR_Localizzazione-Dati_Validati.csv >"$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv
+dos2unix "$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv
+mlrgo -I --csv --ifs ";" put '$COD_ISTAT_COMUNE=fmtnum(${Codice Provincia},"%03d").fmtnum(${Codice Comune},"%03d")' "$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv
+
+mv "$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv "$data"/../PNRR_Localizzazione-Dati_Validati.csv

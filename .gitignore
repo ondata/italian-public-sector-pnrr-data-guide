@@ -6,7 +6,8 @@ tmp*
 docs/*
 
 /.quarto/
-
+/.history/
+.~lock.*
 
 _note.md
 
