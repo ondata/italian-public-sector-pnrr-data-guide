@@ -21,3 +21,8 @@ dos2unix "$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv
 mlrgo -I --csv --ifs ";" put '$COD_ISTAT_COMUNE=fmtnum(${Codice Provincia},"%03d").fmtnum(${Codice Comune},"%03d")' "$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv
 
 mv "$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv "$data"/../PNRR_Localizzazione-Dati_Validati.csv
+
+find "$data" -type f -name "*.csv" -not -name "PNRR_Localizzazione-Dati_Validati.csv"  -print0 | while IFS= read -r -d '' file; do
+  name=$(basename "$file" .csv)
+  mlrgo --csv --ifs ";" clean-whitespace "$file" >"$data"/../"$name".csv
+done
