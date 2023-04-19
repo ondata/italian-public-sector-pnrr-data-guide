@@ -5,6 +5,7 @@ tmp*
 .vscode/*
 docs/*
 data/blackboard/*
+data/italia-domani/rill/*
 
 /.quarto/
 /.history/
