@@ -4,6 +4,7 @@ tmp*
 /_site/
 .vscode/*
 docs/*
+data/blackboard/*
 
 /.quarto/
 /.history/
