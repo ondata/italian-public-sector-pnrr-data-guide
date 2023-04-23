@@ -18,7 +18,7 @@ qsv excel -s "$foglio" -Q "$data"/PNRR_Localizzazione_Metadati.xlsx > "$folder"/
 # Codice Comune Codice Provincia
 iconv -f windows-1252 -t utf-8 < "$data"/PNRR_Localizzazione-Dati_Validati.csv >"$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv
 dos2unix "$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv
-mlrgo -I --csv --ifs ";" put '$COD_ISTAT_COMUNE=fmtnum(${Codice Provincia},"%03d").fmtnum(${Codice Comune},"%03d")' "$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv
+mlrgo -I --csv --ifs ";" put 'if(${Codice Comune}!="0"){$COD_ISTAT_COMUNE=fmtnum(${Codice Provincia},"%03d").fmtnum(${Codice Comune},"%03d")}else{$COD_ISTAT_COMUNE=""}' "$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv
 
 mv "$folder"/processing/PNRR_Localizzazione-Dati_Validati.csv "$data"/../PNRR_Localizzazione-Dati_Validati.csv
 
@@ -26,3 +26,4 @@ find "$data" -type f -name "*.csv" -not -name "PNRR_Localizzazione-Dati_Validati
   name=$(basename "$file" .csv)
   mlrgo --csv --ifs ";" clean-whitespace "$file" >"$data"/../"$name".csv
 done
+
