@@ -26,3 +26,4 @@ data/messina/rawdata/*
 !data/opencup/progetti_cup_20230120.csv.gz
 !data/anac/cup_csv.zip
 !data/italia-domani/*
+fonti/regis/dati/*

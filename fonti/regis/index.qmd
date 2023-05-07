@@ -1,0 +1,390 @@
+---
+title: "ReGIS"
+subtitle: "Il sistema gestionale unico del PNRR"
+description-meta: "Quali sono i dati aperti sul PNRR presenti in OpenCUP e come utilizzarli"
+website:
+  twitter-card:
+    description: "Quali sono i dati aperti sul PNRR presenti in OpenCUP e come utilizzarli"
+    image: "regis.png"
+  open-graph:
+    description: "Quali sono i dati aperti sul PNRR presenti in OpenCUP e come utilizzarli"
+    image: "regis.png"
+resources:
+  - "regis.png"
+format:
+  html:
+    css: styles.css
+    tbl-cap-location: bottom
+    toc: true
+    toc-depth: 4
+    toc-expand: true
+---
+
+## Introduzione
+
+Il [**sistema ReGiS**](https://www.italiadomani.gov.it/it/Interventi/regis---il-sistema-gestionale-unico-del-pnrr.html) è stato sviluppato dalla Ragioneria Generale dello Stato e rappresenta la modalità unica attraverso cui le amministrazioni centrali e territoriali interessate possono adempiere agli obblighi di monitoraggio, rendicontazione e controllo delle misure e dei progetti finanziati dal Piano Nazionale di Ripresa e Resilienza (PNRR).
+
+Da aprile 2023, sono stati pubblicati sulla [sezione "open data"](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc) di **ItaliaDomani** (il sito ufficiale del PNRR) i primi dati da fonte ReGiS:
+
+- [Gare Aggiudicatari del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-pnrr.html)
+- [Interoperabilità - Amministrazioni Titolari](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/amministrazioni-titolari-interoperabilita.html)
+- [Localizzazione dei progetti PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/localizzazione-dei-progetti-pnrr.html)
+- [Progetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/progetti-del-pnrr.html)
+- [Soggetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/soggetti-del-pnrr.html)
+- [Universo ReGiS - Gare Aggiudicatari PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-aggiudicatari-pnrr.html)
+- [Universo ReGiS - Localizzazione del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html)
+- [Universo ReGiS - Progetti](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html)
+
+Questi dati sono sottoposti a un "_processo di validazione, ossia dal consolidamento periodico delle informazioni tramite controlli automatici di coerenza e tramite le opportune verifiche amministrative poste in essere dalle Amministrazioni Titolari_".<br>
+Quelli che nel nome hanno la dicitura "`Universo`", sono quelli **non validati**, mentre tutti gli altri sono **validati**.
+
+## Come sono pubblicati questi dati
+
+In @fig-dati-italia-domani è possibile vedere un esempio di pagina dati di ItaliaDomani, in cui sono presenti queste informazioni:
+
+1. il titolo;
+2. la descrizione;
+3. la versione, la data di osservazione del dato e la licenza;
+4. il link per scaricare i metadati;
+5. il formato di download (a scelta tra `csv`, `json` e `xlsx`);
+6. il tasto per scaricare i dati;
+7. la sezione con eventuali versioni precedenti dei dati.
+
+![Esempio pagina dati ItaliaDomani](./images/dati-italia-domani.png){fig-alt="Esempio pagina dati ItaliaDomani" #fig-dati-italia-domani}
+
+Il file dei metadati è molto utile. È un file compresso in formato `zip`, che contiene - in formati diversi - una tabella che descrive i campi del dataset (in altre parole, le colonne della tabella). Per ognuno, il nome della campo/colonna, la descrizione, il tipo di dato (se testuale, numerico, ecc.) ed eventuali note.
+
+![Esempio metadati sui i dati aperti di ItaliaDomani](./images/metadati-italiadomani.png){fig-alt="Esempio metadati sui i dati aperti di ItaliaDomani" #fig-metadati-italia-domani}
+
+## Note su alcuni dati
+
+A seguire delle note su alcuni dei dati Regis pubblicati su ItaliaDomani.
+
+### Universo ReGiS - Progetti
+
+È il [dato](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html) in qualche modo "centrale", che "*riporta per ciascuna misura o sub-misura del Piano il corredo informativo di tutti i progetti identificati tramite CUP/CLP presenti sulla piattaforma ReGiS*".
+
+```{python}
+#| echo: false
+import duckdb
+dbcon = duckdb.connect('./dati/italia-domani.duckdb')
+import pandas as pd
+from IPython.display import display_markdown
+
+
+pd.set_option('display.max_columns', None)
+
+data_info=dbcon.execute('''
+select table_name,estimated_size,column_count from duckdb_tables where table_name LIKE 'progetti_universo';
+''').df()
+
+dbcon.close()
+
+rows = data_info['estimated_size'].iloc[0]
+columns = data_info['column_count'].iloc[0]
+formatted_rows = '{:,}'.format(rows).replace(',', '.')
+
+display_markdown(f'''
+È composto da {formatted_rows} righe e {columns} colonne e in @tbl-esempio è possibile vedere un paio di righe di esempio. Quindi, i progetti non validati sono **{formatted_rows}**.
+''', raw=True)
+
+```
+
+```{python}
+#| echo: false
+#| label: tbl-esempio
+#| tbl-cap: "due righe di esempio del dataset \"progetti_universo\""
+import duckdb
+dbcon = duckdb.connect()
+import pandas as pd
+
+pd.set_option('display.max_columns', None)
+
+progetto_campione=dbcon.execute('''
+SELECT * FROM
+(SELECT *
+FROM './dati/parquet/progetti_universo.parquet'
+WHERE length("Sintesi progetto") < 100 AND length("Descrizione Submisura") < 100)
+USING SAMPLE 2 ROWS;
+''').df()
+
+dbcon.close()
+
+progetto_campione.style.hide(axis='index').set_table_attributes("class='dataframe table table-hover'").set_table_styles([{'selector': 'th', 'props': [('text-align', 'center'), ('vertical-align', 'middle')]}])
+```
+
+```{python}
+#| echo: false
+import pandas as pd
+import humanize
+humanize.i18n.activate("it_IT")
+from IPython.display import display_markdown
+
+!duckdb -csv -c "select sum(COLUMNS('.*Finan.+')) from  progetti_universo" dati/italia-domani.duckdb | mlrgo --csv reshape -r "." -o k,v then put '$k=sub($k,"^.+?\"","");$k=sub($k,"\".+","")' then sort -n v then label tipo,valore >tmp.csv
+
+df=pd.read_csv('tmp.csv')
+
+finanziamento_pnrr = df.loc[df['tipo'] == "Finanziamento PNRR", 'valore'].values[0]
+finanziamento_totale = df.loc[df['tipo'] == "Finanziamento Totale", 'valore'].values[0]
+finanziamento_altro_pubblico = df.loc[df['tipo'] == "Finanziamento Altro Pubblico", 'valore'].values[0]
+finanziamento_privato = df.loc[df['tipo'] == "Finanziamento Privato", 'valore'].values[0]
+
+percentuale_pnrr = round(finanziamento_pnrr / finanziamento_totale * 100, 2)
+
+display_markdown(f'''
+<br>Il **finanziamento totale** dei progetti è di **{humanize.intword(finanziamento_totale)}** di euro, di cui **{humanize.intword(finanziamento_pnrr)}** (circa il {percentuale_pnrr}%) sono **finanziati dal PNRR**. Il resto è per lo più dovuto **ad altra fonte pubblica** (**{humanize.intword(finanziamento_altro_pubblico)}** di euro).<br>
+Nel valore totale anche circa **{humanize.intword(finanziamento_privato, "%0.0f")}** di euro di **finanziamento privato**.
+''', raw=True)
+```
+
+```{python}
+#| echo: false
+#| label: tbl-missioni
+#| tbl-cap: "Numero di progetti e somma in euro per missione"
+import pandas as pd
+import humanize
+humanize.i18n.activate("it_IT")
+from IPython.display import display_markdown
+import duckdb
+dbcon = duckdb.connect()
+
+progetti_missioni_conti=dbcon.execute('''
+select "Descrizione Missione" missione,count(*) numero,SUM("Finanziamento PNRR") valore
+from './dati/parquet/progetti_universo.parquet'
+group by "Descrizione Missione"
+order by valore desc
+''').df()
+
+dbcon.close()
+
+progetti_missioni_conti['valore'] = progetti_missioni_conti['valore'].round().astype(int)
+
+progetti_missioni_conti = progetti_missioni_conti.rename(columns={'valore': 'Somma in euro'})
+progetti_missioni_conti = progetti_missioni_conti.rename(columns={'numero': 'Numero di progetti'})
+progetti_missioni_conti = progetti_missioni_conti.rename(columns={'missione': 'Missione'})
+
+mobilita_valore = progetti_missioni_conti.loc[progetti_missioni_conti['Missione'] == "Infrastrutture per una mobilità sostenibile", 'Somma in euro'].values[0]
+mobilita_numero = progetti_missioni_conti.loc[progetti_missioni_conti['Missione'] == "Infrastrutture per una mobilità sostenibile", 'Numero di progetti'].values[0]
+totale_valore=progetti_missioni_conti['Somma in euro'].sum()
+mobilita_percentuale = round(mobilita_valore / totale_valore * 100, 2)
+
+display_markdown(f'''
+Guardando alle **6 missioni principali** del Piano (vedi @tbl-missioni), emerge come quella denominata "**Infrastrutture per una mobilità sostenibile**" valga da sola il **{mobilita_percentuale}%** del totale, distribuita soltanto su **{mobilita_numero} progetti**. Poche opere, ma di grande valore.
+
+**Altre misure** al contrario, come "Rivoluzione verde e transizione ecologica", "Digitalizzazione, innovazione, competitività e cultura" e "Istruzione e ricerca", sono **molto più frammentate**, con interventi più piccoli per lo più distribuiti su tutto il territorio.
+''', raw=True)
+
+progetti_missioni_conti.style.hide(axis='index').set_properties(**{'text-align': 'right'}).format(thousands='.',decimal=',').bar(subset=['Numero di progetti'], color='#ff781c').bar(subset=['Somma in euro'], color='#ffcd09').set_table_styles([{'selector': 'th', 'props': [('text-align', 'center'), ('vertical-align', 'middle')]}])
+
+
+```
+
+```{python}
+#| echo: false
+import pandas as pd
+import humanize
+humanize.i18n.activate("it_IT")
+from IPython.display import display
+from IPython.display import display_markdown
+import duckdb
+dbcon = duckdb.connect()
+
+progetti_sottosettore=dbcon.execute('''
+select "CUP Descrizione Sottosettore" sottosettore,SUM("Finanziamento PNRR") valore
+from './dati/parquet/progetti_universo.parquet'
+group by "CUP Descrizione Sottosettore"
+order by valore desc limit 10
+''').df()
+
+dbcon.close()
+
+dbcon = duckdb.connect()
+progetti_misura=dbcon.execute('''
+select "Descrizione Misura" misura,SUM("Finanziamento PNRR") valore
+from './dati/parquet/progetti_universo.parquet'
+WHERE "CUP Descrizione Sottosettore" LIKE 'SOCIALI E SCOLASTICHE'
+group by "Descrizione Misura"
+order by valore desc limit 5
+''').df()
+
+dbcon.close()
+
+progetti_sottosettore['valore'] = progetti_sottosettore['valore'].round().astype(int)
+progetti_misura['valore'] = progetti_misura['valore'].round().astype(int)
+
+
+```
+
+Interessante guardare ad alcune **suddivisioni categoriche dei progetti**. Tra queste ad esempio quella dei `Sottosettori`: in @tbl-sottosettore vediamo i primi 10 per valore.<br>
+Abbiamo evidenziato quello denominato "**Sociali e scolastiche**", e inserito a seguire le "**Misure**" di questa voce, in @tbl-misura, per dare un'idea di come sia possibile leggere ed esplorare questi dati.
+
+:::: {.columns}
+
+::: {.column width="48%"}
+```{python}
+#| echo: false
+#| label: tbl-sottosettore
+#| tbl-cap: "Valore in € per Sottosettore"
+
+def highlight_bold_row(row):
+    if row.name == 1:
+        return ['font-weight: bold']*len(row)
+    else:
+        return ['']*len(row)
+
+display(progetti_sottosettore.style.hide(axis='index').format(thousands='.',decimal=',').set_properties(**{'text-align': 'right'}).set_table_attributes("class='dataframe table table-hover table-responsive table-sm'").apply(highlight_bold_row, axis=1).bar(subset=['valore'], color='#0fe750').set_table_styles([{'selector': 'th', 'props': [('text-align', 'center'), ('vertical-align', 'middle')]}]))
+```
+:::
+
+::: {.column width="4%"}
+
+:::
+
+::: {.column width="48%"}
+```{python}
+#| echo: false
+#| label: tbl-misura
+#| tbl-cap: "Valore in € per Misura del Sottosettore \"Sociali e scolastiche\""
+
+display(progetti_misura.style.hide(axis='index').format(thousands='.',decimal=',').set_properties(**{'text-align': 'right'}).set_table_attributes("class='dataframe table table-hover table-responsive table-sm'").bar(subset=['valore'], color='#05e6ff').set_table_styles([{'selector': 'th', 'props': [('text-align', 'center'), ('vertical-align', 'middle')]}]))
+```
+:::
+
+::::
+
+### Universo ReGiS - Localizzazione del PNRR
+
+È un [dato](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html) che ha suscitato molto interesse, perché consente di avere una restituzione geografica dei [progetti](#universo-regis---progetti).
+
+> Associa a ciascun progetto CUP/CLP presente sulla piattaforma ReGiS alla data di estrazione le informazioni su regione, provincia, comune, indirizzo e Cap di localizzazione del progetto. La relazione tra CUP e territori non è biunivoca: nel caso in cui un CUP sia localizzato su più territori (è il caso, ad esempio di una ferrovia) è riportato tante volte quante sono i luoghi in cui il progetto è realizzato.
+
+```{python}
+#| echo: false
+import duckdb
+dbcon = duckdb.connect('./dati/italia-domani.duckdb')
+import pandas as pd
+from IPython.display import display_markdown
+
+
+pd.set_option('display.max_columns', None)
+
+data_info=dbcon.execute('''
+select table_name,estimated_size,column_count from duckdb_tables where table_name LIKE 'localizzazioni_universo';
+''').df()
+
+dbcon.close()
+
+rows = data_info['estimated_size'].iloc[0]
+columns = data_info['column_count'].iloc[0]
+formatted_rows = '{:,}'.format(rows).replace(',', '.')
+
+display_markdown(f'''
+È composto da **{formatted_rows} righe** e **{columns} colonne** e in @tbl-esempio-localizzazioni è possibile vedere un paio di righe di esempio.<br>
+''', raw=True)
+
+```
+
+
+```{python}
+#| echo: false
+#| label: tbl-esempio-localizzazioni
+#| tbl-cap: "due righe di esempio del dataset \"localizzazioni_universo\""
+import duckdb
+dbcon = duckdb.connect()
+import pandas as pd
+import humanize
+humanize.i18n.activate("it_IT")
+from IPython.display import display
+from IPython.display import display_markdown
+
+pd.set_option('display.max_columns', None)
+
+localizzazioni_campione=dbcon.execute('''
+SELECT *
+FROM './dati/parquet/localizzazioni_universo.parquet'
+WHERE length("Descrizione Submisura") < 150
+USING SAMPLE 2 ROWS;
+''').df()
+
+valore_tutti_comuni=dbcon.execute('''
+SELECT sum(finanziamento_pnrr) valore
+FROM './dati/parquet/localizzazione_model.parquet'
+WHERE comune LIKE 'TUTTI I COMUNI' OR comune LIKE 'AMBITO NAZIONALE';
+''').df()
+
+
+dbcon.close()
+
+localizzazioni_campione=localizzazioni_campione.fillna('')
+
+display(localizzazioni_campione.style.hide(axis='index').set_table_attributes("class='dataframe table table-hover'").set_table_styles([{'selector': 'th', 'props': [('text-align', 'center'), ('vertical-align', 'middle')]}]))
+```
+<br>Alcune note:
+
+- **le localizzazioni sono di più dei progetti**, perché ovviamente un singolo progetto può essere sviluppato in più luoghi;
+- la localizzazione è definita, in termini di taglio geografico amministrativo di maggiore dettaglio, a livello di **Comune**;
+- se si raggruppano queste righe per `Descrizione Submisura` e `CUP`, si ottiene lo stesso numero di recordi del [dataset dei progetti](#universo-regis---progetti);
+- la colonna `COD_ISTAT_COMUNE` che si vede in @tbl-esempio-localizzazioni, che contiene il codice Istat del Comune, non è presente nei dati originali. L'abbiamo inserita, a partire dai codici Provincia e Comune, per facilitare le correlazioni e le analisi territoriali.
+
+::: {.callout-tip}
+## Alcune localizzazioni NON HANNO il "taglio" comunale
+```{python}
+#| echo: false
+
+percentuale_pnrr_tutti_comuni = round(valore_tutti_comuni['valore'].iloc[0]/finanziamento_pnrr * 100, 2)
+
+display_markdown(f'''
+Alcuni progetti, nelle colonne che descrivono il **Comune**, hanno associato il valore `AMBITO NAZIONALE` o `TUTTI I COMUNI`. Si tratta di circa **{humanize.intword(valore_tutti_comuni['valore'].iloc[0])}** di euro di finanziamenti PNRR, ovvero il **{percentuale_pnrr_tutti_comuni}%** del totale.<br>
+E **anche** nelle colonne che descrivono **Regioni** e **Province**, esistono dei **raggruppamenti** che coprono o un'intera regione o un'intera provincia.<br>
+
+È corretto che sia così, perché alcuni progetti sono sviluppati o a carattere nazionale, o su raggruppamenti territoriali più ampi del Comune (la Provincia e la Regione). Lo sottolineiamo perché alcuni dei dati di sintesi a seguire, sono basati soltanto sui dati dei progetti correlati in modo diretto a uno o più Comuni.
+''', raw=True)
+```
+
+:::
+
+Guardando ai soli progetti assegnati a uno o più Comuni, cambia la classiffica delle missioni con valore di finanziamento PNRR maggiore: la prima in questo caso è quella denominata "Rivoluzione verde e transizione ecologica".<br>
+Questa è anche quella con il maggior numero di localizzazioni di taglio comunale. In @tbl-misure-comuni è possibile constatare la cosa, insieme al numero di progetti e al finanziamento totale (per tutte e sei le missioni).
+
+```{python}
+#| echo: false
+#| label: tbl-misure-comuni
+#| tbl-cap: "Numero progetti, numero comuni, finanziamento PNRR e totale per missione"
+import duckdb
+dbcon = duckdb.connect()
+import pandas as pd
+import humanize
+humanize.i18n.activate("it_IT")
+from IPython.display import display
+from IPython.display import display_markdown
+
+pd.set_option('display.max_columns', None)
+
+misure_comuni=dbcon.execute('''
+SELECT missione Missione,COUNT(DISTINCT codice_locale||CUP||identificativo_attivazione) "Numero progetti",COUNT(DISTINCT COD_ISTAT_COMUNE) "Numero comuni",
+sum(finanziamento_pnrr) "Finanz. PNRR (€)",
+sum(finanziamento_totale) "Finanz. totale (€)"
+FROM './dati/parquet/localizzazione_model.parquet'
+where COD_ISTAT_COMUNE IS NOT NULL
+GROUP BY ALL
+ORDER by "Numero comuni" desc
+''').df()
+
+dbcon.close()
+
+misure_comuni['Finanz. PNRR (€)'] = misure_comuni['Finanz. PNRR (€)'].round().astype(int)
+misure_comuni['Finanz. totale (€)'] = misure_comuni['Finanz. totale (€)'].round().astype(int)
+
+
+
+display(misure_comuni.style.hide(axis='index').set_table_attributes("class='dataframe table table-hover'").format(thousands='.',decimal=',').set_properties(**{'text-align': 'right'}).bar(subset=['Numero comuni'], color='#ffcd09').set_table_styles([{'selector': 'th', 'props': [('text-align', 'center'), ('vertical-align', 'middle')]}]))
+```
+
+
+## Arricchire i dati ReGIS con le informazioni presenti nelle altre fonti
+
+Questa fonte di dati nonostante sia la principale, è quella di più recente pubblicazione (è andata *online* dopo la pubblicazione di questo vademecum).<br>
+
+Le [altre fonti](../fonti.qmd) non sono da considerarsi ormai superate e/o inutili, ma anzi, possono essere usate per arricchire le informazioni contenute in ReGIS, in quanto contengono alcune informazioni integrative.
+
+Essenziali per le correlazioni i **Codici Unici di Progetto** (`CUP`) e i **Codici Identificativi Gara** (`CIG`).
