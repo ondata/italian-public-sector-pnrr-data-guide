@@ -23,6 +23,13 @@ Dal punto di vista temporale questa banca dati - rispetto a quelle di OpenCUP e 
 
 Prima si assegna infatti un codice CUP a un progetto, poi si fanno gli avvisi e i bandi e infine si assegnano i contratti.
 
+::: {.callout-note}
+## Nota bene
+
+Questa banca dati **non è legata in modo univoco al PNRR**, ma contiene informazioni anche su bandi e avvisi di altra origine.<br>
+Ma si può usare per aggiungere informazioni a dati in proprio possesso relativi al PNRR (ad esempio a partire dal codice CUP).
+:::
+
 I dati sono in formato `CSV`, resi disponibili in quattro categorie principali, suddivise ulteriormente rispetto alla data. Le categorie sono: `atti`, `avvisi`, `bandi`, `gare non aggiudicate` e `esiti`.<br>
 I file sono accompagnati dai dei file in formato `JSON` che descrivono i soprastanti file di dati.
 
