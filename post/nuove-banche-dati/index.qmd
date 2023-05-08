@@ -1,0 +1,42 @@
+---
+title: "Nuove banche dati"
+description: "Inseriti i dati ReGIS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
+description-meta: "Inseriti i dati ReGIS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
+website:
+  twitter-card:
+    description: "Inseriti i dati ReGIS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
+  open-graph:
+    description: "Inseriti i dati ReGIS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
+date: "2023-05-08"
+draft: false
+categories:
+  - regioni
+  - anac
+  - dati
+  - italiaDomani
+image: localizzazioni-regis.png
+---
+
+Abbiamo inserito nel *vademecum* i riferimenti a **tre nuove fonti dati**:
+
+1. i [**dati ReGIS**](https://pnrr.datibenecomune.it/fonti/regis/), pubblicati su Italiadomani;
+2. il [**dataset “Bandi PNRR”**](https://pnrr.datibenecomune.it/fonti/anac/#il-dataset-bandi-pnrr), dell'Autorità Nazionale Anticorruzione (ANAC);
+3. quelli a cura delle [**pubbliche amministrazioni regionali**](https://pnrr.datibenecomune.it/fonti/altre-pa/regioni.html).
+
+La [**prima**](https://pnrr.datibenecomune.it/fonti/regis/) è la notizia che aspettavamo da tempo, perché segna **la fine** (momentanea) dell'**emergenza informativa** sui **dati** del **PNRR**. Infatti su Italiadomani - il sito ufficiale del PNRR - sono stati pubblicati  i primi dati da fonte ReGiS.<br>
+Il sistema ReGiS rappresenta la modalità unica attraverso cui le amministrazioni centrali e territoriali interessate possono adempiere agli obblighi di monitoraggio, rendicontazione e controllo delle misure e dei progetti finanziati dal Piano Nazionale di Ripresa e Resilienza.
+
+La [**seconda**](https://pnrr.datibenecomune.it/fonti/anac/#il-dataset-bandi-pnrr), quella sul dataset “Bandi PNRR” pubblicato da ANAC, ci consegna due informazioni importanti:
+
+-   l'elenco delle **gare** **etichettate** come **PNRR/PNC** (prima non era possibile in modo diretto quali fossero le gare correlate a PNRR/PNC);
+-   le informazioni sulle clausole di **condizionalità** e **premialità** previste sui bandi di gara, “_promuovere l’**imprenditoria giovanile**, l’**inclusione** lavorativa delle **persone disabili**, la **parità** di **genere** e l’**assunzione** di **giovani**, con età inferiore a trentasei anni, e **donne**_”.
+
+::: {.callout-tip}
+## ✌️ Siamo orgogliosi di avere contribuito a questo risultato
+
+Abbiamo chiesto ad ANAC di pubblicare questi dati alcuni settimane fa. Stimolati dall'associazione [donne 4.0](https://donne4.it/), che ci ha sottolineato l'importanza di rendere disponibili le informazioni sulle clausole di condizionalità e premialità.<br>
+**ANAC** (grazie) ci ha risposto presto e bene, e li ha resi disponibili.
+:::
+
+Infine la [**terza**](https://pnrr.datibenecomune.it/fonti/altre-pa/regioni.html), quella sulle fonti legate alle **pubbliche amministrazioni regionali**, sono state **tra le prime** a **pubblicare** **dati aperti** sul **PNRR**.<br>
+Un esempio per tutti è quello di Regione Toscana, che cura uno spazio ricco e variegato, che sta facendo scuola.
