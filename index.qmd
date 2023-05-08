@@ -21,7 +21,8 @@ E per questo al lancio scrivevamo:
 > Esistono alcune banche dati, da cui è possibile estrarre alcune informazioni di dettaglio e metterle (ove possibile) in correlazione tra loro.<br>
 > Non riempiono il vuoto informativo attuale, ma sono ad oggi un riferimento utile per seguire e monitorare il Piano.
 
-🙌 Siamo contenti di aver dato un piccolo **contributo di spinta** al **superamento** di questa **emergenza**, ma riteniamo che permanga l'esigenza di **descrivere** le **principali** fonti dati della **Pubblica Amministrazione italiana**.
+🙌 Siamo contenti di aver dato un piccolo **contributo di spinta** al **superamento** di questa **emergenza**.<br>
+E più saranno le fonti e le modalità di pubblicazione di dati sul PNRR, più riteniamo che sia utile **descrivere** le **principali** fonti dati a cura della **Pubblica Amministrazione italiana**.
 
 ::: {.callout-tip}
 
