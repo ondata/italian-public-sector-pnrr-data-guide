@@ -1,7 +1,6 @@
 ---
 title: "ANAC"
 subtitle: "Il portale open data dell'Autorità Nazionale Anticorruzione e i dati di OpenCUP"
-format: html
 toc-depth: 4
 description-meta: "Quali sono i dati aperti presenti sul portale ANAC, associabili al PNRR"
 website:
@@ -13,6 +12,9 @@ website:
     image: "anac.png"
 resources:
   - "anac.png"
+format:
+  html:
+    css: styles.css
 ---
 
 ```{python}
@@ -146,5 +148,73 @@ Due informazioni inedite arrivano con la pubblicazione di questi dati:
 Il criterio di condizionalità ([articolo 47 del decreto 77 del 31 maggio 2021](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2021-05-31;77!vig~art47)) prevede che "*le stazioni appaltanti prevedono nei bandi di gara, negli avvisi e negli inviti specifiche clausole dirette all'inserimento, come requisiti necessari e come ulteriori requisiti premiali dell'offerta, criteri orientati a promuovere l'**imprenditoria giovanile**, l'**inclusione** lavorativa delle **persone disabili**, la **parità** di **genere** e l'**assunzione** di **giovani**, con  età inferiore a trentasei anni, e **donne***".
 
 La premialità è quella descritta nell'[articolo 108](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36!vig~art108), comma 7 del decreto legislativo del 31 marzo 2023: "*Al fine di promuovere la **parità di genere**, le stazioni appaltanti prevedono nei bandi di gara, negli avvisi e negli inviti, il maggior punteggio da attribuire alle imprese che attestano, anche a mezzo di autocertificazione, il possesso dei requisiti di cui all'articolo 46-bis del codice delle pari opportunità tra uomo e donna, di cui al [decreto legislativo 11 aprile 2006, n. 198](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-11;198)*".
+
+
+| cig | flag_pnrr_pnc | flag_previsione_quota | quota_femminile | quota_giovanile | FLAG_MISURE_PREMIALI |
+| --- | --- | --- | --- | --- | --- |
+| 961920858E | S | S | NULL | NULL | S |
+| 942528680E | S | N | NULL | NULL | N |
+| 9511764BF4 | S | S | NULL | NULL | N |
+| 955640962E | S | Q | 15.00 | 29.99 | N |
+
+: Alcune righe di esempio del dataset {.striped .sm .responsive .bordered #tbl-genere-esempio}
+
+<br>Questa la descrizione dello schema dei dati:
+
+<table class="table table-striped table-bordered table-condensed table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">Campo</th>
+      <th scope="col">Descrizione</th>
+      <th scope="col">Tipo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cig</td>
+      <td>Codice Identificativo di Gara, è un codice assegnato dall'Autorità per tracciare in modo univoco le gare ed i contratti a livello nazionale e viene assegnato a livello di Lotto.</td>
+      <td>string</td>
+    </tr>
+    <tr>
+      <td>flag_pnrr_pnc</td>
+      <td>Flag bando pnrr</td>
+      <td>boolean</td>
+    </tr>
+    <tr>
+      <td>flag_previsione_quota</td>
+      <td>
+        <ul>
+          <li>S il bando prevede valori &gt;30% per entrambe le quote femminile e giovanile Nota: in questo caso le colonne quota_femminile e quota_giovanile non sono mai valorizzate</li>
+          <li>Q il bando prevede che almeno una delle quote femminile o giovanile sia &gt;30% ed in questo caso la quota in deroga, che sarà necessariamente inferiore al 30 per cento è riportata nella colonna corrispondente  quota_femminile oppure quota_giovanile</li>
+          <li>N o NULL il bando non prevede nessuna quota femminile/giovanile. Nota: in questo caso le colonne quota_femminile e quota_giovanile non sono mai valorizzate</li>
+        </ul>
+      </td>
+      <td>string</td>
+    </tr>
+    <tr>
+      <td>quota_femminile</td>
+      <td>Riporta il valore percentuale della Quota femminile richiesto, nel caso sia in deroga</td>
+      <td>double</td>
+    </tr>
+    <tr>
+      <td>quota_giovanile</td>
+      <td>Riporta il valore percentuale della Quota giovanile richiesta, nel caso sia in deroga</td>
+      <td>double</td>
+    </tr>
+    <tr>
+      <td>FLAG_MISURE_PREMIALI</td>
+      <td>
+        <ul>
+          <li>S Il bando prevede misure premiali</li>
+          <li>N o NULL: il bando non prevede misure premiali</li>
+        </ul>
+      </td>
+      <td>boolean</td>
+    </tr>
+  </tbody>
+</table>
+
+
+---
 
 {{< include ../../include/_partecipa.md >}}
