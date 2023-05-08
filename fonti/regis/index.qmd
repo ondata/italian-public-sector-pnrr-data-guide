@@ -385,6 +385,6 @@ display(misure_comuni.style.hide(axis='index').set_table_attributes("class='data
 
 Questa fonte di dati nonostante sia la principale, è quella di più recente pubblicazione (è andata *online* dopo la pubblicazione di questo vademecum).<br>
 
-Le [altre fonti](../fonti.qmd) non sono da considerarsi ormai superate e/o inutili, ma anzi, possono essere usate per arricchire le informazioni contenute in ReGIS, in quanto contengono alcune informazioni integrative.
+Le [altre fonti](../fonti.qmd) **non sono** da considerarsi **superate e/o inutili**, ma è tutto l'**insieme** di queste a restituire il **patrimonio informativo migliore disponibile**.
 
-Essenziali per le correlazioni i **Codici Unici di Progetto** (`CUP`) e i **Codici Identificativi Gara** (`CIG`).
+Essenziali per le correlazioni tra queste i **Codici Unici di Progetto** (`CUP`) e i **Codici Identificativi Gara** (`CIG`).
