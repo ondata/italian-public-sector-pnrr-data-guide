@@ -1,0 +1,33 @@
+---
+title: "Fonti dati regionali"
+subtitle: "Le basi dati a tema PNRR pubblicate dalle pubbliche amministrazioni regionali"
+description-meta: "Quali sono i dati aperti sul PNRR presenti in OpenCUP e come utilizzarli"
+website:
+  twitter-card:
+    description: "Quali sono i dati aperti sul PNRR presenti in OpenCUP e come utilizzarli"
+    image: "regioni.png"
+  open-graph:
+    description: "Quali sono i dati aperti sul PNRR presenti in OpenCUP e come utilizzarli"
+    image: "regioni.png"
+resources:
+  - "regioni.png"
+format:
+  html:
+    tbl-cap-location: bottom
+    toc: true
+    toc-depth: 4
+    toc-expand: true
+---
+
+
+Le **pubbliche amministrazioni regionali** sono state **tra le prime** a **pubblicare** **dati aperti** sul **PNRR**.
+
+Questo *vademecum* è dedicato **principalmente** a **dataset** di **taglio nazionale**, ma può essere molto comodo per chi deve fare analisi, inchieste, monitoraggi, ecc. poter integrare anche dati di taglio geografico più ristretto, magari corredati da informazioni aggiuntive non presenti in quelli nazionali.
+
+A seguire un elenco di quelle PA che hanno curato la **pubblicazione** di **propri** **dati** aperti sul PNRR:
+
+- [Il PNRR in **Toscana**](https://pnrr.toscana.it/), uno spazio ricco e variegato che sta facendo scuola;
+- [Progetti PNRR gestiti dalla Regione **Piemonte**](https://www.dati.piemonte.it/#/catalogodetail/regpie_ckan_ckan2_yucca_sdp_smartdatanet.it_Coordfondi_pnrr_progetti_od_24787);
+- [L'andamento in **Emilia-Romagna** del PNRR](https://pnrr.regione.emilia-romagna.it/).
+
+Se ne conosci altre, segnalacelo [qui](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions)

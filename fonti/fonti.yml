@@ -10,4 +10,5 @@
       href: scp/index.qmd
     - titolo:  OpenBDAP
       href: openbdap/index.qmd
-
+    - titolo:  Regioni
+      href: altre-pa/regioni.qmd

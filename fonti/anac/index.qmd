@@ -12,9 +12,7 @@ website:
     image: "anac.png"
 resources:
   - "anac.png"
-format:
-  html:
-    css: styles.css
+format: html
 ---
 
 ```{python}

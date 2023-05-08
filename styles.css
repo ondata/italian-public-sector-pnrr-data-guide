@@ -1,1 +1,3 @@
-/* css styles */
+table > caption {
+  text-align: left !important;
+}

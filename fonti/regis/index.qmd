@@ -13,7 +13,6 @@ resources:
   - "regis.png"
 format:
   html:
-    css: styles.css
     tbl-cap-location: bottom
     toc: true
     toc-depth: 4
@@ -388,3 +387,7 @@ Questa fonte di dati nonostante sia la principale, è quella di più recente pub
 Le [altre fonti](../fonti.qmd) **non sono** da considerarsi **superate e/o inutili**, ma è tutto l'**insieme** di queste a restituire il **patrimonio informativo migliore disponibile**.
 
 Essenziali per le correlazioni tra queste i **Codici Unici di Progetto** (`CUP`) e i **Codici Identificativi Gara** (`CIG`).
+
+---
+
+{{< include ../../include/_partecipa.md >}}
