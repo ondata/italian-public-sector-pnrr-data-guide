@@ -131,8 +131,6 @@ Su Portale è presente anche una [**pagina di ricerca**](https://dati.anticorruz
 
 [![Il modulo di ricerca del Portale ANAC](images/anac-ricerca-visuale.png){#fig-opencup-visuale fig-alt="Form di ricerca del Portale ANAC"}](https://dati.anticorruzione.it/superset/dashboard/ricerca_avanzata/)
 
-{{< include ../../include/_partecipa.md >}}
-
 ## Il dataset "Bandi PNRR"
 
 Il 20 aprile 2023 - poco più di un mese dopo la pubblicazione di questo *vademecum* - l'ANAC ha pubblicato il *dataset* "[Bandi PNRR](https://dati.anticorruzione.it/opendata/dataset/bandi-pnrr)":
@@ -143,8 +141,10 @@ Il 20 aprile 2023 - poco più di un mese dopo la pubblicazione di questo *vademe
 Due informazioni inedite arrivano con la pubblicazione di questi dati:
 
 - le **gare** **etichettate** come **PNRR/PNC** (prima non era possibile in modo diretto quali fossero le gare correlate a PNRR/PNC);
-- informazioni sulle clausole di **condizionalità** e **premialità** previste dall'[articolo 47 del decreto 77 del 31 maggio 2021](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2021-05-31;77!vig~art47), denominato "**Pari opportunità** e inclusione lavorativa nei contratti pubblici, nel PNRR e nel PNC."
+- informazioni sulle clausole di **condizionalità** e **premialità** previste sui bandi di gara.
 
-Il criterio di condizionalità prevede che "*le stazioni appaltanti prevedono nei bandi di gara, negli avvisi e negli inviti specifiche clausole dirette all'inserimento, come requisiti necessari e come ulteriori requisiti premiali dell'offerta, criteri orientati a promuovere l'imprenditoria giovanile, l’inclusione lavorativa delle persone disabili, la parità di genere e l'assunzione di giovani, con  età inferiore a trentasei anni, e donne*".
+Il criterio di condizionalità ([articolo 47 del decreto 77 del 31 maggio 2021](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2021-05-31;77!vig~art47)) prevede che "*le stazioni appaltanti prevedono nei bandi di gara, negli avvisi e negli inviti specifiche clausole dirette all'inserimento, come requisiti necessari e come ulteriori requisiti premiali dell'offerta, criteri orientati a promuovere l'**imprenditoria giovanile**, l'**inclusione** lavorativa delle **persone disabili**, la **parità** di **genere** e l'**assunzione** di **giovani**, con  età inferiore a trentasei anni, e **donne***".
 
-La premialità è quella descritta nell'[articolo 108](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36!vig~art108), comma 7 del decreto legislativo del 31 marzo 2023: "*Al fine di promuovere la parità di genere, le stazioni appaltanti prevedono nei bandi di gara, negli avvisi e negli inviti, il maggior punteggio da attribuire alle imprese che attestano, anche a mezzo di autocertificazione, il possesso dei requisiti di cui all'articolo 46-bis del codice delle pari opportunità tra uomo e donna, di cui al [decreto legislativo 11 aprile 2006, n. 198](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-11;198)*".
+La premialità è quella descritta nell'[articolo 108](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2023-03-31;36!vig~art108), comma 7 del decreto legislativo del 31 marzo 2023: "*Al fine di promuovere la **parità di genere**, le stazioni appaltanti prevedono nei bandi di gara, negli avvisi e negli inviti, il maggior punteggio da attribuire alle imprese che attestano, anche a mezzo di autocertificazione, il possesso dei requisiti di cui all'articolo 46-bis del codice delle pari opportunità tra uomo e donna, di cui al [decreto legislativo 11 aprile 2006, n. 198](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-11;198)*".
+
+{{< include ../../include/_partecipa.md >}}
