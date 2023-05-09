@@ -28,6 +28,7 @@ A seguire un elenco di quelle PA che hanno curato la **pubblicazione** di **prop
 
 - [Il PNRR in **Toscana**](https://pnrr.toscana.it/), uno spazio ricco e variegato che sta facendo scuola;
 - [Progetti PNRR gestiti dalla Regione **Piemonte**](https://www.dati.piemonte.it/#/catalogodetail/regpie_ckan_ckan2_yucca_sdp_smartdatanet.it_Coordfondi_pnrr_progetti_od_24787);
-- [L'andamento in **Emilia-Romagna** del PNRR](https://pnrr.regione.emilia-romagna.it/).
+- [L'andamento in **Emilia-Romagna** del PNRR](https://pnrr.regione.emilia-romagna.it/);
+- [PNRR Valle d'Aosta](https://www.regione.vda.it/PNRR/default_i.aspx).
 
 Se ne conosci altre, segnalacelo [qui](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions)

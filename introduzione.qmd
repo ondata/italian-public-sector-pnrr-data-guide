@@ -24,7 +24,8 @@ Elenco:
 2. [**OpenCUP**](fonti/opencup/index.qmd), il portale con i dati, in formato aperto, sulle decisioni di investimento pubblico finanziate con fondi pubblici nazionali, comunitarie o regionali o con risorse private registrate con il Codice Unico di Progetto ed è gestito dalla Presidenza del Consiglio dei Ministri - Dipartimento per la programmazione e il coordinamento della politica economica (DIPE);
 3. il [Catalogo dei dati aperti](fonti/anac/index.qmd) di alcune informazioni estratte dalla Banca dati nazionale dei contratti pubblici (BDNCP) relativi alle gare ed appalti, con relativo codice identificativo della gara gestito dall'**Autorità Nazionale Anticorruzione** (ANAC);
 4. la [**Banca dati Servizio Contratti Pubblici**](fonti/scp/index.qmd)  del Servizio contratti pubblici (SCP) del Ministero delle infrastrutture e dei trasporti (MIT);
-5. [**OpenBDAP**](fonti/openbdap/index.qmd), portale OpenBDAP sezione "Opere pubbliche" dove sono pubblicati i dati di monitoraggio delle opere inviati alla BDAP dagli enti (pubblici o privati) che realizzano opere pubbliche ed è gestito dalla Ragioneria Generale dello Stato (RGS/MEF).
+5. [**OpenBDAP**](fonti/openbdap/index.qmd), portale OpenBDAP sezione "Opere pubbliche" dove sono pubblicati i dati di monitoraggio delle opere inviati alla BDAP dagli enti (pubblici o privati) che realizzano opere pubbliche ed è gestito dalla Ragioneria Generale dello Stato (RGS/MEF);
+6. [Registro Nazionale Aiuti di Stato](https://www.rna.gov.it/sites/PortaleRNA/it_IT/open_data), Dati di monitoraggio aiuti di stato alle imprese, a cura di MISE - MIPAAF.
 
 ---
 
