@@ -28,6 +28,10 @@ Elenco:
 6. [**Registro Nazionale Aiuti di Stato**](https://www.rna.gov.it/sites/PortaleRNA/it_IT/open_data), dati sugli aiuti di stato alle imprese, a cura di MISE - MIPAAF;
 7. [**PA digitale 2026** - Open Data](https://github.com/teamdigitale/padigitale2026-opendata), a cura del Dipartimento per la trasformazione digitale.
 
+## Fonti regionali
+
+➡️ [Pagina dedicata](fonti/altre-pa/regioni.qmd)
+
 ---
 
 In questo spazio facciamo riferimento spesso a termini come [`dataset`](glossario.md#dataset), [`dati aperti`](glossario.md#dati-aperti), ecc., che potrebbero non esserti noti.<br>Per questo stiamo preparando una [pagina di riferimento](glossario.md) (ancora in costruzione).
