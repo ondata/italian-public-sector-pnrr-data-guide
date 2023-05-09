@@ -25,7 +25,7 @@ Elenco:
 3. il [Catalogo dei dati aperti](fonti/anac/index.qmd) di alcune informazioni estratte dalla Banca dati nazionale dei contratti pubblici (BDNCP) relativi alle gare ed appalti, con relativo codice identificativo della gara gestito dall'**Autorità Nazionale Anticorruzione** (ANAC);
 4. la [**Banca dati Servizio Contratti Pubblici**](fonti/scp/index.qmd)  del Servizio contratti pubblici (SCP) del Ministero delle infrastrutture e dei trasporti (MIT);
 5. [**OpenBDAP**](fonti/openbdap/index.qmd), portale OpenBDAP sezione "Opere pubbliche" dove sono pubblicati i dati di monitoraggio delle opere inviati alla BDAP dagli enti (pubblici o privati) che realizzano opere pubbliche ed è gestito dalla Ragioneria Generale dello Stato (RGS/MEF);
-6. [**Registro Nazionale Aiuti di Stato**](https://www.rna.gov.it/sites/PortaleRNA/it_IT/open_data), dati di monitoraggio aiuti di stato alle imprese, a cura di MISE - MIPAAF;
+6. [**Registro Nazionale Aiuti di Stato**](https://www.rna.gov.it/sites/PortaleRNA/it_IT/open_data), dati sugli aiuti di stato alle imprese, a cura di MISE - MIPAAF;
 7. [**PA digitale 2026** - Open Data](https://github.com/teamdigitale/padigitale2026-opendata), a cura del Dipartimento per la trasformazione digitale.
 
 ---
