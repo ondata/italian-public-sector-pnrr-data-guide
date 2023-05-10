@@ -34,8 +34,14 @@ Da aprile 2023, sono stati pubblicati sulla [sezione "open data"](https://www.it
 - [Universo ReGiS - Localizzazione del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html)
 - [Universo ReGiS - Progetti](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html)
 
-Questi dati sono sottoposti a un "_processo di validazione, ossia dal consolidamento periodico delle informazioni tramite controlli automatici di coerenza e tramite le opportune verifiche amministrative poste in essere dalle Amministrazioni Titolari_".<br>
-Quelli che nel nome hanno la dicitura "`Universo`", sono quelli **non validati**, mentre tutti gli altri sono **validati**.
+Questi dati sono sottoposti a un "_processo di validazione, ossia dal consolidamento periodico delle informazioni tramite controlli automatici di coerenza e tramite le opportune verifiche amministrative poste in essere dalle Amministrazioni Titolari_".
+
+I dataset **Universo** fanno riferimento a tutti i progetti su ReGIS alla data di estrazione, indipendentemente dall'essere stati sottoposti o meno al processo di validazione.<br>
+Contengono quindi dati su: 
+
+1.  un progetto mai validato e quindi non presente nel dataset validati;
+2.  un progetto validato con informazioni uguali a quelle riportate nel dataset validati se le info su Regis non sono mai state aggiornate dopo la data di validazione;
+3.  un progetto validato ma con info nuove o più recenti rispetto al dataset validati se ci sono stati dei nuovi aggiornamenti su Régis ma poi non si è rivalidato
 
 ## Come sono pubblicati questi dati
 
