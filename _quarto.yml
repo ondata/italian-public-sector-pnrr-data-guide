@@ -48,7 +48,7 @@ website:
         href: fonti/fonti.qmd
         contents:
           - href: fonti/regis/index.qmd
-            text: ReGIS
+            text: ReGiS
           - section: OpenCUP
             href: fonti/opencup/index.qmd
             contents:
