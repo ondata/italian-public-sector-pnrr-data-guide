@@ -18,7 +18,7 @@ resources:
 
 ## I dati correlati al PNRR
 
-OpenBDAP pubblica delle estrazioni dalla banca dati BDAP/MOP, in cui sono inseriti anche i dati del [monitoraggio degli interventi finanziati solo con risorse nazionali](https://www.rgs.mef.gov.it/VERSIONE-I/attivita_istituzionali/monitoraggio/piano_nazionale_per_gli_investimenti_complementari_al_pnrr/monitoraggio_del_pnc/) del PNC - Piano nazionale per gli investimenti complementari al Piano nazionale di ripresa e resilienza (PNC). Il sistema Regis e BDAP si alimentano a vicenda.
+OpenBDAP pubblica delle estrazioni dalla banca dati BDAP/MOP, in cui sono inseriti anche i dati del [monitoraggio degli interventi finanziati solo con risorse nazionali](https://www.rgs.mef.gov.it/VERSIONE-I/attivita_istituzionali/monitoraggio/piano_nazionale_per_gli_investimenti_complementari_al_pnrr/monitoraggio_del_pnc/) del PNC - Piano nazionale per gli investimenti complementari al Piano nazionale di ripresa e resilienza (PNC). Il sistema ReGiS e BDAP si alimentano a vicenda.
 
 **Non ci sembra** che attualmente  in questo portale **ci siano dei dati "etichettati" come PNRR o PNC** e/o che ci siano delle modalità automatiche pubbliche aperte (**API**) per estrarre dati a partire da un codice `CUP` o da un `CIG`.
 

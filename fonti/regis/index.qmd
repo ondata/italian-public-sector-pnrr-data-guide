@@ -1,5 +1,5 @@
 ---
-title: "ReGIS"
+title: "ReGiS"
 subtitle: "Il sistema gestionale unico del PNRR"
 description-meta: "Quali sono i dati aperti sul PNRR presenti in OpenCUP e come utilizzarli"
 website:
@@ -36,12 +36,12 @@ Da aprile 2023, sono stati pubblicati sulla [sezione "open data"](https://www.it
 
 Questi dati sono sottoposti a un "_processo di validazione, ossia dal consolidamento periodico delle informazioni tramite controlli automatici di coerenza e tramite le opportune verifiche amministrative poste in essere dalle Amministrazioni Titolari_".
 
-I dataset **Universo** fanno riferimento a tutti i progetti su ReGIS alla data di estrazione, indipendentemente dall'essere stati sottoposti o meno al processo di validazione.<br>
+I dataset **Universo** fanno riferimento a tutti i progetti su ReGiS alla data di estrazione, indipendentemente dall'essere stati sottoposti o meno al processo di validazione.<br>
 Contengono quindi dati su: 
 
 1.  un progetto mai validato e quindi non presente nel dataset validati;
-2.  un progetto validato con informazioni uguali a quelle riportate nel dataset validati se le info su Regis non sono mai state aggiornate dopo la data di validazione;
-3.  un progetto validato ma con info nuove o più recenti rispetto al dataset validati se ci sono stati dei nuovi aggiornamenti su Régis ma poi non si è rivalidato
+2.  un progetto validato con informazioni uguali a quelle riportate nel dataset validati se le info su ReGiS non sono mai state aggiornate dopo la data di validazione;
+3.  un progetto validato ma con info nuove o più recenti rispetto al dataset validati se ci sono stati dei nuovi aggiornamenti su ReGiS ma poi non si è rivalidato
 
 ## Come sono pubblicati questi dati
 
@@ -63,7 +63,7 @@ Il file dei metadati è molto utile. È un file compresso in formato `zip`, che 
 
 ## Note su alcuni dati
 
-A seguire delle note su alcuni dei dati Regis pubblicati su ItaliaDomani.
+A seguire delle note su alcuni dei dati ReGiS pubblicati su ItaliaDomani.
 
 ### Universo ReGiS - Progetti
 
@@ -386,7 +386,7 @@ display(misure_comuni.style.hide(axis='index').set_table_attributes("class='data
 ```
 
 
-## Arricchire i dati ReGIS con le informazioni presenti nelle altre fonti
+## Arricchire i dati ReGiS con le informazioni presenti nelle altre fonti
 
 Questa fonte di dati nonostante sia la principale, è quella di più recente pubblicazione (è andata *online* dopo la pubblicazione di questo vademecum).<br>
 

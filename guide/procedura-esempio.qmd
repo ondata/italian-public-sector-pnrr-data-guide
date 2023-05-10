@@ -15,7 +15,7 @@ website:
 
 L'associazione onData è stata coinvolta nella [**Scuola di Monitoraggio Civico del PNRR** di **Messina**](http://parliamentwatch.it/2023/03/07/monitorare-il-pnrr-3/), organizzata dall'**Osservatorio Civico PNRR** in collaborazione con **Parliament Watch Italia**. Per quell'occasione è stata raccontato il flusso di lavoro e sono stati resi disponibili i dati di esempio.
 
-**Nota bene**: in questo esempio non si fa riferimento ai [dati ReGIS](../fonti/regis/index.qmd), perché al momento della sua stesura questa fonte era inesistente.
+**Nota bene**: in questo esempio non si fa riferimento ai [dati ReGiS](../fonti/regis/index.qmd), perché al momento della sua stesura questa fonte era inesistente.
 
 :::
 

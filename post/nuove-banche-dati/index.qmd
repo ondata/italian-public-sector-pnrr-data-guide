@@ -1,12 +1,12 @@
 ---
 title: "Nuove banche dati"
-description: "Inseriti i dati ReGIS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
-description-meta: "Inseriti i dati ReGIS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
+description: "Inseriti i dati ReGiS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
+description-meta: "Inseriti i dati ReGiS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
 website:
   twitter-card:
-    description: "Inseriti i dati ReGIS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
+    description: "Inseriti i dati ReGiS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
   open-graph:
-    description: "Inseriti i dati ReGIS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
+    description: "Inseriti i dati ReGiS, i “Bandi PNRR” di ANAC e i riferimenti alle fonte regionali"
 date: "2023-05-08"
 draft: false
 categories:
@@ -19,7 +19,7 @@ image: localizzazioni-regis.png
 
 Abbiamo inserito nel *vademecum* i riferimenti a **tre nuove fonti dati**:
 
-1. i [**dati ReGIS**](https://pnrr.datibenecomune.it/fonti/regis/), pubblicati su Italiadomani;
+1. i [**dati ReGiS**](https://pnrr.datibenecomune.it/fonti/regis/), pubblicati su Italiadomani;
 2. il [**dataset “Bandi PNRR”**](https://pnrr.datibenecomune.it/fonti/anac/#il-dataset-bandi-pnrr), dell'Autorità Nazionale Anticorruzione (ANAC);
 3. quelli a cura delle [**pubbliche amministrazioni regionali**](https://pnrr.datibenecomune.it/fonti/altre-pa/regioni.html).
 
