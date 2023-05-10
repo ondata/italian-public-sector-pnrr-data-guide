@@ -1,6 +1,6 @@
 - categoria: Nazionali
   elementi:
-    - titolo: ReGIS
+    - titolo: ReGiS
       href: regis/index.qmd
     - titolo: OpenCUP
       href: opencup/index.qmd
