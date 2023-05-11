@@ -1,0 +1,26 @@
+---
+title: "Aggiornamento dati OpenCUP, PNRR"
+description: "In occasione della Open Gov Week 2023, aggiornamento dataset PNRR"
+description-meta: "In occasione della Open Gov Week 2023, aggiornamento dataset PNRR"
+website:
+  twitter-card:
+    description: "In occasione della Open Gov Week 2023, aggiornamento dataset PNRR"
+  open-graph:
+    description: "In occasione della Open Gov Week 2023, aggiornamento dataset PNRR"
+date: "2023-05-11"
+draft: false
+categories:
+  - opencup
+image: opengovweek.png
+---
+
+
+In questi giorni si sta svolgendo la [**Open Gov Week 2023**](https://open.gov.it/notizie/open-gov-week-2023-gli-eventi-calendario), e in questa occasione **OpenCUP** ha aggiornato il **dataset** [**PNRR**](https://www.opencup.gov.it/portale/web/opencup/opendata).
+
+> L'aggiornamento espone i progetti di investimento pubblico registrati nella banca dati CUP e classificati da parte dagli enti responsabili degli interventi come interventi candidati ad essere finanziati o cofinanziati nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR).
+
+Ai circa **170.000 codici CUP** del precedente aggiornamento (gennaio 2023), **se ne aggiungono circa altri 30.000**.
+
+A breve aggiorneremo la [pagina dedicata](../../fonti/opencup/index.qmd) di questo vademecum.
+
+[![](opengovweek.png)](https://www.opencup.gov.it/portale/web/opencup/-/opencup-e-open-gov-week-2023-online-il-nuovo-dataset-pnrr)
