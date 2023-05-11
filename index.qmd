@@ -13,11 +13,12 @@ Questa pagina è stata aggiornata l'8 maggio 2023.
 
 ## Nota introduttiva su questo vademecum
 
-La **prima versione** di questo vademecum è stata pubblicata a inizio **marzo del 2023**. È un progetto che è stato creato per rispondere a un'**emergenza informativa**: la **mancanza** di **dati aggiornati** e di **dettaglio** sul **sito ufficiale** dedicato al **PNRR** ([Italiadomani](https://www.italiadomani.gov.it/)).
+Questo progetto è stato creato per rispondere a un'**emergenza informativa**: la **mancanza** di **dati aggiornati** e di **dettaglio** sul **sito ufficiale** dedicato al **PNRR** ([Italiadomani](https://www.italiadomani.gov.it/)).<br>
+La sua **prima versione** è di inizio **marzo del 2023**.
 
 A **metà aprile 2023** questa **emergenza** è stata (momentaneamente) **risolta**: nel [Catalogo Open Data di Italiadomani](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc) sono stati pubblicati finalmente dei dati aggiornati a marzo 2023 (si era fermi a dicembre 2021), più disaggregati, dettagliati e con alcuni elementi di novità.
 
-E per questo al lancio scrivevamo:
+Al lancio scrivevamo:
 
 > Le **informazioni** sul Piano Nazionale di Ripresa e Resilienza (**PNRR**) e sulla sua gestione sono ancora **poche**. Per cittadine e cittadini, associazioni, giornaliste/i, movimenti, università, centri di ricerca, aziende, ecc. è difficile e alle volte impossibile seguire un progetto e il suo impatto sul territorio e sulle persone.<br>
 > Questo ha portato al lancio della campagna "[**ItaliaDomani Dati Oggi**](https://www.datibenecomune.it/2022/11/30/datioggi-pnrr-bene-comune/)", con una **lettera aperta** alla Presidente del Consiglio dei Ministri Giorgia Meloni e al Ministro per gli Affari Europei, il Sud, le Politiche di Coesione e il PNRR Raffaele Fitto.
