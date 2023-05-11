@@ -10,7 +10,35 @@
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.253</generator>
-<lastBuildDate>Mon, 08 May 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 11 May 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Aggiornamento dati OpenCUP, PNRR</title>
+  <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-opencup/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In questi giorni si sta svolgendo la <a href="https://open.gov.it/notizie/open-gov-week-2023-gli-eventi-calendario"><strong>Open Gov Week 2023</strong></a>, e in questa occasione <strong>OpenCUP</strong> ha aggiornato il <strong>dataset</strong> <a href="https://www.opencup.gov.it/portale/web/opencup/opendata"><strong>PNRR</strong></a>.</p>
+<blockquote class="blockquote">
+<p>L’aggiornamento espone i progetti di investimento pubblico registrati nella banca dati CUP e classificati da parte dagli enti responsabili degli interventi come interventi candidati ad essere finanziati o cofinanziati nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR).</p>
+</blockquote>
+<p>Ai circa <strong>170.000 codici CUP</strong> del precedente aggiornamento (gennaio 2023), <strong>se ne aggiungono circa altri 30.000</strong>.</p>
+<p>A breve aggiorneremo la <a href="../../fonti/opencup/index.html">pagina dedicata</a> di questo vademecum.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.opencup.gov.it/portale/web/opencup/-/opencup-e-open-gov-week-2023-online-il-nuovo-dataset-pnrr"><img src="https://pnrr.datibenecomune.it/post/aggiornamento-dati-opencup/opengovweek.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>opencup</category>
+  <guid>https://pnrr.datibenecomune.it/post/aggiornamento-dati-opencup/index.html</guid>
+  <pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/aggiornamento-dati-opencup/opengovweek.png" medium="image" type="image/png" height="86" width="144"/>
+</item>
 <item>
   <title>Nuove banche dati</title>
   <link>https://pnrr.datibenecomune.it/post/nuove-banche-dati/index.html</link>
