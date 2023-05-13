@@ -9,6 +9,7 @@ project:
     port: 6074
 
 website:
+  back-to-top-navigation: true
   title: "Dati aperti sul PNRR"
   site-url: https://pnrr.datibenecomune.it/
   repo-url: https://github.com/ondata/italian-public-sector-pnrr-data-guide
