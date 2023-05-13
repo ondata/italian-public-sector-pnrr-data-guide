@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.253">
+<meta name="generator" content="quarto-1.4.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -320,11 +320,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Negli ultimi anni sono stati sviluppati metodi, pratiche e strumenti che hanno lo scopo di presidiare, verificare e valutare dal basso l’uso dei fondi pubblici. Si tratta del monitoraggio “civico” delle politiche pubbliche, sperimentato già da varie iniziative della società civile. La parola “civico” serve non solo per distinguerlo dal monitoraggio amministrativo, a cui non si sostituisce, ma anche per sottolineare la natura partecipativa di queste attività.<br> Questo tipo di monitoraggio richiede, infatti, la partecipazione attiva alle politiche pubbliche per controllare l’andamento e verificare l’efficacia dei singoli interventi finanziati, nonché per raccogliere suggerimenti, idee e proposte da discutere con le amministrazioni responsabili e migliorare quindi la qualità della spesa e sollevare eventuali problematiche o punti di attenzione, su cui attivare azioni di advocacy o stimolare un dibattito pubblico informato.</p>
-<p>📍L’<strong>accesso ai dati</strong> è quindi <strong>un fatto essenziale</strong>, ma soltanto <strong>uno dei punti</strong> di un <strong>percorso di monitoraggio</strong> (come ben rappresentato dal metodo di Monithon in <a href="#fig-monitoraggio-step">Figura&nbsp;1</a>).</p>
+<p>📍L’<strong>accesso ai dati</strong> è quindi <strong>un fatto essenziale</strong>, ma soltanto <strong>uno dei punti</strong> di un <strong>percorso di monitoraggio</strong> (come ben rappresentato dal metodo di Monithon in <a href="#fig-monitoraggio-step" class="quarto-xref">Figura&nbsp;1</a>).</p>
 <div id="fig-monitoraggio-step" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/Percorso-Crea-Report.png" class="img-fluid figure-img" alt="Gli step per la creazione di un report di monitoraggio"></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;1: Gli step del monitoraggio civico (da <a href="https://www.monithon.eu/crea-un-report-di-monitoraggio-civico/">Monithon</a>)</figcaption><p></p>
+<figcaption class="figure-caption">Figura&nbsp;1: Gli step del monitoraggio civico (da <a href="https://www.monithon.eu/crea-un-report-di-monitoraggio-civico/">Monithon</a>)</figcaption>
 </figure>
 </div>
 
@@ -437,6 +437,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        if (id.startsWith('sec-')) {
+          // Special case sections, only their first couple elements
+          const container = document.createElement("div");
+          if (note.children && note.children.length > 2) {
+            for (let i = 0; i < 2; i++) {
+              container.appendChild(note.children[i].cloneNode(true));
+            }
+            return container.innerHTML
+          } else {
+            return note.innerHTML;
+          }
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return "";
+      }
     });
   }
       let selectedAnnoteEl;
@@ -563,7 +591,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^.*pnrr\.datibenecomune\.it\//);
+      var filterRegex = new RegExp("^.*pnrr\.datibenecomune\.it\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

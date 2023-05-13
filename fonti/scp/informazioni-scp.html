@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.253">
+<meta name="generator" content="quarto-1.4.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -371,11 +371,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="tramite-api" class="level2">
 <h2 class="anchored" data-anchor-id="tramite-api">Tramite API</h2>
 <p>Questa modalità è <strong>più complessa</strong>, perché richiede alcune conoscenze di base sull’accesso ai dati in modalità adeguate all’estrazione e analisi automatica (la cosiddetta <em>machine to machine</em>), ma è <strong>più efficace e comoda</strong>.</p>
-<p>Il Ministero dei Trasporti ha reso i suoi dataset interrogabili, sfruttando le caratteristiche disponibili nel motore del portale (<code>CKAN</code>). Per utilizzare le API e fare le <em>query</em> è disponibile sul sito una mini documentazione (vedi <a href="#fig-ckan_data_api_scp">Figura&nbsp;1</a>).</p>
+<p>Il Ministero dei Trasporti ha reso i suoi dataset interrogabili, sfruttando le caratteristiche disponibili nel motore del portale (<code>CKAN</code>). Per utilizzare le API e fare le <em>query</em> è disponibile sul sito una mini documentazione (vedi <a href="#fig-ckan_data_api_scp" class="quarto-xref">Figura&nbsp;1</a>).</p>
 <div id="fig-ckan_data_api_scp" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/ckan_data_api_scp.png" class="img-fluid figure-img" alt="Mini guida uso API"></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;1: Mini guida uso API</figcaption><p></p>
+<figcaption class="figure-caption">Figura&nbsp;1: Mini guida uso API</figcaption>
 </figure>
 </div>
 <p>La sintassi di esempio per una <em>query</em> è (⚠️ qui sotto il ritorno a capo è soltanto per ragioni di leggibilità, non va inserito nell’URL):</p>
@@ -399,14 +399,14 @@ Come trovare l’id di una tabella?
 <div id="fig-id-tabella" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/id-tabella.png" class="img-fluid figure-img" alt="Esempio di id tabella"></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;2: Nell’URL, la parte finale è l’id tabella</figcaption><p></p>
+<figcaption class="figure-caption">Figura&nbsp;2: Nell’URL, la parte finale è l’id tabella</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </div>
 <p>È necessario però codificare l’URL, in modo da sostituire gli spazi con <code>%20</code>, le virgolette con <code>%22</code>, l’apice con <code>%27</code> e l’URL diventa:</p>
-<p><a href="https://dati.mit.gov.it/catalog/api/3/action/datastore_search_sql?sql=SELECT%20*%20from%20%22e1d07a87-1866-4def-ae77-f1084eac88e6%22%20WHERE%20cig%20LIKE%20%27918052266A%27" class="uri">https://dati.mit.gov.it/catalog/api/3/action/datastore_search_sql?sql=SELECT%20*%20from%20%22e1d07a87-1866-4def-ae77-f1084eac88e6%22%20WHERE%20cig%20LIKE%20%27918052266A%27</a></p>
+<p><a href="https://dati.mit.gov.it/catalog/api/3/action/datastore_search_sql?sql=SELECT * from &quot;e1d07a87-1866-4def-ae77-f1084eac88e6&quot; WHERE cig LIKE '918052266A'" class="uri">https://dati.mit.gov.it/catalog/api/3/action/datastore_search_sql?sql=SELECT%20*%20from%20%22e1d07a87-1866-4def-ae77-f1084eac88e6%22%20WHERE%20cig%20LIKE%20%27918052266A%27</a></p>
 <p>Qui sotto, basta fare click, un <strong>esempio di output</strong>, ancora una volta in formato <code>JSON</code>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
@@ -739,6 +739,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        if (id.startsWith('sec-')) {
+          // Special case sections, only their first couple elements
+          const container = document.createElement("div");
+          if (note.children && note.children.length > 2) {
+            for (let i = 0; i < 2; i++) {
+              container.appendChild(note.children[i].cloneNode(true));
+            }
+            return container.innerHTML
+          } else {
+            return note.innerHTML;
+          }
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return "";
+      }
+    });
+  }
       let selectedAnnoteEl;
       const selectorForAnnotation = ( cell, annotation) => {
         let cellAttr = 'data-code-cell="' + cell + '"';
@@ -863,7 +891,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^.*pnrr\.datibenecomune\.it\//);
+      var filterRegex = new RegExp("^.*pnrr\.datibenecomune\.it\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

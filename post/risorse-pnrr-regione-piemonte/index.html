@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.253">
+<meta name="generator" content="quarto-1.4.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,17 +61,11 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
-    .quarto-title-block .quarto-title-banner,
-    .quarto-title-block .quarto-title-banner h1,
-    .quarto-title-block .quarto-title-banner h2,
-    .quarto-title-block .quarto-title-banner h3,
-    .quarto-title-block .quarto-title-banner h4,
-    .quarto-title-block .quarto-title-banner h5,
-    .quarto-title-block .quarto-title-banner h6
-    {
-      background: #195496;
-    }
-    </style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #195496;
+      }
+</style>
 <link rel="alternate" type="application/rss+xml" title="Dati aperti sul PNRR - aggiornamenti" href="https://pnrr.datibenecomune.it/notizie.xml">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
@@ -201,7 +195,7 @@ Il dataset descritto non è più disponibile.
 </style>
 
 <div class="table-responsive">
-<table id="T_0ce66" class="dataframe table-striped table-sm table" data-quarto-postprocess="true">
+<table id="T_0ce66" class="dataframe table-striped table-sm table small" data-quarto-postprocess="true">
 <thead>
 <tr class="header">
 <th id="T_0ce66_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">Colonna</th>
@@ -267,7 +261,7 @@ Il dataset descritto non è più disponibile.
 <div id="fig-join-focus-pnrr-piemonte" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="focus-pnrr-join-regione-piemonte.png" class="img-fluid figure-img" alt="Incrocio dati OpenCUP con quelli di regione Piemonte"></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;1: Incrocio dati via <code>CUP</code>, dei dati OpenCUP e regione Piemonte</figcaption><p></p>
+<figcaption class="figure-caption">Figura&nbsp;1: Incrocio dati via <code>CUP</code>, dei dati OpenCUP e regione Piemonte</figcaption>
 </figure>
 </div>
 <div class="callout callout-style-default callout-warning callout-titled">
@@ -395,6 +389,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        if (id.startsWith('sec-')) {
+          // Special case sections, only their first couple elements
+          const container = document.createElement("div");
+          if (note.children && note.children.length > 2) {
+            for (let i = 0; i < 2; i++) {
+              container.appendChild(note.children[i].cloneNode(true));
+            }
+            return container.innerHTML
+          } else {
+            return note.innerHTML;
+          }
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return "";
+      }
+    });
+  }
       let selectedAnnoteEl;
       const selectorForAnnotation = ( cell, annotation) => {
         let cellAttr = 'data-code-cell="' + cell + '"';
@@ -519,7 +541,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^.*pnrr\.datibenecomune\.it\//);
+      var filterRegex = new RegExp("^.*pnrr\.datibenecomune\.it\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

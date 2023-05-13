@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.253">
+<meta name="generator" content="quarto-1.4.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -325,7 +325,7 @@ ul.task-list li input[type="checkbox"] {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota
+
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -335,7 +335,7 @@ Nota
 <section id="nota-introduttiva-su-questo-vademecum" class="level2">
 <h2 class="anchored" data-anchor-id="nota-introduttiva-su-questo-vademecum">Nota introduttiva su questo vademecum</h2>
 <p>Questo progetto è stato creato per rispondere a un’<strong>emergenza informativa</strong>: la <strong>mancanza</strong> di <strong>dati aggiornati</strong> e di <strong>dettaglio</strong> sul <strong>sito ufficiale</strong> dedicato al <strong>PNRR</strong> (<a href="https://www.italiadomani.gov.it/">Italiadomani</a>).<br> La sua <strong>prima versione</strong> è di inizio <strong>marzo del 2023</strong>.</p>
-<p>A <strong>metà aprile 2023</strong> questa <strong>emergenza</strong> è stata (momentaneamente) <strong>risolta</strong>: nel <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&amp;sort=desc">Catalogo Open Data di Italiadomani</a> sono stati pubblicati finalmente dei dati aggiornati a marzo 2023 (si era fermi a dicembre 2021), più disaggregati, dettagliati e con alcuni elementi di novità.</p>
+<p>A <strong>metà aprile 2023</strong> questa <strong>emergenza</strong> è stata (momentaneamente) <strong>risolta</strong>: nel <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=@jcr:content/observationDateInEvidence&amp;sort=desc">Catalogo Open Data di Italiadomani</a> sono stati pubblicati finalmente dei dati aggiornati a marzo 2023 (si era fermi a dicembre 2021), più disaggregati, dettagliati e con alcuni elementi di novità.</p>
 <p>Al lancio scrivevamo:</p>
 <blockquote class="blockquote">
 <p>Le <strong>informazioni</strong> sul Piano Nazionale di Ripresa e Resilienza (<strong>PNRR</strong>) e sulla sua gestione sono ancora <strong>poche</strong>. Per cittadine e cittadini, associazioni, giornaliste/i, movimenti, università, centri di ricerca, aziende, ecc. è difficile e alle volte impossibile seguire un progetto e il suo impatto sul territorio e sulle persone.<br> Questo ha portato al lancio della campagna “<a href="https://www.datibenecomune.it/2022/11/30/datioggi-pnrr-bene-comune/"><strong>ItaliaDomani Dati Oggi</strong></a>”, con una <strong>lettera aperta</strong> alla Presidente del Consiglio dei Ministri Giorgia Meloni e al Ministro per gli Affari Europei, il Sud, le Politiche di Coesione e il PNRR Raffaele Fitto.</p>
@@ -475,6 +475,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        if (id.startsWith('sec-')) {
+          // Special case sections, only their first couple elements
+          const container = document.createElement("div");
+          if (note.children && note.children.length > 2) {
+            for (let i = 0; i < 2; i++) {
+              container.appendChild(note.children[i].cloneNode(true));
+            }
+            return container.innerHTML
+          } else {
+            return note.innerHTML;
+          }
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return "";
+      }
+    });
+  }
       let selectedAnnoteEl;
       const selectorForAnnotation = ( cell, annotation) => {
         let cellAttr = 'data-code-cell="' + cell + '"';
@@ -599,7 +627,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^.*pnrr\.datibenecomune\.it\//);
+      var filterRegex = new RegExp("^.*pnrr\.datibenecomune\.it\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

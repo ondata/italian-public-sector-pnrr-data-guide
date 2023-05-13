@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.253">
+<meta name="generator" content="quarto-1.4.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -91,19 +91,14 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 <style>
-    .quarto-title-block .quarto-title-banner,
-    .quarto-title-block .quarto-title-banner h1,
-    .quarto-title-block .quarto-title-banner h2,
-    .quarto-title-block .quarto-title-banner h3,
-    .quarto-title-block .quarto-title-banner h4,
-    .quarto-title-block .quarto-title-banner h5,
-    .quarto-title-block .quarto-title-banner h6
-    {
-      background: #195496;
-    }
-    </style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #195496;
+      }
+</style>
 <link rel="alternate" type="application/rss+xml" title="Dati aperti sul PNRR - aggiornamenti" href="https://pnrr.datibenecomune.it/notizie.xml">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
@@ -180,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-body">
 
       
     
@@ -372,7 +367,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="opencup,dati" data-listing-date-sort="1683763200000" data-listing-file-modified-sort="1683824779033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.41">
+<div class="quarto-post image-right" data-index="0" data-categories="opencup,dati" data-listing-date-sort="1683763200000" data-listing-file-modified-sort="1683965036692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./post/aggiornamento-dati-opencup/index.html"> <img src="./post/aggiornamento-dati-opencup/opengovweek.png" class="thumbnail-image"> </a></p>
 </div>
@@ -407,7 +402,7 @@ dati
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="regioni,anac,dati,italiaDomani" data-listing-date-sort="1683504000000" data-listing-file-modified-sort="1683824779033" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.385">
+<div class="quarto-post image-right" data-index="1" data-categories="regioni,anac,dati,italiaDomani" data-listing-date-sort="1683504000000" data-listing-file-modified-sort="1683965036692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
 <p><a href="./post/nuove-banche-dati/index.html"> <img src="./post/nuove-banche-dati/localizzazioni-regis.png" class="thumbnail-image"> </a></p>
 </div>
@@ -448,7 +443,7 @@ italiaDomani
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="strumenti" data-listing-date-sort="1681171200000" data-listing-file-modified-sort="1683824779037" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.705">
+<div class="quarto-post image-right" data-index="2" data-categories="strumenti" data-listing-date-sort="1681171200000" data-listing-file-modified-sort="1683965036696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./post/richieste-foia/index.html"> <img src="./post/richieste-foia/ItaliaDomani-datioggi-foia-pnrr-bene-comune.png" class="thumbnail-image"> </a></p>
 </div>
@@ -480,7 +475,7 @@ strumenti
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="regioni,piemonte,dati" data-listing-date-sort="1677542400000" data-listing-file-modified-sort="1683824779037" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1.56">
+<div class="quarto-post image-right" data-index="3" data-categories="regioni,piemonte,dati" data-listing-date-sort="1677542400000" data-listing-file-modified-sort="1683965036696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
 <p><a href="./post/risorse-pnrr-regione-piemonte/index.html"> <img src="./post/risorse-pnrr-regione-piemonte/piemonte-pnrr.png" class="thumbnail-image"> </a></p>
 </div>
@@ -631,6 +626,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        if (id.startsWith('sec-')) {
+          // Special case sections, only their first couple elements
+          const container = document.createElement("div");
+          if (note.children && note.children.length > 2) {
+            for (let i = 0; i < 2; i++) {
+              container.appendChild(note.children[i].cloneNode(true));
+            }
+            return container.innerHTML
+          } else {
+            return note.innerHTML;
+          }
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return "";
+      }
+    });
+  }
       let selectedAnnoteEl;
       const selectorForAnnotation = ( cell, annotation) => {
         let cellAttr = 'data-code-cell="' + cell + '"';
@@ -755,7 +778,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^.*pnrr\.datibenecomune\.it\//);
+      var filterRegex = new RegExp("^.*pnrr\.datibenecomune\.it\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

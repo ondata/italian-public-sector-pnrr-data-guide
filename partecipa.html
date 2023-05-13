@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.253">
+<meta name="generator" content="quarto-1.4.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -353,7 +353,7 @@ Richiesto account GitHub
 <div id="fig-partecipazione" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions"><img src="images/partecipare.png" class="img-fluid figure-img" alt="Le categorie dello spazio di partecipazione"></a></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;1: Le categorie dello spazio di partecipazione</figcaption><p></p>
+<figcaption class="figure-caption">Figura&nbsp;1: Le categorie dello spazio di partecipazione</figcaption>
 </figure>
 </div>
 <section id="come-funziona-lo-spazio-di-partecipazione" class="level2">
@@ -370,37 +370,37 @@ Richiesto account GitHub
 <div id="fig-partecipazione-messaggio-animato" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/new-discussion.gif" class="img-fluid figure-img" alt="Esempio creazione nuovo messaggio"></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;2: Esempio creazione nuovo messaggio</figcaption><p></p>
+<figcaption class="figure-caption">Figura&nbsp;2: Esempio creazione nuovo messaggio</figcaption>
 </figure>
 </div>
 </section>
 <section id="rispondere-a-un-messaggio" class="level3">
 <h3 class="anchored" data-anchor-id="rispondere-a-un-messaggio">Rispondere a un messaggio</h3>
-<p>Sotto 1️⃣ ogni messaggio c’è 2️⃣ lo spazio per rispondere (vedi <a href="#fig-partecipazione-messaggio-rispondere">Figura&nbsp;3</a>).</p>
+<p>Sotto 1️⃣ ogni messaggio c’è 2️⃣ lo spazio per rispondere (vedi <a href="#fig-partecipazione-messaggio-rispondere" class="quarto-xref">Figura&nbsp;3</a>).</p>
 <p>Inoltre, se ci si iscrive allo spazio di discussione, sarà possibile farlo anche via e-mail.</p>
 <div id="fig-partecipazione-messaggio-rispondere" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/rispondere-messaggio.png" class="img-fluid figure-img" alt="Esempio di messaggio"></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;3: Rispondere a un messaggio</figcaption><p></p>
+<figcaption class="figure-caption">Figura&nbsp;3: Rispondere a un messaggio</figcaption>
 </figure>
 </div>
 </section>
 <section id="per-rimanere-aggiornatao" class="level3">
 <h3 class="anchored" data-anchor-id="per-rimanere-aggiornatao">Per rimanere aggiornata/o</h3>
 <p>Riceverai automaticamente gli avvisi via e-mail, per tutte le risposte ai tuoi messaggi.</p>
-<p>Potrai inoltre iscriverti soltanto a tutte le risposte a uno specifico messaggio, aprendolo e facendo click su <code>Subscribe</code> (vedi <a href="#fig-partecipazione-messaggio-iscrizione">Figura&nbsp;4</a>).</p>
+<p>Potrai inoltre iscriverti soltanto a tutte le risposte a uno specifico messaggio, aprendolo e facendo click su <code>Subscribe</code> (vedi <a href="#fig-partecipazione-messaggio-iscrizione" class="quarto-xref">Figura&nbsp;4</a>).</p>
 <div id="fig-partecipazione-messaggio-iscrizione" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="images/iscrizione-messaggio.png" class="img-fluid figure-img" alt="Iscriversi agli aggiornamenti di un messaggio"></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;4: Iscriversi agli aggiornamenti di un messaggio</figcaption><p></p>
+<figcaption class="figure-caption">Figura&nbsp;4: Iscriversi agli aggiornamenti di un messaggio</figcaption>
 </figure>
 </div>
-<p>Infine potrai iscriverti a tutte le discussioni, seguendo i passi di <a href="#fig-partecipazione-iscriversi">Figura&nbsp;5</a>.</p>
+<p>Infine potrai iscriverti a tutte le discussioni, seguendo i passi di <a href="#fig-partecipazione-iscriversi" class="quarto-xref">Figura&nbsp;5</a>.</p>
 <p>🫶 Se credi che questo progetto sia utile, <strong>per favore scegli questa modalità</strong>. Uno spazio di partecipazione ha bisogno - sembra banale - di partecipazione.</p>
 <div id="fig-partecipazione-iscriversi" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions"><img src="images/github-watch-discussions.gif" class="img-fluid figure-img" alt="Come iscriversi a tutte le discussioni"></a></p>
-<p></p><figcaption class="figure-caption">Figura&nbsp;5: Come iscriversi a tutte le discussioni</figcaption><p></p>
+<figcaption class="figure-caption">Figura&nbsp;5: Come iscriversi a tutte le discussioni</figcaption>
 </figure>
 </div>
 
@@ -515,6 +515,34 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        if (id.startsWith('sec-')) {
+          // Special case sections, only their first couple elements
+          const container = document.createElement("div");
+          if (note.children && note.children.length > 2) {
+            for (let i = 0; i < 2; i++) {
+              container.appendChild(note.children[i].cloneNode(true));
+            }
+            return container.innerHTML
+          } else {
+            return note.innerHTML;
+          }
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return "";
+      }
     });
   }
       let selectedAnnoteEl;
@@ -641,7 +669,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/^.*pnrr\.datibenecomune\.it\//);
+      var filterRegex = new RegExp("^.*pnrr\.datibenecomune\.it\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
