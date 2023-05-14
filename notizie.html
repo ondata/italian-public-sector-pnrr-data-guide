@@ -104,14 +104,14 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <link rel="alternate" type="application/rss+xml" title="Dati aperti sul PNRR" href="notizie.xml"><meta property="og:title" content="Dati aperti sul PNRR - Notizie">
 <meta property="og:description" content="Open Data PNRR: per chi vuole capire come raccogliere informazioni sul Piano - correlarle tra loro e arricchirle - e poi monitorarlo.">
-<meta property="og:image" content="https://pnrr.datibenecomune.it//images/cover-og.png">
+<meta property="og:image" content="https://pnrr.datibenecomune.it/images/cover-og.png">
 <meta property="og:site-name" content="Dati aperti sul PNRR">
 <meta property="og:locale" content="it_IT">
 <meta property="og:image:height" content="630">
 <meta property="og:image:width" content="1200">
 <meta name="twitter:title" content="Dati aperti sul PNRR - Notizie">
 <meta name="twitter:description" content="Open Data PNRR: per chi vuole capire come raccogliere informazioni sul Piano - correlarle tra loro e arricchirle - e poi monitorarlo.">
-<meta name="twitter:image" content="https://pnrr.datibenecomune.it//images/cover-og.png">
+<meta name="twitter:image" content="https://pnrr.datibenecomune.it/images/cover-og.png">
 <meta name="twitter:creator" content="@ondatait">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="630">
@@ -135,7 +135,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./notizie.html" rel="" target="" aria-current="page">
+    <a class="nav-link active" href="./fonti/regis/mappa.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Mappa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./notizie.html" rel="" target="">
  <span class="menu-text">Aggiornamenti</span></a>
   </li>  
   <li class="nav-item">
@@ -209,21 +213,32 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./fonti/regis/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">ReGiS</span></a>
-  </div>
-</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./fonti/opencup/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">OpenCUP</span></a>
+            <a href="./fonti/regis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ReGiS</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Attiva/disattiva sezione">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./fonti/regis/mappa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mappa</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./fonti/opencup/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">OpenCUP</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Attiva/disattiva sezione">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./fonti/opencup/focus-pnrr.html" class="sidebar-item-text sidebar-link">
@@ -236,11 +251,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./fonti/anac/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">ANAC</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Attiva/disattiva sezione">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Attiva/disattiva sezione">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./fonti/anac/informazioni-cig.html" class="sidebar-item-text sidebar-link">
@@ -253,11 +268,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./fonti/scp/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Servizio Contratti Pubblici</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Attiva/disattiva sezione">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Attiva/disattiva sezione">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./fonti/scp/informazioni-scp.html" class="sidebar-item-text sidebar-link">
@@ -297,11 +312,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./rete-pnrr.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Rete monitoraggio PNRR</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Attiva/disattiva sezione">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Attiva/disattiva sezione">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./datibenecomune.html" class="sidebar-item-text sidebar-link">
@@ -367,7 +382,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="opencup,dati" data-listing-date-sort="1683763200000" data-listing-file-modified-sort="1683965036692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="opencup,dati" data-listing-date-sort="1683763200000" data-listing-file-modified-sort="1684099383838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./post/aggiornamento-dati-opencup/index.html"> <img src="./post/aggiornamento-dati-opencup/opengovweek.png" class="thumbnail-image"> </a></p>
 </div>
@@ -402,7 +417,7 @@ dati
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="regioni,anac,dati,italiaDomani" data-listing-date-sort="1683504000000" data-listing-file-modified-sort="1683965036692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="1" data-categories="regioni,anac,dati,italiaDomani" data-listing-date-sort="1683504000000" data-listing-file-modified-sort="1684099383842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
 <p><a href="./post/nuove-banche-dati/index.html"> <img src="./post/nuove-banche-dati/localizzazioni-regis.png" class="thumbnail-image"> </a></p>
 </div>
@@ -443,7 +458,7 @@ italiaDomani
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="strumenti" data-listing-date-sort="1681171200000" data-listing-file-modified-sort="1683965036696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="strumenti" data-listing-date-sort="1681171200000" data-listing-file-modified-sort="1684099383842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
 <p><a href="./post/richieste-foia/index.html"> <img src="./post/richieste-foia/ItaliaDomani-datioggi-foia-pnrr-bene-comune.png" class="thumbnail-image"> </a></p>
 </div>
@@ -475,7 +490,7 @@ strumenti
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="regioni,piemonte,dati" data-listing-date-sort="1677542400000" data-listing-file-modified-sort="1683965036696" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="3" data-categories="regioni,piemonte,dati" data-listing-date-sort="1677542400000" data-listing-file-modified-sort="1684099383842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
 <p><a href="./post/risorse-pnrr-regione-piemonte/index.html"> <img src="./post/risorse-pnrr-regione-piemonte/piemonte-pnrr.png" class="thumbnail-image"> </a></p>
 </div>
@@ -517,7 +532,7 @@ dati
 <div class="listing-no-matching d-none">
 Nessun risultato
 </div>
-</div></main> <!-- /main -->
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

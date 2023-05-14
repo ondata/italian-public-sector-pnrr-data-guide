@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Quali sono i dati aperti presenti sul portale OpenBDAP, associabili al PNRR">
+<meta name="description" content="Mappe ReGiS, per esplorare geograficamente i dati di dettaglio del PNRR pubblicati su Italiadomani">
 
-<title>Dati aperti sul PNRR - OpenBDAP</title>
+<title>Dati aperti sul PNRR - Mappe ReGiS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -31,8 +65,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../fonti/altre-pa/regioni.html" rel="next">
-<link href="../../fonti/scp/informazioni-scp.html" rel="prev">
+<link href="../../fonti/opencup/index.html" rel="next">
+<link href="../../fonti/regis/index.html" rel="prev">
 <link href="../../images/favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -66,23 +100,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Dati aperti sul PNRR - OpenBDAP">
-<meta property="og:description" content="Quali sono i dati aperti presenti sul portale OpenBDAP, associabili al PNRR">
-<meta property="og:image" content="https://pnrr.datibenecomune.it/fonti/openbdap/openbdap.png">
+<meta property="og:title" content="Dati aperti sul PNRR - Mappe ReGiS">
+<meta property="og:description" content="Mappe ReGiS, per esplorare geograficamente i dati di dettaglio del PNRR pubblicati su Italiadomani">
+<meta property="og:image" content="https://pnrr.datibenecomune.it/fonti/regis/mappa-dati-regis-guenter-richter.png">
 <meta property="og:site-name" content="Dati aperti sul PNRR">
 <meta property="og:locale" content="it_IT">
 <meta property="og:image:height" content="630">
 <meta property="og:image:width" content="1200">
-<meta name="twitter:title" content="Dati aperti sul PNRR - OpenBDAP">
-<meta name="twitter:description" content="Quali sono i dati aperti presenti sul portale OpenBDAP, associabili al PNRR">
-<meta name="twitter:image" content="https://pnrr.datibenecomune.it/fonti/openbdap/openbdap.png">
+<meta name="twitter:title" content="Dati aperti sul PNRR - Mappe ReGiS">
+<meta name="twitter:description" content="Mappe ReGiS, per esplorare geograficamente i dati di dettaglio del PNRR pubblicati su Italiadomani">
+<meta name="twitter:image" content="https://pnrr.datibenecomune.it/fonti/regis/mappa-dati-regis-guenter-richter.png">
 <meta name="twitter:creator" content="@ondatait">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image-height" content="630">
 <meta name="twitter:image-width" content="1200">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-sidebar floating nav-fixed slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -127,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Attiva/disattiva la barra laterale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../fonti/fonti.html">Fonti</a></li><li class="breadcrumb-item"><a href="../../fonti/openbdap/index.html">OpenBDAP</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../fonti/fonti.html">Fonti</a></li><li class="breadcrumb-item"><a href="../../fonti/regis/index.html">ReGiS</a></li><li class="breadcrumb-item"><a href="../../fonti/regis/mappa.html">Mappa</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Attiva/disattiva la barra laterale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -164,14 +198,14 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../fonti/regis/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">ReGiS</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Attiva/disattiva sezione">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Attiva/disattiva sezione">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../fonti/regis/mappa.html" class="sidebar-item-text sidebar-link">
+  <a href="../../fonti/regis/mappa.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Mappa</span></a>
   </div>
 </li>
@@ -230,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../fonti/openbdap/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../fonti/openbdap/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">OpenBDAP</span></a>
   </div>
 </li>
@@ -315,21 +349,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">In questa pagina</h2>
    
   <ul>
-  <li><a href="#i-dati-correlati-al-pnrr" id="toc-i-dati-correlati-al-pnrr" class="nav-link active" data-scroll-target="#i-dati-correlati-al-pnrr">I dati correlati al PNRR</a></li>
+  <li><a href="#condividere-la-visualizzazione-della-mappa-che-hai-creato" id="toc-condividere-la-visualizzazione-della-mappa-che-hai-creato" class="nav-link active" data-scroll-target="#condividere-la-visualizzazione-della-mappa-che-hai-creato">Condividere la visualizzazione della mappa che hai creato</a></li>
+  <li><a href="#incorporare-la-mappa-in-una-pagina-web" id="toc-incorporare-la-mappa-in-una-pagina-web" class="nav-link" data-scroll-target="#incorporare-la-mappa-in-una-pagina-web">Incorporare la mappa in una pagina web</a></li>
+  <li><a href="#costruire-filtri-di-visualizzazione-a-mano" id="toc-costruire-filtri-di-visualizzazione-a-mano" class="nav-link" data-scroll-target="#costruire-filtri-di-visualizzazione-a-mano">Costruire filtri di visualizzazione “a mano”</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/fonti/openbdap/index.qmd" class="toc-action">Modifica questa pagina</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/fonti/regis/mappa.qmd" class="toc-action">Modifica questa pagina</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">OpenBDAP</h1>
-<p class="subtitle lead">Il portale della Ragioneria Generale dello Stato</p>
+<h1 class="title">Mappe ReGiS</h1>
+<p class="subtitle lead">Per esplorare i dati di dettaglio del PNRR di Italiadomani</p>
 </div>
 
 
@@ -344,56 +380,127 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<blockquote class="blockquote">
-<p><a href="https://openbdap.rgs.mef.gov.it/"><strong>OpenBDAP</strong></a> è il portale della <strong>Ragioneria Generale dello Stato</strong> che consente di <strong>scoprire</strong> le tematiche della Finanza Pubblica, di <strong>esplorare</strong> i dati presenti all’interno della Banca Dati delle Amministrazioni Pubbliche e di <strong>analizzare</strong> i risultati frutto di elaborazioni personalizzate.</p>
-</blockquote>
-<section id="i-dati-correlati-al-pnrr" class="level2">
-<h2 class="anchored" data-anchor-id="i-dati-correlati-al-pnrr">I dati correlati al PNRR</h2>
-<p>OpenBDAP pubblica delle estrazioni dalla banca dati BDAP/MOP, in cui sono inseriti anche i dati del <a href="https://www.rgs.mef.gov.it/VERSIONE-I/attivita_istituzionali/monitoraggio/piano_nazionale_per_gli_investimenti_complementari_al_pnrr/monitoraggio_del_pnc/">monitoraggio degli interventi finanziati solo con risorse nazionali</a> del PNC - Piano nazionale per gli investimenti complementari al Piano nazionale di ripresa e resilienza (PNC). Il sistema ReGiS e BDAP si alimentano a vicenda.</p>
-<p><strong>Non ci sembra</strong> che attualmente&nbsp; in questo portale <strong>ci siano dei dati “etichettati” come PNRR o PNC</strong> e/o che ci siano delle modalità automatiche pubbliche aperte (<strong>API</strong>) per estrarre dati a partire da un codice <code>CUP</code> o da un <code>CIG</code>.</p>
-<p>Nella <a href="https://openbdap.rgs.mef.gov.it/it/Home/ComePubblicare">sezione</a> “<em>Come pubblicare sui siti Istituzionali delle Amministrazioni Pubbliche i collegamenti ipertestuali ai dati contenuti nella BDAP</em>”, viene indicato l’URL per esplorare le opere pubbliche di una Pubblica Amministrazione, a partire dal suo Codice Fiscale.<br> Questo ad esempio quello dell’ANAS (<code>80208450587</code> è il suo codice fiscale):<br> <a href="https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&amp;docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&amp;T=BusinessObject&amp;idType=CUID&amp;noDetailsPanel=true&amp;X_Ente=80208450587">https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&amp;docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&amp;T=BusinessObject &amp;idType=CUID&amp;noDetailsPanel=true&amp;X_Ente=80208450587</a></p>
-<p>➡️ <strong>NOTA BENE</strong>: in questa pagina in alto a destra è presente il link alla “<strong>RICERCA PER CUP</strong>”. In questo percorso alla ricerca dei dati relativi al PNRR ci sarà utile.</p>
-<div id="fig-openbdap-ricerca-cup" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><a href="https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&amp;docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&amp;T=BusinessObject&amp;idType=CUID&amp;noDetailsPanel=true&amp;X_Ente=80208450587"><img src="images/openbdap-ricerca-cup.png" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption">Figura&nbsp;1: Pagina opere pubbliche di una PA</figcaption>
-</figure>
-</div>
-<p>Al click su “<strong>RICERCA PER CUP</strong>” si apre il form dedicato (vedi <a href="#fig-openbdap-ricerca-cup-form" class="quarto-xref">Figura&nbsp;2</a>).</p>
-<div id="fig-openbdap-ricerca-cup-form" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="images/openbdap-form-cup.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figura&nbsp;2: Form ricercar per CUP</figcaption>
-</figure>
-</div>
-<p>In questo form è possibile inserire uno o più codici <code>CUP</code> separati da <code>;</code> (non più di 300), e poi fare click sul tasto “Mostra CUP”.<br> In output una tabella con i risultati della ricerca, di cui è possibile fare il download in formato <code>Excel</code>.</p>
-<div id="fig-openbdap-ricerca-cup-risultati" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="images/openbdap-cup-results.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Figura&nbsp;3: Risultati ricerca per CUP</figcaption>
-</figure>
-</div>
-<p>Il foglio elettronico di <em>output</em> è suddiviso in tre fogli:</p>
-<ul>
-<li><code>Dettaglio CUP</code>;</li>
-<li><code>Dettaglio CIG</code>;</li>
-<li><code>Dettaglio Indicatori</code>.</li>
+<p>I dati di dettaglio sul Piano Nazionale di Ripresa e Resilienza da <a href="../../fonti/regis/index.html"><strong>fonte ReGiS</strong></a> - pubblicati a metà aprile 2023 - contengono le informazioni di <a href="../../fonti/regis/index.html#universo-regis---localizzazione-del-pnrr">localizzazione</a> dei progetti.</p>
+<p>Questi i numeri per i dati “Universo ReGiS”:</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>I dataset <strong>Universo</strong> fanno riferimento a tutti i progetti su ReGiS alla data di estrazione, indipendentemente dall’essere stati sottoposti o meno al <strong>processo di validazione</strong>.</p>
+</div></div><ul>
+<li>164.482 record;</li>
+<li>128.950 codici CUP;</li>
+<li>20 regioni;</li>
+<li>107 province;</li>
+<li>7.916 Comuni (sono più degli attuali 7.901, perché probabilmente tiene conto delle variazioni dei Comuni da inizio PNRR);</li>
+<li>1.950 record in cui è presente anche l’indirizzo.</li>
 </ul>
-<p>Quindi per estrarre da OpenBDAP dei dati relativi al PNRR, si può ancora una volta usare l’elenco dei CUP del <a href="../../fonti/opencup/focus-pnrr.html">Focus PNRR</a> di OpenCUP, come elemento di filtro.<br> Purtroppo <strong>non più di 300 CUP per volta</strong>.</p>
-<p><a href="../../data/openbdap/2023-02-05_openbdap.xlsx">Qui</a> un <strong>esempio di <em>output</em></strong>.</p>
+<p>A partire da questi dati <strong>Guenter Richter</strong> (<strong>grazie</strong> ❣️) ha creato una <a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html"><strong>mappa interattiva</strong></a> per <strong>esplorare geograficamente</strong> i dati di dettaglio del PNRR pubblicati su <strong>Italiadomani</strong>.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Partecipa
+Non è ottimizzata per la visualizzazione da <em>smartphone</em>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Se vuoi fare delle <strong>proposte</strong> su questo vademecum, se vuoi <strong>raccontarci</strong> come l’hai usato, se hai bisogno di <strong>aiuto</strong> in merito, ecco <a href="../../partecipa.html">come fare</a>.</p>
+<p>Ti consigliamo di visualizzarla da <em>personal computer</em>.</p>
 </div>
 </div>
+<div id="fig-map-regis" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html"><img src="images/mappa-regis-03.png" class="img-fluid figure-img" alt="Mappe ReGiS, per esplorare geograficamente i dati di dettaglio del PNRR pubblicati su Italiadomani"></a></p>
+<figcaption class="figure-caption">Figura&nbsp;1: Mappa dei dati di localizzazione dei progetti PNRR</figcaption>
+</figure>
+</div>
+<p>Ci sono 4 sezioni principali di <a href="#fig-map-regis">interfaccia</a>:</p>
+<ol type="1">
+<li>quella dedicata alla mappa, in cui <strong>spostarla</strong> facendo <em>click</em> e trascinandola, oppure fare <strong>zoom avanti</strong> e <strong>indietro</strong> con la rotellina del <em>mouse</em>;</li>
+<li>quella con il riepilogo dei <strong>conteggi</strong> sulle <strong>6 Missioni</strong> del PNRR;</li>
+<li>quella con i <strong>conteggi</strong> del <strong>numero</strong> di <strong>progetti visibili in mappa</strong> e il loro <strong>valore complessivo</strong> in euro;</li>
+<li>quella che contiene, scorrendola, numerosi <strong>filtri</strong> (per Regione, Provincia, Missione, Submisura, ecc.) e <strong>conteggi correlati</strong>, è uno strumento per <strong>condividere</strong> la <strong>mappa</strong> che è stata creata.</li>
+</ol>
+<p>In <a href="#fig-map-regis-animata" class="quarto-xref">Figura&nbsp;2</a> è possibile vedere un’animazione del funzionamento di base della mappa: come al cambio di visualizzazione geografica cambino i conteggi (sono sempre aggiornati a ciò che si vede in mappa), come al <em>click</em> su uno dei filtri disponibili sulla destra venga estratto un sotto insieme dei dati, e come rimuovere un filtro applicato.</p>
+<div class="column-page">
+<div id="fig-map-regis-animata" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/mappe-regis.gif" class="img-fluid figure-img" alt="GIF animata che mostra come funziona la mappa ReGiS"></p>
+<figcaption class="figure-caption">Figura&nbsp;2: Esempio di utilizzo della mappa</figcaption>
+</figure>
+</div>
+</div>
+<section id="condividere-la-visualizzazione-della-mappa-che-hai-creato" class="level2">
+<h2 class="anchored" data-anchor-id="condividere-la-visualizzazione-della-mappa-che-hai-creato">Condividere la visualizzazione della mappa che hai creato</h2>
+<p>Se vuoi condividere una mappa, con una serie di filtri applicati, centrata su una parte di tuo interesse, puoi farlo in questo modo:</p>
+<ol type="1">
+<li>scorri verso il basso l’area laterale destra che contiene i filtri, utilizzando la <em>scroll-bar</em> dedicata;</li>
+<li>fai click su <code>link</code> in “Crea link condivisibile”.</li>
+</ol>
+<div id="fig-map-regis-condividi" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/mappa-regis-crea-link.png" class="img-fluid figure-img" alt="Mappa ReGiS come condividere una visualizzazione personalizzata"></p>
+<figcaption class="figure-caption">Figura&nbsp;3: Creare link per condividere una vista personalizzata</figcaption>
+</figure>
+</div>
+<p><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html?filter=WHERE &quot;Descrizione Regione&quot; = &quot;CALABRIA&quot; AND &quot;missione&quot; = &quot;M2&quot;&amp;view=[39.07677595221322,16.707458496093754],8">Questo</a> ad esempio il <em>link</em> a una mappa con i soli <strong>progetti</strong> della <strong>Missione 2</strong> “Rivoluzione verde e transizione ecologica”, localizzati in <strong>Calabria</strong>.</p>
+</section>
+<section id="incorporare-la-mappa-in-una-pagina-web" class="level2">
+<h2 class="anchored" data-anchor-id="incorporare-la-mappa-in-una-pagina-web">Incorporare la mappa in una pagina web</h2>
+<p>Si può usare una sintassi come quella sottostante, e inserire come <code>src</code> anche un URL personalizzto come quello di sopra.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;iframe</span> <span class="er">id</span><span class="ot">=</span><span class="st">"map"</span> <span class="er">width</span><span class="ot">=</span><span class="st">"1024px"</span> <span class="er">height</span><span class="ot">=</span><span class="st">"840"</span> <span class="er">frameborder</span><span class="ot">=</span><span class="st">"0"</span> <span class="er">scrolling</span><span class="ot">=</span><span class="st">"no"</span> <span class="er">marginheight</span><span class="ot">=</span><span class="st">"0"</span> <span class="er">marginwidth</span><span class="ot">=</span><span class="st">"0"</span> <span class="er">src</span><span class="ot">=</span><span class="st">"https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html?filter=WHERE%20%22Descrizione%20Regione%22%20=%20%22CALABRIA%22%20AND%20%22missione%22%20=%20%22M2%22</span><span class="er">&amp;</span><span class="st">view=[39.07677595221322,16.707458496093754],8"</span><span class="kw">&gt;&lt;/iframe&gt;</span></span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="costruire-filtri-di-visualizzazione-a-mano" class="level2">
+<h2 class="anchored" data-anchor-id="costruire-filtri-di-visualizzazione-a-mano">Costruire filtri di visualizzazione “a mano”</h2>
+<p>L’URL di base della mappa è questo:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Per applicare un filtro bisogna aggiungere una o più condizioni, o nella forma <code>WHERE "campo" = "valore"</code> o <code>WHERE "campo" like  "valore"</code>, preceduti da <code>?filter=</code>.</p>
+<p>I campi utilizzabili per definire filtri sono:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>Codice Univoco submisura</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>Descrizione Submisura</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>CUP</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>Codice Locale Progetto</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>Descrizione Regione</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>Descrizione Provincia</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>Descrizione Comune</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>Indirizzo</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>CAP</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>Data di Estrazione</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>missione</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>Descrizione Misura</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>CUP Descrizione Categoria</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>CUP Descrizione Settore</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>PROCOM</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>importo</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>Sintesi progetto</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>Soggetto attuatore</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>Denominazione Aggiudicatario</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Quindi se si vogliono filtrare tutti i progetti in cui la <code>Descrizione Misura</code> è uguale a <code>Creazione di imprese femminili</code>, all’URL di base bisognerà aggiungere:</p>
+<p><code>WHERE "Descrizione Misura" = "Creazione di imprese femminili"</code></p>
+<p>Ovvero</p>
+<p><span class="long-url"><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html?filter=WHERE &quot;Descrizione Misura&quot; = &quot;Creazione di imprese femminili&quot;">https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html?filter=WHERE “Descrizione Misura” = “Creazione di imprese femminili”</a></span></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Spazio e virgolette
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Negli URL al posto dello spazio bisogna usare <code>%20</code>, mentre per le <code>"</code> bisogna usare <code>%22</code>.</p>
+</div>
+</div>
+<p>È possibile combinare più filtri, separandoli con <code>AND</code>:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>WHERE "Soggetto attuatore" = "DIPARTIMENTO PER LE POLITICHE GIOVANILI" AND "Descrizione Regione" = "SICILIA"</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Ovvero:</p>
+<p><span class="long-url"><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html?filter=WHERE &quot;Soggetto attuatore&quot; = &quot;DIPARTIMENTO PER LE POLITICHE GIOVANILI&quot; AND &quot;Descrizione Regione&quot; = &quot;SICILIA&quot;">https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html?filter=WHERE%20%22Soggetto%20attuatore%22%20=%20%22DIPARTIMENTO%20PER%20LE%20POLITICHE%20GIOVANILI%22%20AND%20%22Descrizione%20Regione%22%20=%20%22SICILIA%22</a></span></p>
+<p>E all’URL si possono aggiungere i parametri per <strong>scegliere</strong> la <strong>scala di zoom</strong> e la <strong>posizione</strong> iniziale del <strong>centro</strong> della <strong>mappa</strong>, nella forma <code>view=[latitudine,longitudine],zoom</code>.</p>
+<p><span class="long-url"><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html?filter=WHERE &quot;Soggetto attuatore&quot; = &quot;CITTA' METROPOLITANA DI TORINO&quot;&amp;view=[45.31546044422575,7.698669433593751],8">https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html?filter=WHERE%20%22Soggetto%20attuatore%22%20=%20%22CITTA%27%20METROPOLITANA%20DI%20TORINO%22&amp;view=[45.31546044422575,7.698669433593751],8</a></span></p>
+<p>L’operatore <code>like</code> nelle condizione di filtro consente di fare ricerche di <strong>una porzione di testo</strong>. Quindi se si vogliono ad esempio filtrare tutti i progetti in cui il “Soggetto attuatore” è una “Città Metropolitana”, si può scrivere: <code>WHERE "Soggetto attuatore" like "metropolitana"</code>, ovvero:</p>
+<p><span class="long-url"><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html?filter=WHERE &quot;Soggetto attuatore&quot; like &quot;metropolitana&quot;">https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html?filter=WHERE%20%22Soggetto%20attuatore%22%20like%20%22metropolitana%22</a></span></p>
+<hr>
+<p>🫶 <strong>Grazie mille</strong> a <strong>Guenter Richter</strong> per avere creato questo strumento.</p>
 
 
 </section>
@@ -676,13 +783,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../fonti/scp/informazioni-scp.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Estrarre i dati SCP</span>
+      <a href="../../fonti/regis/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">ReGiS</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../fonti/altre-pa/regioni.html" class="pagination-link">
-        <span class="nav-page-text">Regioni italiane</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../fonti/opencup/index.html" class="pagination-link">
+        <span class="nav-page-text">OpenCUP</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

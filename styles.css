@@ -1,3 +1,11 @@
 table > caption {
   text-align: left !important;
 }
+
+.long-url {
+  word-wrap: break-word;
+}
+
+span.long-url a {
+  word-wrap: break-word;
+}
