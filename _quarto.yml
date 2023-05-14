@@ -11,7 +11,7 @@ project:
 website:
   back-to-top-navigation: true
   title: "Dati aperti sul PNRR"
-  site-url: https://pnrr.datibenecomune.it/
+  site-url: https://pnrr.datibenecomune.it
   repo-url: https://github.com/ondata/italian-public-sector-pnrr-data-guide
   repo-actions: [edit]
   page-navigation: true
@@ -21,6 +21,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: fonti/regis/mappa.qmd
+        text: Mappa
       - href: notizie.qmd
         text: Aggiornamenti
       - href: about.qmd
@@ -48,8 +50,11 @@ website:
       - section: Fonti
         href: fonti/fonti.qmd
         contents:
-          - href: fonti/regis/index.qmd
-            text: ReGiS
+          - section: ReGiS
+            href: fonti/regis/index.qmd
+            contents:
+              - href: fonti/regis/mappa.qmd
+                text: Mappa
           - section: OpenCUP
             href: fonti/opencup/index.qmd
             contents:

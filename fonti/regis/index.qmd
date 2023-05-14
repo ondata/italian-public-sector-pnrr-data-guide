@@ -385,6 +385,7 @@ misure_comuni['Finanz. totale (€)'] = misure_comuni['Finanz. totale (€)'].ro
 display(misure_comuni.style.hide(axis='index').set_table_attributes("class='dataframe table table-hover'").format(thousands='.',decimal=',').set_properties(**{'text-align': 'right'}).bar(subset=['Numero comuni'], color='#ffcd09').set_table_styles([{'selector': 'th', 'props': [('text-align', 'center'), ('vertical-align', 'middle')]}]))
 ```
 
+[[👉 Apri la mappa]{.btn .btn-primary}](mappa.qmd)
 
 ## Arricchire i dati ReGiS con le informazioni presenti nelle altre fonti
 
