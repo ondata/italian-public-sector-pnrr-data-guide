@@ -147,3 +147,7 @@ L'operatore `like` nelle condizione di filtro consente di fare ricerche di **una
 ---
 
 🫶 **Grazie mille** a **Guenter Richter** per avere creato questo strumento.
+
+---
+
+{{< include ../../include/_partecipa.md >}}
