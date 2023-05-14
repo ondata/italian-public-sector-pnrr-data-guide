@@ -31,7 +31,7 @@ I dataset **Universo** fanno riferimento a tutti i progetti su ReGiS alla data d
 - 128.950 codici CUP;
 - 20 regioni;
 - 107 province;
-- 7.916 Comuni (sono più degli attuali 7.901, perché probabilmente tiene conto delle variazioni dei Comuni da inizio PNRR);
+- 7.916 Comuni (sono più degli attuali 7.901, perché probabilmente c'è traccia dei nomi Comuni cambiati da inizio PNRR);
 - 1.950 record in cui è presente anche l'indirizzo.
 
 
