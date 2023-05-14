@@ -21,7 +21,7 @@ format:
 
 I dati di dettaglio sul Piano Nazionale di Ripresa e Resilienza da [**fonte ReGiS**](index.qmd) - pubblicati a metà aprile 2023 - contengono le informazioni di [localizzazione](index.qmd#universo-regis---localizzazione-del-pnrr) dei progetti.
 
-Questi i numeri per i dati "Universo ReGiS":
+Questi i numeri per i dati "Universo ReGiS", ad aprile 2023:
 
 ::: aside
 I dataset **Universo** fanno riferimento a tutti i progetti su ReGiS alla data di estrazione, indipendentemente dall'essere stati sottoposti o meno al **processo di validazione**.
