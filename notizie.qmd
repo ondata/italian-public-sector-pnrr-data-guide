@@ -1,6 +1,6 @@
 ---
 title: "Notizie"
-subtitle: Per rimanere aggiornati su questo progetto
+subtitle: La sezione con gli aggiornamenti sul progetto
 listing:
   sort: "date desc"
   contents:
