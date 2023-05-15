@@ -223,6 +223,8 @@ progetti_misura['valore'] = progetti_misura['valore'].round().astype(int)
 Interessante guardare ad alcune **suddivisioni categoriche dei progetti**. Tra queste ad esempio quella dei `Sottosettori`: in @tbl-sottosettore vediamo i primi 10 per valore.<br>
 Abbiamo evidenziato quello denominato "**Sociali e scolastiche**", e inserito a seguire le "**Misure**" di questa voce, in @tbl-misura, per dare un'idea di come sia possibile leggere ed esplorare questi dati.
 
+:::{.column-page}
+
 :::: {.columns}
 
 ::: {.column width="48%"}
@@ -256,6 +258,8 @@ display(progetti_misura.style.hide(axis='index').format(thousands='.',decimal=',
 :::
 
 ::::
+
+:::
 
 ### Universo ReGiS - Localizzazione del PNRR
 
