@@ -59,9 +59,9 @@ In @fig-map-regis-animata è possibile vedere un'animazione del funzionamento di
 ![Esempio di utilizzo della mappa](images/mappe-regis.gif){fig-alt="GIF animata che mostra come funziona la mappa ReGiS" #fig-map-regis-animata}
 :::
 
-Tra i dati ce ne è diversi non associati a un Comune in particolare, perché sono di ambito nazionale. Per dare conto in mappa anche di questi, è stata creata una piccola Italia, che si può vedere in @fig-map-regis-italietta.
+Tra i dati ce ne è diversi non associati a un Comune in particolare, perché sono di **ambito nazionale**. Per dare conto in mappa anche di questi, è stata creata una piccola Italia, che si può vedere in @fig-map-regis-italietta.
 
-![Una piccola Italia, per dare contro dei progetti nazionali](images/italietta.png){fig-alt="la piccola Italia in mappa è dare conto dei progetti nazionali" #fig-map-regis-italietta}
+![Una piccola Italia, per dare conto dei progetti nazionali](images/italietta.png){fig-alt="la piccola Italia in mappa è dare conto dei progetti nazionali" #fig-map-regis-italietta}
 
 ## Condividere la visualizzazione della mappa che hai creato
 
