@@ -35,7 +35,7 @@ I dataset **Universo** fanno riferimento a tutti i progetti su ReGiS alla data d
 - 1.950 record in cui è presente anche l'indirizzo.
 
 
-A partire da questi dati **Guenter Richter** (**grazie** ❣️) ha creato una [**mappa interattiva**](https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html) per **esplorare geograficamente** i dati di dettaglio del PNRR pubblicati su **Italiadomani**.
+A partire da questi dati [**Guenter Richter**](https://www.facebook.com/guenter.richter) (**grazie** ❣️) ha creato una [**mappa interattiva**](https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS_IV_nazionale_5050.html) per **esplorare geograficamente** i dati di dettaglio del PNRR pubblicati su **Italiadomani**.
 
 ::: {.callout-note}
 ## Non è ottimizzata per la visualizzazione da *smartphone*
@@ -49,7 +49,9 @@ Ci sono 4 sezioni principali di [interfaccia](#fig-map-regis):
 1. quella dedicata alla mappa, in cui **spostarla** facendo *click* e trascinandola, oppure fare **zoom avanti** e **indietro** con la rotellina del *mouse*;
 2. quella con il riepilogo dei **conteggi** sulle **6 Missioni** del PNRR;
 3. quella con i **conteggi** del **numero** di **progetti visibili in mappa** e il loro **valore complessivo** in euro;
-4. quella che contiene, scorrendola, numerosi **filtri** (per Regione, Provincia, Missione, Submisura, ecc.) e **conteggi correlati**, è uno strumento per **condividere** la **mappa** che è stata creata.
+4. quella che contiene, scorrendola, numerosi **elenchi di valori univoci** contenuti nei dati originali (Regione, Provincia, Missione, Submisura, ecc.) con i **conteggi correlati**, che possono essere usati anche come **filtro**. E in fondo a questa sezione c'è il pulsante per **condividere** la **mappa** che è stata creata (vedi [qui](#condividere-la-visualizzazione-della-mappa-che-hai-creato)).
+
+Quest'ultima è molto comoda: facendo *click* su un valore univoco (esempio: Roma), questo diventa un filtro della colonna `Descrizione Comune` e la barra con il nome della colonna diventa rossa (tutti filtri attivi sono in rosso, con una 'x' per rimuoverli).
 
 In @fig-map-regis-animata è possibile vedere un'animazione del funzionamento di base della mappa: come al cambio di visualizzazione geografica cambino i conteggi (sono sempre aggiornati a ciò che si vede in mappa), come al *click* su uno dei filtri disponibili sulla destra venga estratto un sotto insieme dei dati, e come rimuovere un filtro applicato.
 
@@ -146,7 +148,7 @@ L'operatore `like` nelle condizione di filtro consente di fare ricerche di **una
 
 ---
 
-🫶 **Grazie mille** a **Guenter Richter** per avere creato questo strumento.
+🫶 **Grazie mille** a [**Guenter Richter**](https://www.facebook.com/guenter.richter) per avere creato questo strumento.
 
 ---
 
