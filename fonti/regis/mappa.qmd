@@ -19,6 +19,16 @@ format:
     toc-expand: true
 ---
 
+::: {.callout-warning}
+## Questa non è la mappa del PNRR
+Questa mappa rappresenta i progetti pubblicati sul [catalogo open data di Italiadomani](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc), ovvero sul **sito ufficiale del Piano**.<br>
+La fonte di questi dati è [**ReGiS**](index.qmd), il sistema di rendicontazione e controllo delle misure e dei progetti finanziati dal Piano Nazionale di Ripresa e Resilienza.
+:::
+
+::: aside
+Grazie [Ciro Spataro](https://twitter.com/cirospat), per averci suggerito di inserire questa nota.
+:::
+
 I dati di dettaglio sul Piano Nazionale di Ripresa e Resilienza da [**fonte ReGiS**](index.qmd) - pubblicati a metà aprile 2023 - contengono le informazioni di [localizzazione](index.qmd#universo-regis---localizzazione-del-pnrr) dei progetti.
 
 Questi i numeri per i dati "Universo ReGiS", ad aprile 2023:
