@@ -7,10 +7,6 @@ format:
     toc: false
 ---
 
-::: {.callout-note}
-Questa pagina è stata aggiornata l'8 maggio 2023.
-:::
-
 ## Nota introduttiva su questo vademecum
 
 Questo progetto è stato creato per rispondere a un'**emergenza informativa**: la **mancanza** di **dati aggiornati** e di **dettaglio** sul **sito ufficiale** dedicato al **PNRR** ([Italiadomani](https://www.italiadomani.gov.it/)).<br>
