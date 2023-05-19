@@ -31,8 +31,15 @@ A titolo d'esempio, è sufficiente indicare "[Vademecum PNRR a cura dell'associa
 
 ## Chi usa questo vademecum
 
+
 - [**PNRR Data Monitoring App**](https://periodthinktank-analisi-dati-pnrr-app-6tk6o2.streamlit.app/) di Period Think Tank. Il Vademecum è stato usato come fonte informativa per la sua costruzione;
-- [[Monithon](https://www.monithon.eu/crea-un-report-di-monitoraggio-civico/)]. Viene citato come fonte per raccogliere/comprendere informazioni, utili per costruire un report di monitoraggio civico.
+- [**Monithon**](https://www.monithon.eu/crea-un-report-di-monitoraggio-civico/). Viene citato come fonte per raccogliere/comprendere informazioni, utili per costruire un report di monitoraggio civico.
+
+::: aside
+
+Se lo  usi anche tu, scrivicelo [qui](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions/categories/raccontaci).
+
+:::
 
 ---
 
