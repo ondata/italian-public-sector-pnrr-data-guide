@@ -160,6 +160,12 @@ L'operatore `like` nelle condizione di filtro consente di fare ricerche di **una
 
 [[https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE%20%22Soggetto%20attuatore%22%20like%20%22metropolitana%22](https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE%20%22Soggetto%20attuatore%22%20like%20%22metropolitana%22)]{.long-url}
 
+## La presentazione della mappa dei dati ReGiS
+
+Qui una presentazione curata dall'Associazione onData:
+
+{{< video https://www.youtube.com/watch?v=kpFlqgjlGak >}}
+
 ---
 
 🫶 **Grazie mille** a [**Guenter Richter**](https://www.facebook.com/guenter.richter) per avere creato questo strumento.
