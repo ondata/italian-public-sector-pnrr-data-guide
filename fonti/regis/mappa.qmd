@@ -25,6 +25,8 @@ Questa mappa rappresenta i progetti pubblicati sul [catalogo open data di Italia
 La fonte di questi dati è [**ReGiS**](index.qmd), il sistema di rendicontazione e controllo delle misure e dei progetti finanziati dal Piano Nazionale di Ripresa e Resilienza. In particolare i dati "Universo ReGiS".
 :::
 
+[[👉 Apri la mappa]{.btn .btn-primary}](https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html)
+
 ::: aside
 Grazie [Ciro Spataro](https://twitter.com/cirospat), per averci suggerito di inserire questa nota.
 :::
