@@ -80,7 +80,7 @@ Tra i dati ce ne è diversi non associati a un Comune in particolare, perché so
 Se vuoi condividere una mappa, con una serie di filtri applicati, centrata su una parte di tuo interesse, puoi farlo in questo modo:
 
 1. fai click su `link` in "Crea link condivisibile";
-2. copia il link che appare e incollalo dove vuoi (chat, e-mail, ecc.)
+2. copia il link che appare e incollalo dove vuoi (chat, e-mail, ecc.).
 
 ![Creare link per condividere una vista personalizzata](images/mappa-regis-crea-url.png){fig-alt="Mappa ReGiS come condividere una visualizzazione personalizzata" #fig-map-regis-condividi}
 
