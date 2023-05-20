@@ -79,10 +79,10 @@ Tra i dati ce ne è diversi non associati a un Comune in particolare, perché so
 
 Se vuoi condividere una mappa, con una serie di filtri applicati, centrata su una parte di tuo interesse, puoi farlo in questo modo:
 
-1. scorri verso il basso l'area laterale destra che contiene i filtri, utilizzando la *scroll-bar* dedicata;
-2. fai click su `link` in "Crea link condivisibile".
+1. fai click su `link` in "Crea link condivisibile";
+2. copia il link che appare e incollalo dove vuoi (chat, e-mail, ecc.)
 
-![Creare link per condividere una vista personalizzata](images/mappa-regis-crea-link.png){fig-alt="Mappa ReGiS come condividere una visualizzazione personalizzata" #fig-map-regis-condividi}
+![Creare link per condividere una vista personalizzata](images/mappa-regis-crea-url.png){fig-alt="Mappa ReGiS come condividere una visualizzazione personalizzata" #fig-map-regis-condividi}
 
 [Questo](https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE%20%22Descrizione%20Regione%22%20=%20%22CALABRIA%22%20AND%20%22missione%22%20=%20%22M2%22&view=[39.07677595221322,16.707458496093754],8) ad esempio il *link* a una mappa con i soli **progetti** della **Missione 2** "Rivoluzione verde e transizione ecologica", localizzati in **Calabria**.
 
