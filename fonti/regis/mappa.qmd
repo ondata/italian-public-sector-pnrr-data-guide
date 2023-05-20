@@ -22,7 +22,7 @@ format:
 ::: {.callout-warning}
 ## Questa non è la mappa del PNRR
 Questa mappa rappresenta i progetti pubblicati sul [catalogo open data di Italiadomani](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc), ovvero sul **sito ufficiale del Piano**.<br>
-La fonte di questi dati è [**ReGiS**](index.qmd), il sistema di rendicontazione e controllo delle misure e dei progetti finanziati dal Piano Nazionale di Ripresa e Resilienza.
+La fonte di questi dati è [**ReGiS**](index.qmd), il sistema di rendicontazione e controllo delle misure e dei progetti finanziati dal Piano Nazionale di Ripresa e Resilienza. In particolare i dati "Universo ReGiS".
 :::
 
 ::: aside
@@ -159,6 +159,17 @@ E all'URL si possono aggiungere i parametri per **scegliere** la **scala di zoom
 L'operatore `like` nelle condizione di filtro consente di fare ricerche di **una porzione di testo**. Quindi se si vogliono ad esempio filtrare tutti i progetti in cui il "Soggetto attuatore" è  una "Città Metropolitana", si può scrivere: `WHERE "Soggetto attuatore" like "metropolitana"`, ovvero:
 
 [[https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE%20%22Soggetto%20attuatore%22%20like%20%22metropolitana%22](https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE%20%22Soggetto%20attuatore%22%20like%20%22metropolitana%22)]{.long-url}
+
+## Dati utilizzati per la mappa
+
+Per realizzare questa mappa sono stati utilizzati questi dati:
+
+- [Universo ReGiS - Gare Aggiudicatari PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-aggiudicatari-pnrr.html);
+- [Universo ReGiS - Localizzazione del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html);
+- [Universo ReGiS - Progetti](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html).
+
+In particolare quelli con data di osservazione "1 marzo, 2023".
+
 
 ## La presentazione della mappa dei dati ReGiS
 
