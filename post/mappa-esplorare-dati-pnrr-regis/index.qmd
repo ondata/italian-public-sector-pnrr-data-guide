@@ -1,0 +1,33 @@
+---
+title: "Dati aperti PNRR: la mappa per esplorarli"
+description: "La mappa interattiva per esplorare i dati aperti della piattaforma ReGiS pubblicati su Italiadomani"
+description-meta: "La mappa interattiva per esplorare i dati aperti della piattaforma ReGiS pubblicati su Italiadomani"
+website:
+  twitter-card:
+    description: "La mappa interattiva per esplorare i dati aperti della piattaforma ReGiS pubblicati su Italiadomani"
+  open-graph:
+    description: "La mappa interattiva per esplorare i dati aperti della piattaforma ReGiS pubblicati su Italiadomani"
+date: "2023-05-24"
+draft: false
+categories:
+  - strumenti
+  - mappa
+image: mappa-guenter-pnrr.png
+---
+
+Qualche giorno fa - lunedì 22 maggio 2023 - abbiamo reso pubblica la **mappa** per **esplorare** i **dati aperti** di maggiore dettaglio oggi **disponibili** su Italiadomani (il sito ufficiale del PNRR).
+
+La fonte di questi dati è [**ReGiS**](../../fonti/regis/index.qmd), il **sistema** di **rendicontazione** e **controllo** delle misure e dei progetti finanziati dal **Piano Nazionale di Ripresa e Resilienza**. In particolare l'insieme di dati denominato "Universo ReGiS".<br>
+I dataset **Universo** fanno riferimento a tutti i progetti alla data di estrazione dal sistema, indipendentemente dall'essere stati sottoposti o meno al processo di validazione.
+
+Sono dati relativi a **circa 160.000 progetti** per un totale di fondi PNRR di **circa 90 miliardi di euro**.<br>
+È possibile **usare la mappa come filtro**: allo spostarsi e al cambio di zoom, si hanno i conteggi sui progetti che sono rappresentati in mappa.
+Nella parte destra dell'interfaccia sono disponibili numerosi altri filtri (per territorio, per missione, per submisura, ecc.).
+
+La mappa è stata realizzata da **Guenter Richter**, che ringraziamo per la sua disponibilità e per il suo lavoro.
+
+[[👉 Maggiori dettagli]{.btn .btn-primary}](../../fonti/regis/mappa.qmd)
+
+:::{.column-page}
+[![](../../fonti/regis/images/mappe-regis.gif)](https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html)
+:::
