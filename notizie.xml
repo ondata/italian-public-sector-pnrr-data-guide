@@ -10,7 +10,37 @@
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.43</generator>
-<lastBuildDate>Thu, 11 May 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 24 May 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Dati aperti PNRR: la mappa per esplorarli</title>
+  <link>https://pnrr.datibenecomune.it/post/mappa-esplorare-dati-pnrr-regis/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Qualche giorno fa - lunedì 22 maggio 2023 - abbiamo reso pubblica la <strong>mappa</strong> per <strong>esplorare</strong> i <strong>dati aperti</strong> di maggiore dettaglio oggi <strong>disponibili</strong> su Italiadomani (il sito ufficiale del PNRR).</p>
+<p>La fonte di questi dati è <a href="../../fonti/regis/index.html"><strong>ReGiS</strong></a>, il <strong>sistema</strong> di <strong>rendicontazione</strong> e <strong>controllo</strong> delle misure e dei progetti finanziati dal <strong>Piano Nazionale di Ripresa e Resilienza</strong>. In particolare l’insieme di dati denominato “Universo ReGiS”.<br> I dataset&nbsp;<strong>Universo</strong> fanno riferimento a tutti i progetti alla data di estrazione dal sistema, indipendentemente dall’essere stati sottoposti o meno al processo di validazione.</p>
+<p>Sono dati relativi a <strong>circa 160.000 progetti</strong> per un totale di fondi PNRR di <strong>circa 90 miliardi di euro</strong>.<br> È possibile <strong>usare la mappa come filtro</strong>: allo spostarsi e al cambio di zoom, si hanno i conteggi sui progetti che sono rappresentati in mappa. Nella parte destra dell’interfaccia sono disponibili numerosi altri filtri (per territorio, per missione, per submisura, ecc.).</p>
+<p>La mappa è stata realizzata da <strong>Guenter Richter</strong>, che ringraziamo per la sua disponibilità e per il suo lavoro.</p>
+<p><a href="../../fonti/regis/mappa.html"><span class="btn btn-primary">👉 Maggiori dettagli</span></a></p>
+<div class="column-page">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html"><img src="https://pnrr.datibenecomune.it/fonti/regis/images/mappe-regis.gif" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
+  <category>strumenti</category>
+  <category>mappa</category>
+  <guid>https://pnrr.datibenecomune.it/post/mappa-esplorare-dati-pnrr-regis/index.html</guid>
+  <pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/mappa-esplorare-dati-pnrr-regis/mappa-guenter-pnrr.png" medium="image" type="image/png" height="101" width="144"/>
+</item>
 <item>
   <title>Aggiornamento dati OpenCUP, PNRR</title>
   <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-opencup/index.html</link>
