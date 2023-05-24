@@ -15,7 +15,7 @@ categories:
 image: mappa-guenter-pnrr.png
 ---
 
-Qualche giorno fa - lunedì 22 maggio 2023 - abbiamo reso pubblica la **mappa** per **esplorare** i **dati aperti** di maggiore dettaglio oggi **disponibili** su Italiadomani (il sito ufficiale del PNRR).
+Qualche giorno fa - lunedì 22 maggio 2023 - abbiamo reso pubblica [la **mappa** per **esplorare** i **dati aperti**](https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html) di maggiore dettaglio oggi **disponibili** su Italiadomani (il sito ufficiale del PNRR).
 
 La fonte di questi dati è [**ReGiS**](../../fonti/regis/index.qmd), il **sistema** di **rendicontazione** e **controllo** delle misure e dei progetti finanziati dal **Piano Nazionale di Ripresa e Resilienza**. In particolare l'insieme di dati denominato "Universo ReGiS".<br>
 I dataset **Universo** fanno riferimento a tutti i progetti alla data di estrazione dal sistema, indipendentemente dall'essere stati sottoposti o meno al processo di validazione.
