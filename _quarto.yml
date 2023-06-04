@@ -4,6 +4,7 @@ project:
   resources:
   - "googlecd08604f4edafe6e.html"
   - "CNAME"
+  - "data/italia-domani/web/catalogo-opendata.html"
   preview:
     browser: false
     port: 6074
