@@ -1,0 +1,28 @@
+---
+title: "Nuova fonte: Registro Nazionale degli Aiuti (RNA)"
+description: "Aggiunta una breve descrizione di una fonte di finanziamento"
+description-meta: "Aggiunta una breve descrizione di una fonte di finanziamento"
+website:
+  twitter-card:
+    description: "Aggiunta una breve descrizione di una fonte di finanziamento"
+  open-graph:
+    description: "Aggiunta una breve descrizione di una fonte di finanziamento"
+date: "2023-06-11"
+draft: false
+categories:
+  - rna
+  - dati
+image: rna.png
+---
+
+![Esempio dati del Registro Nazionale degli Aiuti di Stato](rna.png)
+
+Abbiamo aggiunto un'altra fonte, quella del [**Registro Nazionale degli Aiuti di Stato**](../../fonti/rna/index.qmd) (RNA).
+
+È un database pubblico che contiene informazioni sulle **agevolazioni finanziarie** concesse dai governi degli Stati membri dell'Unione Europea **alle imprese**.<br>
+Da questo punto di vista è una fonte diversa [dalle altre](../../fonti/fonti.qmd) in lista, perché le altre riguardano finanziamenti concessi a Pubbliche Amministrazioni.
+
+::: {.callout-important}
+## Nota bene
+Nella banca dati del Registro è previsto il campo `Check_PNRR`. Purtroppo però questo non è presente nei dati aperti pubblicati, quindi **non è possibile in modo diretto sapere se un aiuto è correlato al PNRR**.
+:::

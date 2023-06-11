@@ -1,6 +1,16 @@
 ---
 title: "Registro Nazionale Aiuti di Stato"
 subtitle: "Le agevolazioni finanziarie concesse dai governi degli Stati membri dell'Unione Europea alle imprese"
+description-meta: "I dati aperti del Registro Nazionale Aiuti di Stato"
+website:
+  twitter-card:
+    description: "I dati aperti del Registro Nazionale Aiuti di Stato"
+    image: "rna.png"
+  open-graph:
+    description: "I dati aperti del Registro Nazionale Aiuti di Stato"
+    image: "rna.png"
+resources:
+  - "rna.png"
 ---
 
 Il **Registro Nazionale** degli **Aiuti** di **Stato** (RNA) è un database pubblico che contiene informazioni sulle agevolazioni finanziarie concesse dai governi degli Stati membri dell'Unione Europea alle **imprese**.<br>
