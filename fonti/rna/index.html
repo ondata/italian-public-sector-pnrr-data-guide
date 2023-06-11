@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:image-width" content="1200">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-sidebar floating nav-fixed slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -331,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/fonti/rna/index.qmd" class="toc-action">Modifica questa pagina</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -379,13 +379,14 @@ Imprese, non Pubbliche Amministrazioni
 <li>sugli <a href="https://www.rna.gov.it/cs/groups/public/documents/document/y2mt/mdax/~edisp/cl_wcc-001577.pdf">Aiuti</a>.</li>
 </ul>
 </section>
-<section id="informazioni-correlate-al-pnrr" class="level2">
+<section id="informazioni-correlate-al-pnrr" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="informazioni-correlate-al-pnrr">Informazioni correlate al PNRR</h2>
 <p>Il 7 ottobre 2022 in <a href="https://www.rna.gov.it/sites/PortaleRNA/it_IT/comunicazioni">questa pagina</a> è stato riportato quanto segue:</p>
 <blockquote class="blockquote">
 <p>In particolare in caso di richiesta CUP è previsto il nuovo campo obbligatorio “Check_PNRR” che assume i valori “NO” per i progetti che non rientrano nel PNRR e “SI” per i progetti che rientrano nel PNRR. In quest’ultimo caso il tracciato va integrato con le informazioni specifiche richieste.</p>
 </blockquote>
-<p>Purtroppo al momento il campo <code>Check_PNRR</code> <strong>non è disponibile</strong> nei <strong>dati aperti</strong> pubblicati, quindi <strong>non c’è un modo per filtrare le agevolazioni finanziarie legate al PNRR</strong>.</p>
+<p>Purtroppo al momento il campo <code>Check_PNRR</code> <strong>non è disponibile</strong> nei <strong>dati aperti</strong> pubblicati, quindi <strong>non c’è un modo diretto per filtrare le agevolazioni finanziarie legate al PNRR</strong>.</p>
+<div class="page-columns page-full"><p>Nel dataset sulle “Misure” può essere presente il campo <code>COD_FONDO</code>, che può assumere il valore <code>17</code>, corrispondente a “Next Generation EU (NGEU)”. Tuttavia sono poche le misure che riportano questo valore. Si può cercare la stringa <code>PNRR</code> (o termini correlati al Piano) in campi come <code>TITOLO_MISURA</code>, <code>COD_CE_MISURA</code>,<code>SOGGETTO_CONCEDENTE</code>, <code>BASE_GIURIDICA_NAZIONALE</code>. </p><div class="no-row-height column-margin column-container"><span class="">Grazie a Regione Toscana per averci restituito questo note.</span></div></div>
 
 
 </section>
