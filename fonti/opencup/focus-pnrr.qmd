@@ -2,7 +2,7 @@
 title: "OpenCUP: Focus PNRR"
 ---
 
-L'ultima versione dei dati OpenCUP con focus sul PNRR è quella di [gennaio 2023](https://opencup.gov.it/portale/documents/21195/117121/progetti_cup_20230120.xlsx).
+L'ultima versione dei dati OpenCUP con focus sul PNRR è quella di [maggio 2023](https://www.opencup.gov.it/portale/documents/21195/0/CUP_PNRR_05_05_2023.xlsx).
 
 Molto importante la nota relativa che si legge sul sito:
 
@@ -27,7 +27,7 @@ locale.setlocale(locale.LC_ALL,"it_IT.UTF-8")
 humanize.i18n.activate("it_IT")
 
 !if [ ! -f ../../data/opencup/opencup-focus-pnrr.csv ]; then \
-  qsv excel --dates-whitelist 'Data' ../../data/opencup/progetti_cup_20230120.xlsx >../../data/opencup/opencup-focus-pnrr.csv;\
+  qsv excel  -Q ../../data/opencup/CUP_PNRR_05_05_2023.xlsx >../../data/opencup/opencup-focus-pnrr.csv;\
 fi
 
 !if [ ! -f tmp_summary.csv ]; then\
@@ -60,7 +60,7 @@ importo_finanziato=re.sub("\.", ",",list({humanize.intword(int(importo_finanziat
 
 text=f"""
 
-Il file si chiama [`progetti_cup_20230120.xlsx`](https://opencup.gov.it/portale/documents/21195/117121/progetti_cup_20230120.xlsx), ed è composto da **{int(righe[0]):n} righe** e **{int(colonne[0])} colonne**.
+Il file si chiama [`CUP_PNRR_05_05_2023.xlsx`](https://www.opencup.gov.it/portale/documents/21195/0/CUP_PNRR_05_05_2023.xlsx), ed è composto da **{int(righe[0]):n} righe** e **{int(colonne[0])} colonne**.
 
 
 Inoltre:
@@ -91,6 +91,13 @@ Alcune note utili sul file:
 ## Formato di pubblicazione alternativo
 
 Proporremo a OpenCUP di pubblicare questo dataset anche in formato `parquet`[^parquet]. È un formato aperto, che rende l'accesso ai dati e la loro elaborazione molto rapida e efficiente. [Qui](../../data/opencup/opencup_focus_pnrr.parquet) lo stesso file in formato `parquet`.
+
+
+Si può generare con [`duckdb`](https://duckdb.org/):
+
+```bash
+echo "COPY (SELECT * FROM read_csv_auto('opencup-focus-pnrr.csv',dateformat='%Y%m%d')) TO 'opencup-focus-pnrr.parquet' (FORMAT 'PARQUET', CODEC 'Snappy');" |  duckdb
+```
 :::
 
 [^parquet]: il formato `parquet` <https://parquet.apache.org/>

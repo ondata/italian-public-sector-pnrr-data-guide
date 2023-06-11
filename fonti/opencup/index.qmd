@@ -33,12 +33,12 @@ Il CUP è strumento atto a **identificare univocamente ogni progetto d'investime
 ### Focus sul PNRR
 
 Nella [**sezione Open Data**](https://www.opencup.gov.it/portale/web/opencup/opendata) del sito, a partire dall'estate 2022, viene periodicamente aggiornato un dataset dedicato al PNRR.<br>
-È inserito nella parte alta della pagina (vedi @fig-focus-pnrr).
+È inserito nella parte alta della pagina (in @fig-focus-pnrr l'esempio di Gennaio 2023).
 
 Caratteristiche:
 
-- viene aggiornato con una frequenza bimestrale. Al momento è stato fatto **tre volte**, dall'estate 2022 a gennaio 2023 ([primo](https://www.opencup.gov.it/portale/web/opencup/-/online-il-nuovo-dataset-opencup-sulle-tematica-pnrr), [secondo](https://www.opencup.gov.it/portale/web/opencup/-/online-il-nuovo-dataset-pnrr) e [terzo](https://www.opencup.gov.it/portale/web/opencup/-/piano-nazionale-di-ripresa-e-resilienza-online-i-nuovi-dati) annuncio);
-- è rilasciato, da gennaio 2023, come file singolo file in formato Excel (prima le modalità erano diverse).
+- viene aggiornato periodicamente. Al momento è stato fatto **quattro volte**, dall'estate 2022 a maggio 2023;
+- da gennaio 2023, è rilasciato come singolo file in formato Excel (prima le modalità erano diverse).
 
 [[👉 Approfondimento]{.btn .btn-primary}](focus-pnrr.qmd)
 
