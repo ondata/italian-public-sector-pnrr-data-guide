@@ -84,6 +84,27 @@
     "text": "Entro quanto riceverò risposta?\nIn base alla legge, l’amministrazione deve rispondere entro 30 giorni dalla tua richiesta (potrebbe anche richiederti ulteriori chiarimenti oppure, nel caso ci fossero persone contro interessate alla richiesta, le informeranno e il termine si allungherà di altri 10 giorni).\nLa P.A. richiede il rimborso dei soli costi vivi sostenuti per la riproduzione su supporti materiali (non chiederà nulla nel caso indicassi di ricevere tutto via email).\nInfine, se non la P.A. non rispondesse oppure decide di non darti i dati/documenti richiesti, vi sono ulteriori possibilità: ossia la richiesta di riesame, sino al ricorso al Tribunale Amministrativo Regionale.\n➡️Per approfondire, ti rimandiamo al documento che segue - realizzato per la Scuola di Monitoraggio Civico sul Piano di Ripresa e Resilienza dell’Osservatorio Civico PNRR - dove puoi trovare tutte le informazioni complete relative al FOIA: https://www.osservatoriocivicopnrr.it/images/files/Presentazione_FOIA_Bologna.pdf"
   },
   {
+    "objectID": "fonti/rna/index.html",
+    "href": "fonti/rna/index.html",
+    "title": "Registro Nazionale Aiuti di Stato",
+    "section": "",
+    "text": "Il Registro Nazionale degli Aiuti di Stato (RNA) è un database pubblico che contiene informazioni sulle agevolazioni finanziarie concesse dai governi degli Stati membri dell’Unione Europea alle imprese. È importante sottolineare che una fonte dati diversa dalle altre, che riguardano finanziamenti verso le Pubbliche Amministrazioni.\nL’homepage del Registro è https://www.rna.gov.it/."
+  },
+  {
+    "objectID": "fonti/rna/index.html#open-data-registro-nazionale-aiuti-di-stato",
+    "href": "fonti/rna/index.html#open-data-registro-nazionale-aiuti-di-stato",
+    "title": "Registro Nazionale Aiuti di Stato",
+    "section": "Open Data Registro Nazionale Aiuti di Stato",
+    "text": "Open Data Registro Nazionale Aiuti di Stato\nSul sito è disponibile la sezione Open Data, in cui sono disponibili due tipi di dataset:\n\nquello sulle Misure;\nquello sugli Aiuti.\n\nSono pubblicati in formato XML e sono resi disponibili questi metadati:\n\nsulle Misure;\nsugli Aiuti."
+  },
+  {
+    "objectID": "fonti/rna/index.html#informazioni-correlate-al-pnrr",
+    "href": "fonti/rna/index.html#informazioni-correlate-al-pnrr",
+    "title": "Registro Nazionale Aiuti di Stato",
+    "section": "Informazioni correlate al PNRR",
+    "text": "Informazioni correlate al PNRR\nIl 7 ottobre 2022 in questa pagina è stato riportato quanto segue:\n\nIn particolare in caso di richiesta CUP è previsto il nuovo campo obbligatorio “Check_PNRR” che assume i valori “NO” per i progetti che non rientrano nel PNRR e “SI” per i progetti che rientrano nel PNRR. In quest’ultimo caso il tracciato va integrato con le informazioni specifiche richieste.\n\nPurtroppo al momento il campo Check_PNRR non è disponibile nei dati aperti pubblicati, quindi non c’è un modo per filtrare le agevolazioni finanziarie legate al PNRR."
+  },
+  {
     "objectID": "fonti/regis/index.html",
     "href": "fonti/regis/index.html",
     "title": "ReGiS",
@@ -347,7 +368,7 @@
     "href": "fonti/fonti.html",
     "title": "Fonti",
     "section": "",
-    "text": "A seguire le fonti dati descritte in questo vademecum.\n\n  Nazionali\n  \n        \n          ReGiS\n        \n        \n          OpenCUP\n        \n        \n          ANAC\n        \n        \n          Servizio Contratti Pubblici\n        \n        \n          OpenBDAP\n        \n        \n          Regioni\n        \n  \n\nNessun risultato\n\n\n\n\n\n\n Torna in cima"
+    "text": "A seguire le fonti dati descritte in questo vademecum.\n\n  Nazionali\n  \n        \n          ReGiS\n        \n        \n          OpenCUP\n        \n        \n          ANAC\n        \n        \n          Servizio Contratti Pubblici\n        \n        \n          OpenBDAP\n        \n        \n          Registro Nazionale Aiuti di Stato\n        \n        \n          Regioni\n        \n  \n\nNessun risultato\n\n\n\n\n\n\n Torna in cima"
   },
   {
     "objectID": "rete-pnrr.html",
