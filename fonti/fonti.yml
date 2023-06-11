@@ -10,5 +10,7 @@
       href: scp/index.qmd
     - titolo:  OpenBDAP
       href: openbdap/index.qmd
+    - titolo:  Registro Nazionale Aiuti di Stato
+      href: rna/index.qmd
     - titolo:  Regioni
       href: altre-pa/regioni.qmd

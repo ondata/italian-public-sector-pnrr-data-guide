@@ -1,0 +1,30 @@
+---
+title: "Registro Nazionale Aiuti di Stato"
+subtitle: "Le agevolazioni finanziarie concesse dai governi degli Stati membri dell'Unione Europea alle imprese"
+---
+
+Il **Registro Nazionale** degli **Aiuti** di **Stato** (RNA) è un database pubblico che contiene informazioni sulle agevolazioni finanziarie concesse dai governi degli Stati membri dell'Unione Europea alle **imprese**.<br>
+È importante sottolineare che una **fonte** dati **diversa** dalle [altre](../fonti.qmd), che riguardano finanziamenti verso le Pubbliche Amministrazioni.
+
+L'homepage del Registro è <https://www.rna.gov.it/>.
+
+## Open Data Registro Nazionale Aiuti di Stato
+
+Sul sito è disponibile la sezione [**Open Data**](https://www.rna.gov.it/sites/PortaleRNA/it_IT/open_data), in cui sono disponibili due tipi di dataset:
+
+- quello sulle [**Misure**](https://www.rna.gov.it/RegistroNazionaleTrasparenza/faces/pages/OpenDataMisura.jspx);
+- quello sugli [**Aiuti**](https://www.rna.gov.it/RegistroNazionaleTrasparenza/faces/pages/OpenDataAiuti.jspx).
+
+Sono pubblicati in formato `XML` e sono resi disponibili questi metadati:
+
+- sulle [Misure](https://www.rna.gov.it/cs/groups/public/documents/document/y2mt/mdax/~edisp/cl_wcc-001578.pdf);
+- sugli [Aiuti](https://www.rna.gov.it/cs/groups/public/documents/document/y2mt/mdax/~edisp/cl_wcc-001577.pdf).
+
+
+## Informazioni correlate al PNRR
+
+Il 7 ottobre 2022 in [questa pagina](https://www.rna.gov.it/sites/PortaleRNA/it_IT/comunicazioni) è stato riportato quanto segue:
+
+> In particolare in caso di richiesta CUP è previsto il nuovo campo obbligatorio “Check_PNRR” che assume i valori “NO” per i progetti che non rientrano nel PNRR e “SI” per i progetti che rientrano nel PNRR. In quest’ultimo caso il tracciato va integrato con le informazioni specifiche richieste.
+
+Purtroppo al momento il campo `Check_PNRR` **non è disponibile** nei **dati aperti** pubblicati, quindi **non c'è un modo per filtrare le agevolazioni finanziarie legate al PNRR**.

@@ -73,6 +73,8 @@ website:
                 text: Estrarre i dati SCP
           - href: fonti/openbdap/index.qmd
             text: OpenBDAP
+          - href: fonti/rna/index.qmd
+            text: RNA
           - href: fonti/altre-pa/regioni.qmd
             text: Regioni italiane
       - href: guide/procedura-esempio.qmd
