@@ -10,7 +10,46 @@
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.43</generator>
-<lastBuildDate>Wed, 24 May 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 11 Jun 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Nuova fonte: Registro Nazionale degli Aiuti (RNA)</title>
+  <link>https://pnrr.datibenecomune.it/post/registro-aiuti-stato/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://pnrr.datibenecomune.it/post/registro-aiuti-stato/rna.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Esempio dati del Registro Nazionale degli Aiuti di Stato</figcaption>
+</figure>
+</div>
+<p>Abbiamo aggiunto un’altra fonte, quella del <a href="../../fonti/rna/index.html"><strong>Registro Nazionale degli Aiuti di Stato</strong></a> (RNA).</p>
+<p>È un database pubblico che contiene informazioni sulle <strong>agevolazioni finanziarie</strong> concesse dai governi degli Stati membri dell’Unione Europea <strong>alle imprese</strong>.<br> Da questo punto di vista è una fonte diversa <a href="../../fonti/fonti.html">dalle altre</a> in lista, perché le altre riguardano finanziamenti concessi a Pubbliche Amministrazioni.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota bene
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Nella banca dati del Registro è previsto il campo <code>Check_PNRR</code>. Purtroppo però questo non è presente nei dati aperti pubblicati, quindi <strong>non è possibile in modo diretto sapere se un aiuto è correlato al PNRR</strong>.</p>
+</div>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
+  <category>rna</category>
+  <category>dati</category>
+  <guid>https://pnrr.datibenecomune.it/post/registro-aiuti-stato/index.html</guid>
+  <pubDate>Sun, 11 Jun 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/registro-aiuti-stato/rna.png" medium="image" type="image/png" height="80" width="144"/>
+</item>
 <item>
   <title>Dati aperti PNRR: la mappa per esplorarli</title>
   <link>https://pnrr.datibenecomune.it/post/mappa-esplorare-dati-pnrr-regis/index.html</link>
