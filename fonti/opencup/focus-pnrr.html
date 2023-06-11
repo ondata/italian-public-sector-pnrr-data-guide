@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -336,7 +370,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>L’ultima versione dei dati OpenCUP con focus sul PNRR è quella di <a href="https://opencup.gov.it/portale/documents/21195/117121/progetti_cup_20230120.xlsx">gennaio 2023</a>.</p>
+<p>L’ultima versione dei dati OpenCUP con focus sul PNRR è quella di <a href="https://www.opencup.gov.it/portale/documents/21195/0/CUP_PNRR_05_05_2023.xlsx">maggio 2023</a>.</p>
 <p>Molto importante la nota relativa che si legge sul sito:</p>
 <blockquote class="blockquote">
 <p>Si sottolinea che i dati oggetto del rilascio open data, rappresentano gli <strong>interventi candidati</strong> nell’ambito del PNRR, <strong>così come segnalati dai soggetti titolari dei singoli interventi in fase di generazione CUP</strong>, ma che <strong>potrebbero non essere ammessi ai finanziamenti del Piano</strong> e successivamente finanziati da altre misure di spesa. <strong>Per la lista definitiva dei progetti PNRR</strong>, <strong>si rimanda agli elenchi ufficiali emanati dalle Amministrazioni responsabili dei finanziamenti</strong>.</p>
@@ -354,15 +388,15 @@ Fai attenzione
 <p>Per la ragione sopra indicata, non è detto che un progetto in questo elenco sia stato con certezza finanziato dal PNRR. È però un punto di partenza per fare approfondimenti sul sito della Pubblica Amministrazione correlata al progetto.</p>
 </div>
 </div>
-<div class="cell page-columns page-full" data-execution_count="1">
+<div id="d89bccb1" class="cell page-columns page-full" data-execution_count="1">
 <div class="cell-output cell-output-display page-columns page-full">
-<p>Il file si chiama <a href="https://opencup.gov.it/portale/documents/21195/117121/progetti_cup_20230120.xlsx"><code>progetti_cup_20230120.xlsx</code></a>, ed è composto da <strong>221.479 righe</strong> e <strong>35 colonne</strong>.</p>
+<p>Il file si chiama <a href="https://www.opencup.gov.it/portale/documents/21195/0/CUP_PNRR_05_05_2023.xlsx"><code>CUP_PNRR_05_05_2023.xlsx</code></a>, ed è composto da <strong>256.022 righe</strong> e <strong>36 colonne</strong>.</p>
 <p>Inoltre:</p>
 <ul>
-<li>il numero di codici CUP è pari a <strong>171.886</strong>;</li>
-<li>sono progetti riferibili a <strong>25 stati</strong>, e per l’<strong>Italia</strong> (più del 99% dei progetti) a <strong>20 regioni</strong>, <strong>110 province</strong> e <strong>7.918 comuni</strong>.</li>
+<li>il numero di codici CUP è pari a <strong>204.372</strong>;</li>
+<li>sono progetti riferibili a <strong>25 stati</strong>, e per l’<strong>Italia</strong> (più del 99% dei progetti) a <strong>20 regioni</strong>, <strong>110 province</strong> e <strong>7.921 comuni</strong>.</li>
 <li>fanno riferimento a <strong>11 settori</strong> di intervento;</li>
-<li>l’importo finanziato totale è pari a <strong>178,3 miliardi di €</strong>.</li>
+<li>l’importo finanziato totale è pari a <strong>189,0 miliardi di €</strong>.</li>
 </ul>
 
 <div class="no-row-height column-margin column-container"><div class="">
@@ -386,6 +420,8 @@ Formato di pubblicazione alternativo
 </div>
 <div class="callout-body-container callout-body">
 <p>Proporremo a OpenCUP di pubblicare questo dataset anche in formato <code>parquet</code><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. È un formato aperto, che rende l’accesso ai dati e la loro elaborazione molto rapida e efficiente. <a href="../../data/opencup/opencup_focus_pnrr.parquet">Qui</a> lo stesso file in formato <code>parquet</code>.</p>
+<p>Si può generare con <a href="https://duckdb.org/"><code>duckdb</code></a>:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"COPY (SELECT * FROM read_csv_auto('opencup-focus-pnrr.csv',dateformat='%Y%m%d')) TO 'opencup-focus-pnrr.parquet' (FORMAT 'PARQUET', CODEC 'Snappy');"</span> <span class="kw">|</span>  <span class="ex">duckdb</span></span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 
