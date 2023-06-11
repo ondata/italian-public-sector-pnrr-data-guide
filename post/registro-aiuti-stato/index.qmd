@@ -10,7 +10,7 @@ website:
 date: "2023-06-11"
 draft: false
 categories:
-  - rna
+  - imprese
   - dati
 image: rna.png
 ---
