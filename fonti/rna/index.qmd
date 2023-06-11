@@ -41,4 +41,8 @@ Il 7 ottobre 2022 in [questa pagina](https://www.rna.gov.it/sites/PortaleRNA/it_
 
 > In particolare in caso di richiesta CUP è previsto il nuovo campo obbligatorio “Check_PNRR” che assume i valori “NO” per i progetti che non rientrano nel PNRR e “SI” per i progetti che rientrano nel PNRR. In quest’ultimo caso il tracciato va integrato con le informazioni specifiche richieste.
 
-Purtroppo al momento il campo `Check_PNRR` **non è disponibile** nei **dati aperti** pubblicati, quindi **non c'è un modo per filtrare le agevolazioni finanziarie legate al PNRR**.
+Purtroppo al momento il campo `Check_PNRR` **non è disponibile** nei **dati aperti** pubblicati, quindi **non c'è un modo diretto per filtrare le agevolazioni finanziarie legate al PNRR**.
+
+Nel dataset sulle "Misure" può essere presente il campo `COD_FONDO`, che può assumere il valore `17`, corrispondente a "Next Generation EU (NGEU)". Tuttavia sono poche le misure che riportano questo valore.
+Si può cercare la stringa `PNRR` (o termini correlati al Piano) in campi come `TITOLO_MISURA`, `COD_CE_MISURA`,`SOGGETTO_CONCEDENTE`, `BASE_GIURIDICA_NAZIONALE`.
+[Grazie a Regione Toscana per averci restituito questo note.]{.aside}
