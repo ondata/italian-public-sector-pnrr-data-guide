@@ -74,7 +74,7 @@ website:
           - href: fonti/openbdap/index.qmd
             text: OpenBDAP
           - href: fonti/rna/index.qmd
-            text: RNA
+            text: Registro Aiuti di Stato
           - href: fonti/altre-pa/regioni.qmd
             text: Regioni italiane
       - href: guide/procedura-esempio.qmd

@@ -4,9 +4,13 @@ subtitle: "Le agevolazioni finanziarie concesse dai governi degli Stati membri d
 ---
 
 Il **Registro Nazionale** degli **Aiuti** di **Stato** (RNA) è un database pubblico che contiene informazioni sulle agevolazioni finanziarie concesse dai governi degli Stati membri dell'Unione Europea alle **imprese**.<br>
-È importante sottolineare che una **fonte** dati **diversa** dalle [altre](../fonti.qmd), che riguardano finanziamenti verso le Pubbliche Amministrazioni.
 
 L'homepage del Registro è <https://www.rna.gov.it/>.
+
+::: {.callout-tip}
+## Imprese, non Pubbliche Amministrazioni
+È importante sottolineare che questa è l'**unica** - tra le [**fonti**](../fonti.qmd) in elenco - che riguarda **aiuti** alle **imprese**, mentre le altre sono **finanziamenti** verso le **Pubbliche Amministrazioni**.
+:::
 
 ## Open Data Registro Nazionale Aiuti di Stato
 
