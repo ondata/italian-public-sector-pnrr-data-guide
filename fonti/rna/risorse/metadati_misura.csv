@@ -1,0 +1,61 @@
+PATH DEL TAG XML,TAG XML,DESCRIZIONE TAG
+LISTA_MISURE/MISURA/,CAR_PADRE,Identificativo che raggruppa tutte le versioni di una Misura (E' un tag predisposto per l'eventuale futura gestione delle versioni della Misura)
+LISTA_MISURE/MISURA/,COD_AMM,Codice nel Registro dell'Ente di Riferimento dell'Autorità Responsabile della Misura
+LISTA_MISURE/MISURA/,COD_AUTORITA,Codice nel Registro dell'Autorità Responsabile della Misura
+LISTA_MISURE/MISURA/,DES_AUTORITA,Autorità Responsabile della Misura
+LISTA_MISURE/MISURA/,COD_UFF_GESTORE,Codice nel Registro dell'Ufficio Gestore della Misura interno all'Autorità responsabile della Misura autorizzato a gestire la misura stessa
+LISTA_MISURE/MISURA/,DENOMINAZIONE_UFF_GESTORE,Denominazione dell'Ufficio interno all'Autorità responsabile della Misura autorizzato a gestire la misura stessa
+LISTA_MISURE/MISURA/,COD_CE,Eventuale Identificativo della Misura CE come rilasciato dal sistema SANI
+LISTA_MISURE/MISURA/,STATO_MEMBRO,Stato Membro di riferimento della misura
+LISTA_MISURE/MISURA/,CAR,Codice identificativo della Misura assegnato dal Registro
+LISTA_MISURE/MISURA/,DATA_DECISIONE_CE,Eventuale Data della decisione CE che autorizza la misura di aiuti (solo in caso di aiuti notificati)
+LISTA_MISURE/MISURA/,TITOLO_MISURA,Titolo della Misura di Aiuto
+LISTA_MISURE/MISURA/,LINK_AIUTO,Link al testo integrale della misura
+LISTA_MISURE/MISURA/,DATA_INIZIO_MISURA,Data di inizio prevista per le concessioni di Aiuto (solo per Regime di aiuti)
+LISTA_MISURE/MISURA/,DATA_FINE_MISURA,Data di fine prevista per le concessioni di Aiuto (solo per Regime di aiuti)
+LISTA_MISURE/MISURA/,COD_TIPO_MISURA,Identificativo del tipo di misura (ovvero Regime di aiuti o Aiuto ad hoc)
+LISTA_MISURE/MISURA/,DES_TIPO_MISURA,Tipologia di misura (ovvero Regime di aiuti o Aiuto ad hoc)
+LISTA_MISURE/MISURA/,DENOMINAZIONE_BEN EFICIARIO,Denominazione beneficiario (solo per Aiuto ad Hoc)
+LISTA_MISURE/MISURA/,FLAG_MODIFICA_REGI ME_O_ESISTENTE,Indica se il Regime è una modifica di un regime esistente
+LISTA_MISURE/MISURA/,COD_AIUTO_CE_PREC,"Nel caso in cui la misura sia stata determinata dalla modifica di un Regime o di un Aiuto Ad Hoc esistente, Identificativo della Misura CE precedentemente rilasciato dal sistema SANI"
+LISTA_MISURE/MISURA/,DATA_CONCESSIONE,Data di concessione dell'aiuto (solo per Aiuto Ad Hoc)
+LISTA_MISURE/MISURA/,AUTORITA_CONCEDEN TE_TRASP_CE,Denominazione dell'Autorità che concede l'Aiuto visualizzabile nella scheda della Misura come pubblicata nella sezione trasparenza ai sensi dei regolamenti comunitari
+LISTA_MISURE/MISURA/,INDIRIZZO_POSTALE_A UTORITA_CONCEDENT,Indirizzo postale dell'Autorità che concede aiuto
+LISTA_MISURE/MISURA/,INDIRIZZO_INTERNET_AUTORITA_CONCEDEN,Indirizzo web di riferimento dell'Autorità che concede aiuto
+LISTA_MISURE/MISURA/,COD_TIPO_MODIFICA_MISURA,"Nel caso in cui la misura sia stata determinata dalla modifica di un Regime o di un Aiuto Ad Hoc esistente, Codice della Tipologia di modifica"
+LISTA_MISURE/MISURA/,DES_TIPO_MODIFICA_MISURA,"Nel caso in cui la misura sia stata determinata dalla modifica di un Regime o di un Aiuto Ad Hoc esistente, Tipologia di modifica (es. Proroga)"
+LISTA_MISURE/MISURA/,BASE_GIURIDICA_NAZI ONALE,Denominazione estesa della norma che istituisce la misura
+LISTA_MISURE/MISURA/,BASE_GIURIDICA_NAZI ONALE,Articolo della norma che istituisce la Misura (se non disponibile indicare “n.d.”)
+LISTA_MISURE/MISURA/,IMPORTO_PRESTITI_G ARANTITI,Importo della dotazione per le garanzie
+LISTA_MISURE/MISURA/,IMPORTO_AIUTO_AD_HOC,Importo dell'Aiuto solo per Aiuto ad Hoc
+LISTA_MISURE/MISURA/ LISTA_STATUS_FINALITA,COD_STATUS,"Codice nel Registro dello status dell'aiuto, come riportato sull'articolo 107, paragrafo 3, del TFUE"
+LISTA_MISURE/MISURA/ LISTA_STATUS_FINALITA,DES_STATUS,"Status dell'aiuto, come riportato sull'articolo 107, paragrafo 3, del TFUE"
+LISTA_MISURE/MISURA/ LISTA_SETTORI/,COD_SETTORE,Codici dei settori ammissibili per la misura sulla base della classificazione Nace
+LISTA_MISURE/MISURA/ LISTA_SETTORI/,DES_SETTORE,Settori ammissibili per la misura sulla base della classificazione Nace
+LISTA_MISURE/MISURA/ LISTA_DIM_BENEFICIARI,COD_DIM_BENEFICIARI O,Codice nel Registro della dimensione dei beneficiari così come definite dalla vigente normativa comunitaria in materia di aiuti di Stato
+LISTA_MISURE/MISURA/ LISTA_DIM_BENEFICIARI,DESCR_DIM_BENEFICIA RIO,Dimensioni dei beneficiari così come definite dalla vigente normativa comunitaria in materia di aiuti di Stato
+LISTA_MISURE/MISURA/ LISTA_AREE/,COD_AREA,Codice dell'area territoriale ammissibile per la misura sulla base della codifica NUTS
+LISTA_MISURE/MISURA/ LISTA_AREE/,DES_AREA,Indica le aree territoriali ammissibili per la misura
+LISTA_MISURE/MISURA/ LISTA_STRUMENTI/,FLAG_USER_DEFINED,Flag valorizzato nel caso in cui sia stata fornita una descrizione personalizzata dello strumento (nel caso di Strumento diverso dalle categorie proposte)
+LISTA_MISURE/MISURA/ LISTA_STRUMENTI/,COD_STRUMENTO,Codice nel Registro dello strumento ovvero della forma attraverso la quale gli aiuti possono essere concessi ai soggetti beneficiari
+LISTA_MISURE/MISURA/ LISTA_STRUMENTI/,DES_STRUMENTO,Identifica le forme attraverso la quale gli aiuti possono essere concessi ai soggetti beneficiari
+LISTA_MISURE/MISURA/ LISTA_STRUMENTI/,DESCRIZIONE_ALTRO,Descrizione personalizzata dello strumento nel caso di Strumento diverso dalle categorie proposte
+LISTA_MISURE/MISURA/ LISTA_DOTAZIONI/,ANNO_COMPETENZA,Anno di competenza della dotazione
+LISTA_MISURE/MISURA/ LISTA_DOTAZIONI/,IMPORTO,Importo annuo della dotazione prevista o la riduzione stimata del gettito fiscale annuo per tutti gli strumenti di aiuto contemplati dalla misura
+LISTA_MISURE/MISURA/ LISTA_COFINANZIAMENT,COD_FONDO,Codice identificativo nel Registro del Fondo di cofinanziamento
+LISTA_MISURE/MISURA/ LISTA_COFINANZIAMENT,DESCRIZIONE_FONDO,"Descrizione del Fondo di cofinanziamento, in caso di misura cofinanziata"
+LISTA_MISURE/MISURA/ LISTA_COFINANZIAMENT,IMPORTO,Importo previsto per anno del cofinanziamento per Programma operativo e Fondo di cofinanziamento
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,COD_PROCEDIMENTO,Codice nel Registro del procedimento in applicazione del quale vengono concessi gli aiuti
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,DES_PROCEDIMENTO,"Descrizione del procedimento in applicazione del quale vengono concessi gli aiuti (ex notifica, esenzione, de minimis)"
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,COD_REGOLAMENTO,Codice nel Registro del Regolamento in applicazione del quale vengono concessi gli aiuti
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,DES_REGOLAMENTO,Regolamento in applicazione del quale vengono concessi gli aiuti
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,COD_OBIETTIVO,Codice nel Registro dell'obiettivo
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,DES_OBIETTIVO,Descrizione degli obiettivi
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,INTENSITA_MASSIMA,Intensità massima per obiettivo (importo in percentuale o valore assoluto)
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,MAGGIORAZIONE,Intensità massima della maggiorazione PMI per obiettivo (importo in percentuale o valore assoluto)
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,FLAG_VALORE_ASSOLU TO_INTENSITA,Tipo di Intensità massima per obiettivo (percentuale o euro)
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,FLAG_VALORE_ASSOLU TO_MAGGIORAZIONE,Tipo di Intensità massima della maggiorazione PMI per obiettivo (percentuale o euro)
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,COD_CALAMITA,Codice nel Registo della calamità laddove prevista dall'obiettivo
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,DES_CALAMITA,"Descrizione della calamità (terremoti, valanghe, frane, inondazioni, trombe d'aria, uragani, eruzioni vulcaniche e incendi boschivi di origine naturale) laddove prevista dall'obiettivo"
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,DATA_INIZIO_EVENTO,Data di inizio della calamità
+LISTA_MISURE/MISURA/ LISTA_OBIETTIVI/,DATA_FINE_EVENTO,Data di conclusione della calamità
