@@ -32,7 +32,8 @@ Sul sito è presente la sezione [**Open Data**](https://www.rna.gov.it/sites/Por
 Sono pubblicati in formato `XML` e sono resi disponibili questi metadati:
 
 - sulle [Misure](https://www.rna.gov.it/cs/groups/public/documents/document/y2mt/mdax/~edisp/cl_wcc-001578.pdf);
-- sugli [Aiuti](https://www.rna.gov.it/cs/groups/public/documents/document/y2mt/mdax/~edisp/cl_wcc-001577.pdf).
+- sugli [Aiuti](https://www.rna.gov.it/cs/groups/public/documents/document/y2mt/mdax/~edisp/cl_wcc-001577.pdf);
+- sulle [tabelle tipologiche](https://www.rna.gov.it/cs/groups/public/documents/document/y2mt/mda2/~edisp/cl_wcc-006206.xlsx) per le codifiche dei valori dei campi nei dataset.
 
 
 ## Informazioni correlate al PNRR
