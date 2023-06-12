@@ -30,7 +30,7 @@ Usare questi file per estrarre informazioni a partire da un elenco di CIG può e
 
 Questa modalità è **più complessa**, perché richiede alcune conoscenze di base sull'accesso ai dati in modalità adeguate all'estrazione e analisi automatica (la cosiddetta _machine to machine_), ma è **più efficace e comoda**.
 
-L'Autorità Nazionale Anticorruzione mette a disposizione delle **API** per interrogare i suoi dati, a partire da un codice CIG.
+L'Autorità Nazionale Anticorruzione mette a disposizione delle **API** per interrogare i suoi dati, a partire da un codice CIG. In particolare è nato per consultare gli smartCIG.
 
 Le API - acronimo di _Application Programming Interface_ (interfaccia di programmazione delle applicazioni) - sono in un certo senso degli indirizzi web speciali, che restituiscono non una pagina web, ma dei dati.
 
@@ -48,3 +48,10 @@ Si hanno ancora una volta diverse informazioni, e il formato file è stavolta il
 
 A partire da un elenco di CIG di proprio interesse, si dovrà per ciascuno utilizzare queste API di ANAC. Sono richieste quindi delle conoscenze per sapere leggere il formato JSON, analizzarlo e trasformarlo, così come delle conoscenze per costruire procedure automatiche per interrogare delle API (se i CIG sono 1000, è impensabile fare 1000 _click_ su 1000 URL e salvare il risultato).
 
+
+Le API forniscono un codice di risposta:
+
+- `OK`, smartCIG trovato
+- `NOKSN`, il CIG è stato trovato ma è un CIG ordinario
+- `NOKCN`, il CIG non è stato trovato
+- `KO`, il servizio non ha risposto
