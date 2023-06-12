@@ -54,4 +54,4 @@ Le API forniscono un codice di risposta:
 - `OK`, smartCIG trovato;
 - `NOKSN`, il CIG è stato trovato ma è un CIG ordinario;
 - `NOKCN`, il CIG non è stato trovato;
-- `KO`, il CIG  corrisponde nè ad uno smartCIG nè ad un CIG, non trovato.
+- `KO`, il CIG non è nè uno smartCIG, nè un CIG. Non è stato trovato.
