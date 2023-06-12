@@ -45,4 +45,4 @@ Purtroppo al momento il campo `Check_PNRR` **non è disponibile** nei **dati ape
 
 Nel dataset sulle "Misure" può essere presente il campo `COD_FONDO`, che può assumere il valore `17`, corrispondente a "Next Generation EU (NGEU)". Tuttavia sono poche le misure che riportano questo valore.
 Si può cercare la stringa `PNRR` (o termini correlati al Piano) in campi come `TITOLO_MISURA`, `COD_CE_MISURA`,`SOGGETTO_CONCEDENTE`, `BASE_GIURIDICA_NAZIONALE`.
-[Grazie a Regione Toscana per averci restituito questo note.]{.aside}
+[Grazie a Regione Toscana per averci restituito queste note.]{.aside}
