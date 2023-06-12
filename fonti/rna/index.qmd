@@ -24,7 +24,7 @@ L'homepage del Registro è <https://www.rna.gov.it/>.
 
 ## Open Data Registro Nazionale Aiuti di Stato
 
-Sul sito è disponibile la sezione [**Open Data**](https://www.rna.gov.it/sites/PortaleRNA/it_IT/open_data), in cui sono disponibili due tipi di dataset:
+Sul sito è presente la sezione [**Open Data**](https://www.rna.gov.it/sites/PortaleRNA/it_IT/open_data), in cui sono disponibili due tipi di dataset:
 
 - quello sulle [**Misure**](https://www.rna.gov.it/RegistroNazionaleTrasparenza/faces/pages/OpenDataMisura.jspx);
 - quello sugli [**Aiuti**](https://www.rna.gov.it/RegistroNazionaleTrasparenza/faces/pages/OpenDataAiuti.jspx).
