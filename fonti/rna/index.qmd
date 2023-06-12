@@ -19,7 +19,7 @@ L'homepage del Registro è <https://www.rna.gov.it/>.
 
 ::: {.callout-tip}
 ## Imprese, non Pubbliche Amministrazioni
-È importante sottolineare che questa è l'**unica** - tra le [**fonti**](../fonti.qmd) in elenco - che riguarda **aiuti** alle **imprese**, mentre le altre sono **finanziamenti** verso le **Pubbliche Amministrazioni**.
+È importante sottolineare che questa è l'**unica** - tra le [**fonti**](../fonti.qmd) in elenco - che riguarda **aiuti** alle **imprese**, mentre le altre sono inerenti a **finanziamenti** verso le **Pubbliche Amministrazioni**.
 :::
 
 ## Open Data Registro Nazionale Aiuti di Stato
