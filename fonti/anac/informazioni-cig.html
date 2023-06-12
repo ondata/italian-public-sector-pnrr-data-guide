@@ -553,7 +553,7 @@ Esempio di contenuto file sui CIG di ANAC
 <section id="tramite-api" class="level2">
 <h2 class="anchored" data-anchor-id="tramite-api">Tramite API</h2>
 <p>Questa modalità è <strong>più complessa</strong>, perché richiede alcune conoscenze di base sull’accesso ai dati in modalità adeguate all’estrazione e analisi automatica (la cosiddetta <em>machine to machine</em>), ma è <strong>più efficace e comoda</strong>.</p>
-<p>L’Autorità Nazionale Anticorruzione mette a disposizione delle <strong>API</strong> per interrogare i suoi dati, a partire da un codice CIG.</p>
+<p>L’Autorità Nazionale Anticorruzione mette a disposizione delle <strong>API</strong> per interrogare i suoi dati, a partire da un codice CIG. In particolare è nato per consultare gli smartCIG.</p>
 <p>Le API - acronimo di <em>Application Programming Interface</em> (interfaccia di programmazione delle applicazioni) - sono in un certo senso degli indirizzi web speciali, che restituiscono non una pagina web, ma dei dati.</p>
 <p>Questo indirizzo web speciale, questo <code>URL</code> ha questa struttura:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>https://api.anticorruzione.it/apicig/1.0.0/getSmartCig/numero_cig</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -695,6 +695,13 @@ Output delle API ANAC, per il CIG <code>918052266A</code>
 </div>
 </div>
 <p>A partire da un elenco di CIG di proprio interesse, si dovrà per ciascuno utilizzare queste API di ANAC. Sono richieste quindi delle conoscenze per sapere leggere il formato JSON, analizzarlo e trasformarlo, così come delle conoscenze per costruire procedure automatiche per interrogare delle API (se i CIG sono 1000, è impensabile fare 1000 <em>click</em> su 1000 URL e salvare il risultato).</p>
+<p>Le API forniscono un codice di risposta:</p>
+<ul>
+<li><code>OK</code>, smartCIG trovato</li>
+<li><code>NOKSN</code>, il CIG è stato trovato ma è un CIG ordinario</li>
+<li><code>NOKCN</code>, il CIG non è stato trovato</li>
+<li><code>KO</code>, il servizio non ha risposto</li>
+</ul>
 
 
 </section>
