@@ -51,7 +51,7 @@ A partire da un elenco di CIG di proprio interesse, si dovrà per ciascuno utili
 
 Le API forniscono un codice di risposta:
 
-- `OK`, smartCIG trovato
-- `NOKSN`, il CIG è stato trovato ma è un CIG ordinario
-- `NOKCN`, il CIG non è stato trovato
-- `KO`, il servizio non ha risposto
+- `OK`, smartCIG trovato;
+- `NOKSN`, il CIG è stato trovato ma è un CIG ordinario;
+- `NOKCN`, il CIG non è stato trovato;
+- `KO`, il CIG  corrisponde nè ad uno smartCIG nè ad un CIG, non trovato.
