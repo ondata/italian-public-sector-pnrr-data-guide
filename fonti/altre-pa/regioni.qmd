@@ -24,11 +24,12 @@ Le **pubbliche amministrazioni regionali** sono state **tra le prime** a **pubbl
 
 Questo *vademecum* è dedicato **principalmente** a **dataset** di **taglio nazionale**, ma può essere molto comodo per chi deve fare analisi, inchieste, monitoraggi, ecc. poter integrare anche dati di taglio geografico più ristretto, magari corredati da informazioni aggiuntive non presenti in quelli nazionali.
 
-A seguire un elenco di quelle PA che hanno curato la **pubblicazione** di **propri** **dati** aperti sul PNRR:
+A seguire un elenco di quelle PA che hanno curato la **pubblicazione** di **propri** **dati** aperti sul PNRR o di una sezione dedicata al Piano:
 
 - [Il PNRR in **Toscana**](https://pnrr.toscana.it/), uno spazio ricco e variegato che sta facendo scuola;
 - [Progetti PNRR gestiti dalla Regione **Piemonte**](https://www.dati.piemonte.it/#/catalogodetail/regpie_ckan_ckan2_yucca_sdp_smartdatanet.it_Coordfondi_pnrr_progetti_od_24787);
 - [L'andamento in **Emilia-Romagna** del PNRR](https://pnrr.regione.emilia-romagna.it/);
-- [PNRR **Valle d'Aosta**](https://www.regione.vda.it/PNRR/default_i.aspx).
+- [PNRR **Valle d'Aosta**](https://www.regione.vda.it/PNRR/default_i.aspx);
+- [**Regione Ligura**,  PNRR (Piano Nazionale di Ripresa e Resilienza) e PNC (Piano Nazionale Complementare)](https://pnrr.regione.liguria.it/).
 
 Se ne conosci altre, segnalacelo [qui](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions)
