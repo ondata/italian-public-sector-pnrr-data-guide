@@ -42,7 +42,7 @@ Questi alcuni punti di interesse sul dataset "Universo ReGiS - Progetti":
 - da circa **121 miliardi di €** di **finanziamento totale** a circa **150**;
 - è stata **aggiunta** la **colonna** "**Finanziamento Stato - FOI**", ovvero i finanziamenti correlati al Fondo per l'avvio di opere indifferibili (FOI) (vedi [art.26](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2022-05-17;50!vig=2023-06-18~art26) decreto-legge 17 maggio 2022, n. 50);
 - **rimosse** circa **7.000 righe** di progetti, **rimossi** quindi circa **7.000 codici CUP**;
-- circa **70.000 righe** preesistenti sulle quali è intervenuta una **modifica/correzione** dei **contenuti**.
+- circa **90.000 righe** preesistenti sulle quali è intervenuta una **modifica/correzione** dei **contenuti**.
 
 Quest'ultimo è un punto chiave. Ci sono modifiche in quasi tutte le colonne, da quelle con i Codici Fiscali, a quelle sui valori di finanziamento, da quelle con la descrizione di dettaglio a quelle con i codici CUP.<br>
 Queste **modifiche**, **correzioni** e **integrazioni**, sono un **buon segnale**.
