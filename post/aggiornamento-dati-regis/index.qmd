@@ -46,6 +46,10 @@ Questi alcuni punti di interesse sul dataset "Universo ReGiS - Progetti":
 
 Quest'ultimo è un punto chiave. Ci sono modifiche in quasi tutte le colonne, da quelle con i Codici Fiscali, a quelle sui valori di finanziamento, da quelle con la descrizione di dettaglio a quelle con i codici CUP.
 
+## La mappa su dati ReGiS
+
+La nostra mappa per esplorare i dati ReGiS di Italiadomani, non è ancora stata aggiornata. Non appena fatto ne daremo notizia.
+
 ## Criticità
 
 Una prima lettura e analisi del dataset "Universo ReGiS - Progetti", ha fatto emergere **alcune criticità**. Ne elenchiamo alcune, che ci sembra utile condividere, a seguire.

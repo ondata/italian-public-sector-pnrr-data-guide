@@ -72,7 +72,7 @@ A seguire delle note su alcuni dei dati ReGiS pubblicati su ItaliaDomani.
 ```{python}
 #| echo: false
 import duckdb
-dbcon = duckdb.connect('./dati/italia-domani.duckdb')
+dbcon = duckdb.connect('./dati/italia-domani-universo.duckdb')
 import pandas as pd
 from IPython.display import display_markdown
 
@@ -125,7 +125,7 @@ import humanize
 humanize.i18n.activate("it_IT")
 from IPython.display import display_markdown
 
-!duckdb -csv -c "select sum(COLUMNS('.*Finan.+')) from  progetti_universo" dati/italia-domani.duckdb | mlrgo --csv reshape -r "." -o k,v then put '$k=sub($k,"^.+?\"","");$k=sub($k,"\".+","")' then sort -n v then label tipo,valore >tmp.csv
+!duckdb -csv -c "select sum(COLUMNS('.*Finan.+')) from  progetti_universo" dati/italia-domani-universo.duckdb | mlrgo --csv reshape -r "." -o k,v then put '$k=sub($k,"^.+?\"","");$k=sub($k,"\".+","")' then sort -n v then label tipo,valore >tmp.csv
 
 df=pd.read_csv('tmp.csv')
 
@@ -270,7 +270,7 @@ display(progetti_misura.style.hide(axis='index').format(thousands='.',decimal=',
 ```{python}
 #| echo: false
 import duckdb
-dbcon = duckdb.connect('./dati/italia-domani.duckdb')
+dbcon = duckdb.connect('./dati/italia-domani-universo.duckdb')
 import pandas as pd
 from IPython.display import display_markdown
 
@@ -383,8 +383,6 @@ dbcon.close()
 
 misure_comuni['Finanz. PNRR (€)'] = misure_comuni['Finanz. PNRR (€)'].round().astype(int)
 misure_comuni['Finanz. totale (€)'] = misure_comuni['Finanz. totale (€)'].round().astype(int)
-
-
 
 display(misure_comuni.style.hide(axis='index').set_table_attributes("class='dataframe table table-hover'").format(thousands='.',decimal=',').set_properties(**{'text-align': 'right'}).bar(subset=['Numero comuni'], color='#ffcd09').set_table_styles([{'selector': 'th', 'props': [('text-align', 'center'), ('vertical-align', 'middle')]}]))
 ```

@@ -19,6 +19,11 @@ format:
     toc-expand: true
 ---
 
+
+**Nota bene**: la mappa è aggiornata ai dati ReGiS estratti a marzo del 2023. Su Italiadomani ci sono dati più aggiornati. La mappa verrà aggiornata a breve.
+
+---
+
 ::: {.callout-warning}
 ## Questa non è la mappa del PNRR[^1]
 Questa mappa rappresenta i progetti pubblicati sul [catalogo open data di Italiadomani](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc), ovvero sul **sito ufficiale del Piano**.<br>
