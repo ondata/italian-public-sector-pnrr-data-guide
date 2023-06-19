@@ -22,15 +22,14 @@ fi
 
 # estrai URL da ogni pagina
 for (( i=1; i<=ultima; i++ )); do
-    url="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/jcr:content/root/container/opendatasearch.searchResults.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc&resultsOffset=$offset"
+    url="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/jcr:content/root/container/opendatasearch.searchResults.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc&resultsOffset=$offset&fulltext=*"
+
+
     echo "Chiamata CURL: $url"
-    curl $url
 
     curl -kL  $url \
     -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' | \
-    sed 's|"/content/|"https://www.italiadomani.gov.it/content/|g' | \
-    scrape -be '///span[@data-url]/@data-url' | sed -r 's/https:/\nhttps:/g' | \
-    grep -Po '\b(?:https?|ftp)://\S+\b' | grep 'domani' >>"$folder"/tmp.txt
+    scrape -be '//span[@data-url]' | xq -r '"https://www.italiadomani.gov.it" + .html.body.span[]."@data-url"' | sed 's/ /%20/g' >>"$folder"/tmp.txt
 
     offset=$((offset+8))    # Aggiorna l'offset
 done
