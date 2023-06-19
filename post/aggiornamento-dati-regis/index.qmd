@@ -55,7 +55,7 @@ La nostra mappa per esplorare i dati ReGiS di Italiadomani, non è ancora stata 
 
 ## Criticità
 
-Una prima lettura e analisi del dataset "Universo ReGiS - Progetti", ha fatto emergere **alcune criticità**. Ne elenchiamo alcune, che ci sembra utile condividere, a seguire.
+Una prima lettura e analisi del dataset "Universo ReGiS - Progetti", ha fatto emergere **alcune criticità**. Elenchiamo a seguire quelle che ci sembra utile condividere.
 
 ### Mancanza di campi/colonne che consentano di monitorare l'attuazione dei progetti
 
@@ -121,5 +121,5 @@ Quindi sarà impossibile fare correlazione diretta tra questo dataset e quello d
 
 Ci sono anche due piccoli problemi per il campo `Codice Locale Progetto`:
 
-- il record con codice `2.2_SICILIA_Sp#c#s` e riportato nel dataset "Universo ReGiS - Progetti" come `2.2_SICILIA_Sp?c?s`;
+- il record con codice `2.2_SICILIA_Sp#c#s` è riportato nel dataset "Universo ReGiS - Progetti" come `2.2_SICILIA_Sp?c?s`;
 - il progetto con codice `2.1_Genoni_CasaZaru`, non è presente tra le localizzazioni.
