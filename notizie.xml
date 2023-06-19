@@ -123,10 +123,15 @@ Nota
 <p>Ad esempio per il CUP <code>B11B21003170001</code> il titolo è stato troncato ed è passato da a <code>REALIZZAZIONE DI IMPIANTI PER LA PRODUZIONE DI ENERGIA ELETTRICA DA FONTE RINNOVABILE ED IN PARTICOLARE DA FONTE FOTOVOLTAICA PR</code> a <code>REALIZZAZIONE DI IMPIANTI PER LA PRODUZI</code>.</p>
 <p>Non è l’unico caso.</p>
 </section>
-<section id="codici-cup-con-lettere-minuscole" class="level3">
-<h3 class="anchored" data-anchor-id="codici-cup-con-lettere-minuscole">Codici CUP con lettere minuscole</h3>
+<section id="dataset-localizzazione-del-pnrr" class="level3">
+<h3 class="anchored" data-anchor-id="dataset-localizzazione-del-pnrr">Dataset “Localizzazione del PNRR”</h3>
 <p>Nel dataset <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html">“Universo ReGiS - Localizzazione del PNRR”</a> sono presenti circa 30 codici CUP errati, con lettere minuscole (ad esempio <code>j74d22001490006</code>).</p>
 <p>Quindi sarà impossibile fare correlazione diretta tra questo dataset e quello dei progetti, così come altri da altre banche dati.</p>
+<p>Ci sono anche due piccoli problemi per il campo <code>Codice Locale Progetto</code>:</p>
+<ul>
+<li>il record con codice <code>2.2_SICILIA_Sp#c#s</code> e riportato nel dataset “Universo ReGiS - Progetti” come <code>2.2_SICILIA_Sp?c?s</code>;</li>
+<li>il progetto con codice <code>2.1_Genoni_CasaZaru</code>, non è presente tra le localizzazioni.</li>
+</ul>
 
 
 </section>
