@@ -112,3 +112,9 @@ Per fortuna c'è anche il Codice Fiscale dell'Amministrazione Titolare, che fa d
 Ad esempio per il CUP `B11B21003170001` il titolo è stato troncato ed è passato da a `REALIZZAZIONE DI IMPIANTI PER LA PRODUZIONE DI ENERGIA ELETTRICA DA FONTE RINNOVABILE ED IN PARTICOLARE DA FONTE FOTOVOLTAICA PR` a `REALIZZAZIONE DI IMPIANTI PER LA PRODUZI`.
 
 Non è l'unico caso.
+
+### Codici CUP con lettere minuscole
+
+Nel dataset ["Universo ReGiS - Localizzazione del PNRR"](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html) sono presenti circa 30 codici CUP errati, con lettere minuscole (ad esempio `j74d22001490006`).
+
+Quindi sarà impossibile fare correlazione diretta tra questo dataset e quello dei progetti, così come altri da altre banche dati.
