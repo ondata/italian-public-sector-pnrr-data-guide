@@ -10,7 +10,130 @@
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.43</generator>
-<lastBuildDate>Sun, 11 Jun 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 19 Jun 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Aggiornamento dati ReGiS, PNRR</title>
+  <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=@jcr:content/observationDateInEvidence&amp;sort=desc"><img src="https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis/italiadomani-opendata.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption">Catalogo Open Data Italiadomani</figcaption>
+</figure>
+</div>
+<p>Il <strong>16 giugno 2023</strong> sono stati aggiornati diversi dati pubblicati nel <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=@jcr:content/observationDateInEvidence&amp;sort=desc">“catalogo open data” di <strong>Italiadomani</strong></a> (il sito ufficiale del Piano Nazionale di Ripresa e Resilienza).</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Cattiva pratica
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Una cosa che non ci piace è che <strong>la pubblicazione non sia stata annunciata</strong> nella <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/news.html">sezione delle News</a> e che in alternativa <strong>non ci sia nemmeno un modo per iscriversi a degli avvisi automatici</strong> (come un Feed RSS).<br> Noi ne abbiamo avuto riscontro perché abbiamo costruito un piccolo sistema di monitoraggio di questa sezione.</p>
+</div>
+</div>
+<p>Tra i dati aggiornati quelli da <strong>fonte ReGiS</strong>, ovvero il sistema creare per fare adempiere le amministrazioni agli obblighi di monitoraggio.<br> È una delle fonte dati di maggiore interesse, perché è quella di maggiore dettaglio. A seguire riportiamo alcune note sulla collezione di dati denominata “<a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html">Universo ReGiS - Progetti</a>”:</p>
+<blockquote class="blockquote">
+<p>riporta per ciascuna misura o sub-misura del Piano il corredo informativo di tutti i progetti identificati tramite CUP/CLP presenti sulla piattaforma ReGiS alla data di estrazione, indipendentemente dalla sottomissione e dall’esito del processo di validazione, ossia dal consolidamento periodico delle informazioni tramite controlli automatici di coerenza e tramite le opportune verifiche amministrative poste in essere dalle Amministrazioni Titolari.</p>
+</blockquote>
+<p>Questo aggiornamento di giugno era previsto nella recente “<a href="https://www.senato.it/leg/19/BGT/Schede/docnonleg/47062.htm">Relazione sullo stato di attuazione del Piano nazionale di ripresa e resilienza (PNRR), aggiornata al 31 maggio 2023</a>” (si veda la sezione “5.4.8 Italiadomani: i prossimi passi”).</p>
+<section id="note-sullaggiornamento" class="level2">
+<h2 class="anchored" data-anchor-id="note-sullaggiornamento">Note sull’aggiornamento</h2>
+<p>Questi alcuni punti di interesse sul dataset “Universo ReGiS - Progetti”:</p>
+<ul>
+<li>la “<strong>data di osservazione</strong>”, la data di estrazione, è il <strong>13 giugno 2023</strong>. Era giorno <strong>1 marzo 2023</strong>;</li>
+<li>da circa <strong>140.000 record</strong> a circa <strong>200.000</strong>;</li>
+<li>da circa <strong>130.000 codici CUP</strong> a circa <strong>190.000</strong>;</li>
+<li>da circa <strong>121 miliardi di €</strong> di <strong>finanziamento totale</strong> a circa <strong>150</strong>;</li>
+<li>è stata <strong>aggiunta</strong> la <strong>colonna</strong> “<strong>Finanziamento Stato - FOI</strong>”, ovvero i finanziamenti correlati al Fondo per l’avvio di opere indifferibili (FOI) (vedi <a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2022-05-17;50!vig=2023-06-18~art26">art.26</a> decreto-legge 17 maggio 2022, n.&nbsp;50);</li>
+<li><strong>rimosse</strong> circa <strong>7.000 righe</strong> di progetti, <strong>rimossi</strong> quindi circa <strong>7.000 codici CUP</strong>;</li>
+<li>circa <strong>90.000 righe</strong> preesistenti sulle quali è intervenuta una <strong>modifica/correzione</strong> dei <strong>contenuti</strong>.</li>
+</ul>
+<p>Quest’ultimo è un punto chiave. Ci sono modifiche in quasi tutte le colonne, da quelle con i Codici Fiscali, a quelle sui valori di finanziamento, da quelle con la descrizione di dettaglio a quelle con i codici CUP.<br> Queste <strong>modifiche</strong>, <strong>correzioni</strong> e <strong>integrazioni</strong>, sono un <strong>buon segnale</strong>.</p>
+</section>
+<section id="la-mappa-su-dati-regis" class="level2">
+<h2 class="anchored" data-anchor-id="la-mappa-su-dati-regis">La mappa su dati ReGiS</h2>
+<p>La nostra mappa per esplorare i dati ReGiS di Italiadomani, non è ancora stata aggiornata. Non appena fatto ne daremo notizia.</p>
+</section>
+<section id="criticità" class="level2">
+<h2 class="anchored" data-anchor-id="criticità">Criticità</h2>
+<p>Una prima lettura e analisi del dataset “Universo ReGiS - Progetti”, ha fatto emergere <strong>alcune criticità</strong>. Ne elenchiamo alcune, che ci sembra utile condividere, a seguire.</p>
+<section id="mancanza-di-campicolonne-che-consentano-di-monitorare-lattuazione-dei-progetti" class="level3">
+<h3 class="anchored" data-anchor-id="mancanza-di-campicolonne-che-consentano-di-monitorare-lattuazione-dei-progetti">Mancanza di campi/colonne che consentano di monitorare l’attuazione dei progetti</h3>
+<p>Questo è un importante aggiornamento in termini numerici, e consentirà di avere una visione più completa dei progetti. Ma <strong>non è ancora possibile monitorarne l’attuazione </strong>, perché mancano ancora dei campi/colonne che consentano di farlo.</p>
+</section>
+<section id="variazioni-non-documentate" class="level3">
+<h3 class="anchored" data-anchor-id="variazioni-non-documentate">Variazioni non documentate</h3>
+<p>Come detto all’inizio non è stato dato alcun tipo di annuncio dell’aggiornamento. E non è presente quindi alcuna nota sul <strong>cambio di schema</strong> e/o sulle <strong>modalità di rappresentazione del dato</strong>. Due esempi di tantissimi:</p>
+<ul>
+<li>è stata aggiunta una colonna;</li>
+<li>è stato scelto di rappresentare un codice non più come <code>30008</code> ma come <code>030008</code> (<code>Codice Locale Progetto</code>), da <code>3</code> a <code>03</code> (<code>CUP Codice Natura</code>).</li>
+</ul>
+<p>Per questo secondo punto, ci sono moltissimi casi. Sono variazioni che possono essere giuste e correttive, ma senza essere documentate rischiano di “rompere” i processi di analisi e trasformazione dei dati, progettati su vecchi schemi e rappresentazioni dei dati.</p>
+<p>Chi si occupa della pubblicazione dei dati su Italiadomani dovrebbe <strong>fare</strong> <strong>come</strong> è stato fatto dalla Protezione Civile per i <strong>dati COVID-19</strong>: <strong>documentare</strong> le <strong>variazioni</strong> e farlo con un po’ di <strong>anticipo</strong> rispetto alla data di pubblicazione.</p>
+</section>
+<section id="righe-errate" class="level3">
+<h3 class="anchored" data-anchor-id="righe-errate">Righe errate</h3>
+<p>Ci sono alcune <strong>righe totalmente errate</strong>. Si riconoscono facilmente perché iniziano per <code>";</code>. Sotto un esempio in cui - per chi conosce il dataset - è evidente come sia errato l’ordinamento delle colonne, ma tutti possono rendersi conto di quello strano elenco di <code>;</code> a fine cella.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1">";Attivo;03;REALIZZAZIONE DI LAVORI PUBBLICI (OPERE ED IMPIANTISTICA);99;ALTRO;05;INFRASTRUTTURE SOCIALI;11;BENI CULTURALI;096;RESTAURO E RIQUALIFICAZIONE DI BENI CULTURALI;in attesa di acquisizione;PROGETTO LOCALE DI RIGENERAZIONE CULTURALE E SOCIALE DAL TITOLO UNA TERRA PER VIVERCI FINALIZZATO ALLA RIGENERAZIONE E VALORIZZAZIONE DELLE FRAZIONI DI CASAROLA E RIANA E DEL PARCO LETTERARIO ATTILIO BERNARDO E GIUSEPPE BERTOLUCCI*VIA VARIE LOCALITA'*;INTERVENTO CHE NON COSTITUISCE AIUTO DI STATO;0,00;0,00;0,00;0,00;0,00;0,00;0,00;0,00;0,00;67100,00;0,00;388067,50;455167,50;455167,50;455167,50;NON AVVIATO;COMUNE DI MONCHIO DELLE CORTI;00341170348;No;;;;;13/06/2023;No";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;</span></code></pre></div>
+<p>Queste righe errate, che sembrano “mal posizionate”, potrebbero essere quelle che generare dei record con diverse colonne le cui celle non sono valorizzate.</p>
+</section>
+<section id="codifica-dei-caratteri-non-documentata" class="level3">
+<h3 class="anchored" data-anchor-id="codifica-dei-caratteri-non-documentata">Codifica dei caratteri non documentata</h3>
+<p>I dataset pubblicati sono corredati da alcuni metadati: tra questi <strong>non è presente la codifica dei caratteri</strong>. Per un file CSV non è possibile determinare la codifica dei caratteri automaticamente poiché non è una informazione scritta al suo interno. Per questo motivo, è necessario specificare manualmente la codifica dei caratteri durante l’apertura o la manipolazione del file.</p>
+<p>Altrimenti si rischia di avere problemi di lettura dei dati.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis/encoding-progetti.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Esempio di problemi di lettura dei dati</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La codifica di “Universo ReGiS - Progetti” sembra essere <code>windows-1252</code>.</p>
+</div>
+</div>
+</section>
+<section id="nome-colonna-errato" class="level3">
+<h3 class="anchored" data-anchor-id="nome-colonna-errato">Nome colonna errato</h3>
+<p>Al campo <code>Descrizione Missione</code> è associato il nome <code>Descrizione Mssione</code> (è saltata la prima <code>i</code> di “Missione”).</p>
+</section>
+<section id="variazione-valore-etichetta" class="level3">
+<h3 class="anchored" data-anchor-id="variazione-valore-etichetta">Variazione valore etichetta</h3>
+<p>I valori contenuti in colonne come <code>Amministrazione Titolare</code> sono delle stringhe, ma svolgono il ruolo di “etichette” di classificazione. Se si fanno delle variazioni, dovrebbero essere documentate (vedi sopra).</p>
+<p>Ad esempio nel campo <code>Amministrazione Titolare</code> si è passati da <code>MIN AGRIC. SOVRANITA' ALIM. E FORESTE</code> a <code>MIN AGRIC. SOVRANITÀ ALIM. E FORESTE</code> (si noti il passaggio da <code>A'</code> a <code>À</code>).<br> Per fortuna c’è anche il Codice Fiscale dell’Amministrazione Titolare, che fa da codice identificativo.</p>
+</section>
+<section id="troncature-dei-titoli-di-progetto" class="level3">
+<h3 class="anchored" data-anchor-id="troncature-dei-titoli-di-progetto">Troncature dei titoli di progetto</h3>
+<p>Ad esempio per il CUP <code>B11B21003170001</code> il titolo è stato troncato ed è passato da a <code>REALIZZAZIONE DI IMPIANTI PER LA PRODUZIONE DI ENERGIA ELETTRICA DA FONTE RINNOVABILE ED IN PARTICOLARE DA FONTE FOTOVOLTAICA PR</code> a <code>REALIZZAZIONE DI IMPIANTI PER LA PRODUZI</code>.</p>
+<p>Non è l’unico caso.</p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
+  <category>ReGiS</category>
+  <category>dati</category>
+  <guid>https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis/index.html</guid>
+  <pubDate>Mon, 19 Jun 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis/italiadomani-opendata.png" medium="image" type="image/png" height="103" width="144"/>
+</item>
 <item>
   <title>Nuova fonte: Registro Nazionale degli Aiuti (RNA)</title>
   <link>https://pnrr.datibenecomune.it/post/registro-aiuti-stato/index.html</link>
