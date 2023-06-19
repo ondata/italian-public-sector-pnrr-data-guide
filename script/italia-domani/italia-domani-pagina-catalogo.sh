@@ -22,8 +22,7 @@ fi
 
 # estrai URL da ogni pagina
 for (( i=1; i<=ultima; i++ )); do
-    url="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/jcr:content/root/container/opendatasearch.searchResults.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc&resultsOffset=$offset&fulltext=*"
-
+    url="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/jcr:content/root/container/opendatasearch.searchResults.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc&resultsOffset=$offset&fulltext=a"
 
     echo "Chiamata CURL: $url"
 
