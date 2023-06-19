@@ -5,8 +5,10 @@ description-meta: "Importante aggiornamento del catalogo open data di Italiadoma
 website:
   twitter-card:
     description: "Importante aggiornamento del catalogo open data di Italiadomani"
+    image: italiadomani-opendata.png
   open-graph:
     description: "Importante aggiornamento del catalogo open data di Italiadomani"
+    image: italiadomani-opendata.png
 date: "2023-06-19"
 draft: false
 categories:
