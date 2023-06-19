@@ -28,7 +28,7 @@ Noi ne abbiamo avuto riscontro perché abbiamo costruito un piccolo sistema di m
 :::
 
 Tra i dati aggiornati quelli da [**fonte ReGiS**](../../fonti/regis/index.qmd), ovvero il sistema creare per fare adempiere le amministrazioni agli obblighi di monitoraggio.<br>
-È una delle fonte dati di maggiore interesse, perché è quella di maggiore dettaglio. A seguire riportiamo alcune note sulla collezione di dati denominata "[Universo ReGiS - Progetti](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html)":
+È una delle fonti dati di maggiore interesse, perché è quella di maggiore dettaglio. A seguire riportiamo alcune note sulla collezione di dati denominata "[Universo ReGiS - Progetti](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html)":
 
 > riporta per ciascuna misura o sub-misura del Piano il corredo informativo di tutti i progetti identificati tramite CUP/CLP presenti sulla piattaforma ReGiS alla data di estrazione, indipendentemente dalla sottomissione e dall'esito del processo di validazione, ossia dal consolidamento periodico delle informazioni tramite controlli automatici di coerenza e tramite le opportune verifiche amministrative poste in essere dalle Amministrazioni Titolari.
 
