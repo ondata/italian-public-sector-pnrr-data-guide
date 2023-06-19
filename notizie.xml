@@ -199,6 +199,7 @@ Nota bene
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
   <category>strumenti</category>
   <category>mappa</category>
+  <category>ReGiS</category>
   <guid>https://pnrr.datibenecomune.it/post/mappa-esplorare-dati-pnrr-regis/index.html</guid>
   <pubDate>Wed, 24 May 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pnrr.datibenecomune.it/post/mappa-esplorare-dati-pnrr-regis/mappa-guenter-pnrr.png" medium="image" type="image/png" height="101" width="144"/>
@@ -276,6 +277,7 @@ Nota bene
   <category>anac</category>
   <category>dati</category>
   <category>italiaDomani</category>
+  <category>ReGiS</category>
   <guid>https://pnrr.datibenecomune.it/post/nuove-banche-dati/index.html</guid>
   <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pnrr.datibenecomune.it/post/nuove-banche-dati/localizzazioni-regis.png" medium="image" type="image/png" height="76" width="144"/>
