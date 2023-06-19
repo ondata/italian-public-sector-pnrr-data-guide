@@ -21,6 +21,7 @@ jobs:
         cp bin/scrape ~/bin
         cd ~/bin
         chmod +x scrape
+        sudo pip install yq
         sudo apt-get install pandoc
     - name: aggiorna pagina
       run: |-
