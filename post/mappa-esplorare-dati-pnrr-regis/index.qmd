@@ -12,6 +12,7 @@ draft: false
 categories:
   - strumenti
   - mappa
+  - ReGiS
 image: mappa-guenter-pnrr.png
 ---
 

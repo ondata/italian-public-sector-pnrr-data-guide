@@ -14,6 +14,7 @@ categories:
   - anac
   - dati
   - italiaDomani
+  - ReGiS
 image: localizzazioni-regis.png
 ---
 
