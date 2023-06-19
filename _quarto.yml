@@ -116,12 +116,14 @@ website:
 
 
   page-footer:
+    border: true
+    left: "a cura di [onData](https://www.ondata.it/)"
     right:
       - icon: github
         href: https://github.com/ondata/italian-public-sector-pnrr-data-guide
       - icon: rss
         href: notizie.xml
-    left: "[Licenza](/about.qmd#licenza)"
+    center: "[Licenza](/about.qmd#licenza)"
 
 format:
   html:
