@@ -51,7 +51,7 @@ Queste **modifiche**, **correzioni** e **integrazioni**, sono un **buon segnale*
 
 ## La mappa su dati ReGiS
 
-Abbiamo aggiornato la mappa con i nuovi dati
+Abbiamo aggiornato la mappa con i nuovi dati (grazie [Guenter Richter](https://www.facebook.com/guenter.richter)!).
 
 [[👉 Apri la mappa]{.btn .btn-primary}](https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html)
 
