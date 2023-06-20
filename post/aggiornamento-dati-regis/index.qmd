@@ -51,7 +51,9 @@ Queste **modifiche**, **correzioni** e **integrazioni**, sono un **buon segnale*
 
 ## La mappa su dati ReGiS
 
-La nostra mappa per esplorare i dati ReGiS di Italiadomani, non è ancora stata aggiornata. Non appena fatto ne daremo notizia.
+Abbiamo aggiornato la mappa con i nuovi dati
+
+[[👉 Apri la mappa]{.btn .btn-primary}](https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html)
 
 ## Criticità
 
