@@ -61,7 +61,7 @@ Una prima lettura e analisi del dataset "Universo ReGiS - Progetti", ha fatto em
 
 ### Mancanza di campi/colonne che consentano di monitorare l'attuazione dei progetti
 
-Questo è un importante aggiornamento in termini numerici, e consentirà di avere una visione più completa dei progetti. Ma **non è ancora possibile monitorarne l'attuazione **, perché mancano ancora dei campi/colonne che consentano di farlo.
+Questo è un importante aggiornamento in termini numerici, e consentirà di avere una visione più completa dei progetti. Ma **non è ancora possibile monitorarne l'attuazione**, perché mancano ancora dei campi/colonne che consentano di farlo.
 
 ### Variazioni non documentate
 
