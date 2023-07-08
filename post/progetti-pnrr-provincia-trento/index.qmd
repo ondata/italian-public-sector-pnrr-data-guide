@@ -1,0 +1,34 @@
+---
+title: "Progetti PNRR in Provincia autonoma di Trento"
+description: "La Provincia di Trento ha pubblicato le informazioni sui progetti che ricadono nel suo territorio"
+description-meta: "La Provincia di Trento ha pubblicato le informazioni sui progetti che ricadono nel suo territorio"
+website:
+  twitter-card:
+    description: "La Provincia di Trento ha pubblicato le informazioni sui progetti che ricadono nel suo territorio"
+  open-graph:
+    description: "La Provincia di Trento ha pubblicato le informazioni sui progetti che ricadono nel suo territorio"
+date: "2023-07-10"
+draft: true
+categories:
+  - pnrr
+  - dati
+image: pnrr-provincia-trento.png
+---
+
+La **Provincia autonoma di Trento** ha pubblicato un dataset denominato "[**Progetti PNRR in Provincia autonoma di Trento**](https://dati.trentino.it/dataset/progetti-pnrr-in-provincia-autonoma-di-trento)", contiene le informazioni relative ai progetti del Piano Nazionale di Ripresa e Resilienza (PNRR) che ricadono sul suo territorio.
+
+> Si tratta di una estrazione dalle banche dati [ReGIS](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&amp;sort=desc "ReGIS") e [BDAP-MOP](https://bdap-operatori.rgs.mef.gov.it/Pagine/Default.aspx "BDAP-MOP") (Banca Dati Amministrazioni Pubbliche - Monitoraggio opere pubbliche) con alcune integrazioni di dati locali.
+
+Sono oggi circa **1.850 progetti**, relativi a circa **1.700 codici CUP**.
+
+Sulla pagina del dataset diverse informazioni aggiuntive, e la descrizione dei campi.
+
+::: {.callout-tip}
+
+## Il catalogo nazionale dei dati aperti
+
+Riusciamo a fare questi aggiornamenti, tutte le volte che un dataset è indicizzato anche nel [catalogo nazionale dei dati aperti](https://dati.gov.it/). Utilizziamo uno script che fa periodicamente le **ricerche su un'unica fonte dati**, e veniamo avvisati quando ci sono nuove pubblicazioni.<br>
+Questo è un esempio dell'importanza - per una Pubblica Amministrazione - di fare in modo che i propri dati siano indicizzati anche nel catalogo nazionale.
+:::
+
+[![](pnrr-provincia-trento.png)](https://dati.trentino.it/dataset/progetti-pnrr-in-provincia-autonoma-di-trento)
