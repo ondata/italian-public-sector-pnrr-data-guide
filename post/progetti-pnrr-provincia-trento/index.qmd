@@ -24,7 +24,7 @@ La **Provincia autonoma di Trento** ha pubblicato un dataset denominato "[**Prog
 Sono oggi circa **1.850 progetti**, relativi a circa **1.700 codici CUP**.
 
 Sulla pagina del dataset diverse informazioni aggiuntive, e la descrizione dei campi.<br>
-Al momento c'è un errore nei campi con gli importi: è presente il separatore delle migliaia . Va rimosso, altrimenti la gran parte dei programmi e dei linguaggi di scripting li interpreteranno come stringhe di testo e non come numeri (ad esempio `489.353,90` è da modificare in `489353,90`).
+Al momento c'è un errore nei campi con gli importi: è presente il separatore delle migliaia. Va rimosso, altrimenti la gran parte dei programmi e dei linguaggi di scripting li interpreteranno quei valori come stringhe di testo e non come numeri (ad esempio `489.353,90` è da modificare in `489353,90`).
 
 ::: {.callout-tip}
 
