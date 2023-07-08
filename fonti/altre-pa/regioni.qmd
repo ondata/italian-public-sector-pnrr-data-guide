@@ -30,6 +30,7 @@ A seguire un elenco di quelle PA che hanno curato la **pubblicazione** di **prop
 - [Progetti PNRR gestiti dalla Regione **Piemonte**](https://www.dati.piemonte.it/#/catalogodetail/regpie_ckan_ckan2_yucca_sdp_smartdatanet.it_Coordfondi_pnrr_progetti_od_24787);
 - [L'andamento in **Emilia-Romagna** del PNRR](https://pnrr.regione.emilia-romagna.it/);
 - [PNRR **Valle d'Aosta**](https://www.regione.vda.it/PNRR/default_i.aspx);
-- [**Regione Ligura**,  PNRR (Piano Nazionale di Ripresa e Resilienza) e PNC (Piano Nazionale Complementare)](https://pnrr.regione.liguria.it/).
+- [**Regione Ligura**,  PNRR (Piano Nazionale di Ripresa e Resilienza) e PNC (Piano Nazionale Complementare)](https://pnrr.regione.liguria.it/);
+- [**Provincia autonoma di Trento**, PNRR Piano Nazionale di Ripresa e Resilienza](https://www.provincia.tn.it/Argomenti/Focus/PNRR-Piano-Nazionale-di-Ripresa-e-Resilienza).
 
 Se ne conosci altre, segnalacelo [qui](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions)
