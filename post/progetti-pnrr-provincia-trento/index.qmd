@@ -5,10 +5,12 @@ description-meta: "La Provincia di Trento ha pubblicato le informazioni sui prog
 website:
   twitter-card:
     description: "La Provincia di Trento ha pubblicato le informazioni sui progetti che ricadono nel suo territorio"
+    image: pnrr-provincia-trento.png
   open-graph:
     description: "La Provincia di Trento ha pubblicato le informazioni sui progetti che ricadono nel suo territorio"
+    image: pnrr-provincia-trento.png
 date: "2023-07-10"
-draft: true
+draft: false
 categories:
   - pnrr
   - dati
