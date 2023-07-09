@@ -10,7 +10,49 @@
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.43</generator>
-<lastBuildDate>Mon, 19 Jun 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 10 Jul 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Progetti PNRR in Provincia autonoma di Trento</title>
+  <link>https://pnrr.datibenecomune.it/post/progetti-pnrr-provincia-trento/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>La <strong>Provincia autonoma di Trento</strong> ha pubblicato un dataset denominato “<a href="https://dati.trentino.it/dataset/progetti-pnrr-in-provincia-autonoma-di-trento"><strong>Progetti PNRR in Provincia autonoma di Trento</strong></a>”, contiene le informazioni relative ai progetti del Piano Nazionale di Ripresa e Resilienza (PNRR) che ricadono sul suo territorio.</p>
+<blockquote class="blockquote">
+<p>Si tratta di una estrazione dalle banche dati <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=@jcr:content/observationDateInEvidence&amp;sort=desc" title="ReGIS">ReGIS</a> e <a href="https://bdap-operatori.rgs.mef.gov.it/Pagine/Default.aspx" title="BDAP-MOP">BDAP-MOP</a> (Banca Dati Amministrazioni Pubbliche - Monitoraggio opere pubbliche) con alcune integrazioni di dati locali.</p>
+</blockquote>
+<p>Sono oggi circa <strong>1.850 progetti</strong>, relativi a circa <strong>1.700 codici CUP</strong>.</p>
+<p>Sulla pagina del dataset diverse informazioni aggiuntive, e la descrizione dei campi.<br> Al momento c’è un errore nei campi con gli importi: è presente il separatore delle migliaia. Va rimosso, altrimenti la gran parte dei programmi e dei linguaggi di scripting li interpreteranno quei valori come stringhe di testo e non come numeri (ad esempio <code>489.353,90</code> è da modificare in <code>489353,90</code>).</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Il catalogo nazionale dei dati aperti
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Riusciamo a fare questi aggiornamenti, tutte le volte che un dataset è indicizzato anche nel <a href="https://dati.gov.it/">catalogo nazionale dei dati aperti</a>. Utilizziamo uno script che fa periodicamente le <strong>ricerche su un’unica fonte dati</strong>, e veniamo avvisati quando ci sono nuove pubblicazioni.<br> Questo è un esempio dell’importanza - per una Pubblica Amministrazione - di fare in modo che i propri dati siano indicizzati anche nel catalogo nazionale.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://dati.trentino.it/dataset/progetti-pnrr-in-provincia-autonoma-di-trento"><img src="https://pnrr.datibenecomune.it/post/progetti-pnrr-provincia-trento/pnrr-provincia-trento.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
+  <category>pnrr</category>
+  <category>dati</category>
+  <guid>https://pnrr.datibenecomune.it/post/progetti-pnrr-provincia-trento/index.html</guid>
+  <pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/progetti-pnrr-provincia-trento/pnrr-provincia-trento.png" medium="image" type="image/png" height="82" width="144"/>
+</item>
 <item>
   <title>Aggiornamento dati ReGiS, PNRR</title>
   <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis/index.html</link>
