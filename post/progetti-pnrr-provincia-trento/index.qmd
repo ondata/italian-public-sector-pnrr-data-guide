@@ -17,7 +17,7 @@ categories:
 image: pnrr-provincia-trento.png
 ---
 
-La **Provincia autonoma di Trento** ha pubblicato un dataset denominato "[**Progetti PNRR in Provincia autonoma di Trento**](https://dati.trentino.it/dataset/progetti-pnrr-in-provincia-autonoma-di-trento)", contiene le informazioni relative ai progetti del Piano Nazionale di Ripresa e Resilienza (PNRR) che ricadono sul suo territorio.
+La **Provincia autonoma di Trento** ha pubblicato un dataset denominato "[**Progetti PNRR in Provincia autonoma di Trento**](https://dati.trentino.it/dataset/progetti-pnrr-in-provincia-autonoma-di-trento)"; contiene le informazioni relative ai progetti del Piano Nazionale di Ripresa e Resilienza (PNRR) che ricadono sul suo territorio.
 
 > Si tratta di una estrazione dalle banche dati [ReGIS](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&amp;sort=desc "ReGIS") e [BDAP-MOP](https://bdap-operatori.rgs.mef.gov.it/Pagine/Default.aspx "BDAP-MOP") (Banca Dati Amministrazioni Pubbliche - Monitoraggio opere pubbliche) con alcune integrazioni di dati locali.
 
