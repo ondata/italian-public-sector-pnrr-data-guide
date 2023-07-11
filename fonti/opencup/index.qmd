@@ -25,7 +25,8 @@ Il CUP è strumento atto a **identificare univocamente ogni progetto d'investime
 
 ::: {.callout-caution}
 ## Attenzione
-**Al momento su OpenCUP non sono pubblicate tutte le nature progettuali**, ma **soltanto** quelle relative ai progetti di investimento pubblico "**Lavori Pubblici, Incentivi alle imprese e Contributi per calamità naturali**". Quindi ad esempio i `CUP` di progetti PNRR della categoria "acquisto/realizzazione di servizi" - come quelli di [PA Digitale 2026](https://padigitale2026.gov.it/opendata/) - non sono inclusi.
+**Al momento sul sito di OpenCUP non sono pubblicate tutte le nature progettuali**, ma **soltanto** quelle relative ai progetti di investimento pubblico "**Lavori Pubblici, Incentivi alle imprese e Contributi per calamità naturali**". Quindi ad esempio i `CUP` di progetti PNRR della categoria "acquisto/realizzazione di servizi" - come quelli di [PA Digitale 2026](https://padigitale2026.gov.it/opendata/) - non sono inclusi.<br>
+**Nota bene**: nei **dati aperti** dei **Focus PNRR** ci sono tutti i progetti candidati PNRR, per i quali è stata validata la tematica al momento della generazione del codice CUP  (compreso il "digitale").
 :::
 
 ## Dati PNRR
