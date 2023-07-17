@@ -117,11 +117,11 @@ Sul portale ANAC è disponibile la [sezione _Analytics_](https://dati.anticorruz
 E a ogni CIG è associata una pagina web. L'indirizzo ha questo schema di URL:<br>
 
 ```{.markdown}
-https://dati.anticorruzione.it/superset/dettaglio_cig/cig
+https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=xxxxxx
 ```
 
 Quindi ad esempio nel caso del codice CUP `918052266A`, l'URL sarà<br>
-<https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A>.
+<https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=918052266A>.
 
 È molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.
 
