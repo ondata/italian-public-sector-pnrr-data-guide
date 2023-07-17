@@ -284,7 +284,7 @@
     "href": "fonti/anac/index.html#la-pagina-web-di-un-cig",
     "title": "ANAC",
     "section": "La pagina web di un CIG",
-    "text": "La pagina web di un CIG\nSul portale ANAC è disponibile la sezione Analytics in cui è possibile visualizzare in modo interattivo dei dati di riepilogo così come fare delle ricerche per CIG. E a ogni CIG è associata una pagina web. L’indirizzo ha questo schema di URL:\nhttps://dati.anticorruzione.it/superset/dettaglio_cig/cig\nQuindi ad esempio nel caso del codice CUP 918052266A, l’URL sarà https://dati.anticorruzione.it/superset/dettaglio_cig/918052266A.\nÈ molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP."
+    "text": "La pagina web di un CIG\nSul portale ANAC è disponibile la sezione Analytics in cui è possibile visualizzare in modo interattivo dei dati di riepilogo così come fare delle ricerche per CIG. E a ogni CIG è associata una pagina web. L’indirizzo ha questo schema di URL:\nhttps://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=xxxxxx\nQuindi ad esempio nel caso del codice CUP 918052266A, l’URL sarà https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=918052266A.\nÈ molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP."
   },
   {
     "objectID": "fonti/anac/index.html#fare-una-ricerca-sul-portale-anac",
