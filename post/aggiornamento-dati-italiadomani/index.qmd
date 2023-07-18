@@ -1,0 +1,52 @@
+---
+title: "Aggiornamento dati PNRR"
+description: "Tante novità sui dati pubblicati su Italiadomani"
+description-meta: "Tante novità sui dati pubblicati su Italiadomani"
+website:
+  twitter-card:
+    description: "Tante novità sui dati pubblicati su Italiadomani"
+    image: indicatori-cup.png
+  open-graph:
+    description: "Tante novità sui dati pubblicati su Italiadomani"
+    image: indicatori-cup.png
+date: "2023-07-18"
+draft: false
+categories:
+  - italiadomani
+  - dati
+  - ReGiS
+image: italiadomani-opendata.png
+---
+
+
+Ieri - **17 luglio 2023** - sono stati **pubblicati** e/o **aggiornati** sul catalogo dei dati aperti di **Italiadomani** **tanti dati** sul Piano Nazionale di Ripresa e Resilienza (**PNRR**); Italiadomani è il sito ufficiale del Piano.
+
+In questo post non entreremo nel dettaglio, ma sottolineeremo alcuni elementi e inseriamo i link per accedere ai dati.
+
+## Nuovi dati
+
+Tra i nuovi dati c'è un importante novità, quella degli **Indicatori**. È un dataset che **per la prima volta** restituisce, per **ogni CUP** (Codice Unico di Progetto), le informazioni su tipologia di indicatore (comune o target), descrizione indicatore, unità di misura, **valore programmato** e **valore realizzato**.<br>
+Per la prima volta è possibile leggere come si sta **realizzando** il PNRR, come sta "**avanzando**".
+
+![Esempio dei contenuti del dataset "Indicatori"](indicatori-cup.png)
+
+L'altro dataset nuovo è quello su "Gare Subappaltatori e componenti Raggruppamenti Temporanei di Impresa" che associa a **ogni CUP/CLP** (Codice Locale di Progetto) le informazioni sulle **gare** **aggiudicate** a **Raggruppamenti Temporanei di Impresa** (RTI) o affidate dagli aggiudicatari ai **Subappaltatori**.
+
+A seguire i link ai due dataset (sia in versione "validata" che Universo, ovvero non ancora "validata"):
+
+- [Indicatori](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/indicatori.html)
+- [Universo ReGiS - Indicatori](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---indicatori.html)
+- [Gare Subappaltatori e componenti RTI (Raggruppamenti Temporanei di Impresa) PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-subappaltatori-componenti-rti-pnrr.html)
+- [Universo ReGiS - Gare Subappaltatori e componenti RTI (Raggruppamenti Temporanei di Impresa) PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-subappaltatori-e-compone.html)
+
+
+## Aggiornamento dati
+
+Questi dataset invece sono stati aggiornati a una nuova versione. Non abbiamo ancora analizzato i dettagli, ma ci sono sicuramente delle variazioni nei contenuti.
+
+- [Gare Aggiudicatari del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-pnrr.html), versione 3.1;
+- [Universo ReGiS - Gare Aggiudicatari PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-aggiudicatari-pnrr.html), versione 2.1;
+- [Universo ReGiS - Localizzazione del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html), versione 2.1;
+- [Mappatura indicatori comuni del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/mappatura-indicatori-comuni.html), versione 3;
+- [Universo ReGiS - Progetti](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html), versione 2.1;
+- [Tag Progetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/tag-progetti-pnrr.html), versione 2.1.
