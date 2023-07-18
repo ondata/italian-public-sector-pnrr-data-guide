@@ -12,7 +12,7 @@ website:
 date: "2023-07-18"
 draft: false
 categories:
-  - italiadomani
+  - Italiadomani
   - dati
   - ReGiS
 image: italiadomani-opendata.png

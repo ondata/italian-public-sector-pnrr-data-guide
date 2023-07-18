@@ -13,7 +13,7 @@ categories:
   - regioni
   - anac
   - dati
-  - italiaDomani
+  - Italiadomani
   - ReGiS
 image: localizzazioni-regis.png
 ---
