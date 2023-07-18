@@ -10,7 +10,58 @@
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.43</generator>
-<lastBuildDate>Mon, 10 Jul 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 18 Jul 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Aggiornamento dati PNRR</title>
+  <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-italiadomani/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Ieri - <strong>17 luglio 2023</strong> - sono stati <strong>pubblicati</strong> e/o <strong>aggiornati</strong> sul catalogo dei dati aperti di <strong>Italiadomani</strong> <strong>tanti dati</strong> sul Piano Nazionale di Ripresa e Resilienza (<strong>PNRR</strong>); Italiadomani è il sito ufficiale del Piano.</p>
+<p>In questo post non entreremo nel dettaglio, ma sottolineeremo alcuni elementi e inseriamo i link per accedere ai dati.</p>
+<section id="nuovi-dati" class="level2">
+<h2 class="anchored" data-anchor-id="nuovi-dati">Nuovi dati</h2>
+<p>Tra i nuovi dati c’è un importante novità, quella degli <strong>Indicatori</strong>. È un dataset che <strong>per la prima volta</strong> restituisce, per <strong>ogni CUP</strong> (Codice Unico di Progetto), le informazioni su tipologia di indicatore (comune o target), descrizione indicatore, unità di misura, <strong>valore programmato</strong> e <strong>valore realizzato</strong>.<br> Per la prima volta è possibile leggere come si sta <strong>realizzando</strong> il PNRR, come sta “<strong>avanzando</strong>”.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://pnrr.datibenecomune.it/post/aggiornamento-dati-italiadomani/indicatori-cup.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Esempio dei contenuti del dataset “Indicatori”</figcaption>
+</figure>
+</div>
+<p>L’altro dataset nuovo è quello su “Gare Subappaltatori e componenti Raggruppamenti Temporanei di Impresa” che associa a <strong>ogni CUP/CLP</strong> (Codice Locale di Progetto) le informazioni sulle <strong>gare</strong> <strong>aggiudicate</strong> a <strong>Raggruppamenti Temporanei di Impresa</strong> (RTI) o affidate dagli aggiudicatari ai <strong>Subappaltatori</strong>.</p>
+<p>A seguire i link ai due dataset (sia in versione “validata” che Universo, ovvero non ancora “validata”):</p>
+<ul>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/indicatori.html">Indicatori</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---indicatori.html">Universo ReGiS - Indicatori</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-subappaltatori-componenti-rti-pnrr.html">Gare Subappaltatori e componenti RTI (Raggruppamenti Temporanei di Impresa) PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-subappaltatori-e-compone.html">Universo ReGiS - Gare Subappaltatori e componenti RTI (Raggruppamenti Temporanei di Impresa) PNRR</a></li>
+</ul>
+</section>
+<section id="aggiornamento-dati" class="level2">
+<h2 class="anchored" data-anchor-id="aggiornamento-dati">Aggiornamento dati</h2>
+<p>Questi dataset invece sono stati aggiornati a una nuova versione. Non abbiamo ancora analizzato i dettagli, ma ci sono sicuramente delle variazioni nei contenuti.</p>
+<ul>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-pnrr.html">Gare Aggiudicatari del PNRR</a>, versione 3.1;</li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-aggiudicatari-pnrr.html">Universo ReGiS - Gare Aggiudicatari PNRR</a>, versione 2.1;</li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html">Universo ReGiS - Localizzazione del PNRR</a>, versione 2.1;</li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/mappatura-indicatori-comuni.html">Mappatura indicatori comuni del PNRR</a>, versione 3;</li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html">Universo ReGiS - Progetti</a>, versione 2.1;</li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/tag-progetti-pnrr.html">Tag Progetti del PNRR</a>, versione 2.1.</li>
+</ul>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
+  <category>italiadomani</category>
+  <category>dati</category>
+  <category>ReGiS</category>
+  <guid>https://pnrr.datibenecomune.it/post/aggiornamento-dati-italiadomani/index.html</guid>
+  <pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/aggiornamento-dati-italiadomani/italiadomani-opendata.png" medium="image" type="image/png" height="103" width="144"/>
+</item>
 <item>
   <title>Progetti PNRR in Provincia autonoma di Trento</title>
   <link>https://pnrr.datibenecomune.it/post/progetti-pnrr-provincia-trento/index.html</link>
