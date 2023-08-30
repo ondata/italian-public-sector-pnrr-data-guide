@@ -90,7 +90,7 @@ columns = data_info['column_count'].iloc[0]
 formatted_rows = '{:,}'.format(rows).replace(',', '.')
 
 display_markdown(f'''
-È composto da {formatted_rows} righe e {columns} colonne e in @tbl-esempio è possibile vedere un paio di righe di esempio. Quindi, i progetti non validati sono **{formatted_rows}**.
+È composto da {formatted_rows} righe e {columns} colonne e in @tbl-esempio è possibile vedere un paio di righe di esempio. Quindi, i progetti della serie universo sono **{formatted_rows}**.
 ''', raw=True)
 
 ```
