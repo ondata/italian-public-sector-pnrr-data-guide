@@ -1,0 +1,16 @@
+table > caption {
+  text-align: left !important;
+}
+
+.long-url {
+  word-wrap: break-word;
+}
+
+span.long-url a {
+  word-wrap: break-word;
+}
+
+
+#title-block-header > div.quarto-title-banner.page-columns.page-full > div * {
+  color: white;
+}
