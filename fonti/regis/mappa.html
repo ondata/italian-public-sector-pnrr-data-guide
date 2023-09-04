@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it-IT" xml:lang="it-IT"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.43">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Mappe ReGiS, per esplorare geograficamente i dati di dettaglio del PNRR pubblicati su Italiadomani">
+
+<title>Dati aperti sul PNRR - Mappe ReGiS</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../fonti/opencup/index.html" rel="next">
+<link href="../../fonti/regis/index.html" rel="prev">
+<link href="../../images/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Nessun risultato",
+    "search-matching-documents-text": "documenti trovati",
+    "search-copy-link-title": "Copiare il link nella ricerca",
+    "search-hide-matches-text": "Nascondere i risultati aggiuntivi",
+    "search-more-match-text": "ci sono altri risultati in questo documento",
+    "search-more-matches-text": "ulteriori risultati in questo documento",
+    "search-clear-button-title": "Pulire",
+    "search-detached-cancel-button-title": "Cancellare",
+    "search-submit-button-title": "Inviare"
+  }
+}</script>
+<link rel="alternate" type="application/rss+xml" title="Dati aperti sul PNRR - aggiornamenti" href="https://pnrr.datibenecomune.it/notizie.xml">
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Dati aperti sul PNRR - Mappe ReGiS">
+<meta property="og:description" content="Mappe ReGiS, per esplorare geograficamente i dati di dettaglio del PNRR pubblicati su Italiadomani">
+<meta property="og:image" content="https://pnrr.datibenecomune.it/fonti/regis/mappa-dati-regis-guenter-richter.png">
+<meta property="og:site-name" content="Dati aperti sul PNRR">
+<meta property="og:locale" content="it_IT">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="Dati aperti sul PNRR - Mappe ReGiS">
+<meta name="twitter:description" content="Mappe ReGiS, per esplorare geograficamente i dati di dettaglio del PNRR pubblicati su Italiadomani">
+<meta name="twitter:image" content="https://pnrr.datibenecomune.it/fonti/regis/mappa-dati-regis-guenter-richter.png">
+<meta name="twitter:creator" content="@ondatait">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
+</head>
+
+<body class="nav-sidebar floating nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Ricerca"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Attiva/disattiva la navigazione" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../../fonti/regis/mappa.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Mappa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../notizie.html" rel="" target="">
+ <span class="menu-text">Aggiornamenti</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">Informazioni</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.datibenecomune.it/" rel="" target="_blank">
+ <span class="menu-text">datiBeneComune</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+    <a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide" title="Questo progetto su GitHub" class="quarto-navigation-tool px-1" aria-label="Questo progetto su GitHub"><i class="bi bi-github"></i></a>
+    <a href="https://pnrr.datibenecomune.it/notizie.xml" title="Per rimanere aggiornati" class="quarto-navigation-tool px-1" aria-label="Per rimanere aggiornati"><i class="bi bi-rss"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Attiva/disattiva la barra laterale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../fonti/fonti.html">Fonti</a></li><li class="breadcrumb-item"><a href="../../fonti/regis/index.html">ReGiS</a></li><li class="breadcrumb-item"><a href="../../fonti/regis/mappa.html">Mappa</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Attiva/disattiva la barra laterale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../introduzione.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduzione</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../monitoraggio/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Monitoraggio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../fonti/fonti.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fonti</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Attiva/disattiva sezione">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../fonti/regis/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ReGiS</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Attiva/disattiva sezione">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../fonti/regis/mappa.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Mappa</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../fonti/opencup/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">OpenCUP</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Attiva/disattiva sezione">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../fonti/opencup/focus-pnrr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Focus PNRR</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../fonti/anac/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ANAC</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Attiva/disattiva sezione">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../fonti/anac/informazioni-cig.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Estrarre i dati ANAC</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../fonti/scp/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Servizio Contratti Pubblici</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false" aria-label="Attiva/disattiva sezione">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../fonti/scp/informazioni-scp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Estrarre i dati SCP</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../fonti/openbdap/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">OpenBDAP</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../fonti/rna/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Registro Aiuti di Stato</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../fonti/altre-pa/regioni.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Regioni italiane</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../guide/procedura-esempio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Esempio estrazione dati</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../strumenti/foia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FOIA</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../rete-pnrr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rete monitoraggio PNRR</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false" aria-label="Attiva/disattiva sezione">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../datibenecomune.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">datiBeneComune</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../osservatorio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Osservatorio PNRR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../openpnrr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Open PNRR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://www.monithon.eu/it/" class="sidebar-item-text sidebar-link" target="&quot;_blank&quot;">
+ <span class="menu-text">Monithon</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://www.thinktankperiod.org/" class="sidebar-item-text sidebar-link" target="&quot;_blank&quot;">
+ <span class="menu-text">think tank Period</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../quinto-piano-governo-aperto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">OGP e altre iniziative istituzionali</span></a>
+  </div>
+</li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://vorrei.datibenecomune.it/" class="sidebar-item-text sidebar-link" target="&quot;_blank&quot;">
+ <span class="menu-text">I dati che vorrei</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">In questa pagina</h2>
+   
+  <ul>
+  <li><a href="#condividere-la-visualizzazione-della-mappa-che-hai-creato" id="toc-condividere-la-visualizzazione-della-mappa-che-hai-creato" class="nav-link active" data-scroll-target="#condividere-la-visualizzazione-della-mappa-che-hai-creato">Condividere la visualizzazione della mappa che hai creato</a></li>
+  <li><a href="#incorporare-la-mappa-in-una-pagina-web" id="toc-incorporare-la-mappa-in-una-pagina-web" class="nav-link" data-scroll-target="#incorporare-la-mappa-in-una-pagina-web">Incorporare la mappa in una pagina web</a></li>
+  <li><a href="#costruire-filtri-di-visualizzazione-a-mano" id="toc-costruire-filtri-di-visualizzazione-a-mano" class="nav-link" data-scroll-target="#costruire-filtri-di-visualizzazione-a-mano">Costruire filtri di visualizzazione “a mano”</a></li>
+  <li><a href="#dati-utilizzati-per-la-mappa" id="toc-dati-utilizzati-per-la-mappa" class="nav-link" data-scroll-target="#dati-utilizzati-per-la-mappa">Dati utilizzati per la mappa</a></li>
+  <li><a href="#la-presentazione-della-mappa-dei-dati-regis" id="toc-la-presentazione-della-mappa-dei-dati-regis" class="nav-link" data-scroll-target="#la-presentazione-della-mappa-dei-dati-regis">La presentazione della mappa dei dati ReGiS</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/fonti/regis/mappa.qmd" class="toc-action">Modifica questa pagina</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mappe ReGiS</h1>
+<p class="subtitle lead">Per esplorare i dati di dettaglio del PNRR di Italiadomani</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><strong>Nota bene</strong>: la mappa è aggiornata ai dati ReGiS estratti a marzo del 2023. Su Italiadomani ci sono dati più aggiornati. La mappa verrà aggiornata a breve.</p>
+<hr>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Questa non è la mappa del PNRR<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Questa mappa rappresenta i progetti pubblicati sul <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=@jcr:content/observationDateInEvidence&amp;sort=desc">catalogo open data di Italiadomani</a>, ovvero sul <strong>sito ufficiale del Piano</strong>.<br> La fonte di questi dati è <a href="../../fonti/regis/index.html"><strong>ReGiS</strong></a>, il sistema di rendicontazione e controllo delle misure e dei progetti finanziati dal Piano Nazionale di Ripresa e Resilienza. In particolare i dati “Universo ReGiS”.</p>
+</div>
+</div>
+<p><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html"><span class="btn btn-primary">👉 Apri la mappa</span></a></p>
+<p>I dati di dettaglio sul Piano Nazionale di Ripresa e Resilienza da <a href="../../fonti/regis/index.html"><strong>fonte ReGiS</strong></a> - pubblicati a metà aprile 2023 - contengono le informazioni di <a href="../../fonti/regis/index.html#universo-regis---localizzazione-del-pnrr">localizzazione</a> dei progetti.</p>
+<p>Questi i numeri per i dati “Universo ReGiS”, ad aprile 2023:</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>I dataset <strong>Universo</strong> fanno riferimento a tutti i progetti su ReGiS alla data di estrazione, indipendentemente dall’essere stati sottoposti o meno al <strong>processo di validazione</strong>.</p>
+</div></div><ul>
+<li>164.482 record;</li>
+<li>128.950 codici CUP;</li>
+<li>20 regioni;</li>
+<li>107 province;</li>
+<li>7.916 Comuni (sono più degli attuali 7.901, perché probabilmente c’è traccia dei nomi Comuni cambiati da inizio PNRR);</li>
+<li>1.950 record in cui è presente anche l’indirizzo.</li>
+</ul>
+<p>A partire da questi dati <a href="https://www.facebook.com/guenter.richter"><strong>Guenter Richter</strong></a> (<strong>grazie</strong> ❣️) ha creato una <a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html"><strong>mappa interattiva</strong></a> per <strong>esplorare geograficamente</strong> i dati di dettaglio del PNRR pubblicati su <strong>Italiadomani</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Non è ottimizzata per la visualizzazione da <em>smartphone</em>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ti consigliamo di visualizzarla da <em>personal computer</em>.</p>
+</div>
+</div>
+<div id="fig-map-regis" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html"><img src="images/mappa-regis-03.png" class="img-fluid figure-img" alt="Mappe ReGiS, per esplorare geograficamente i dati di dettaglio del PNRR pubblicati su Italiadomani"></a></p>
+<figcaption class="figure-caption">Figura&nbsp;1: Mappa dei dati di localizzazione dei progetti PNRR</figcaption>
+</figure>
+</div>
+<p>Ci sono 4 sezioni principali di <a href="#fig-map-regis">interfaccia</a>:</p>
+<ol type="1">
+<li>quella dedicata alla mappa, in cui <strong>spostarla</strong> facendo <em>click</em> e trascinandola, oppure fare <strong>zoom avanti</strong> e <strong>indietro</strong> con la rotellina del <em>mouse</em>;</li>
+<li>quella con il riepilogo dei <strong>conteggi</strong> sulle <strong>6 Missioni</strong> del PNRR;</li>
+<li>quella con i <strong>conteggi</strong> del <strong>numero</strong> di <strong>progetti visibili in mappa</strong> e il loro <strong>valore complessivo</strong> in euro;</li>
+<li>quella che contiene, scorrendola, numerosi <strong>elenchi di valori univoci</strong> contenuti nei dati originali (Regione, Provincia, Missione, Submisura, ecc.) con i <strong>conteggi correlati</strong>, che possono essere usati anche come <strong>filtro</strong>. E in fondo a questa sezione c’è il pulsante per <strong>condividere</strong> la <strong>mappa</strong> che è stata creata (vedi <a href="#condividere-la-visualizzazione-della-mappa-che-hai-creato">qui</a>).</li>
+</ol>
+<p>Quest’ultima è molto comoda: facendo <em>click</em> su un valore univoco (esempio: Roma), questo diventa un filtro della colonna <code>Descrizione Comune</code> e la barra con il nome della colonna diventa rossa (tutti filtri attivi sono in rosso, con una ‘x’ per rimuoverli).</p>
+<p>In <a href="#fig-map-regis-animata" class="quarto-xref">Figura&nbsp;2</a> è possibile vedere un’animazione del funzionamento di base della mappa: come al cambio di visualizzazione geografica cambino i conteggi (sono sempre aggiornati a ciò che si vede in mappa), come al <em>click</em> su uno dei filtri disponibili sulla destra venga estratto un sotto insieme dei dati, e come rimuovere un filtro applicato.</p>
+<div class="column-page">
+<div id="fig-map-regis-animata" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/mappe-regis.gif" class="img-fluid figure-img" alt="GIF animata che mostra come funziona la mappa ReGiS"></p>
+<figcaption class="figure-caption">Figura&nbsp;2: Esempio di utilizzo della mappa</figcaption>
+</figure>
+</div>
+</div>
+<p>Tra i dati ce ne è diversi non associati a un Comune in particolare, perché sono di <strong>ambito nazionale</strong>. Per dare conto in mappa anche di questi, è stata creata una piccola Italia, che si può vedere in <a href="#fig-map-regis-italietta" class="quarto-xref">Figura&nbsp;3</a>.</p>
+<div id="fig-map-regis-italietta" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/italietta.png" class="img-fluid figure-img" alt="la piccola Italia in mappa è dare conto dei progetti nazionali"></p>
+<figcaption class="figure-caption">Figura&nbsp;3: Una piccola Italia, per dare conto dei progetti nazionali</figcaption>
+</figure>
+</div>
+<section id="condividere-la-visualizzazione-della-mappa-che-hai-creato" class="level2">
+<h2 class="anchored" data-anchor-id="condividere-la-visualizzazione-della-mappa-che-hai-creato">Condividere la visualizzazione della mappa che hai creato</h2>
+<p>Se vuoi condividere una mappa, con una serie di filtri applicati, centrata su una parte di tuo interesse, puoi farlo in questo modo:</p>
+<ol type="1">
+<li>fai click su <code>link</code> in “Crea link condivisibile”;</li>
+<li>copia il link che appare e incollalo dove vuoi (chat, e-mail, ecc.).</li>
+</ol>
+<div id="fig-map-regis-condividi" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/mappa-regis-crea-url.png" class="img-fluid figure-img" alt="Mappa ReGiS come condividere una visualizzazione personalizzata"></p>
+<figcaption class="figure-caption">Figura&nbsp;4: Creare link per condividere una vista personalizzata</figcaption>
+</figure>
+</div>
+<p><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE &quot;Descrizione Regione&quot; = &quot;CALABRIA&quot; AND &quot;missione&quot; = &quot;M2&quot;&amp;view=[39.07677595221322,16.707458496093754],8">Questo</a> ad esempio il <em>link</em> a una mappa con i soli <strong>progetti</strong> della <strong>Missione 2</strong> “Rivoluzione verde e transizione ecologica”, localizzati in <strong>Calabria</strong>.</p>
+</section>
+<section id="incorporare-la-mappa-in-una-pagina-web" class="level2">
+<h2 class="anchored" data-anchor-id="incorporare-la-mappa-in-una-pagina-web">Incorporare la mappa in una pagina web</h2>
+<p>Si può usare una sintassi come quella sottostante, e inserire come <code>src</code> anche un URL personalizzto come quello di sopra.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;iframe</span> <span class="er">id</span><span class="ot">=</span><span class="st">"map"</span> <span class="er">width</span><span class="ot">=</span><span class="st">"1024px"</span> <span class="er">height</span><span class="ot">=</span><span class="st">"840"</span> <span class="er">frameborder</span><span class="ot">=</span><span class="st">"0"</span> <span class="er">scrolling</span><span class="ot">=</span><span class="st">"no"</span> <span class="er">marginheight</span><span class="ot">=</span><span class="st">"0"</span> <span class="er">marginwidth</span><span class="ot">=</span><span class="st">"0"</span> <span class="er">src</span><span class="ot">=</span><span class="st">"https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE%20%22Descrizione%20Regione%22%20=%20%22CALABRIA%22%20AND%20%22missione%22%20=%20%22M2%22</span><span class="er">&amp;</span><span class="st">view=[39.07677595221322,16.707458496093754],8"</span><span class="kw">&gt;&lt;/iframe&gt;</span></span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="costruire-filtri-di-visualizzazione-a-mano" class="level2">
+<h2 class="anchored" data-anchor-id="costruire-filtri-di-visualizzazione-a-mano">Costruire filtri di visualizzazione “a mano”</h2>
+<p>L’URL di base della mappa è questo:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Per applicare un filtro bisogna aggiungere una o più condizioni, o nella forma <code>WHERE "campo" = "valore"</code> o <code>WHERE "campo" like  "valore"</code>, preceduti da <code>?filter=</code>.</p>
+<p>I campi utilizzabili per definire filtri sono:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>Codice Univoco submisura</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>Descrizione Submisura</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>CUP</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>Codice Locale Progetto</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>Descrizione Regione</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>Descrizione Provincia</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>Descrizione Comune</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>Indirizzo</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>CAP</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>Data di Estrazione</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>missione</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>Descrizione Misura</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>CUP Descrizione Categoria</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>CUP Descrizione Settore</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>PROCOM</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>importo</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>Sintesi progetto</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>Soggetto attuatore</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>Denominazione Aggiudicatario</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Quindi se si vogliono filtrare tutti i progetti in cui la <code>Descrizione Misura</code> è uguale a <code>Creazione di imprese femminili</code>, all’URL di base bisognerà aggiungere:</p>
+<p><code>WHERE "Descrizione Misura" = "Creazione di imprese femminili"</code></p>
+<p>Ovvero</p>
+<p><span class="long-url"><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE &quot;Descrizione Misura&quot; = &quot;Creazione di imprese femminili&quot;">https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE “Descrizione Misura” = “Creazione di imprese femminili”</a></span></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Spazio e virgolette
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Negli URL al posto dello spazio bisogna usare <code>%20</code>, mentre per le <code>"</code> bisogna usare <code>%22</code>.</p>
+</div>
+</div>
+<p>È possibile combinare più filtri, separandoli con <code>AND</code>:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>WHERE "Soggetto attuatore" = "DIPARTIMENTO PER LE POLITICHE GIOVANILI" AND "Descrizione Regione" = "SICILIA"</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Ovvero:</p>
+<p><span class="long-url"><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE &quot;Soggetto attuatore&quot; = &quot;DIPARTIMENTO PER LE POLITICHE GIOVANILI&quot; AND &quot;Descrizione Regione&quot; = &quot;SICILIA&quot;">https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE%20%22Soggetto%20attuatore%22%20=%20%22DIPARTIMENTO%20PER%20LE%20POLITICHE%20GIOVANILI%22%20AND%20%22Descrizione%20Regione%22%20=%20%22SICILIA%22</a></span></p>
+<p>E all’URL si possono aggiungere i parametri per <strong>scegliere</strong> la <strong>scala di zoom</strong> e la <strong>posizione</strong> iniziale del <strong>centro</strong> della <strong>mappa</strong>, nella forma <code>view=[latitudine,longitudine],zoom</code>.</p>
+<p><span class="long-url"><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE &quot;Soggetto attuatore&quot; = &quot;CITTA' METROPOLITANA DI TORINO&quot;&amp;view=[45.31546044422575,7.698669433593751],8">https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE%20%22Soggetto%20attuatore%22%20=%20%22CITTA%27%20METROPOLITANA%20DI%20TORINO%22&amp;view=[45.31546044422575,7.698669433593751],8</a></span></p>
+<p>L’operatore <code>like</code> nelle condizione di filtro consente di fare ricerche di <strong>una porzione di testo</strong>. Quindi se si vogliono ad esempio filtrare tutti i progetti in cui il “Soggetto attuatore” è una “Città Metropolitana”, si può scrivere: <code>WHERE "Soggetto attuatore" like "metropolitana"</code>, ovvero:</p>
+<p><span class="long-url"><a href="https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE &quot;Soggetto attuatore&quot; like &quot;metropolitana&quot;">https://gjrichter.github.io/pages/PNRR/index_embed_Open_Data_PNRR_Dati_Universo_REGIS.html?filter=WHERE%20%22Soggetto%20attuatore%22%20like%20%22metropolitana%22</a></span></p>
+</section>
+<section id="dati-utilizzati-per-la-mappa" class="level2">
+<h2 class="anchored" data-anchor-id="dati-utilizzati-per-la-mappa">Dati utilizzati per la mappa</h2>
+<p>Per realizzare questa mappa sono stati utilizzati questi dati:</p>
+<ul>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-aggiudicatari-pnrr.html">Universo ReGiS - Gare Aggiudicatari PNRR</a>;</li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html">Universo ReGiS - Localizzazione del PNRR</a>;</li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html">Universo ReGiS - Progetti</a>.</li>
+</ul>
+<p>In particolare quelli con data di osservazione “1 marzo, 2023”.</p>
+</section>
+<section id="la-presentazione-della-mappa-dei-dati-regis" class="level2">
+<h2 class="anchored" data-anchor-id="la-presentazione-della-mappa-dei-dati-regis">La presentazione della mappa dei dati ReGiS</h2>
+<p>Qui una presentazione curata dall’Associazione onData:</p>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/kpFlqgjlGak" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+<hr>
+<p>🫶 <strong>Grazie mille</strong> a <a href="https://www.facebook.com/guenter.richter"><strong>Guenter Richter</strong></a> per avere creato questo strumento.</p>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Partecipa
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Se vuoi fare delle <strong>proposte</strong> su questo vademecum, se vuoi <strong>raccontarci</strong> come l’hai usato, se hai bisogno di <strong>aiuto</strong> in merito, ecco <a href="../../partecipa.html">come fare</a>.</p>
+</div>
+</div>
+
+
+</section>
+<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Grazie <a href="https://twitter.com/cirospat">Ciro Spataro</a>, per averci suggerito di inserire questa nota.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiato!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiato!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, function() {
+      let href = xref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        if (id.startsWith('sec-')) {
+          // Special case sections, only their first couple elements
+          const container = document.createElement("div");
+          if (note.children && note.children.length > 2) {
+            for (let i = 0; i < 2; i++) {
+              container.appendChild(note.children[i].cloneNode(true));
+            }
+            return container.innerHTML
+          } else {
+            return note.innerHTML;
+          }
+        } else {
+          return note.innerHTML;
+        }
+      } else {
+        return "";
+      }
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("^.*pnrr\.datibenecomune\.it\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../../fonti/regis/index.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">ReGiS</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../../fonti/opencup/index.html" class="pagination-link">
+        <span class="nav-page-text">OpenCUP</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">a cura di <a href="https://www.ondata.it/">onData</a></div>   
+    <div class="nav-footer-center"><a href="../../about.html#licenza">Licenza</a></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ondata/italian-public-sector-pnrr-data-guide">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../notizie.xml">
+      <i class="bi bi-rss" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
