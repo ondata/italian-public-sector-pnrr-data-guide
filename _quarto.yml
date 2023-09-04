@@ -1,7 +1,5 @@
 project:
   type: website
-  render:
-    - "!note-compilazione.md"
   output-dir: docs
   resources:
   - "googlecd08604f4edafe6e.html"
