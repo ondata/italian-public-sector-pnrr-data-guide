@@ -34,7 +34,7 @@ for (( i=1; i<=ultima; i++ )); do
 done
 
 # converte in HTML
-sort "$folder"/tmp.txt | uniq >"$folder"/lista.txt
-sort "$folder"/tmp.txt | uniq | sed 's|.*|- <&>|' | \
+sort "$folder"/tmp.txt | sort | uniq >"$folder"/lista.txt
+sort "$folder"/tmp.txt | sort | uniq | sed 's|.*|- <&>|' | \
 pandoc -f markdown -s -t html --metadata title="catalogo opendata italiadomani" >"$folder"/../../data/italia-domani/web/catalogo-opendata.html
 
