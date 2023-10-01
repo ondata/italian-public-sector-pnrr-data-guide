@@ -26,6 +26,9 @@ for (( i=1; i<=ultima; i++ )); do
 
     echo "Chiamata CURL: $url"
 
+#    curl -kL  $url \
+#    -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' >>"$folder"/tmp.html
+
     curl -kL  $url \
     -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' | \
     scrape -be '//span[@data-url]' | xq -r '"https://www.italiadomani.gov.it" + .html.body.span[]."@data-url"' | sed 's/ /%20/g' >>"$folder"/tmp.txt
