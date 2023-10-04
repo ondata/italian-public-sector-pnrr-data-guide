@@ -10,7 +10,80 @@
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.43</generator>
-<lastBuildDate>Tue, 18 Jul 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 04 Oct 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Nuovi dati ANAC a tema PNRR</title>
+  <link>https://pnrr.datibenecomune.it/post/nuovi-dataset-pnrr-anac/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Il 3 ottobre 2023 l’Autorità Nazionale Anticorruzione (ANAC) ha pubblicato** due nuovi dataset a tema PNRR**:</p>
+<ul>
+<li><a href="https://dati.anticorruzione.it/opendata/dataset/indicatori-pnrrpnc"><strong>Indicatori PNRR/PNC</strong></a></li>
+<li><a href="https://dati.anticorruzione.it/opendata/dataset/misurepremiali-pnrrpnc"><strong>Misure premiali PNRR/PNC</strong></a></li>
+</ul>
+<p>Il primo riguarda le “<strong>quote di inclusione</strong>” ed eventuali deroghe alla norma sulle <strong>pari opportunità</strong>, per i bandi di gara che utilizzano fondi PNRR/PNC (art. 47 del decreto 77 del 31 maggio 2021).<br> È simile al già pubblicato “<a href="https://dati.anticorruzione.it/opendata/dataset/bandi-pnrr">Bandi PNRR</a>”, con in più due colonne che danno delle <strong>eventuali deroghe alla norma</strong>.</p>
+<p>Il secondo riguarda l’elenco delle <strong>misure premiali</strong> che attribuiscono un punteggio aggiuntivo all’offerente o al candidato, per i soli bandi di gara che utilizzano fondi PNRR/PNC e che presentano ulteriori misure premiali nell’avviso o nell’invito. In Tabella&nbsp;1 sono riportati tre righe di esempio.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota bene
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Una novità importante è quella della <strong>frequenza di aggiornamento</strong> dei <strong>dati</strong> <strong>ANAC</strong> a tema <strong>PNRR</strong>: saranno anch’essi aggiornati <strong>ogni mese</strong>.</p>
+</div>
+</div>
+<div id="tbl-misurepremiali" class="anchored">
+<div class="table-responsive">
+<table class="table-striped table-hover table-sm small table">
+<caption>Tabella&nbsp;1: Tre righe di esempio</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>cig</th>
+<th>cod_mis_premiale</th>
+<th>misura_premiale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>9886765095</td>
+<td>4</td>
+<td>SI IMPEGNI AD ASSUMERE, OLTRE ALLA SOGLIA MINIMA PERCENTUALE PREVISTA COME REQUISITO DI PARTECIPAZIONE, DONNE PER L’ESECUZIONE DEL CONTRATTO O PER LA REALIZZAZIONE DI ATTIVITÀ AD ESSO CONNESSE O STRUMENTALI</td>
+</tr>
+<tr class="even">
+<td>9886765095</td>
+<td>5</td>
+<td>SI IMPEGNI AD ASSUMERE, OLTRE ALLA SOGLIA MINIMA PERCENTUALE PREVISTA COME REQUISITO DI PARTECIPAZIONE GIOVANI DI ETÀ INFERIORE A TRENTASEI ANNI PER L’ESECUZIONE DEL CONTRATTO O PER LA REALIZZAZIONE DI ATTIVITÀ AD ESSO CONNESSE O STRUMENTALI</td>
+</tr>
+<tr class="odd">
+<td>9890621EA3</td>
+<td>1</td>
+<td>NEI TRE ANNI ANTECEDENTI LA DATA DI SCADENZA DEL TERMINE DI PRESENTAZIONE DELLE OFFERTE, NON RISULTI DESTINATARIO DI ACCERTAMENTI RELATIVI AD ATTI O COMPORTAMENTI DISCRIMINATORI AI SENSI DELL’ARTICOLO 44 DEL D.LGS 25 LUGLIO 1998, N. 286, DELL’ARTICOLO 4 DEL 9 LUGLIO 2003, N. 215, DELL’ARTICOLO 4 DEL D.LGS 9 LUGLIO 2003, N. 216, DELL’ARTICOLO 3 DELLA LEGGE 1° MARZO 2006, N. 67, DEGLI ARTICOLI 35 E 55-QUINQUIES DEL D.LGS. 11 APRILE 2006, N. 198, OVVERO DELL’ARTICOLO 54 DEL D.LGS. 26 MARZO 2001, N. 151</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
+  <category>anac</category>
+  <guid>https://pnrr.datibenecomune.it/post/nuovi-dataset-pnrr-anac/index.html</guid>
+  <pubDate>Wed, 04 Oct 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/nuovi-dataset-pnrr-anac/opendata_anac.png" medium="image" type="image/png" height="67" width="144"/>
+</item>
 <item>
   <title>Aggiornamento dati PNRR</title>
   <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-italiadomani/index.html</link>
