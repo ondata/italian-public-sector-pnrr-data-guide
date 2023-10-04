@@ -13,6 +13,7 @@ date: "2023-10-04"
 draft: false
 categories:
   - anac
+  - dati
 image: opendata_anac.png
 ---
 

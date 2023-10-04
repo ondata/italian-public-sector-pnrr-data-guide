@@ -1,0 +1,34 @@
+---
+title: "Italiadomani, aggiornamento dati"
+description: "Nuovi aggiornamenti e ottimizzazione dataset"
+description-meta: "Aggiornati i dati da fonte ReGiS e creati due nuovi dataset, uno dedicato alle gare e uno agli Aggiudicatari"
+website:
+  twitter-card:
+    description: "Aggiornati i dati da fonte ReGis e creati due nuovi dataset, uno dedicato alle gare e uno agli Aggiudicatari"
+    image: "italiadomani-opendata.png"
+  open-graph:
+    description: "Aggiornati i dati da fonte ReGis e creati due nuovi dataset, uno dedicato alle gare e uno agli Aggiudicatari"
+    image: "italiadomani-opendata.png"
+date: "2023-10-04"
+draft: false
+categories:
+  - regis
+  - italiadomani
+  - dati
+image: italiadomani-opendata.png
+---
+
+![](italiadomani-opendata.png)
+
+Il **27 settembre 2023** è stata data [notizia](https://www.italiadomani.gov.it/content/sogei-ng/it/it/news/catalogo-open-data--nuovi-aggiornamenti-e-ottimizzazione-dataset.html) dell'**aggiornamento** dei **dati** pubblicati nel [Catalogo Open Data di **Italiadomani**](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc).
+
+> Gli ultimi interventi evolutivi hanno visto coinvolti i flussi relativi alle procedure di aggiudicazione.
+>
+> Quanto fino ad oggi riportato nel dataset “Gare Aggiudicatari PNRR” è infatti adesso consultabile in due distinti dataset:uno dedicato alle Gare, con l’evidenza dell’elenco delle rispettive **procedure**; l’altro dedicato agli **Aggiudicatari**.
+
+Questi i **nuovi dataset**:
+
+- [Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-del-pnrr.html)
+- [Universo ReGiS - Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-del-pnrr.html)
+- [Aggiudicatari Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/aggiudicatari-gare-del-pnrr.html)
+- [Universo ReGiS - Aggiudicatari Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis-aggiudicatari-gare-del-pnrr.html)
