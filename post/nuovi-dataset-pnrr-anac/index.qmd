@@ -5,8 +5,10 @@ description-meta: "Le informazioni su quote di inclusione e eventuali deroghe, e
 website:
   twitter-card:
     description: "Le informazioni su quote di inclusione e eventuali deroghe, e quelle sulle misure premiali"
+    image: "opendata_anac.png"
   open-graph:
     description: "Le informazioni su quote di inclusione e eventuali deroghe, e quelle sulle misure premiali"
+    image: "opendata_anac.png"
 date: "2023-10-04"
 draft: false
 categories:
