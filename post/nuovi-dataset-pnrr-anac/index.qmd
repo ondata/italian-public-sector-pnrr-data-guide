@@ -16,7 +16,7 @@ categories:
 image: opendata_anac.png
 ---
 
-Il 3 ottobre 2023 l'Autorità Nazionale Anticorruzione (ANAC) ha pubblicato** due nuovi dataset a tema PNRR**:
+Il 3 ottobre 2023 l'Autorità Nazionale Anticorruzione (ANAC) ha pubblicato **due nuovi dataset a tema PNRR**:
 
 - [**Indicatori PNRR/PNC**](https://dati.anticorruzione.it/opendata/dataset/indicatori-pnrrpnc)
 - [**Misure premiali PNRR/PNC**](https://dati.anticorruzione.it/opendata/dataset/misurepremiali-pnrrpnc)
