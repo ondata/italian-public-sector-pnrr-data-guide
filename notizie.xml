@@ -10,7 +10,42 @@
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.43</generator>
-<lastBuildDate>Wed, 04 Oct 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 11 Oct 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Pubblicati i dati di Cresce Bologna</title>
+  <link>https://pnrr.datibenecomune.it/post/pubblicati-dati-cresce-bologna/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://pnrr.datibenecomune.it/post/pubblicati-dati-cresce-bologna/cresce-bologna.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">I dati di Cresce Bologna su mappa</figcaption>
+</figure>
+</div>
+<p>Il 10 ottobre 2023 il <strong>Comune di Bologna</strong> ha pubblicato sul suo portale Open Data i dati del <strong>progetto Cresce Bologna</strong>: <a href="https://opendata.comune.bologna.it/explore/dataset/progetti_cresce_bologna" class="uri">https://opendata.comune.bologna.it/explore/dataset/progetti_cresce_bologna</a></p>
+<blockquote class="blockquote">
+<p><a href="https://crescebologna.it/">Cresce Bologna</a> è uno spazio online dedicato al racconto delle <strong>iniziative</strong> e dei <strong>progetti</strong> promossi dal <strong>Comune</strong> e dalla <strong>Città metropolitana di Bologna</strong> e finanziati attraverso risorse <strong>PNRR</strong>, <strong>PON Metro 2014-2020</strong> e <strong>FSC</strong>. L’obiettivo è offrire a cittadini, imprese, associazioni di categoria, sindacati e altri enti attuatori delle iniziative un luogo virtuale, in cui trovare un’introduzione chiara e completa dei progetti, dei programmi e delle strategie che si stanno attuando per lo sviluppo economico e sociale dell’area comunale e metropolitana.</p>
+</blockquote>
+<p>Alcuni punti di interesse:</p>
+<ul>
+<li>per ogni riga della tabella dati, è presente l’URL alla pagina di progetto (ad esempio <a href="https://crescebologna.it/progetti/demolizione-e-ricostruzione-delle-nuove-scuole-armandi-avogli">questa</a>);</li>
+<li>il file è disponibile anche in formato geografico, perché (ove possibile) a ogni riga è stata associata una coppia di coordinate geografiche;</li>
+<li>sono presenti i dati su inizio e fine lavori, e lo stato dei lavori (in corso, concluso, ecc.).</li>
+</ul>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
+  <category>bologna</category>
+  <category>dati</category>
+  <category>comuni</category>
+  <guid>https://pnrr.datibenecomune.it/post/pubblicati-dati-cresce-bologna/index.html</guid>
+  <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/pubblicati-dati-cresce-bologna/cresce-bologna.png" medium="image" type="image/png" height="78" width="144"/>
+</item>
 <item>
   <title>Italiadomani, aggiornamento dati</title>
   <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis-gare/index.html</link>
