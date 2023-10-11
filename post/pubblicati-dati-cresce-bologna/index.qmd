@@ -1,13 +1,13 @@
 ---
 title: "Pubblicati i dati di Cresce Bologna"
-description: "Cresce Bologna è uno spazio dedicato al racconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
-description-meta: "Cresce Bologna è uno spazio onlineto al racconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
+description: "Uno spazio dedicato al racconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
+description-meta: "Uno spazio dedicato al racconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
 website:
   twitter-card:
-    description: "Cresce Bologna è uno spazio online dedicaacconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
+    description: "Uno spazio dedicato al racconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
     image: "cresce-bologna.png"
   open-graph:
-    description: "Cresce Bologna è uno spazio online dedicaacconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
+    description: "Uno spazio dedicato al racconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
     image: "cresce-bologna.png"
 date: "2023-10-11"
 draft: false
