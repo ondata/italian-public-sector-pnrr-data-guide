@@ -38,6 +38,9 @@ done
 
 # converte in HTML
 sort "$folder"/tmp.txt | sort | uniq >"$folder"/lista.txt
+sort "$folder"/tmp.txt | sort | uniq >>"$folder"/lista_all_time.txt
+sort -u "$folder"/lista_all_time.txt >"$folder"/lista_all_time.txt.tmp
+mv "$folder"/lista_all_time.txt.tmp "$folder"/lista_all_time.txt
 sort "$folder"/tmp.txt | sort | uniq | sed 's|.*|- <&>|' | \
 pandoc -f markdown -s -t html --metadata title="catalogo opendata italiadomani" >"$folder"/../../data/italia-domani/web/catalogo-opendata.html
 
