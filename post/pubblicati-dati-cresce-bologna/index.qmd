@@ -1,0 +1,32 @@
+---
+title: "Pubblicati i dati di Cresce Bologna"
+description: "Cresce Bologna è uno spazio dedicato al racconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
+description-meta: "Cresce Bologna è uno spazio onlineto al racconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
+website:
+  twitter-card:
+    description: "Cresce Bologna è uno spazio online dedicaacconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
+    image: "cresce-bologna.png"
+  open-graph:
+    description: "Cresce Bologna è uno spazio online dedicaacconto delle iniziative e dei progetti promossi dal Comune e dalla Città metropolitana di Bologna e finanziati attraverso risorse PNRR, PON Metro 2014-2020 e FSC"
+    image: "cresce-bologna.png"
+date: "2023-10-11"
+draft: false
+categories:
+  - bologna
+  - dati
+  - comuni
+image: cresce-bologna.png
+---
+
+![I dati di Cresce Bologna su mappa](cresce-bologna.png)
+
+Il 10 ottobre 2023 il **Comune di Bologna** ha pubblicato sul suo portale Open Data i dati del **progetto Cresce Bologna**:
+<https://opendata.comune.bologna.it/explore/dataset/progetti_cresce_bologna>
+
+> [Cresce Bologna](https://crescebologna.it/) è uno spazio online dedicato al racconto delle **iniziative** e dei **progetti** promossi dal **Comune** e dalla **Città metropolitana di Bologna** e finanziati attraverso risorse **PNRR**, **PON Metro 2014-2020** e **FSC**. L'obiettivo è offrire a cittadini, imprese, associazioni di categoria, sindacati e altri enti attuatori delle iniziative un luogo virtuale, in cui trovare un'introduzione chiara e completa dei progetti, dei programmi e delle strategie che si stanno attuando per lo sviluppo economico e sociale dell'area comunale e metropolitana.
+
+Alcuni punti di interesse:
+
+- per ogni riga della tabella dati, è presente l'URL alla pagina di progetto (ad esempio [questa](https://crescebologna.it/progetti/demolizione-e-ricostruzione-delle-nuove-scuole-armandi-avogli));
+- il file è disponibile anche in formato geografico, perché (ove possibile) a ogni riga è stata associata una coppia di coordinate geografiche;
+- sono presenti i dati su inizio e fine lavori, e lo stato dei lavori (in corso, concluso, ecc.).
