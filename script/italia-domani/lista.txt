@@ -30,6 +30,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/gare/PNRR_Gare.xl
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_mappatura_indicatori_comuni.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_mappatura_indicatori_comuni.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_mappatura_indicatori_comuni.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/lista-regolamento-ue-2023-435/PNRR_Lista_Reg_UE.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/lista-regolamento-ue-2023-435/PNRR_Lista_Reg_UE.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/localizzazione/PNRR_Localizzazione.csv
@@ -56,6 +59,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/nuovi-open-data/a
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/nuovi-open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni_v2.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/nuovi-open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni_v2.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/nuovi-open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni_v2.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/nuovi-open-data/indicatori-comuni/OpenData_PNRR_mappatura_indicatori_comuni_v2.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/nuovi-open-data/indicatori-comuni/OpenData_PNRR_mappatura_indicatori_comuni_v2.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/nuovi-open-data/indicatori-comuni/OpenData_PNRR_mappatura_indicatori_comuni_v2.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/nuovi-open-data/localizzazione-del-pnrr/PNRR_Localizzazione-Dati_Validati.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/nuovi-open-data/localizzazione-del-pnrr/PNRR_Localizzazione-Dati_Validati.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/nuovi-open-data/localizzazione-del-pnrr/PNRR_Localizzazione-Dati_Validati.xlsx
@@ -153,6 +159,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr-progetti-un
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_avanzamento_indicatori_comuni/OpenData_PNRR_avanzamento_indicatori_comuni_v3.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_avanzamento_indicatori_comuni/OpenData_PNRR_avanzamento_indicatori_comuni_v3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_avanzamento_indicatori_comuni/OpenData_PNRR_avanzamento_indicatori_comuni_v3.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_mappatura_indicatori_comuni/OpenData_PNRR_mappatura_indicatori_comuni_v4.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_mappatura_indicatori_comuni/OpenData_PNRR_mappatura_indicatori_comuni_v4.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_mappatura_indicatori_comuni/OpenData_PNRR_mappatura_indicatori_comuni_v4.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_dati_validati/PNRR_Soggetti-Dati_Validati_v4.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_dati_validati/PNRR_Soggetti-Dati_Validati_v4.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_dati_validati/PNRR_Soggetti-Dati_Validati_v4.xlsx
@@ -201,6 +210,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/localizzazione/PN
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/m-t-programmazione/PNRR_MeT_OAprogrammazione_v04.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/m-t-programmazione/PNRR_MeT_OAprogrammazione_v04.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/m-t-programmazione/PNRR_MeT_OAprogrammazione_v04.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/mappatura-indicatori-comuni/OpenData_PNRR_mappatura_indicatori_comuni_v3.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/mappatura-indicatori-comuni/OpenData_PNRR_mappatura_indicatori_comuni_v3.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/mappatura-indicatori-comuni/OpenData_PNRR_mappatura_indicatori_comuni_v3.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/progetti-dati-validati/PNRR_Progetti_Dati_Validati_v3.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/progetti-dati-validati/PNRR_Progetti_Dati_Validati_v3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/progetti-dati-validati/PNRR_Progetti_Dati_Validati_v3.xlsx
