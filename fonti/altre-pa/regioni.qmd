@@ -31,6 +31,7 @@ A seguire un elenco di quelle PA che hanno curato la **pubblicazione** di **prop
 - [L'andamento in **Emilia-Romagna** del PNRR](https://pnrr.regione.emilia-romagna.it/);
 - [PNRR **Valle d'Aosta**](https://www.regione.vda.it/PNRR/default_i.aspx);
 - [**Regione Liguria**,  PNRR (Piano Nazionale di Ripresa e Resilienza) e PNC (Piano Nazionale Complementare)](https://pnrr.regione.liguria.it/);
-- [**Provincia autonoma di Trento**, PNRR Piano Nazionale di Ripresa e Resilienza](https://www.provincia.tn.it/Argomenti/Focus/PNRR-Piano-Nazionale-di-Ripresa-e-Resilienza).
+- [**Provincia autonoma di Trento**, PNRR Piano Nazionale di Ripresa e Resilienza](https://www.provincia.tn.it/Argomenti/Focus/PNRR-Piano-Nazionale-di-Ripresa-e-Resilienza);
+- [**Il PNRR in Veneto**](https://lookerstudio.google.com/embed/reporting/847d2bcb-cf3b-48df-b71a-1a0f497de888/page/p_ntdi3cjc6c).
 
 Se ne conosci altre, segnalacelo [qui](https://github.com/ondata/italian-public-sector-pnrr-data-guide/discussions)
