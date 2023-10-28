@@ -36,6 +36,6 @@ In questo modo - vedi righe di esempio di sotto - è possibile **filtrare** solt
 
 <br>
 
-Questo aggiornamento sul contenuto della banca dati ha avuto pure un effetto pure sulla [*dashboard* interattiva](https://dati.anticorruzione.it/superset/dashboard/appalti/) realizzata da ANAC, per esplorare i dati della "Banca Dati Nazionale dei Contratti Pubblici": nell'interfaccia è presente un menu a tendina per applicare il "**_flag_**" PNNR/PNC come **filtro** (vedi @fig-flag-anac-analytics).
+Questo aggiornamento sul contenuto della banca dati ha avuto pure un effetto sulla [*dashboard* interattiva](https://dati.anticorruzione.it/superset/dashboard/appalti/) realizzata da ANAC, per esplorare i dati della "Banca Dati Nazionale dei Contratti Pubblici": nell'interfaccia è presente un menu a tendina per applicare il "**_flag_**" PNNR/PNC come **filtro** (vedi @fig-flag-anac-analytics).
 
 [![La dashboard interattiva di ANAC](anac-analytics.png){#fig-flag-anac-analytics}](https://dati.anticorruzione.it/superset/dashboard/appalti/)
