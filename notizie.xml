@@ -286,7 +286,7 @@
 </table>
 </div>
 <p><br></p>
-<p>Questo aggiornamento sul contenuto della banca dati ha avuto pure un effetto pure sulla <a href="https://dati.anticorruzione.it/superset/dashboard/appalti/"><em>dashboard</em> interattiva</a> realizzata da ANAC, per esplorare i dati della “Banca Dati Nazionale dei Contratti Pubblici”: nell’interfaccia è presente un menu a tendina per applicare il “<strong><em>flag</em></strong>” PNNR/PNC come <strong>filtro</strong> (vedi Figura&nbsp;1).</p>
+<p>Questo aggiornamento sul contenuto della banca dati ha avuto pure un effetto sulla <a href="https://dati.anticorruzione.it/superset/dashboard/appalti/"><em>dashboard</em> interattiva</a> realizzata da ANAC, per esplorare i dati della “Banca Dati Nazionale dei Contratti Pubblici”: nell’interfaccia è presente un menu a tendina per applicare il “<strong><em>flag</em></strong>” PNNR/PNC come <strong>filtro</strong> (vedi Figura&nbsp;1).</p>
 <div id="fig-flag-anac-analytics" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><a href="https://dati.anticorruzione.it/superset/dashboard/appalti/"><img src="https://pnrr.datibenecomune.it/post/aggiornamento-dati-anac-flag-pnrr/anac-analytics.png" class="img-fluid figure-img"></a></p>
