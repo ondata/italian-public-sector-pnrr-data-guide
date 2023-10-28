@@ -367,6 +367,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#fare-una-ricerca-sul-portale-anac" id="toc-fare-una-ricerca-sul-portale-anac" class="nav-link" data-scroll-target="#fare-una-ricerca-sul-portale-anac">Fare una ricerca sul Portale ANAC</a></li>
   <li><a href="#il-dataset-bandi-pnrr" id="toc-il-dataset-bandi-pnrr" class="nav-link" data-scroll-target="#il-dataset-bandi-pnrr">Il dataset “Bandi PNRR”</a></li>
   <li><a href="#il-dataset-bando-cig" id="toc-il-dataset-bando-cig" class="nav-link" data-scroll-target="#il-dataset-bando-cig">Il dataset “Bando CIG”</a></li>
+  <li><a href="#indicatori-e-misure-premiali-pnrrpnc" id="toc-indicatori-e-misure-premiali-pnrrpnc" class="nav-link" data-scroll-target="#indicatori-e-misure-premiali-pnrrpnc">Indicatori e Misure premiali PNRR/PNC</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/fonti/anac/index.qmd" class="toc-action">Modifica questa pagina</a></p></div></div></nav>
     </div>
@@ -426,7 +427,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tbody>
 </table>
 </div>
-<div id="766f2d53" class="cell" data-execution_count="2">
+<div id="5e32c7a0" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-display">
 <p>Alcune informazioni su questo dataset:</p>
 <ul>
@@ -492,7 +493,7 @@ Questo dataset non più pubblicato da settembre 2023
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La sua funzione è stata direttamente integrata ne dataset sui <a href="#il-dataset-bando-cig">bandi</a>.</p>
+<p>La sua funzione è stata direttamente integrata nel dataset sui <a href="#il-dataset-bando-cig">bandi</a> e in quelli su <a href="#indicatori-e-misure-premiali-pnrrpnc">Indicatori e Misure premiali PNRR/PNC</a>.</p>
 </div>
 </div>
 <p>Il 20 aprile 2023 - poco più di un mese dopo la pubblicazione di questo <em>vademecum</em> - l’ANAC ha pubblicato il <em>dataset</em> “<a href="https://dati.anticorruzione.it/opendata/dataset/bandi-pnrr">Bandi PNRR</a>”:</p>
@@ -935,6 +936,65 @@ boolean
 </tr>
 </tbody>
 </table>
+</div>
+</section>
+<section id="indicatori-e-misure-premiali-pnrrpnc" class="level2">
+<h2 class="anchored" data-anchor-id="indicatori-e-misure-premiali-pnrrpnc">Indicatori e Misure premiali PNRR/PNC</h2>
+<p>Il 3 ottobre 2023 l’Autorità Nazionale Anticorruzione (ANAC) ha pubblicato <strong>due nuovi dataset a tema PNRR</strong>:</p>
+<ul>
+<li><a href="https://dati.anticorruzione.it/opendata/dataset/indicatori-pnrrpnc"><strong>Indicatori PNRR/PNC</strong></a></li>
+<li><a href="https://dati.anticorruzione.it/opendata/dataset/misurepremiali-pnrrpnc"><strong>Misure premiali PNRR/PNC</strong></a></li>
+</ul>
+<p>Il primo riguarda le “<strong>quote di inclusione</strong>” ed eventuali deroghe alla norma sulle <strong>pari opportunità</strong>, per i bandi di gara che utilizzano fondi PNRR/PNC (art. 47 del decreto 77 del 31 maggio 2021).<br> È simile al già pubblicato “<a href="#il-dataset-bandi-pnrr">Bandi PNRR</a>”, con in più due colonne che danno delle <strong>eventuali deroghe alla norma</strong>.</p>
+<p>Il secondo riguarda l’elenco delle <strong>misure premiali</strong> che attribuiscono un punteggio aggiuntivo all’offerente o al candidato, per i soli bandi di gara che utilizzano fondi PNRR/PNC e che presentano ulteriori misure premiali nell’avviso o nell’invito. In <a href="#tbl-misurepremiali" class="quarto-xref">Tabella&nbsp;1</a> sono riportati tre righe di esempio.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota bene
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Una novità importante è quella della <strong>frequenza di aggiornamento</strong> dei <strong>dati</strong> <strong>ANAC</strong> a tema <strong>PNRR</strong>: saranno anch’essi aggiornati <strong>ogni mese</strong>.</p>
+</div>
+</div>
+<div id="tbl-misurepremiali" class="anchored">
+<div class="table-responsive">
+<table class="table-striped table-hover table-sm small table">
+<caption>Tabella&nbsp;1: Tre righe di esempio del dataset sulle Misure premiali</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>cig</th>
+<th>cod_mis_premiale</th>
+<th>misura_premiale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>9886765095</td>
+<td>4</td>
+<td>SI IMPEGNI AD ASSUMERE, OLTRE ALLA SOGLIA MINIMA PERCENTUALE PREVISTA COME REQUISITO DI PARTECIPAZIONE, DONNE PER L’ESECUZIONE DEL CONTRATTO O PER LA REALIZZAZIONE DI ATTIVITÀ AD ESSO CONNESSE O STRUMENTALI</td>
+</tr>
+<tr class="even">
+<td>9886765095</td>
+<td>5</td>
+<td>SI IMPEGNI AD ASSUMERE, OLTRE ALLA SOGLIA MINIMA PERCENTUALE PREVISTA COME REQUISITO DI PARTECIPAZIONE GIOVANI DI ETÀ INFERIORE A TRENTASEI ANNI PER L’ESECUZIONE DEL CONTRATTO O PER LA REALIZZAZIONE DI ATTIVITÀ AD ESSO CONNESSE O STRUMENTALI</td>
+</tr>
+<tr class="odd">
+<td>9890621EA3</td>
+<td>1</td>
+<td>NEI TRE ANNI ANTECEDENTI LA DATA DI SCADENZA DEL TERMINE DI PRESENTAZIONE DELLE OFFERTE, NON RISULTI DESTINATARIO DI ACCERTAMENTI RELATIVI AD ATTI O COMPORTAMENTI DISCRIMINATORI AI SENSI DELL’ARTICOLO 44 DEL D.LGS 25 LUGLIO 1998, N. 286, DELL’ARTICOLO 4 DEL 9 LUGLIO 2003, N. 215, DELL’ARTICOLO 4 DEL D.LGS 9 LUGLIO 2003, N. 216, DELL’ARTICOLO 3 DELLA LEGGE 1° MARZO 2006, N. 67, DEGLI ARTICOLI 35 E 55-QUINQUIES DEL D.LGS. 11 APRILE 2006, N. 198, OVVERO DELL’ARTICOLO 54 DEL D.LGS. 26 MARZO 2001, N. 151</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <hr>
 <div class="callout callout-style-default callout-note callout-titled">
