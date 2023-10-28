@@ -1,4 +1,7 @@
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/PNRR_%20Aggiudicatari_Gare-Universo_REGIS_V2.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/monitoraggio-delle-misure-del-pnrr-attraverso-gli-indicatori-di-sviluppo-sostenibile-(sdgs)-e-dell'agenda-2030-/Mappatura_PNRR_SNSvS_Agenda2030_v3.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/monitoraggio-delle-misure-del-pnrr-attraverso-gli-indicatori-di-sviluppo-sostenibile-(sdgs)-e-dell'agenda-2030-/Mappatura_PNRR_SNSvS_Agenda2030_v3.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/monitoraggio-delle-misure-del-pnrr-attraverso-gli-indicatori-di-sviluppo-sostenibile-(sdgs)-e-dell'agenda-2030-/Mappatura_PNRR_SNSvS_Agenda2030_v3.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/pnrr_aggiudicatari_gare-dati_validati/PNRR_Aggiudicatari_Gare-Dati_Validati.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/pnrr_aggiudicatari_gare-dati_validati/PNRR_Aggiudicatari_Gare-Dati_Validati.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/pnrr_aggiudicatari_gare-dati_validati/PNRR_Aggiudicatari_Gare-Dati_Validati.xlsx
