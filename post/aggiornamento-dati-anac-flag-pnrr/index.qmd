@@ -1,5 +1,5 @@
 ---
-title: "Aggiornamento dati PNRR"
+title: "ANAC: aggiornamento dati PNRR"
 description: "Inserito il flag PNRR nei bandi"
 description-meta: "Inserito il flag PNRR nei bandi"
 website:
