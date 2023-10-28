@@ -1,0 +1,41 @@
+---
+title: "Aggiornamento dati PNRR"
+description: "Inserito il flag PNRR nei bandi"
+description-meta: "Inserito il flag PNRR nei bandi"
+website:
+  twitter-card:
+    description: "Inserito il flag PNRR nei bandi"
+    image: anac-cig-flag-pnrr.png
+  open-graph:
+    description: "Inserito il flag PNRR nei bandi"
+    image: anac-cig-flag-pnrr.png
+date: "2023-10-28"
+draft: false
+categories:
+  - ANAC
+  - dati
+  - PNRR
+image: anac-cig-flag-pnrr.png
+---
+
+
+Il [dataset dei **bandi di gara**](https://dati.anticorruzione.it/opendata/dataset?q=cig-) dell'Autorità Nazionale Anticorruzione (ANAC) è probabilmente quello più scaricato di questa importante fonte di dati aperti:
+
+> Il bando è un documento attraverso il quale la stazione appaltante rende pubbliche le informazioni su una procedura di selezione del contraente, determinando gli elementi dell'appalto o della procedura di gara ed invitando le imprese a presentare un'offerta entro un termine prefissato. I dataset BandiCIG contengono i dati essenziali sulle gare di valore superiore a 40.000E pubblicate nel periodo di riferimento.
+
+È stato aggiornato con l'aggiunta di un **nuovo campo** `FLAG_PNRR_PNC` che indica **se il bando** è stato pubblicato nell'**ambito del Piano Nazionale di Ripresa e Resilienza** (PNRR) o del **Piano Nazionale per gli investimenti Complementari al PNRR** ([PNC](https://www.italiadomani.gov.it/it/il-piano/Risorse/piano-complementare/piano-nazionale-complementare.html)).<br>
+In questo modo - vedi righe di esempio di sotto - è possibile **filtrare** soltanto i bandi che fanno parte di questi due piani di investimento (il valore è `1`, quando un bando ne fa parte).
+
+
+| FLAG_PNRR_PNC | cig | cig_accordo_quadro | numero_gara | oggetto_gara | importo_complessivo_gara | n_lotti_componenti | oggetto_lotto | importo_lotto | oggetto_principale_contratto | stato | settore | luogo_istat | provincia | data_pubblicazione | data_scadenza_offerta | cod_tipo_scelta_contraente | tipo_scelta_contraente | cod_modalita_realizzazione | modalita_realizzazione | codice_ausa | cf_amministrazione_appaltante | denominazione_amministrazione_appaltante | sezione_regionale | id_centro_costo | denominazione_centro_costo | anno_pubblicazione | mese_pubblicazione | cod_cpv | descrizione_cpv | flag_prevalente | COD_MOTIVO_CANCELLAZIONE | MOTIVO_CANCELLAZIONE | DATA_CANCELLAZIONE | DATA_ULTIMO_PERFEZIONAMENTO | COD_MODALITA_INDIZIONE_SPECIALI | MODALITA_INDIZIONE_SPECIALI | COD_MODALITA_INDIZIONE_SERVIZI | MODALITA_INDIZIONE_SERVIZI | DURATA_PREVISTA | COD_STRUMENTO_SVOLGIMENTO | STRUMENTO_SVOLGIMENTO | FLAG_URGENZA | COD_MOTIVO_URGENZA | MOTIVO_URGENZA | FLAG_DELEGA | FUNZIONI_DELEGATE | CF_SA_DELEGANTE | DENOMINAZIONE_SA_DELEGANTE | CF_SA_DELEGATA | DENOMINAZIONE_SA_DELEGATA | IMPORTO_SICUREZZA | TIPO_APPALTO_RISERVATO | CUI_PROGRAMMA | FLAG_PREV_RIPETIZIONI | COD_IPOTESI_COLLEGAMENTO | IPOTESI_COLLEGAMENTO | CIG_COLLEGAMENTO | COD_ESITO | ESITO | DATA_COMUNICAZIONE_ESITO |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0 | A00964419F |  | 9295540 | SERVIZIO DI RACCOLTA E TRASPORTO RIFIUTI BIODEGRADABILI PER IL PERIODO DAL 01.10.2023 AL 30.04.2024 | 130000.0 | 1 | SERVIZIO DI RACCOLTA E TRASPORTO RIFIUTI BIODEGRADABILI PER IL PERIODO DAL 01.10.2023 AL 30.04.2024 | 130000.0 | SERVIZI | ATTIVO | SETTORI ORDINARI | 021006 | BOLZANO | 2023-08-31 | 2023-09-11 | 34 | PROCEDURA NEGOZIATA PER AFFIDAMENTI SOTTO SOGLIA | 1 | CONTRATTO D'APPALTO | 0000240893 | 81006190219 | COMUNE DI BADIA | SEZIONE REGIONALE PROVINCIA AUTONOMA DI BOLZANO | 4913CFD5-198C-4B89-B013-552CDA4384A9 | COMUNE BADIA | 2023 | 08 | 90511200-4 | SERVIZI DI RACCOLTA DI RIFIUTI DOMESTICI | 1 |  |  |  | 2023-08-31 |  |  |  |  | 210.0 | 5.0 | PROCEDURE SVOLTE ATTRAVERSO PIATTAFORME TELEMATICHE DI NEGOZIAZIONE ART.58 | 0 |  |  |  |  |  |  |  |  | 0.0 |  |  | 0 |  |  |  | 3.0 | DESERTA | 2023-09-11 |
+| 1 | A0032FC3AC |  | 9272237 | SERVIZIO DI PROGETTAZIONE DEFINITIVA ED ESECUTIVA PER LA RIFUNZIONALIZZAZIONE DELL'IMPIANTO DI DEPURAZIONE SITO IN LOC. RENARO NEL COMUNE DI ORTE | 90000.0 | 1 | SERVIZIO DI PROGETTAZIONE DEFINITIVA ED ESECUTIVA PER LA RIFUNZIONALIZZAZIONE DELL'IMPIANTO DI DEPURAZIONE SITO IN LOC. RENARO NEL COMUNE DI ORTE | 90000.0 | SERVIZI | ATTIVO | SETTORI SPECIALI |  |  | 2023-08-08 | 2023-08-22 | 24 | AFFIDAMENTO DIRETTO | 1 | CONTRATTO D'APPALTO | 0000188921 | 01767320565 | TALETE - GESTIONE SII ATO 1 - SOCIETA PER AZIONI (IN FORMA ABBREVIATA TALETE S.P.A.) | SEZIONE REGIONALE LAZIO | 7A585F51-E79F-4508-8EAA-1AD81A5EEFA7 | UFFICIO TECNICO | 2023 | 08 | 71322000-1 | SERVIZI DI PROGETTAZIONE TECNICA PER LA COSTRUZIONE DI OPERE DI INGEGNERIA CIVILE | 1 |  |  |  | 2023-08-31 | 4.0 | PROCEDURA CHE NON PREVEDE INDIZIONE DI GARA |  |  | 30.0 | 5.0 | PROCEDURE SVOLTE ATTRAVERSO PIATTAFORME TELEMATICHE DI NEGOZIAZIONE ART.58 | 0 |  |  |  |  |  |  |  |  |  |  |  | 0 |  |  |  |  |  |  |
+
+: Due righe di esempio dei dati sui bandi {.sm .striped .responsive}
+
+<br>
+
+Questo aggiornamento sul contenuto della banca dati ha avuto pure un effetto pure sulla [*dashboard* interattiva](https://dati.anticorruzione.it/superset/dashboard/appalti/) realizzata da ANAC, per esplorare i dati della "Banca Dati Nazionale dei Contratti Pubblici": nell'interfaccia è presente un menu a tendina per applicare il "**_flag_**" PNNR/PNC come **filtro** (vedi @fig-flag-anac-analytics).
+
+[![La dashboard interattiva di ANAC](anac-analytics.png){#fig-flag-anac-analytics}](https://dati.anticorruzione.it/superset/dashboard/appalti/)
