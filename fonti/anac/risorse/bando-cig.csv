@@ -1,0 +1,62 @@
+Campo,Descrizione
+cig,"Codice Identificativo di Gara, è un codice assegnato dall’Autorità per tracciare in modo univoco le gare ed i contratti a livello nazionale e viene assegnato a livello di Lotto."
+cig_accordo_quadro,"Cig dell’Accordo Quadro, nel caso il contratto derivi da un accordo quadro stipulato in precedenza"
+numero_gara,"numero che identifica una gara; una gara è composta da uno o più lotti, ciascuno identificato da un CIG"
+oggetto_gara,Oggetto della Gara - descrizione dei beni e servizi da appaltare
+importo_complessivo_gara,Importo Complessivo della Gara
+n_lotti_componenti,Numero dei lotti che compongo l’appalto
+oggetto_lotto,Oggetto del Lotto
+importo_lotto,Importo del lotto
+oggetto_principale_contratto,"Oggetto principale del contratto (Lavori, Servizi Forniture)"
+stato,stato del ciclo di vita del cig
+settore,indica se la Stazione Appaltante opera nei settori ordinari (vale la Direttiva 24 EU) o nei settori Speciali (vale la Direttiva 25 EU)
+luogo_istat,Localizzazione ISTAT
+provincia,Sigla della Provincia
+data_pubblicazione,data di pubblicazione del bando
+data_scadenza_offerta,Data di Scadenza per la presentazione di un’offerta
+cod_tipo_scelta_contraente,Codice riferito alla procedura di scelta del contraente
+tipo_scelta_contraente,Descrizione della procedura di scelta del contraente
+cod_modalita_realizzazione,Codice riferito alla modalità di realizzazione della gara
+modalita_realizzazione,Descrizione della modalità di realizzazione della gara
+codice_ausa,"Codice AUSA (un codice attribuito da ANAC, che identifica la Stazione Appaltante nell’Anagrafe Unica delle Stazioni Appaltanti)"
+cf_amministrazione_appaltante,Codice Fiscale dell’Amministrazione che bandisce la gara o acquista
+denominazione_amministrazione_appaltante,Denominazione dell’Amministrazione che bandisce la gara o acquista
+sezione_regionale,Sezione regionale di riferimento per l'invio dei dati
+id_centro_costo,"Identificativo del Centro di Costo, unità organizzativa della stazione appaltante."
+denominazione_centro_costo,Denominazione del Centro di Costo
+anno_pubblicazione,"anno di riferimento, estratto dalla data di pubblicazione"
+mese_pubblicazione,"mese di riferimento, estratto dalla data di pubblicazione"
+cod_cpv,Codice della categoria merceologica del bene o servizio acquistato (vocabolario CPV)
+descrizione_cpv,Descrizione della categoria merceologica del bene o servizio acquistato
+flag_prevalente,denota se la categoria merceologica è prevalente (un appalto può comprendere più categorie di merci o servizi)
+COD_MOTIVO_CANCELLAZIONE,Codice della motivazione della cancellazione
+MOTIVO_CANCELLAZIONE,Motivazione della cancellazione (solo se STATO=CANCELLATO)
+DATA_CANCELLAZIONE,Data cancellazione
+DATA_ULTIMO_PERFEZIONAMENTO,Data ultimo perfezionamento
+COD_MODALITA_INDIZIONE_SPECIALI,Codice della modalità di indizione settori speciali
+MODALITA_INDIZIONE_SPECIALI,Modalità di indizione settori speciali
+COD_MODALITA_INDIZIONE_SERVIZI,Codice della modalità di indizione servizi di cui allegato IX
+MODALITA_INDIZIONE_SERVIZI,Modalità di indizione servizi di cui allegato IX
+DURATA_PREVISTA,Durata della convenzione o accordo quadro in giorni
+COD_STRUMENTO_SVOLGIMENTO,Codice dello strumento per lo svolgimento della procedura
+STRUMENTO_SVOLGIMENTO,Strumento per lo svolgimento della procedura
+FLAG_URGENZA,Estrema urgenza / esecuzione lavori somma urgenza
+COD_MOTIVO_URGENZA,Codice del motivo urgenza
+MOTIVO_URGENZA,Motivo urgenza
+FLAG_DELEGA,La stazione appaltante agisce per conto di altro soggetto singolo?
+FUNZIONI_DELEGATE,Funzioni delegate (in caso di delega)
+CF_SA_DELEGANTE,Codice fiscale soggetto per conto del quale agisce (in caso di delega)
+DENOMINAZIONE_SA_DELEGANTE,Denominazione del soggetto per conto del quale agisce (in caso di delega)
+CF_SA_DELEGATA,Codice dell’amministrazione delegante
+DENOMINAZIONE_SA_DELEGATA,Denominazione dell’amministrazione delegante
+IMPORTO_SICUREZZA,Importo per l’attuazione della sicurezza (compreso nella base d’asta ma non soggetto a ribasso)
+TIPO_APPALTO_RISERVATO,Tipo di appalto riservato (in caso di appalto riservato)
+CUI_PROGRAMMA,Codice Univoco assegnato dal MIT al programma biennale/triennale in cui è inserito il contratto
+FLAG_PREV_RIPETIZIONI,L'appalto prevede ripetizioni o altre opzioni
+COD_IPOTESI_COLLEGAMENTO,Codice del motivo di collegamento con un appalto precedente (se collegato)
+IPOTESI_COLLEGAMENTO,Motivo di collegamento con un'appalto precedente (se collegato)
+CIG_COLLEGAMENTO,Cig dell’appalto collegato
+COD_ESITO,Codice dell’esito della procedura
+ESITO,Esito della procedura
+DATA_COMUNICAZIONE_ESITO,Data della comunicazione esito della procedura
+Flag_PNRR_PNC,"L'appalto o concessione è afferente gli investimenti pubblici finanziati, in tutto o in parte, con le risorse previste dal PNRR e/o dal PNC (il flag è valorizzato dal 2023, sulle risorse incrementali del dataset “CIG aggiornamenti delta”)"

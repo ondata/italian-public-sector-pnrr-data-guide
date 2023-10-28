@@ -133,6 +133,12 @@ Su Portale è presente anche una [**pagina di ricerca**](https://dati.anticorruz
 
 ## Il dataset "Bandi PNRR"
 
+::: {.callout-important}
+## Questo dataset non più pubblicato da settembre 2023
+
+La sua funzione è stata direttamente integrata ne dataset sui [bandi](#il-dataset-bando-cig).
+:::
+
 Il 20 aprile 2023 - poco più di un mese dopo la pubblicazione di questo *vademecum* - l'ANAC ha pubblicato il *dataset* "[Bandi PNRR](https://dati.anticorruzione.it/opendata/dataset/bandi-pnrr)":
 
 > Il Dataset contiene i dati delle gare pubblicate dalle Stazioni Appaltanti che dichiarano di utilizzare fondi PNRR/PNC e di rispettare le quote di assunzioni previste per le **pari opportunità** secondo quanto stabilito dall'[art. 47 del decreto 77 del 31 maggio 2021](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2021-05-31;77!vig~art47).
@@ -212,6 +218,17 @@ La premialità è quella descritta nell'[articolo 108](https://www.normattiva.it
   </tbody>
 </table>
 
+## Il dataset "Bando CIG"
+
+Il [dataset dei **bandi di gara**](https://dati.anticorruzione.it/opendata/dataset?q=cig-) dell'Autorità Nazionale Anticorruzione (ANAC) è probabilmente quello più scaricato di questa importante fonte di dati aperti:
+
+> Il bando è un documento attraverso il quale la stazione appaltante rende pubbliche le informazioni su una procedura di selezione del contraente, determinando gli elementi dell'appalto o della procedura di gara ed invitando le imprese a presentare un'offerta entro un termine prefissato. I dataset BandiCIG contengono i dati essenziali sulle gare di valore superiore a 40.000E pubblicate nel periodo di riferimento.
+
+Da settembre 2023, questo dataset è stato arricchito della colonna `Flag_PNRR_PNC`, che indica **se il bando** è stato pubblicato nell'**ambito del Piano Nazionale di Ripresa e Resilienza** (PNRR) o del **Piano Nazionale per gli investimenti Complementari al PNRR** ([PNC](https://www.italiadomani.gov.it/it/il-piano/Risorse/piano-complementare/piano-nazionale-complementare.html)): quando il valore è pari a `1` significa che il bando è stato pubblicato nell'ambito del PNRR o del PNC.
+
+A seguire il ricco schema dati di questo dataset.
+
+{{< include ./risorse/_bando-cig.qmd >}}
 
 ---
 
