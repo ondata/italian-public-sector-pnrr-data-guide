@@ -226,6 +226,11 @@ Il [dataset dei **bandi di gara**](https://dati.anticorruzione.it/opendata/datas
 
 Da settembre 2023, questo dataset è stato arricchito della colonna `Flag_PNRR_PNC`, che indica **se il bando** è stato pubblicato nell'**ambito del Piano Nazionale di Ripresa e Resilienza** (PNRR) o del **Piano Nazionale per gli investimenti Complementari al PNRR** ([PNC](https://www.italiadomani.gov.it/it/il-piano/Risorse/piano-complementare/piano-nazionale-complementare.html)): quando il valore è pari a `1` significa che il bando è stato pubblicato nell'ambito del PNRR o del PNC.
 
+::: {.callout-note}
+## Nota bene
+Il flag è **valorizzato dal 2023**, sulle risorse incrementali del dataset "[**CIG aggiornamenti delta**](https://dati.anticorruzione.it/opendata/dataset/cig)".
+:::
+
 A seguire il ricco schema dati di questo dataset.
 
 {{< include ./risorse/_bando-cig.qmd >}}
