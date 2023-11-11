@@ -25,12 +25,16 @@ Il [**sistema ReGiS**](https://www.italiadomani.gov.it/it/Interventi/regis---il-
 
 Da aprile 2023, sono stati pubblicati sulla [sezione "open data"](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc) di **ItaliaDomani** (il sito ufficiale del PNRR) i primi dati da fonte ReGiS:
 
-- [Gare Aggiudicatari del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-pnrr.html)
+- [Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-del-pnrr.html)
+- [Gare Subappaltatori del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-subappaltatori.html)
+- [Aggiudicatari Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/aggiudicatari-gare-del-pnrr.html)
 - [Interoperabilità - Amministrazioni Titolari](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/amministrazioni-titolari-interoperabilita.html)
 - [Localizzazione dei progetti PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/localizzazione-dei-progetti-pnrr.html)
 - [Progetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/progetti-del-pnrr.html)
 - [Soggetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/soggetti-del-pnrr.html)
-- [Universo ReGiS - Gare Aggiudicatari PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-aggiudicatari-pnrr.html)
+- [Universo ReGiS - Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-del-pnrr.html)
+- [Universo ReGiS - Gare Subappaltatori del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-subappaltatori.html)
+- [Universo ReGiS - Aggiudicatari Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis-aggiudicatari-gare-del-pnrr.html)
 - [Universo ReGiS - Localizzazione del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html)
 - [Universo ReGiS - Progetti](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html)
 
@@ -64,6 +68,10 @@ Il file dei metadati è molto utile. È un file compresso in formato `zip`, che 
 ## Note su alcuni dati
 
 A seguire delle note su alcuni dei dati ReGiS pubblicati su ItaliaDomani.
+
+::: {.callout-important}
+Queste sono **elaborazioni di esempio**, basate sui dati pubblicati ad aprile 2023.
+:::
 
 ### Universo ReGiS - Progetti
 
