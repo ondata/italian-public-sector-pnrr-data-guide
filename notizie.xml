@@ -353,6 +353,38 @@ Nota bene
   <media:content url="https://pnrr.datibenecomune.it/post/pubblicati-dati-cresce-bologna/cresce-bologna.png" medium="image" type="image/png" height="78" width="144"/>
 </item>
 <item>
+  <title>Italiadomani, aggiornamento dati</title>
+  <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis-gare/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis-gare/italiadomani-opendata.png" class="img-fluid"></p>
+<p>Il <strong>27 settembre 2023</strong> è stata data <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/news/catalogo-open-data--nuovi-aggiornamenti-e-ottimizzazione-dataset.html">notizia</a> dell’<strong>aggiornamento</strong> dei <strong>dati</strong> pubblicati nel <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=@jcr:content/observationDateInEvidence&amp;sort=desc">Catalogo Open Data di <strong>Italiadomani</strong></a>.</p>
+<blockquote class="blockquote">
+<p>Gli ultimi interventi evolutivi hanno visto coinvolti i flussi relativi alle procedure di aggiudicazione.</p>
+<p>Quanto fino ad oggi riportato nel dataset “Gare Aggiudicatari PNRR” è infatti adesso consultabile in due distinti dataset:uno dedicato alle Gare, con l’evidenza dell’elenco delle rispettive <strong>procedure</strong>; l’altro dedicato agli <strong>Aggiudicatari</strong>.</p>
+</blockquote>
+<p>Questi i <strong>nuovi dataset</strong>:</p>
+<ul>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-del-pnrr.html">Gare del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-del-pnrr.html">Universo ReGiS - Gare del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/aggiudicatari-gare-del-pnrr.html">Aggiudicatari Gare del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis-aggiudicatari-gare-del-pnrr.html">Universo ReGiS - Aggiudicatari Gare del PNRR</a></li>
+</ul>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
+  <category>ReGiS</category>
+  <category>italiadomani</category>
+  <category>dati</category>
+  <guid>https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis-gare/index.html</guid>
+  <pubDate>Wed, 04 Oct 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis-gare/italiadomani-opendata.png" medium="image" type="image/png" height="103" width="144"/>
+</item>
+<item>
   <title>Nuovi dati ANAC a tema PNRR</title>
   <link>https://pnrr.datibenecomune.it/post/nuovi-dataset-pnrr-anac/index.html</link>
   <description><![CDATA[ 
@@ -425,38 +457,6 @@ Nota bene
   <guid>https://pnrr.datibenecomune.it/post/nuovi-dataset-pnrr-anac/index.html</guid>
   <pubDate>Wed, 04 Oct 2023 00:00:00 GMT</pubDate>
   <media:content url="https://pnrr.datibenecomune.it/post/nuovi-dataset-pnrr-anac/opendata_anac.png" medium="image" type="image/png" height="67" width="144"/>
-</item>
-<item>
-  <title>Italiadomani, aggiornamento dati</title>
-  <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis-gare/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis-gare/italiadomani-opendata.png" class="img-fluid"></p>
-<p>Il <strong>27 settembre 2023</strong> è stata data <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/news/catalogo-open-data--nuovi-aggiornamenti-e-ottimizzazione-dataset.html">notizia</a> dell’<strong>aggiornamento</strong> dei <strong>dati</strong> pubblicati nel <a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=@jcr:content/observationDateInEvidence&amp;sort=desc">Catalogo Open Data di <strong>Italiadomani</strong></a>.</p>
-<blockquote class="blockquote">
-<p>Gli ultimi interventi evolutivi hanno visto coinvolti i flussi relativi alle procedure di aggiudicazione.</p>
-<p>Quanto fino ad oggi riportato nel dataset “Gare Aggiudicatari PNRR” è infatti adesso consultabile in due distinti dataset:uno dedicato alle Gare, con l’evidenza dell’elenco delle rispettive <strong>procedure</strong>; l’altro dedicato agli <strong>Aggiudicatari</strong>.</p>
-</blockquote>
-<p>Questi i <strong>nuovi dataset</strong>:</p>
-<ul>
-<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-del-pnrr.html">Gare del PNRR</a></li>
-<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-del-pnrr.html">Universo ReGiS - Gare del PNRR</a></li>
-<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/aggiudicatari-gare-del-pnrr.html">Aggiudicatari Gare del PNRR</a></li>
-<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis-aggiudicatari-gare-del-pnrr.html">Universo ReGiS - Aggiudicatari Gare del PNRR</a></li>
-</ul>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
-  <category>ReGiS</category>
-  <category>italiadomani</category>
-  <category>dati</category>
-  <guid>https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis-gare/index.html</guid>
-  <pubDate>Wed, 04 Oct 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://pnrr.datibenecomune.it/post/aggiornamento-dati-regis-gare/italiadomani-opendata.png" medium="image" type="image/png" height="103" width="144"/>
 </item>
 <item>
   <title>Aggiornamento dati PNRR</title>
