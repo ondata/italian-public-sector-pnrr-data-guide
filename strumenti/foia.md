@@ -54,6 +54,11 @@ La richiesta dovrà contenere:
 2. Può essere inoltrata con modalità tradizionali (raccomandata, lettera) oppure via mail/pec;
 3. Scegliere se inviarla a chi detiene il documento, all'URP o agli altri recapiti indicati sul sito dell'amministrazione
 
+Se la invii via PEC/e-mail, la richiesta dovrà essere firmata:
+
+- o con firma digitale direttamente sul file della richiesta, allegato nella PEC/e-mail;
+- o con firma autografa sul file della richiesta allegato, avendo cura di allegare copia di un documento di identità.
+
 ## Entro quanto riceverò risposta?
 
 In base alla legge, **l'amministrazione deve rispondere entro 30 giorni** dalla tua richiesta (potrebbe anche richiederti ulteriori chiarimenti oppure, nel caso ci fossero persone contro interessate alla richiesta, le informeranno e il termine si allungherà di altri 10 giorni).
