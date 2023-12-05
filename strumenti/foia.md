@@ -45,13 +45,13 @@ Bisognerà, poi seguire solo pochi passaggi:
 
 ## Come preparo una richiesta FOIA?
 
-La richiesta dovrà contenere:
+Per punti:
 
-1. La richiesta contenga:
-   - Le tue generalità (singolo cittadino) o del legale rappresentante dell'associazione;
-   - L'indicazione (il più precisa possibile) dei dati/documenti richiesti;
-   - L'indirizzo e le modalità con cui vuoi ricevere i documenti;
-2. Può essere inoltrata con modalità tradizionali (raccomandata, lettera) oppure via mail/pec;
+1. È necessario che la richiesta contenga:
+   - le tue generalità (singolo cittadino) o del legale rappresentante dell'associazione;
+   - l'indicazione (il più precisa possibile) dei dati/documenti richiesti;
+   - l'indirizzo e le modalità con cui vuoi ricevere i documenti;
+2. Può essere inoltrata con modalità tradizionali (raccomandata, lettera) oppure via e-mail/PEC;
 3. Scegliere se inviarla a chi detiene il documento, all'URP o agli altri recapiti indicati sul sito dell'amministrazione
 
 Se la invii via PEC/e-mail, la richiesta dovrà essere firmata:
