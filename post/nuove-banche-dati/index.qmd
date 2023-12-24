@@ -11,7 +11,7 @@ date: "2023-05-08"
 draft: false
 categories:
   - regioni
-  - anac
+  - ANAC
   - dati
   - Italiadomani
   - ReGiS
