@@ -1,0 +1,41 @@
+---
+title: "Italiadomani, aggiornamento dati dicembre 2023"
+description: "I dataset aggiornati rappresentano quanto attualmente monitorato in ReGiS"
+description-meta: "I dataset aggiornati rappresentano quanto attualmente monitorato in ReGiS"
+website:
+  twitter-card:
+    description: "I dataset aggiornati rappresentano quanto attualmente monitorato in ReGiS"
+    image: italiadomani-opendata.png
+  open-graph:
+    description: "I dataset aggiornati rappresentano quanto attualmente monitorato in ReGiS"
+    image: italiadomani-opendata.png
+date: "2023-12-08"
+draft: false
+categories:
+  - ReGiS
+  - dati
+  - PNRR
+image: italiadomani-opendata.png
+---
+
+A inizio dicembre 2023 sono stati aggiornati molti dataset:
+
+- Serie validata
+  - [Aggiudicatari Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/aggiudicatari-gare-del-pnrr.html)
+  - [Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-del-pnrr.html)
+  - [Gare Subappaltatori del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-subappaltatori.html)
+  - [Indicatori](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/indicatori.html)
+  - [Localizzazione del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/localizzazione-dei-progetti-pnrr.html)
+  - [Progetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/progetti-del-pnrr.html)
+  - [Soggetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/soggetti-del-pnrr.html)
+- Serie "Universo" (ancora in fase di validazione)
+  - [Aggiudicatari Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis-aggiudicatari-gare-del-pnrr.html)
+  - [Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-del-pnrr.html)
+  - [Gare Subappaltatori del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-subappaltatori.html)
+  - [Indicatori](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---indicatori.html)
+  - [Localizzazione del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html)
+  - [Progetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html)
+  - [Soggetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---soggetti.html)
+- Altro
+  - [Milestone e Target programmazione del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/milestone-e-target-programmazione-del-pnrr.html)
+  - [Tag Progetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/tag-progetti-pnrr.html)
