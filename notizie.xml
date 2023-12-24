@@ -10,7 +10,54 @@
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.43</generator>
-<lastBuildDate>Sat, 28 Oct 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 08 Dec 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Italiadomani, aggiornamento dati dicembre 2023</title>
+  <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-italiadomani-regis-dicembre-2023/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A inizio dicembre 2023 sono stati aggiornati molti dataset:</p>
+<ul>
+<li>Serie validata
+<ul>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/aggiudicatari-gare-del-pnrr.html">Aggiudicatari Gare del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-del-pnrr.html">Gare del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-subappaltatori.html">Gare Subappaltatori del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/indicatori.html">Indicatori</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/localizzazione-dei-progetti-pnrr.html">Localizzazione del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/progetti-del-pnrr.html">Progetti del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/soggetti-del-pnrr.html">Soggetti del PNRR</a></li>
+</ul></li>
+<li>Serie “Universo” (ancora in fase di validazione)
+<ul>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis-aggiudicatari-gare-del-pnrr.html">Aggiudicatari Gare del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-del-pnrr.html">Gare del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-subappaltatori.html">Gare Subappaltatori del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---indicatori.html">Indicatori</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html">Localizzazione del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html">Progetti del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---soggetti.html">Soggetti del PNRR</a></li>
+</ul></li>
+<li>Altro
+<ul>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/milestone-e-target-programmazione-del-pnrr.html">Milestone e Target programmazione del PNRR</a></li>
+<li><a href="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/tag-progetti-pnrr.html">Tag Progetti del PNRR</a></li>
+</ul></li>
+</ul>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
+  <category>ReGiS</category>
+  <category>dati</category>
+  <category>PNRR</category>
+  <guid>https://pnrr.datibenecomune.it/post/aggiornamento-dati-italiadomani-regis-dicembre-2023/index.html</guid>
+  <pubDate>Fri, 08 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/aggiornamento-dati-italiadomani-regis-dicembre-2023/italiadomani-opendata.png" medium="image" type="image/png" height="103" width="144"/>
+</item>
 <item>
   <title>ANAC: aggiornamento dati PNRR</title>
   <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-anac-flag-pnrr/index.html</link>
