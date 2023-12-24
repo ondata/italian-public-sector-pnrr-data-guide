@@ -1,0 +1,30 @@
+---
+title: "Aggiornamento dati OpenCUP, PNRR, dicembre 2023"
+description: "Dopo quello di maggio 2023, circa 100.000 nuovi record"
+description-meta: "Dopo quello di maggio 2023, circa 100.000 nuovi record"
+website:
+  twitter-card:
+    description: "Dopo quello di maggio 2023, circa 100.000 nuovi record"
+    image: open-cup-dicembre-2023.png
+  open-graph:
+    description: "Dopo quello di maggio 2023, circa 100.000 nuovi record"
+    image: open-cup-dicembre-2023.png
+date: "2023-12-20"
+draft: false
+categories:
+  - OpenCUP
+  - dati
+  - PNRR
+image: open-cup-dicembre-2023.png
+---
+
+
+Questo è un aggiornamento importante, perché il dataset non veniva aggiornato da maggio 2023.
+
+> Si ricorda che i dati pubblicati rappresentano gli interventi candidati nell'ambito del PNRR, ma che potrebbero non essere ammessi ai finanziamenti del Piano e successivamente finanziati da altre misure di spesa.
+
+È sempre un file in formato `xlsx`, scaricabile da [qui](https://www.opencup.gov.it/portale/documents/21195/0/CUP_PNRR_2023_12_08.xlsx), e pubblicato nella [sezione Open Data](https://www.opencup.gov.it/portale/web/opencup/opendata) del portale **OpenCUP**.
+
+Rispetto al precedente aggiornamento, sono stati aggiunti **circa 100.000 nuovi record**.
+
+[![](open-cup-dicembre-2023.png)](https://www.opencup.gov.it/portale/web/opencup/opendata)
