@@ -10,7 +10,37 @@
 <atom:link href="https://pnrr.datibenecomune.it/notizie.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.43</generator>
-<lastBuildDate>Fri, 08 Dec 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 20 Dec 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Aggiornamento dati OpenCUP, PNRR, dicembre 2023</title>
+  <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-opencup-dicembre-2023/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Questo è un aggiornamento importante, perché il dataset non veniva aggiornato da maggio 2023.</p>
+<blockquote class="blockquote">
+<p>Si ricorda che i dati pubblicati rappresentano gli interventi candidati nell’ambito del PNRR, ma che potrebbero non essere ammessi ai finanziamenti del Piano e successivamente finanziati da altre misure di spesa.</p>
+</blockquote>
+<p>È sempre un file in formato <code>xlsx</code>, scaricabile da <a href="https://www.opencup.gov.it/portale/documents/21195/0/CUP_PNRR_2023_12_08.xlsx">qui</a>, e pubblicato nella <a href="https://www.opencup.gov.it/portale/web/opencup/opendata">sezione Open Data</a> del portale <strong>OpenCUP</strong>.</p>
+<p>Rispetto al precedente aggiornamento, sono stati aggiunti <strong>circa 100.000 nuovi record</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://www.opencup.gov.it/portale/web/opencup/opendata"><img src="https://pnrr.datibenecomune.it/post/aggiornamento-dati-opencup-dicembre-2023/open-cup-dicembre-2023.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a> ]]></description>
+  <category>OpenCUP</category>
+  <category>dati</category>
+  <category>PNRR</category>
+  <guid>https://pnrr.datibenecomune.it/post/aggiornamento-dati-opencup-dicembre-2023/index.html</guid>
+  <pubDate>Wed, 20 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://pnrr.datibenecomune.it/post/aggiornamento-dati-opencup-dicembre-2023/open-cup-dicembre-2023.png" medium="image" type="image/png" height="93" width="144"/>
+</item>
 <item>
   <title>Italiadomani, aggiornamento dati dicembre 2023</title>
   <link>https://pnrr.datibenecomune.it/post/aggiornamento-dati-italiadomani-regis-dicembre-2023/index.html</link>
