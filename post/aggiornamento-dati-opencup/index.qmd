@@ -10,8 +10,9 @@ website:
 date: "2023-05-11"
 draft: false
 categories:
-  - opencup
+  - OpenCUP
   - dati
+  - PNRR
 image: opengovweek.png
 ---
 
