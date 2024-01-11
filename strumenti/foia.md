@@ -65,7 +65,7 @@ In base alla legge, **l'amministrazione deve rispondere entro 30 giorni** dalla 
 
 La P.A. richiede il rimborso dei soli costi vivi sostenuti per la riproduzione su supporti materiali (non chiederà nulla nel caso indicassi di ricevere tutto via email).
 
-Infine, se non la P.A. non rispondesse oppure decide di non darti i dati/documenti richiesti, **vi sono ulteriori possibilità**: ossia la **richiesta** di **riesame**, sino al ricorso al Tribunale Amministrativo Regionale.
+Infine, se la P.A. non rispondesse oppure decidesse di non darti i dati/documenti richiesti, **vi sono ulteriori possibilità**: ossia la **richiesta** di **riesame**, sino al ricorso al Tribunale Amministrativo Regionale.
 
 ➡️Per **approfondire**, ti rimandiamo al [**documento**](https://www.osservatoriocivicopnrr.it/images/files/Presentazione_FOIA_Bologna.pdf) che segue - realizzato per la Scuola di Monitoraggio Civico sul Piano di Ripresa e Resilienza dell'[Osservatorio Civico PNRR](https://www.osservatoriocivicopnrr.it/) -  dove puoi trovare tutte le informazioni complete relative al FOIA:<br>
 <https://www.osservatoriocivicopnrr.it/images/files/Presentazione_FOIA_Bologna.pdf>
