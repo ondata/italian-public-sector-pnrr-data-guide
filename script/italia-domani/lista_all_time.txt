@@ -359,6 +359,7 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_Indicato
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_Indicatori_Target-Universo_REGIS_v1.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_Localizzazione-Dati_Validati_v6.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_Localizzazione-Universo_REGIS_v5.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_PRATT_v1.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_PRATT_v1.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_Progetti-Universo_REGIS_v5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_Progetti_Dati_Validati_v6.xlsx
