@@ -341,6 +341,12 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Ga
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Indicatori_Comuni-Universo_REGIS_v2.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Indicatori_Comuni-Universo_REGIS_v2.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Indicatori_Comuni-Universo_REGIS_v2.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Indicatori_Target-Universo_REGIS_v2.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Indicatori_Target-Universo_REGIS_v2.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Indicatori_Target-Universo_REGIS_v2.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Iter_di_progetto-Universo_REGIS_v1.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Iter_di_progetto-Universo_REGIS_v1.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Iter_di_progetto-Universo_REGIS_v1.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Localizzazione-Universo_REGIS_v6.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Localizzazione-Universo_REGIS_v6.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Localizzazione-Universo_REGIS_v6.xlsx
@@ -356,6 +362,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_PR
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Progetti-Universo_REGIS_v6.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Progetti-Universo_REGIS_v6.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Progetti-Universo_REGIS_v6.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Soggetti-Universo_REGIS_v6.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Soggetti-Universo_REGIS_v6.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_Soggetti-Universo_REGIS_v6.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_TAG_Progetti-Universo_REGIS_v6.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_TAG_Progetti-Universo_REGIS_v6.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/PNRR_TAG_Progetti-Universo_REGIS_v6.xlsx
