@@ -90,6 +90,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-c
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-complementare-open-data/OpenData_PNC_Obiettivi.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-complementare-open-data/OpenData_PNC_Obiettivi.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-complementare-open-data/OpenData_PNC_Obiettivi.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-complementare-open-data/OpenData_PNC_QuadroFinanziario.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-complementare-open-data/OpenData_PNC_QuadroFinanziario.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-complementare-open-data/OpenData_PNC_QuadroFinanziario.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati.xlsx
@@ -273,9 +276,6 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenDat
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_DescrizioneProgrammi_v2.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_DescrizioneProgrammi_v2.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_DescrizioneProgrammi_v2.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_Gare.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_Gare.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_Gare.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_LocalizzazioneGeografica.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_LocalizzazioneGeografica.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_LocalizzazioneGeografica.xlsx
@@ -285,6 +285,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenDat
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_Progetti.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_Progetti.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_Progetti.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_QuadroFinanziario_v2.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_QuadroFinanziario_v2.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_QuadroFinanziario_v2.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_Subappaltatori.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_Subappaltatori.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata-aprile2024/OpenData_PNC_Subappaltatori.xlsx
