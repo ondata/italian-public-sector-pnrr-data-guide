@@ -71,7 +71,7 @@ https://opencup.gov.it/portale/progetto/-/cup/
 ```
 
 Quindi ad esempio nel caso del codice CUP `J59J21000640001`, l'URL sarà<br>
-<https://opencup.gov.it/portale/progetto/-/cup/J59J21000640001/>.
+<https://opencup.gov.it/portale/progetto/-/cup/J59J21000640001>.
 
 È molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.
 
