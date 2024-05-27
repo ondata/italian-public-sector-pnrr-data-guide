@@ -83,9 +83,6 @@ Su OpenCUP è presente anche una [**pagina di ricerca**](https://opencup.gov.it/
 
 [![Il modulo di ricerca di OpenCUP](images/opencup-ricerca-visuale.png){#fig-opencup-visuale fig-alt="Form di ricerca di OpenCUP"}](https://opencup.gov.it/portale/elenco-progetti?p_p_id=ricercaliberaportlet_WAR_OpenCupPortlets&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_ricercaliberaportlet_WAR_OpenCupPortlets_action=ricercaAvanzata&p_auth=cCPR8jy6)
 
-{{< include ../../include/_partecipa.md >}}
-
-
 ## API di OpenCUP
 
 Su OpenCUP è possibile richiedere l'accesso ai dati via API. I servizi esposti possono essere interrogati per:
@@ -95,3 +92,5 @@ Su OpenCUP è possibile richiedere l'accesso ai dati via API. I servizi esposti 
 
 Qui le altre informazioni e il modulo per registrarsi:<br>
 <https://www.opencup.gov.it/portale/web/opencup/le-api-di-opencup>
+
+{{< include ../../include/_partecipa.md >}}
