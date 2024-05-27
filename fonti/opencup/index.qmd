@@ -77,12 +77,6 @@ Quindi ad esempio nel caso del codice CUP `J59J21000640001`, l'URL sarà<br>
 
 ---
 
-::: {.callout-note}
-## API di OpenCUP
-
-Al momento non è possibile accedere tramite API ai dati di OpenCUP. Ma si spera sia possibile farlo presto.
-:::
-
 ## Fare una ricerca sul sito di OpenCUP
 
 Su OpenCUP è presente anche una [**pagina di ricerca**](https://opencup.gov.it/portale/elenco-progetti?p_p_id=ricercaliberaportlet_WAR_OpenCupPortlets&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_ricercaliberaportlet_WAR_OpenCupPortlets_action=ricercaAvanzata&p_auth=cCPR8jy6), in cui è possibile inserire uno o più parametri - anche ad esempio una parola della descrizione di un progetto - e avere restituito l'elenco dei progetti correlato.
@@ -90,3 +84,14 @@ Su OpenCUP è presente anche una [**pagina di ricerca**](https://opencup.gov.it/
 [![Il modulo di ricerca di OpenCUP](images/opencup-ricerca-visuale.png){#fig-opencup-visuale fig-alt="Form di ricerca di OpenCUP"}](https://opencup.gov.it/portale/elenco-progetti?p_p_id=ricercaliberaportlet_WAR_OpenCupPortlets&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&_ricercaliberaportlet_WAR_OpenCupPortlets_action=ricercaAvanzata&p_auth=cCPR8jy6)
 
 {{< include ../../include/_partecipa.md >}}
+
+
+## API di OpenCUP
+
+Su OpenCUP è possibile richiedere l'accesso ai dati via API. I servizi esposti possono essere interrogati per:
+
+- codice CUP, specificando nella stringa il CUP, esempio https://api.sogei.it/rgs/opencup/o/extServiceApi/v1/opendataes/cup/J48C14000270006
+- oppure per soggetto titolare, specificando nella stringa la partita iva del soggetto titolare esempio https://api.sogei.it/rgs/opencup/o/extServiceApi/v1/opendataes/soggettotitolare/01206740324
+
+Qui le altre informazioni e il modulo per registrarsi:<br>
+<https://www.opencup.gov.it/portale/web/opencup/le-api-di-opencup>
