@@ -365,6 +365,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#la-pagina-web-di-un-cup" id="toc-la-pagina-web-di-un-cup" class="nav-link" data-scroll-target="#la-pagina-web-di-un-cup">La pagina web di un CUP</a></li>
   <li><a href="#fare-una-ricerca-sul-sito-di-opencup" id="toc-fare-una-ricerca-sul-sito-di-opencup" class="nav-link" data-scroll-target="#fare-una-ricerca-sul-sito-di-opencup">Fare una ricerca sul sito di OpenCUP</a></li>
+  <li><a href="#api-di-opencup" id="toc-api-di-opencup" class="nav-link" data-scroll-target="#api-di-opencup">API di OpenCUP</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/fonti/opencup/index.qmd" class="toc-action">Modifica questa pagina</a></p></div></div></nav>
     </div>
@@ -451,19 +452,6 @@ Attenzione
 <p>Quindi ad esempio nel caso del codice CUP <code>J59J21000640001</code>, l’URL sarà<br> <a href="https://opencup.gov.it/portale/progetto/-/cup/J59J21000640001" class="uri">https://opencup.gov.it/portale/progetto/-/cup/J59J21000640001</a>.</p>
 <p>È molto utile per chi deve scrivere testi, preparare presentazioni, creare visualizzazioni interattive, che consentano di aprire una o più pagine di CUP.</p>
 <hr>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-API di OpenCUP
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Al momento non è possibile accedere tramite API ai dati di OpenCUP. Ma si spera sia possibile farlo presto.</p>
-</div>
-</div>
 </section>
 <section id="fare-una-ricerca-sul-sito-di-opencup" class="level2">
 <h2 class="anchored" data-anchor-id="fare-una-ricerca-sul-sito-di-opencup">Fare una ricerca sul sito di OpenCUP</h2>
@@ -487,6 +475,15 @@ Partecipa
 <p>Se vuoi fare delle <strong>proposte</strong> su questo vademecum, se vuoi <strong>raccontarci</strong> come l’hai usato, se hai bisogno di <strong>aiuto</strong> in merito, ecco <a href="../../partecipa.html">come fare</a>.</p>
 </div>
 </div>
+</section>
+<section id="api-di-opencup" class="level2">
+<h2 class="anchored" data-anchor-id="api-di-opencup">API di OpenCUP</h2>
+<p>Su OpenCUP è possibile richiedere l’accesso ai dati via API. I servizi esposti possono essere interrogati per:</p>
+<ul>
+<li>codice CUP, specificando nella stringa il CUP, esempio https://api.sogei.it/rgs/opencup/o/extServiceApi/v1/opendataes/cup/J48C14000270006</li>
+<li>oppure per soggetto titolare, specificando nella stringa la partita iva del soggetto titolare esempio https://api.sogei.it/rgs/opencup/o/extServiceApi/v1/opendataes/soggettotitolare/01206740324</li>
+</ul>
+<p>Qui le altre informazioni e il modulo per registrarsi:<br> <a href="https://www.opencup.gov.it/portale/web/opencup/le-api-di-opencup" class="uri">https://www.opencup.gov.it/portale/web/opencup/le-api-di-opencup</a></p>
 
 
 </section>
