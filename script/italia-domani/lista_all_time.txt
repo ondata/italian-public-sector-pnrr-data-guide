@@ -425,6 +425,12 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_soggetti-uni
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_tag_progetti_v4/PNRR_TAG_Progetti_v4.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_tag_progetti_v4/PNRR_TAG_Progetti_v4.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_tag_progetti_v4/PNRR_TAG_Progetti_v4.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/Mappatura_PNRR_SNSvS_Agenda2030.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/Mappatura_PNRR_SNSvS_Agenda2030_v5.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/Mappatura_PNRR_SNSvS_Agenda2030_v5.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/OpenData_PNRR_QuadroFinProgrammazione.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/OpenData_PNRR_QuadroFinProgrammazione_v06.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/OpenData_PNRR_QuadroFinProgrammazione_v06.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_%20Aggiudicatari_Gare-Universo_REGIS_v4.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_Aggiudicatari_Gare-Dati_Validati_v3.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_2024/PNRR_Gare-Dati_Validati_v3.xlsx
