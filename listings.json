@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/fonti/fonti.html",
+    "items": []
+  },
+  {
     "listing": "/notizie.html",
     "items": [
       "/post/aggiornamento-dati-opencup-dicembre-2023/index.html",
@@ -18,9 +22,5 @@
       "/post/richieste-foia/index.html",
       "/post/risorse-pnrr-regione-piemonte/index.html"
     ]
-  },
-  {
-    "listing": "/fonti/fonti.html",
-    "items": []
   }
 ]
