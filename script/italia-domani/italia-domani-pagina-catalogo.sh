@@ -20,11 +20,26 @@ if [ -f "$folder"/tmp.txt ]; then
     rm "$folder"/tmp.txt
 fi
 
+curl 'https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/jcr:content/root/container/opendatasearch.searchResults.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc' \
+  -H 'accept: */*' \
+  -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
+  -H 'content-type: text/html' \
+  -H 'cookie: HttpOnly; HttpOnly; HttpOnly; HttpOnly; thirdPart=true' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc' \
+  -H 'sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36' | scrape -be '//span[@data-url]' | xq -r '"https://www.italiadomani.gov.it" + .html.body.span[]."@data-url"' | sed 's/ /%20/g' >>"$folder"/tmp.txt
+
 # estrai URL da ogni pagina
 for (( i=1; i<=ultima; i++ )); do
     url="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/jcr:content/root/container/opendatasearch.searchResults.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc&resultsOffset=$offset"
 
-    echo "Chiamata CURL: $url"
+    #echo "Chiamata CURL: $url"
 
 #    curl -kL  $url \
 #    -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36' >>"$folder"/tmp.html
