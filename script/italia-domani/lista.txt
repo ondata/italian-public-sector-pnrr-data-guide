@@ -21,7 +21,6 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Aggiudicatar
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Gare-Dati_Validati_v3.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Gare_Subappaltatori-Dati_Validati_v4.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Gare_Subappaltatori-Universo_REGIS_v4.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Indicatori_Comuni-Dati_Validati_v1.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Indicatori_Comuni-Universo_REGIS_v1.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Indicatori_Target-Dati_Validati_v1.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Indicatori_Target-Universo_REGIS_v1.xlsx
@@ -32,6 +31,7 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Localizzazio
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_PRATT_v1.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_PRATT_v1.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Progetti_Dati_Validati_v6.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Soggetti-Dati_Validati_v6.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Soggetti-Universo_REGIS_v5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_TAG_Progetti_v5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_Aggiudicatari.csv
@@ -165,6 +165,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudi
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-universo-regis/PNRR_Gare_Aggiudicatari-Universo_REGIS.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-universo-regis/PNRR_Gare_Aggiudicatari-Universo_REGIS.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-universo-regis/PNRR_Gare_Aggiudicatari-Universo_REGIS.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-soggetti-dati-validati/PNRR_Soggetti-Dati_Validati.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-soggetti-dati-validati/PNRR_Soggetti-Dati_Validati.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-soggetti-dati-validati/PNRR_Soggetti-Dati_Validati.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/progetti-dati-validati/PNRR_Progetti_Dati_Validati.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/progetti-dati-validati/PNRR_Progetti_Dati_Validati.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/progetti-dati-validati/PNRR_Progetti_Dati_Validati.xlsx
@@ -174,6 +177,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/progetti-universo
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/progetti/PNRR_Progetti.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/progetti/PNRR_Progetti.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/progetti/PNRR_Progetti.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/soggetti/PNRR_Soggetti.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/soggetti/PNRR_Soggetti.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/soggetti/PNRR_Soggetti.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/tag-progetti/PNRR_TAG_Progetti.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/tag-progetti/PNRR_TAG_Progetti.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/tag-progetti/PNRR_TAG_Progetti.xlsx
@@ -192,6 +198,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_avanzamento
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_mappatura_indicatori_comuni/OpenData_PNRR_mappatura_indicatori_comuni_v4.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_mappatura_indicatori_comuni/OpenData_PNRR_mappatura_indicatori_comuni_v4.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_mappatura_indicatori_comuni/OpenData_PNRR_mappatura_indicatori_comuni_v4.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_dati_validati/PNRR_Soggetti-Dati_Validati_v4.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_dati_validati/PNRR_Soggetti-Dati_Validati_v4.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_dati_validati/PNRR_Soggetti-Dati_Validati_v4.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_universo/PNRR_Soggetti-Universo_REGIS_v3.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_universo/PNRR_Soggetti-Universo_REGIS_v3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_universo/PNRR_Soggetti-Universo_REGIS_v3.xlsx
@@ -240,6 +249,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/progetti/PNRR_Pro
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/progetti/PNRR_Progetti-Universo_REGIS_v2.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/progetti/PNRR_Progetti-Universo_REGIS_v2.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/progetti/PNRR_Progetti-Universo_REGIS_v2.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/soggetti-dati-validati/PNRR_Soggetti-Dati_Validati_v3.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/soggetti-dati-validati/PNRR_Soggetti-Dati_Validati_v3.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/soggetti-dati-validati/PNRR_Soggetti-Dati_Validati_v3.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/soggetti/PNRR_Soggetti-Universo_REGIS.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/soggetti/PNRR_Soggetti-Universo_REGIS.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/soggetti/PNRR_Soggetti-Universo_REGIS.xlsx
@@ -275,8 +287,6 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Gare_Subap
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Gare_Subappaltatori-Dati_Validati_v4.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Gare_Subappaltatori-Universo_REGIS_v4.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Gare_Subappaltatori-Universo_REGIS_v4.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Indicatori_Comuni-Dati_Validati_v1.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Indicatori_Comuni-Dati_Validati_v1.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Indicatori_Comuni-Universo_REGIS_v1.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Indicatori_Comuni-Universo_REGIS_v1.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Indicatori_Target-Dati_Validati_v1.csv
@@ -288,6 +298,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Localizzaz
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_PRATT_v1.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Progetti_Dati_Validati_v6.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Progetti_Dati_Validati_v6.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Soggetti-Dati_Validati_v6.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Soggetti-Dati_Validati_v6.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Soggetti-Universo_REGIS_v5.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Soggetti-Universo_REGIS_v5.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_TAG_Progetti_v5.csv
@@ -328,6 +340,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_progetti-uni
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_progetti_dati_validati_v5/PNRR_Progetti_Dati_Validati_v5.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_progetti_dati_validati_v5/PNRR_Progetti_Dati_Validati_v5.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_progetti_dati_validati_v5/PNRR_Progetti_Dati_Validati_v5.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_soggetti-dati_validati_v5/PNRR_Soggetti-Dati_Validati_v5.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_soggetti-dati_validati_v5/PNRR_Soggetti-Dati_Validati_v5.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_soggetti-dati_validati_v5/PNRR_Soggetti-Dati_Validati_v5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_soggetti-universo_regis_v4/PNRR_Soggetti-Universo_REGIS_v4.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_soggetti-universo_regis_v4/PNRR_Soggetti-Universo_REGIS_v4.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_soggetti-universo_regis_v4/PNRR_Soggetti-Universo_REGIS_v4.xlsx
@@ -359,20 +374,14 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Iter_di_pro
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_PRATT.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_PRATT_v3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_PRATT_v3.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_M1.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_M2.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_M3.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_M4.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_M5.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_M6.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M1.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M1.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M2.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M2.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M3.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M4.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M4.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M5.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata__/PNRR_Progetti-Universo_REGIS_v7_M6.json
