@@ -127,6 +127,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/ammtitolari_inter
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/gare/PNRR_Gare.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/gare/PNRR_Gare.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/gare/PNRR_Gare.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/il-documento-rappresenta-il-quadro-degli-investimenti-e-riforme-/20210927_T1_UENaz_codificato_inglese.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/il-documento-rappresenta-il-quadro-degli-investimenti-e-riforme-/file%20prova.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni.xlsx
@@ -252,6 +254,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/quadro-finanziari
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/quadro-finanziario-del-pnrr/quadro_finanziario3-0/OpenData_PNRR_QuadroFin_Programmazione_v03.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/quadro-finanziario-del-pnrr/quadro_finanziario3-0/OpenData_PNRR_QuadroFin_Programmazione_v03.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/quadro-finanziario-del-pnrr/quadro_finanziario3-0/OpenData_PNRR_QuadroFin_Programmazione_v03.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/quadro-pnrr-e-piano-complementare/Quadro%20PNRR-Piano%20Complementare_aggiornato%20al%2030.09.2021%20PROVA%20TEST%2027112021.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/quadro-pnrr-e-piano-complementare/file%20prova.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/soggetti/PNRR_Soggetti.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/soggetti/PNRR_Soggetti.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/soggetti/PNRR_Soggetti.xlsx
