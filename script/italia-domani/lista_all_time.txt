@@ -223,6 +223,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/open-data/m-t-att
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/open-data/m-t-attuazione/MeT_Attuazione_2022-T2_v02.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/open-data/m-t-attuazione/MeT_Attuazione_2022-T2_v02.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/open-data/m-t-attuazione/MeT_Attuazione_2022-T2_v02.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/open-data/m-t-programmazione/PNRR_MeT_OA_programmazione_v03.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/open-data/m-t-programmazione/PNRR_MeT_OA_programmazione_v03.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/open-data/m-t-programmazione/PNRR_MeT_OAprogrammazione_v03.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/open-data/mappatura-agenda/Mappatura_PNRR_SNSvS_Agenda2030_v2.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/open-data/mappatura-agenda/Mappatura_PNRR_SNSvS_Agenda2030_v2.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/open-data/mappatura-agenda/Mappatura_PNRR_SNSvS_Agenda2030_v2.xlsx
