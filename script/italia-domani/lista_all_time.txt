@@ -128,6 +128,15 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/QuadroFinanziari
 https://www.italiadomani.gov.it/content/dam/sogei-ng/istat/opendata/Mappatura_PNRR_SNSvS_Agenda2030.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/istat/opendata/Mappatura_PNRR_SNSvS_Agenda2030.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/istat/opendata/Mappatura_PNRR_SNSvS_Agenda2030.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data-b/AmmTitolari_interoperabilitaBDAP.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data-b/AmmTitolari_interoperabilitaBDAPv4.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data-b/AmmTitolari_interoperabilitaBDAPv4.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data-b/OpenData_PNRR_avanzamento_indicatori_comuni.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data-b/OpenData_PNRR_avanzamento_indicatori_comuni_v6.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data-b/OpenData_PNRR_avanzamento_indicatori_comuni_v6.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data-b/OpenData_PNRR_map_indicatori_comuni.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data-b/OpenData_PNRR_map_indicatori_comuni_v7.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data-b/OpenData_PNRR_map_indicatori_comuni_v7.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/ammtitolari_interoperabilita/AmmTitolari_interoperabilitaBDAPv2.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/ammtitolari_interoperabilita/AmmTitolari_interoperabilitaBDAPv2.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/ammtitolari_interoperabilita/AmmTitolari_interoperabilitàBDAP.csv
