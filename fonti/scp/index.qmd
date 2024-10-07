@@ -12,6 +12,12 @@ resources:
   - "scp.png"
 ---
 
+::: {.callout-warning}
+## Attenzione
+Con riferimento alla Delibera ANAC n. 582 del 13 dicembre 2023, a partire dal 1 gennaio 2024, le Stazioni Appaltanti non sono più tenute alla pubblicazione sul sistema SCP di avvisi, bandi, esiti e atti relativi sia agli appalti pubblicati dal 1° gennaio che per quelli antecedenti<br>.
+Il sito nuovo di riferimento per avvisi, bandi, esiti, ecc. è <https://pubblicitalegale.anticorruzione.it/>.
+:::
+
 Il Ministero delle infrastrutture e dei  Trasporti pubblica - nel suo [portale dei dati aperti](https://dati.mit.gov.it/catalog/dataset/) -  il [**dataset**](https://dati.mit.gov.it/catalog/dataset/scp) che contiene gli **avvisi**, i **bandi** e gli **esiti di gara** in **formato aperto**, raccolti dalla "Banca dati SCP - Servizio Contratti Pubblici", gestita dalla Direzione Generale per la regolazione e i contratti pubblici del Ministero delle Infrastrutture e Trasporti.<br>
 I dati sono **aggiornati quotidianamente**.
 
@@ -52,10 +58,10 @@ humanize.i18n.activate("it_IT")
  mlrgo --csv summary ../../data/scp/v_od_atti.csv >../../data/scp/summary_v_od_atti.csv;\
 fi
 
-numero_record=!mlr --c2n cut -f count then head -n 1 ../../data/scp/summary_v_od_atti.csv
-numero_cup=!mlr --c2n  filter '$field_name=="cup"' then cut -f distinct_count ../../data/scp/summary_v_od_atti.csv
-numero_cig=!mlr --c2n  filter '$field_name=="cig"' then cut -f distinct_count ../../data/scp/summary_v_od_atti.csv
-numero_id_gara=!mlr --c2n  filter '$field_name=="id_gara"' then cut -f distinct_count ../../data/scp/summary_v_od_atti.csv
+numero_record=!/home/aborruso/bin/mlr --c2n cut -f count then head -n 1 ../../data/scp/summary_v_od_atti.csv
+numero_cup=!/home/aborruso/bin/mlr --c2n  filter '$field_name=="cup"' then cut -f distinct_count ../../data/scp/summary_v_od_atti.csv
+numero_cig=!/home/aborruso/bin/mlr --c2n  filter '$field_name=="cig"' then cut -f distinct_count ../../data/scp/summary_v_od_atti.csv
+numero_id_gara=!/home/aborruso/bin/mlr --c2n  filter '$field_name=="id_gara"' then cut -f distinct_count ../../data/scp/summary_v_od_atti.csv
 numero_colonne=!echo "$(<../../data/scp/summary_v_od_atti.csv wc -l)-1" | bc
 
 text=f"""
