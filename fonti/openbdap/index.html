@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -324,7 +358,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">In questa pagina</h2>
    
   <ul>
-  <li><a href="#i-dati-correlati-al-pnrr" id="toc-i-dati-correlati-al-pnrr" class="nav-link active" data-scroll-target="#i-dati-correlati-al-pnrr">I dati correlati al PNRR</a></li>
+  <li><a href="#i-dati-correlati-al-pnrr" id="toc-i-dati-correlati-al-pnrr" class="nav-link active" data-scroll-target="#i-dati-correlati-al-pnrr">I dati correlati al PNRR</a>
+  <ul class="collapse">
+  <li><a href="#ricercare-per-cup-tramite-interfaccia-web" id="toc-ricercare-per-cup-tramite-interfaccia-web" class="nav-link" data-scroll-target="#ricercare-per-cup-tramite-interfaccia-web">Ricercare per CUP tramite interfaccia web</a></li>
+  <li><a href="#ricerca-per-cup-machine-to-machine-nel-catalogo-open-data" id="toc-ricerca-per-cup-machine-to-machine-nel-catalogo-open-data" class="nav-link" data-scroll-target="#ricerca-per-cup-machine-to-machine-nel-catalogo-open-data">Ricerca per CUP machine to machine nel catalogo Open Data</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/ondata/italian-public-sector-pnrr-data-guide/edit/main/fonti/openbdap/index.qmd" class="toc-action">Modifica questa pagina</a></p></div></div></nav>
     </div>
@@ -355,7 +393,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="i-dati-correlati-al-pnrr" class="level2">
 <h2 class="anchored" data-anchor-id="i-dati-correlati-al-pnrr">I dati correlati al PNRR</h2>
 <p>OpenBDAP pubblica delle estrazioni dalla banca dati BDAP/MOP, in cui sono inseriti anche i dati del <a href="https://www.rgs.mef.gov.it/VERSIONE-I/attivita_istituzionali/monitoraggio/piano_nazionale_per_gli_investimenti_complementari_al_pnrr/monitoraggio_del_pnc/">monitoraggio degli interventi finanziati solo con risorse nazionali</a> del PNC - Piano nazionale per gli investimenti complementari al Piano nazionale di ripresa e resilienza (PNC). Il sistema ReGiS e BDAP si alimentano a vicenda.</p>
-<p><strong>Non ci sembra</strong> che attualmente&nbsp; in questo portale <strong>ci siano dei dati “etichettati” come PNRR o PNC</strong> e/o che ci siano delle modalità automatiche pubbliche aperte (<strong>API</strong>) per estrarre dati a partire da un codice <code>CUP</code> o da un <code>CIG</code>.</p>
+<p>Esiste anche il <a href="https://bdap-opendata.rgs.mef.gov.it/catalog"><strong>catalogo Open Data di OpenBDAP</strong></a>.</p>
+<p><strong>Non ci sembra</strong> che attualmente&nbsp; in questi portale <strong>ci siano dei dati “etichettati” come PNRR o PNC</strong>.</p>
+<p>È possibile però fare ricerche ad esempio per CUP.</p>
+<section id="ricercare-per-cup-tramite-interfaccia-web" class="level3">
+<h3 class="anchored" data-anchor-id="ricercare-per-cup-tramite-interfaccia-web">Ricercare per CUP tramite interfaccia web</h3>
 <p>Nella <a href="https://openbdap.rgs.mef.gov.it/it/Home/ComePubblicare">sezione</a> “<em>Come pubblicare sui siti Istituzionali delle Amministrazioni Pubbliche i collegamenti ipertestuali ai dati contenuti nella BDAP</em>”, viene indicato l’URL per esplorare le opere pubbliche di una Pubblica Amministrazione, a partire dal suo Codice Fiscale.<br> Questo ad esempio quello dell’ANAS (<code>80208450587</code> è il suo codice fiscale):<br> <a href="https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&amp;docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&amp;T=BusinessObject&amp;idType=CUID&amp;noDetailsPanel=true&amp;X_Ente=80208450587">https://openbdap.rgs.mef.gov.it/BO/OpenDocument?modalita=link&amp;docID=FgAUHFlfxgsAFwYAAACHAiUbeOO1D67w&amp;T=BusinessObject &amp;idType=CUID&amp;noDetailsPanel=true&amp;X_Ente=80208450587</a></p>
 <p>➡️ <strong>NOTA BENE</strong>: in questa pagina in alto a destra è presente il link alla “<strong>RICERCA PER CUP</strong>”. In questo percorso alla ricerca dei dati relativi al PNRR ci sarà utile.</p>
 <div id="fig-openbdap-ricerca-cup" class="quarto-figure quarto-figure-center anchored">
@@ -399,8 +441,113 @@ Partecipa
 <p>Se vuoi fare delle <strong>proposte</strong> su questo vademecum, se vuoi <strong>raccontarci</strong> come l’hai usato, se hai bisogno di <strong>aiuto</strong> in merito, ecco <a href="../../partecipa.html">come fare</a>.</p>
 </div>
 </div>
+</section>
+<section id="ricerca-per-cup-machine-to-machine-nel-catalogo-open-data" class="level3">
+<h3 class="anchored" data-anchor-id="ricerca-per-cup-machine-to-machine-nel-catalogo-open-data">Ricerca per CUP machine to machine nel catalogo Open Data</h3>
+<p>Nel <a href="https://bdap-opendata.rgs.mef.gov.it/catalog">catalogo Open Data di OpenBDAP</a> è possibile fare ricerche tramite <a href="https://www.wikiwand.com/en/articles/Open_Data_Protocol">protocollo <code>OData</code></a>: sono un insieme di regole e protocolli che permettono di accedere e manipolare dati tramite richieste HTTP. Consentono di interrogare un database <em>online</em> e ottenere i dati in un formato leggibile, come <code>JSON</code> o <code>XML</code>, facilitando l’integrazione e l’uso dei dati in diverse applicazioni.</p>
+<p>Se si apre un dataset del catalogo OpenBDAP, come ad esempio “<a href="https://bdap-opendata.rgs.mef.gov.it/opendata/spd_mop_prg_mon_reg02_01_9999?t=Scarica">Progetti Opere Pubbliche MOP - Valle d’Aosta</a>”, nella sezione “Scarica”, scorrendo la <em>scroll-bar</em> verso il base della pagina, si trova il link “OTTIENI URL ODATA” (vedi <a href="#fig-openbdap_odata" class="quarto-xref">Figura&nbsp;4</a>).</p>
+<div id="fig-openbdap_odata" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/openbdap_odata.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figura&nbsp;4: Esempio per visualizzare “OTTIENI URL ODATA”</figcaption>
+</figure>
+</div>
+<p>Al <em>click</em> su questo, e poi scorrendo di nuovo verso l’alto, si ottiene un URL come questo:</p>
+<pre><code>https://bdap-opendata.rgs.mef.gov.it//ODataProxy/MdData('6c0df564-f95d-4d48-9a39-b70146131722@rgs')/DataRows?$skip=0&amp;$top=10</code></pre>
+<p>In questo diverse sezioni:</p>
+<ul>
+<li><code>MdData('6c0df564-f95d-4d48-9a39-b70146131722@rgs')</code> è l’identificativo del dataset;</li>
+<li><code>DataRows</code> è la tabella dei dati (le righe);</li>
+<li><code>?$skip=0</code> indica di saltare 0 righe;</li>
+<li><code>&amp;$top=10</code> indica di estrarre al massimo 10 righe.</li>
+</ul>
+<p>Se se si estrae soltanto la prima riga si può leggere lo schema dei dati:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode xml code-overflow-wrap code-with-copy"><code class="sourceCode xml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">&lt;?xml</span><span class="ot"> version=</span><span class="st">"1.0"</span><span class="ot"> encoding=</span><span class="st">"utf-8"</span><span class="fu">?&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">feed</span><span class="ot"> xmlns=</span><span class="st">"http://www.w3.org/2005/Atom"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ot">  xmlns:m=</span><span class="st">"http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ot">  xmlns:d=</span><span class="st">"http://schemas.microsoft.com/ado/2007/08/dataservices"</span><span class="ot"> xml:base=</span><span class="st">"http://bdap-opendata.rgs.mef.gov.it/Proxy.svc/"</span>&gt;</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">title</span><span class="ot"> type=</span><span class="st">"text"</span>&gt;2-'6c0df564-f95d-4d48-9a39-b70146131722@rgs'&lt;/<span class="kw">title</span>&gt;</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">id</span>&gt;http://bdap-opendata.rgs.mef.gov.it/Proxy.svc/MdData('6c0df564-f95d-4d48-9a39-b70146131722@rgs')/DataRows&lt;/<span class="kw">id</span>&gt;</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">updated</span>&gt;2024-11-13T13:19:13Z&lt;/<span class="kw">updated</span>&gt;</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">link</span><span class="ot"> rel=</span><span class="st">"self"</span><span class="ot"> title=</span><span class="st">"2-'6c0df564-f95d-4d48-9a39-b70146131722@rgs'"</span><span class="ot"> href=</span><span class="st">"2-'6c0df564-f95d-4d48-9a39-b70146131722@rgs'"</span>&gt;&lt;/<span class="kw">link</span>&gt;</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">m:count</span>&gt;0&lt;/<span class="kw">m:count</span>&gt;</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">entry</span>&gt;</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">id</span>&gt;http://bdap-opendata.rgs.mef.gov.it/Proxy.svc/2-'6c0df564-f95d-4d48-9a39-b70146131722@rgs'('row_id')&lt;/<span class="kw">id</span>&gt;</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">title</span><span class="ot"> type=</span><span class="st">"text"</span>&gt;&lt;/<span class="kw">title</span>&gt;</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">updated</span>&gt;2024-11-13T13:19:13Z&lt;/<span class="kw">updated</span>&gt;</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">author</span>&gt;</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">name</span>&gt;&lt;/<span class="kw">name</span>&gt;</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">author</span>&gt;</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">link</span><span class="ot"> rel=</span><span class="st">"edit"</span><span class="ot"> title=</span><span class="st">"2-'6c0df564-f95d-4d48-9a39-b70146131722@rgs'"</span><span class="ot"> href=</span><span class="st">"2-'6c0df564-f95d-4d48-9a39-b70146131722@rgs'('row_id')"</span>&gt;&lt;/<span class="kw">link</span>&gt;</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">category</span><span class="ot"> term=</span><span class="st">"http://odata.statportal.it.2-'6c0df564-f95d-4d48-9a39-b70146131722@rgs'"</span><span class="ot"> scheme=</span><span class="st">"http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"</span>&gt;&lt;/<span class="kw">category</span>&gt;</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">content</span><span class="ot"> type=</span><span class="st">"application/xml"</span>&gt;</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>      &lt;<span class="kw">m:properties</span>&gt;</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:row_id</span><span class="ot"> m:type=</span><span class="st">"Edm.Int32"</span>&gt;0&lt;/<span class="kw">d:row_id</span>&gt;</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccodice_locale1983787008</span>&gt;1LO#LOMBGEFO-00000000000047020207&lt;/<span class="kw">d:Cccodice_locale1983787008</span>&gt;</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccodice_cup_1267962549</span>&gt;B54H14001840005&lt;/<span class="kw">d:Cccodice_cup_1267962549</span>&gt;</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccdescrizione_cu902475141</span>&gt;ALTA VIA 1 E 2  MULATTIERA MILITARE STORICA PASSO DEL TURLO*VIA VARI*INTERVENTI INFRASTRUTTURALI DI SENTIERISTICA&lt;/<span class="kw">d:Ccdescrizione_cu902475141</span>&gt;</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccodice_stato_1426672593</span>&gt;C&lt;/<span class="kw">d:Cccodice_stato_1426672593</span>&gt;</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccdescrizione_s1176782119</span>&gt;CHIUSO&lt;/<span class="kw">d:Ccdescrizione_s1176782119</span>&gt;</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccdata_inizio_va158409080</span>&gt;2015-02-26&lt;/<span class="kw">d:Ccdata_inizio_va158409080</span>&gt;</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccdata_fine_val1549404726</span>&gt;2017-12-13&lt;/<span class="kw">d:Ccdata_fine_val1549404726</span>&gt;</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccdescrizione_ti177583083</span>&gt;REGIONE AUTONOMA VALLE D'AOSTA&lt;/<span class="kw">d:Ccdescrizione_ti177583083</span>&gt;</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccodice_fiscal1934873127</span>&gt;80002270074&lt;/<span class="kw">d:Cccodice_fiscal1934873127</span>&gt;</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccodice_ente_652186435</span>&gt;476042930535072001&lt;/<span class="kw">d:Cccodice_ente_652186435</span>&gt;</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccdescrizione_e1495819219</span>&gt;REGIONE AUTONOMA VALLE D'AOSTA&lt;/<span class="kw">d:Ccdescrizione_e1495819219</span>&gt;</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccodice_natura_904054865</span>&gt;03&lt;/<span class="kw">d:Cccodice_natura_904054865</span>&gt;</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccnatura_interve446219799</span>&gt;REALIZZAZIONE DI LAVORI PUBBLICI (OPERE ED IMPIANTISTICA)&lt;/<span class="kw">d:Ccnatura_interve446219799</span>&gt;</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccodice_tipolo1925290846</span>&gt;0307&lt;/<span class="kw">d:Cccodice_tipolo1925290846</span>&gt;</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cctipologia_inte917995560</span>&gt;MANUTENZIONE STRAORDINARIA&lt;/<span class="kw">d:Cctipologia_inte917995560</span>&gt;</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccodice_settore167988668</span>&gt;02&lt;/<span class="kw">d:Cccodice_settore167988668</span>&gt;</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccsettore_inter1475973826</span>&gt;INFRASTRUTTURE AMBIENTALI E RISORSE IDRICHE&lt;/<span class="kw">d:Ccsettore_inter1475973826</span>&gt;</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccodice_sottose852967247</span>&gt;0211__&lt;/<span class="kw">d:Cccodice_sottose852967247</span>&gt;</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccsottosettore_i327509803</span>&gt;PROTEZIONE, VALORIZZAZIONE E FRUIZIONE DELL'AMBIENTE&lt;/<span class="kw">d:Ccsottosettore_i327509803</span>&gt;</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccodice_categor603999167</span>&gt;0211__124_&lt;/<span class="kw">d:Cccodice_categor603999167</span>&gt;</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccategoria_inte847681723</span>&gt;STRUTTURE PER LA FRUIZIONE DEL PATRIMONIO AMBIENTALE&lt;/<span class="kw">d:Cccategoria_inte847681723</span>&gt;</span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccinizio_progetta77930296</span>&gt;&lt;/<span class="kw">d:Ccinizio_progetta77930296</span>&gt;</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfine_progetta1599384906</span>&gt;&lt;/<span class="kw">d:Ccfine_progetta1599384906</span>&gt;</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccinizio_progett179140555</span>&gt;&lt;/<span class="kw">d:Ccinizio_progett179140555</span>&gt;</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfine_progetta1715553716</span>&gt;&lt;/<span class="kw">d:Ccfine_progetta1715553716</span>&gt;</span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccinizio_esecuz2103627579</span>&gt;&lt;/<span class="kw">d:Ccinizio_esecuz2103627579</span>&gt;</span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfine_esecuzion606478841</span>&gt;&lt;/<span class="kw">d:Ccfine_esecuzion606478841</span>&gt;</span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccinizio_esecuzi167207395</span>&gt;&lt;/<span class="kw">d:Ccinizio_esecuzi167207395</span>&gt;</span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfine_esecuzio1000236773</span>&gt;&lt;/<span class="kw">d:Ccfine_esecuzio1000236773</span>&gt;</span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccinizio_conclu2032086749</span>&gt;&lt;/<span class="kw">d:Ccinizio_conclu2032086749</span>&gt;</span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfine_conclusi1199057371</span>&gt;&lt;/<span class="kw">d:Ccfine_conclusi1199057371</span>&gt;</span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccinizio_conclus809082107</span>&gt;&lt;/<span class="kw">d:Ccinizio_conclus809082107</span>&gt;</span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfine_conclusio863189049</span>&gt;&lt;/<span class="kw">d:Ccfine_conclusio863189049</span>&gt;</span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccinizio_funzion952308717</span>&gt;&lt;/<span class="kw">d:Ccinizio_funzion952308717</span>&gt;</span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccinizio_funzio1163938959</span>&gt;&lt;/<span class="kw">d:Ccinizio_funzio1163938959</span>&gt;</span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccosto_lavori_1978461874</span>&gt;0.00&lt;/<span class="kw">d:Cccosto_lavori_1978461874</span>&gt;</span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccsomme_a_dispo2101248738</span>&gt;0.00&lt;/<span class="kw">d:Ccsomme_a_dispo2101248738</span>&gt;</span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cconeri_investi1975427665</span>&gt;0.00&lt;/<span class="kw">d:Cconeri_investi1975427665</span>&gt;</span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cccosto_lavori_e582037416</span>&gt;0.00&lt;/<span class="kw">d:Cccosto_lavori_e582037416</span>&gt;</span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccsomme_a_dispo1936647711</span>&gt;0.00&lt;/<span class="kw">d:Ccsomme_a_dispo1936647711</span>&gt;</span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cconeri_investi1729453825</span>&gt;0.00&lt;/<span class="kw">d:Cconeri_investi1729453825</span>&gt;</span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfinanziamenti1391929223</span>&gt;34943.95&lt;/<span class="kw">d:Ccfinanziamenti1391929223</span>&gt;</span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfinanziamenti_887884618</span>&gt;104831.85&lt;/<span class="kw">d:Ccfinanziamenti_887884618</span>&gt;</span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfinanziamenti_756114873</span>&gt;0.00&lt;/<span class="kw">d:Ccfinanziamenti_756114873</span>&gt;</span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfinanziamenti_190716726</span>&gt;0.00&lt;/<span class="kw">d:Ccfinanziamenti_190716726</span>&gt;</span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccaltre_fonti_d2144467400</span>&gt;0.00&lt;/<span class="kw">d:Ccaltre_fonti_d2144467400</span>&gt;</span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Ccfinanziamenti_624281149</span>&gt;0.00&lt;/<span class="kw">d:Ccfinanziamenti_624281149</span>&gt;</span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>        &lt;<span class="kw">d:Cctotale_econom1259599378</span>&gt;0.00&lt;/<span class="kw">d:Cctotale_econom1259599378</span>&gt;</span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>      &lt;/<span class="kw">m:properties</span>&gt;</span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">content</span>&gt;</span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">entry</span>&gt;</span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">feed</span>&gt;</span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Tra i campi presenti, <code>Cccodice_cup_1267962549</code>, che è il campo che contiene il codice CUP.</p>
+<p>Se si vuole interrogare questo dataset, per avere soltanto le informazioni relative al CUP <code>I77H11000120009</code>, posso fare una richiesta <code>GET</code> con <code>curl</code>:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-G</span> <span class="st">"https://bdap-opendata.rgs.mef.gov.it/ODataProxy/MdData('6c0df564-f95d-4d48-9a39-b70146131722@rgs')/DataRows"</span> <span class="dt">\</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>     <span class="at">--data-urlencode</span> <span class="st">'$filter=Cccodice_cup_1267962549 eq '</span><span class="dt">\'</span><span class="st">'I77H11000120009'</span><span class="dt">\'</span><span class="st">''</span></span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Con <code>$filter=Cccodice_cup_1267962549 eq '\''I77H11000120009'\''</code> si applica il filtro per il CUP <code>I77H11000120009</code>. La <em>query</em> si può arricchiere e si possono aggiungere più parametri di ricerca.</p>
+<p>Se voglio l’output in formato <code>JSON</code> posso aggiungere</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-G</span> <span class="st">"https://bdap-opendata.rgs.mef.gov.it/ODataProxy/MdData('6c0df564-f95d-4d48-9a39-b70146131722@rgs')/DataRows"</span> <span class="dt">\</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>     <span class="at">--data-urlencode</span> <span class="st">'$filter=Cccodice_cup_1267962549 eq '</span><span class="dt">\'</span><span class="st">'I77H11000120009'</span><span class="dt">\'</span><span class="st">''</span> <span class="dt">\</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>     <span class="at">--header</span> <span class="st">"Accept: application/json"</span></span></code><button title="Copia negli appunti" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Detto che è cosa buona poter cercare in questo modo, l’<strong>utilizzo attuale è però scomodo</strong>: dato un CUP ad esempio, è infatti necessario sapere prima in quale dataset cercare. Sarebbe importante avere la disponibilità anche di una ricerca globale <em>machine to machine</em>.</p>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Torna in cima</a></main> <!-- /main -->
