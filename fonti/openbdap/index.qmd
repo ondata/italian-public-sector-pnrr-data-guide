@@ -80,7 +80,7 @@ In questo diverse sezioni:
 - `?$skip=0` indica di saltare 0 righe;
 - `&$top=10` indica di estrarre al massimo 10 righe.
 
-Se se si estrae soltanto la prima riga si può leggere lo schema dei dati:
+Ecco un esempio di una riga di output, in cui si può leggere lo schema dei dati:
 
 ```{.xml .code-overflow-wrap}
 <?xml version="1.0" encoding="utf-8"?>
