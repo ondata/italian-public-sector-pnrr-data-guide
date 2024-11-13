@@ -63,7 +63,7 @@ Purtroppo **non più di 300 CUP per volta**.
 
 Nel [catalogo Open Data di OpenBDAP](https://bdap-opendata.rgs.mef.gov.it/catalog) è possibile fare ricerche tramite [protocollo `OData`](https://www.wikiwand.com/en/articles/Open_Data_Protocol): sono un insieme di regole e protocolli che permettono di accedere e manipolare dati tramite richieste HTTP. Consentono di interrogare un database *online* e ottenere i dati in un formato leggibile, come `JSON` o `XML`, facilitando l'integrazione e l'uso dei dati in diverse applicazioni.
 
-Se si apre un dataset del catalogo OpenBDAP, come ad esempio "[Progetti Opere Pubbliche MOP - Valle d'Aosta](https://bdap-opendata.rgs.mef.gov.it/opendata/spd_mop_prg_mon_reg02_01_9999?t=Scarica)", nella sezione "Scarica", scorrendo la *scroll-bar* verso il base della pagina, si trova il link "OTTIENI URL ODATA" (vedi @fig-openbdap_odata).
+Se si apre un dataset del catalogo OpenBDAP, come ad esempio "[Progetti Opere Pubbliche MOP - Valle d'Aosta](https://bdap-opendata.rgs.mef.gov.it/opendata/spd_mop_prg_mon_reg02_01_9999?t=Scarica)", nella sezione "Scarica", scorrendo la *scroll-bar* verso il basso, si trova il link "OTTIENI URL ODATA" (vedi @fig-openbdap_odata).
 
 ![Esempio per visualizzare "OTTIENI URL ODATA"](images/openbdap_odata.png){#fig-openbdap_odata}
 
@@ -80,7 +80,7 @@ In questo diverse sezioni:
 - `?$skip=0` indica di saltare 0 righe;
 - `&$top=10` indica di estrarre al massimo 10 righe.
 
-Ecco un esempio di una riga di output, in cui si può leggere lo schema dei dati:
+Ecco un esempio di una riga di *output*, in cui si può leggere lo schema dei dati:
 
 ```{.xml .code-overflow-wrap}
 <?xml version="1.0" encoding="utf-8"?>
