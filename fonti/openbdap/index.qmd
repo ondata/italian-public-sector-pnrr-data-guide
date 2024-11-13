@@ -160,7 +160,7 @@ Ecco un esempio di una riga di *output*, in cui si può leggere lo schema dei da
 
 Tra i campi presenti, `Cccodice_cup_1267962549`, che dovrebbe essere il campo che contiene il codice CUP. Non ne siamo certi, perché non troviamo una documentazione che spieghi il significato dei campi.
 
-Se si vuole interrogare questo dataset, per avere soltanto le informazioni relative al CUP `I77H11000120009`, posso fare una richiesta `GET` con `curl`:
+Se si vuole interrogare questo dataset, per avere soltanto le informazioni relative al CUP `I77H11000120009`, si può fare una richiesta `GET` con `curl`:
 
 ```bash
 curl -G "https://bdap-opendata.rgs.mef.gov.it/ODataProxy/MdData('6c0df564-f95d-4d48-9a39-b70146131722@rgs')/DataRows" \
