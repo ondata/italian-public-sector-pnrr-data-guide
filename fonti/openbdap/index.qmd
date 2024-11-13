@@ -168,7 +168,7 @@ curl -G "https://bdap-opendata.rgs.mef.gov.it/ODataProxy/MdData('6c0df564-f95d-4
 ```
 
 Con `$filter=Cccodice_cup_1267962549 eq 'I77H11000120009'` si applica il filtro per estrarre i record in cui il CUP è uguale - `eq` per *equal* - a `I77H11000120009`.
-La *query* si può arricchiere e si possono aggiungere più parametri di ricerca.
+La *query* si può arricchire e si possono aggiungere più parametri di ricerca.
 
 Questa *query* corrisponde a questo URL, lanciable direttamente dal *browser* e che darà l'*output* nel formato di default, `XML`:
 <https://bdap-opendata.rgs.mef.gov.it/ODataProxy/MdData('6c0df564-f95d-4d48-9a39-b70146131722@rgs')/DataRows?$filter=Cccodice_cup_1267962549%20eq%20%27I77H11000120009%27>
