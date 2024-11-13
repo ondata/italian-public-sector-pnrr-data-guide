@@ -69,7 +69,7 @@ Se si apre un dataset del catalogo OpenBDAP, come ad esempio "[Progetti Opere Pu
 
 Al *click* su questo, e poi scorrendo di nuovo verso l'alto, si ottiene un URL come questo:
 
-```
+```markdown
 https://bdap-opendata.rgs.mef.gov.it//ODataProxy/MdData('6c0df564-f95d-4d48-9a39-b70146131722@rgs')/DataRows?$skip=0&$top=10
 ```
 
