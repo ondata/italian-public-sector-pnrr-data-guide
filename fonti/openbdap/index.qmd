@@ -164,7 +164,7 @@ Se si vuole interrogare questo dataset, per avere soltanto le informazioni relat
 
 ```bash
 curl -G "https://bdap-opendata.rgs.mef.gov.it/ODataProxy/MdData('6c0df564-f95d-4d48-9a39-b70146131722@rgs')/DataRows" \
-     --data-urlencode "$filter=Cccodice_cup_1267962549 eq 'I77H11000120009'" \
+     --data-urlencode "$filter=Cccodice_cup_1267962549 eq 'I77H11000120009'"
 ```
 
 Con `$filter=Cccodice_cup_1267962549 eq '\''I77H11000120009'\''` si applica il filtro per estrarre i record in cui il CUP è uguale - `eq` per *equal* - a `I77H11000120009`.
