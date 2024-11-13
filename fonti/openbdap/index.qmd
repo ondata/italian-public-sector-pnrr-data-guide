@@ -158,7 +158,7 @@ Ecco un esempio di una riga di *output*, in cui si può leggere lo schema dei da
 </feed>
 ```
 
-Tra i campi presenti, `Cccodice_cup_1267962549`, che è il campo che contiene il codice CUP.
+Tra i campi presenti, `Cccodice_cup_1267962549`, che dovrebbe essere il campo che contiene il codice CUP. Non ne siamo certi, perché non troviamo una documentazione che spieghi il significato dei campi.
 
 Se si vuole interrogare questo dataset, per avere soltanto le informazioni relative al CUP `I77H11000120009`, posso fare una richiesta `GET` con `curl`:
 
