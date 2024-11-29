@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # I Sistemi di Monitoraggio
 
 Il monitoraggio degli investimenti pubblici in Italia attualmente soffre di una certa frammentazione, causata da diversi fattori:
