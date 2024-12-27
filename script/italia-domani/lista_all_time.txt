@@ -804,6 +804,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Gare
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Gare_Subappaltatori-Universo_REGIS.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Gare_Subappaltatori-Universo_REGIS_v6.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Gare_Subappaltatori-Universo_REGIS_v6.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Indicatori_Comuni-Universo_REGIS.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Indicatori_Comuni-Universo_REGIS_v3.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Indicatori_Comuni-Universo_REGIS_v3.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Indicatori_Target-Universo_REGIS.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Indicatori_Target-Universo_REGIS_v3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Indicatori_Target-Universo_REGIS_v3.xlsx
@@ -849,6 +852,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Sogg
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Spesa%20PNRR%20per%20misura.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Spesa%20PNRR%20per%20misura_v01.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_Spesa%20PNRR%20per%20misura_v01.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_TAG_Progetti-Universo_REGIS.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_TAG_Progetti-Universo_REGIS_v7.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_TAG_Progetti-Universo_REGIS_v7.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/TAG_sostegno_clima_digitale.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/TAG_sostegno_clima_digitale_v06.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/TAG_sostegno_clima_digitale_v06.xlsx
