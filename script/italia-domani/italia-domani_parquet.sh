@@ -14,12 +14,18 @@ mkdir -p "${folder}/../../data/italia-domani/parquet"
 trap "rm -f '${folder}/tmp/tmp.csv'" EXIT
 
 # soltanto i CSV nella versione corrente
-<"${folder}/lista.txt" grep '.csv' | grep -vP "(_v|\d|_opendata)" | while IFS= read -r url; do
+<"${folder}/lista.txt" grep '.csv' | grep -vP "(_v|\d)" | while IFS= read -r url; do
     nome=$(basename "${url}" .csv | tr ' ' '_')
 
     # Scarica il file
     curl -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
         -skL "${url}" > "${folder}/tmp/tmp.csv"
+
+    # se il nome del file è "PNRR_Soggetti" scrivi "evviva"
+    if [[ "${nome}" == "PNRR_Soggetti" ]]; then
+        awk -F';' 'NR == 1 || NF == 12 {print}' "${folder}/tmp/tmp.csv" > "${folder}/tmp/tmp_ok.csv"
+        mv "${folder}/tmp/tmp_ok.csv" "${folder}/tmp/tmp.csv"
+    fi
 
     # Controlla la codifica del file
     charset=$(chardetect --minimal "${folder}/tmp/tmp.csv" | tr '[:lower:]' '[:upper:]')
