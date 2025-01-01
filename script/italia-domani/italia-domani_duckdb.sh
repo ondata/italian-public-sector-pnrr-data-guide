@@ -25,6 +25,6 @@ find "${folder}"/../../data/italia-domani/parquet -name "*.parquet" | grep -Ff t
 
 mlr --jsonl join -j file -f "${folder}"/tmp/tmp.jsonl then unsparsify "${folder}"/../../data/italia-domani/lista_full.jsonl >"${folder}"/tmp/tmp2.jsonl
 
-mlr --jsonl --from "${folder}"/tmp/tmp2.jsonl rename file,table,file_url,table_source then put '$table=sub($table,"\..+","")' then reorder -f table,title,page_url,table_source then put '$data_osservazione=strftime(strptime($data_osservazione, "%d/%m/%y"),"%Y-%m-%d")' then sort -t table then clean-whitespace >"${folder}"/tmp/info_tabelle.jsonl
+mlr --jsonl --from "${folder}"/tmp/tmp2.jsonl rename file,view,file_url,view_source then put '$view=sub($view,"\..+","")' then reorder -f view,title,page_url,view_source then put '$data_osservazione=strftime(strptime($data_osservazione, "%d/%m/%y"),"%Y-%m-%d")' then sort -t view then clean-whitespace >"${folder}"/tmp/info_tabelle.jsonl
 
-duckdb "${folder}"/../../data/italia-domani/parquet/pnrr.db -c "create table info_tabelle as select * from read_ndjson('${folder}/tmp/info_tabelle.jsonl')"
+duckdb "${folder}"/../../data/italia-domani/parquet/pnrr.db -c "create table info_viste as select * from read_ndjson('${folder}/tmp/info_tabelle.jsonl')"
