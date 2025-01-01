@@ -27,3 +27,4 @@ data/messina/rawdata/*
 !data/anac/cup_csv.zip
 !data/italia-domani/*
 fonti/regis/dati/*
+data/italia-domani/parquet/pnrr.db.wal
