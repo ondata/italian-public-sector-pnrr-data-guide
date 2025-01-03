@@ -59,7 +59,7 @@ for ((i = 1; i <= ultima; i++)); do
     offset=$((offset + 8)) # Aggiorna l'offset
 done
 
-mlr -I --jsonl uniq -a then rename url,page_url then put '$file_url="https://www.italiadomani.gov.it".$file;$page_url="https://www.italiadomani.gov.it".$page_url;$file=sub($file,".+/","")' "$folder"/processing/lista_full.jsonl
+mlrgo -I --jsonl uniq -a then rename url,page_url then put '$file_url="https://www.italiadomani.gov.it".$file;$page_url="https://www.italiadomani.gov.it".$page_url;$file=sub($file,".+/","")' "$folder"/processing/lista_full.jsonl
 
 mv "$folder"/processing/lista_full.jsonl "${folder}"/../../data/italia-domani
 
