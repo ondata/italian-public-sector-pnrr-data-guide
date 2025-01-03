@@ -20,9 +20,11 @@ jobs:
         mkdir -p ~/bin
         cp bin/scrape ~/bin
         cp bin/mlr ~/bin
+        cp bin/mlrgo ~/bin
         cd ~/bin
         chmod +x scrape
         chmod +x mlr
+        chmod +x mlrgo
         sudo pip install yq
         sudo apt-get install pandoc
     - name: aggiorna pagina
