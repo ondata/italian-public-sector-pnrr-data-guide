@@ -1,6 +1,13 @@
 ---
-draft: true
+draft: false
 ---
+
+::: {.callout-tip}
+## VI Piano d'Azione Nazionale per il governo aperto
+
+Questa pagina è un esito del lavoro di gruppo dele **Pubbliche Amministrazioni** e le **organizzazioni della Società Civile** nel contesto del [**VI Piano d'Azione Nazionale per il governo aperto**](https://open.gov.it/governo-aperto/piano-nazionale/6nap).
+
+:::
 
 # I Sistemi di Monitoraggio
 

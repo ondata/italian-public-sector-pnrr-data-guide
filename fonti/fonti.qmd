@@ -16,3 +16,8 @@ A seguire le fonti dati descritte in questo _vademecum_.
 
 ::: {#fonti}
 :::
+
+## I Sistemi di Monitoraggio
+
+Il monitoraggio degli investimenti pubblici in Italia è oggi gestito attraverso diversi sistemi, ciascuno legato a specifiche fonti di finanziamento e normative. Questa frammentazione rende complessa la raccolta e l'analisi dei dati.<br>
+Per questa ragione è stata pubblicata una **pagina** che fornisce un [**quadro generale dei sistemi di monitoraggio**](quadro.qmd), evidenziando le **differenze** e le **sovrapposizioni** tra di essi.
