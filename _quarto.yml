@@ -4,7 +4,6 @@ project:
   render:
       - "*.qmd"
       - "*.md"
-      - "!fonti/quadro.qmd"
   resources:
   - "googlecd08604f4edafe6e.html"
   - "CNAME"
