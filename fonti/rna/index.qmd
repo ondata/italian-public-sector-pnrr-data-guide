@@ -40,7 +40,7 @@ Sono pubblicati in formato `XML` e sono resi disponibili questi metadati:
 
 Il 7 ottobre 2022 in [questa pagina](https://www.rna.gov.it/sites/PortaleRNA/it_IT/comunicazioni) è stato riportato quanto segue:
 
-> In particolare in caso di richiesta CUP è previsto il nuovo campo obbligatorio “Check_PNRR” che assume i valori “NO” per i progetti che non rientrano nel PNRR e “SI” per i progetti che rientrano nel PNRR. In quest’ultimo caso il tracciato va integrato con le informazioni specifiche richieste.
+> In particolare in caso di richiesta CUP è previsto il nuovo campo obbligatorio “Check_PNRR” che assume i valori “NO” per i progetti che non rientrano nel PNRR e “SI” per i progetti che rientrano nel PNRR. In quest'ultimo caso il tracciato va integrato con le informazioni specifiche richieste.
 
 Purtroppo al momento il campo `Check_PNRR` **non è disponibile** nei **dati aperti** pubblicati, quindi **non c'è un modo diretto per filtrare le agevolazioni finanziarie legate al PNRR**.
 

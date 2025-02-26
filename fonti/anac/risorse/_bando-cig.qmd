@@ -1,11 +1,11 @@
 | Campo | Descrizione |
 | --- | --- |
-| cig | Codice Identificativo di Gara, è un codice assegnato dall’Autorità per tracciare in modo univoco le gare ed i contratti a livello nazionale e viene assegnato a livello di Lotto. |
-| cig_accordo_quadro | Cig dell’Accordo Quadro, nel caso il contratto derivi da un accordo quadro stipulato in precedenza |
+| cig | Codice Identificativo di Gara, è un codice assegnato dall'Autorità per tracciare in modo univoco le gare ed i contratti a livello nazionale e viene assegnato a livello di Lotto. |
+| cig_accordo_quadro | Cig dell'Accordo Quadro, nel caso il contratto derivi da un accordo quadro stipulato in precedenza |
 | numero_gara | numero che identifica una gara; una gara è composta da uno o più lotti, ciascuno identificato da un CIG |
 | oggetto_gara | Oggetto della Gara - descrizione dei beni e servizi da appaltare |
 | importo_complessivo_gara | Importo Complessivo della Gara |
-| n_lotti_componenti | Numero dei lotti che compongo l’appalto |
+| n_lotti_componenti | Numero dei lotti che compongo l'appalto |
 | oggetto_lotto | Oggetto del Lotto |
 | importo_lotto | Importo del lotto |
 | oggetto_principale_contratto | Oggetto principale del contratto (Lavori, Servizi Forniture) |
@@ -14,14 +14,14 @@
 | luogo_istat | Localizzazione ISTAT |
 | provincia | Sigla della Provincia |
 | data_pubblicazione | data di pubblicazione del bando |
-| data_scadenza_offerta | Data di Scadenza per la presentazione di un’offerta |
+| data_scadenza_offerta | Data di Scadenza per la presentazione di un'offerta |
 | cod_tipo_scelta_contraente | Codice riferito alla procedura di scelta del contraente |
 | tipo_scelta_contraente | Descrizione della procedura di scelta del contraente |
 | cod_modalita_realizzazione | Codice riferito alla modalità di realizzazione della gara |
 | modalita_realizzazione | Descrizione della modalità di realizzazione della gara |
-| codice_ausa | Codice AUSA (un codice attribuito da ANAC, che identifica la Stazione Appaltante nell’Anagrafe Unica delle Stazioni Appaltanti) |
-| cf_amministrazione_appaltante | Codice Fiscale dell’Amministrazione che bandisce la gara o acquista |
-| denominazione_amministrazione_appaltante | Denominazione dell’Amministrazione che bandisce la gara o acquista |
+| codice_ausa | Codice AUSA (un codice attribuito da ANAC, che identifica la Stazione Appaltante nell'Anagrafe Unica delle Stazioni Appaltanti) |
+| cf_amministrazione_appaltante | Codice Fiscale dell'Amministrazione che bandisce la gara o acquista |
+| denominazione_amministrazione_appaltante | Denominazione dell'Amministrazione che bandisce la gara o acquista |
 | sezione_regionale | Sezione regionale di riferimento per l'invio dei dati |
 | id_centro_costo | Identificativo del Centro di Costo, unità organizzativa della stazione appaltante. |
 | denominazione_centro_costo | Denominazione del Centro di Costo |
@@ -48,16 +48,16 @@
 | FUNZIONI_DELEGATE | Funzioni delegate (in caso di delega) |
 | CF_SA_DELEGANTE | Codice fiscale soggetto per conto del quale agisce (in caso di delega) |
 | DENOMINAZIONE_SA_DELEGANTE | Denominazione del soggetto per conto del quale agisce (in caso di delega) |
-| CF_SA_DELEGATA | Codice dell’amministrazione delegante |
-| DENOMINAZIONE_SA_DELEGATA | Denominazione dell’amministrazione delegante |
-| IMPORTO_SICUREZZA | Importo per l’attuazione della sicurezza (compreso nella base d’asta ma non soggetto a ribasso) |
+| CF_SA_DELEGATA | Codice dell'amministrazione delegante |
+| DENOMINAZIONE_SA_DELEGATA | Denominazione dell'amministrazione delegante |
+| IMPORTO_SICUREZZA | Importo per l'attuazione della sicurezza (compreso nella base d'asta ma non soggetto a ribasso) |
 | TIPO_APPALTO_RISERVATO | Tipo di appalto riservato (in caso di appalto riservato) |
 | CUI_PROGRAMMA | Codice Univoco assegnato dal MIT al programma biennale/triennale in cui è inserito il contratto |
 | FLAG_PREV_RIPETIZIONI | L'appalto prevede ripetizioni o altre opzioni |
 | COD_IPOTESI_COLLEGAMENTO | Codice del motivo di collegamento con un appalto precedente (se collegato) |
 | IPOTESI_COLLEGAMENTO | Motivo di collegamento con un'appalto precedente (se collegato) |
-| CIG_COLLEGAMENTO | Cig dell’appalto collegato |
-| COD_ESITO | Codice dell’esito della procedura |
+| CIG_COLLEGAMENTO | Cig dell'appalto collegato |
+| COD_ESITO | Codice dell'esito della procedura |
 | ESITO | Esito della procedura |
 | DATA_COMUNICAZIONE_ESITO | Data della comunicazione esito della procedura |
 | Flag_PNRR_PNC | L'appalto o concessione è afferente gli investimenti pubblici finanziati, in tutto o in parte, con le risorse previste dal PNRR e/o dal PNC (il flag è valorizzato dal 2023, sulle risorse incrementali del dataset “CIG aggiornamenti delta”) |

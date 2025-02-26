@@ -30,7 +30,7 @@ Il sistema ReGiS rappresenta la modalità unica attraverso cui le amministrazion
 La [**seconda**](https://pnrr.datibenecomune.it/fonti/anac/#il-dataset-bandi-pnrr), quella sul dataset “Bandi PNRR” pubblicato da ANAC, ci consegna due informazioni importanti:
 
 -   l'elenco delle **gare** **etichettate** come **PNRR/PNC** (prima non era possibile in modo diretto quali fossero le gare correlate a PNRR/PNC);
--   le informazioni sulle clausole di **condizionalità** e **premialità** previste sui bandi di gara, “_promuovere l’**imprenditoria giovanile**, l’**inclusione** lavorativa delle **persone disabili**, la **parità** di **genere** e l’**assunzione** di **giovani**, con età inferiore a trentasei anni, e **donne**_”.
+-   le informazioni sulle clausole di **condizionalità** e **premialità** previste sui bandi di gara, “_promuovere l'**imprenditoria giovanile**, l'**inclusione** lavorativa delle **persone disabili**, la **parità** di **genere** e l'**assunzione** di **giovani**, con età inferiore a trentasei anni, e **donne**_”.
 
 ::: {.callout-tip}
 ## ✌️ Siamo orgogliosi di avere contribuito a questo risultato

@@ -24,7 +24,7 @@ Il **27 settembre 2023** è stata data [notizia](https://www.italiadomani.gov.it
 
 > Gli ultimi interventi evolutivi hanno visto coinvolti i flussi relativi alle procedure di aggiudicazione.
 >
-> Quanto fino ad oggi riportato nel dataset “Gare Aggiudicatari PNRR” è infatti adesso consultabile in due distinti dataset:uno dedicato alle Gare, con l’evidenza dell’elenco delle rispettive **procedure**; l’altro dedicato agli **Aggiudicatari**.
+> Quanto fino ad oggi riportato nel dataset “Gare Aggiudicatari PNRR” è infatti adesso consultabile in due distinti dataset:uno dedicato alle Gare, con l'evidenza dell'elenco delle rispettive **procedure**; l'altro dedicato agli **Aggiudicatari**.
 
 Questi i **nuovi dataset**:
 
