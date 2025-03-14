@@ -25,18 +25,25 @@ Il [**sistema ReGiS**](https://www.italiadomani.gov.it/it/Interventi/regis---il-
 
 Da aprile 2023, sono stati pubblicati sulla [sezione "open data"](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc) di **ItaliaDomani** (il sito ufficiale del PNRR) i primi dati da fonte ReGiS:
 
-- [Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-del-pnrr.html)
-- [Gare Subappaltatori del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-subappaltatori.html)
-- [Aggiudicatari Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/aggiudicatari-gare-del-pnrr.html)
+- [Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-dei-progetti-del-pnrr.html)
+- [Gare Subappaltatori del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/subappaltatori-gare-dei-progetti-del-pnrr.html)
+- [Aggiudicatari Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/aggiudicatari-gare-dei-progetti-del-pnrr.html)
 - [Interoperabilità - Amministrazioni Titolari](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/amministrazioni-titolari-interoperabilita.html)
-- [Localizzazione dei progetti PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/localizzazione-dei-progetti-pnrr.html)
-- [Progetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/progetti-del-pnrr.html)
-- [Soggetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/soggetti-del-pnrr.html)
+- [Localizzazione dei progetti PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/localizzazione-dei-progetti-del-pnrr.html)
+- [Progetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Progetti_del_PNRR.html)
+- [Soggetti del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/soggetti-dei-progetti-del-pnrr.html)
+
+---
+
+**NOTA BENE**: la serie UNIVERSO non è più disponibile. Si riporta soltanto come traccia storica.
+
 - [Universo ReGiS - Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-del-pnrr.html)
 - [Universo ReGiS - Gare Subappaltatori del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis---gare-subappaltatori.html)
 - [Universo ReGiS - Aggiudicatari Gare del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/universo-regis-aggiudicatari-gare-del-pnrr.html)
 - [Universo ReGiS - Localizzazione del PNRR](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Localizzazione.html)
 - [Universo ReGiS - Progetti](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html)
+
+---
 
 Questi dati sono sottoposti a un "_processo di validazione, ossia dal consolidamento periodico delle informazioni tramite controlli automatici di coerenza e tramite le opportune verifiche amministrative poste in essere dalle Amministrazioni Titolari_".
 
@@ -75,7 +82,11 @@ Queste sono **elaborazioni di esempio**, basate sui dati pubblicati ad aprile 20
 
 ### Universo ReGiS - Progetti
 
-È il [dato](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html) in qualche modo "centrale", che "*riporta per ciascuna misura o sub-misura del Piano il corredo informativo di tutti i progetti identificati tramite CUP/CLP presenti sulla piattaforma ReGiS*".
+::: {.callout-note}
+La serie **UNIVERSO** non è più disponibile. Si riporta soltanto come traccia storica.
+:::
+
+È il [dato](https://web.archive.org/web/20240406110330/https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Universo_ReGiS_Progetti.html) in qualche modo "centrale", che "*riporta per ciascuna misura o sub-misura del Piano il corredo informativo di tutti i progetti identificati tramite CUP/CLP presenti sulla piattaforma ReGiS*".
 
 ```{python}
 #| echo: false
