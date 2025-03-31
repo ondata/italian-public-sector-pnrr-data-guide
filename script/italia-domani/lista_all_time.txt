@@ -577,6 +577,12 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/Indicatori_Comuni_
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_QuadroFinProgrammazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_QuadroFinProgrammazione_v08.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_QuadroFinProgrammazione_v08.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_avanzamento_indicatori_comuni.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_avanzamento_indicatori_comuni_v7.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_avanzamento_indicatori_comuni_v7.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_map_indicatori_comuni.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_map_indicatori_comuni_v8.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_map_indicatori_comuni_v8.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare_v7.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare_v7.xlsx
@@ -993,6 +999,12 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/PNRR_TAG_
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/TAG_sostegno_clima_digitale.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/TAG_sostegno_clima_digitale_v06.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_luglio24/TAG_sostegno_clima_digitale_v06.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_settembre24/OpenData_PNRR_avanzamento_indicatori_comuni.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_settembre24/OpenData_PNRR_avanzamento_indicatori_comuni_v6.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_settembre24/OpenData_PNRR_avanzamento_indicatori_comuni_v6.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_settembre24/OpenData_PNRR_map_indicatori_comuni.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_settembre24/OpenData_PNRR_map_indicatori_comuni_v7.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_settembre24/OpenData_PNRR_map_indicatori_comuni_v7.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendataa/PNRR-Localizzazione-Universo_REGIS.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendataa/PNRR_Localizzazione-Universo_REGIS.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendataa/PNRR_Localizzazione-Universo_REGIS.xlsx
