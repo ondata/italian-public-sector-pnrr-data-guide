@@ -14,7 +14,7 @@ mkdir -p "${folder}"/../../data/italia-domani
 URL="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/jcr:content/root/container/opendatasearch.searchResults.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc&resultsOffset=0"
 
 # Estrae il numero di pagine
-ultima=$(google-chrome-stable --no-sandbox--headless --disable-gpu \
+ultima=$(google-chrome-stable --no-sandbox --headless --disable-gpu \
     --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" \
     --dump-dom "$URL" |
     scrape -be '//li[contains(@class, " d-none")]' |
@@ -26,7 +26,7 @@ offset=0
 rm -f "$folder"/tmp.txt
 
 # Prima pagina
-google-chrome-stable --no-sandbox--headless --disable-gpu \
+google-chrome-stable --no-sandbox --headless --disable-gpu \
     --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" \
     --dump-dom "$URL" |
     scrape -be '//span[@data-url]' |
@@ -38,7 +38,7 @@ rm -f "$folder"/processing/lista_full.jsonl
 for ((i = 1; i <= ultima; i++)); do
     url="https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/jcr:content/root/container/opendatasearch.searchResults.html?resultsOffset=$offset"
 
-    html=$(google-chrome-stable --no-sandbox--headless --disable-gpu \
+    html=$(google-chrome-stable --no-sandbox --headless --disable-gpu \
         --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" \
         --dump-dom "$url")
 
