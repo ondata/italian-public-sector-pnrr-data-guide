@@ -28,3 +28,5 @@ data/messina/rawdata/*
 !data/italia-domani/*
 fonti/regis/dati/*
 data/italia-domani/parquet/pnrr.db.wal
+data/italia-domani/parquet/__marimo__/*
+data/italia-domani/parquet/pnrr.py
