@@ -70,12 +70,12 @@ trap "rm -f '${folder}/tmp/tmp.csv'" EXIT
         if [[ "${nome}" == "PNRR_Gare" ]]; then
             duckdb -c "COPY (
                 WITH source AS (
-                    SELECT * FROM read_csv_auto('${folder}/tmp/tmp.csv',decimal_separator=',',sample_size=-1,nullstr = ['N/A',''],dateformat='%d/%m/%Y')
+                    SELECT * FROM read_csv_auto('${folder}/tmp/tmp.csv',decimal_separator=',',sample_size=-1,nullstr = ['N/A',''],dateformat='%d/%m/%Y',normalize_names = true)
                 )
                 SELECT
-                    * EXCLUDE (\"Importo Complessivo Gara\", \"Importo Aggiudicazione\"),
-                    CAST(REPLACE(REPLACE(\"Importo Complessivo Gara\", '.', ''), ',', '.') AS FLOAT) AS \"Importo Complessivo Gara\",
-                    CAST(REPLACE(REPLACE(\"Importo Aggiudicazione\", '.', ''), ',', '.') AS FLOAT) AS \"Importo Aggiudicazione\"
+                    * EXCLUDE (importo_complessivo_gara, importo_aggiudicazione),
+                    CAST(REPLACE(REPLACE(importo_complessivo_gara, '.', ''), ',', '.') AS FLOAT) AS importo_complessivo_gara,
+                    CAST(REPLACE(REPLACE(importo_aggiudicazione, '.', ''), ',', '.') AS FLOAT) AS importo_aggiudicazione
                 FROM source
             ) TO '${folder}/../../data/italia-domani/parquet/${nome}.parquet' (FORMAT 'parquet', CODEC 'ZSTD')"
         else
