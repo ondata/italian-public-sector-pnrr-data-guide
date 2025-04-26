@@ -51,7 +51,7 @@ trap "rm -f '${folder}/tmp/tmp.csv'" EXIT
         fi
 
         # Converte CSV in Parquet usando DuckDB con compressione ZSTD
-        duckdb -c "COPY (SELECT * FROM read_csv_auto('${folder}/tmp/tmp.csv',decimal_separator=',',sample_size=-1)) TO '${folder}/../../data/italia-domani/parquet/${nome}.parquet' (FORMAT 'parquet', CODEC 'ZSTD')"
+        duckdb -c "COPY (SELECT * FROM read_csv_auto('${folder}/tmp/tmp.csv',decimal_separator=',',sample_size=-1,nullstr = ['N/A',''],dateformat='%d/%m/%Y')) TO '${folder}/../../data/italia-domani/parquet/${nome}.parquet' (FORMAT 'parquet', CODEC 'ZSTD')"
     fi
 done
 
