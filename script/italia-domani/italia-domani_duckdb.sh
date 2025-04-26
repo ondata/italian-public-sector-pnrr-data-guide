@@ -20,7 +20,7 @@ fi
 mlr --ijsonl --onidx cut -f file_url then put '$file_url=sub($file_url,"^(.+/)(.+)(\..+)$","\2.")' "${folder}"/../../data/italia-domani/lista_full.jsonl >"${folder}"/tmp/tmp.txt
 
 # Crea viste nel database DuckDB per ogni file Parquet
-find "${folder}"/../../data/italia-domani/parquet -name "*.parquet" | grep -Ff tmp.txt | while read -r file; do
+find "${folder}"/../../data/italia-domani/parquet -name "*.parquet" | grep -Ff "${folder}"/tmp/tmp.txt | while read -r file; do
     table=$(basename "${file}" .parquet)
     # Crea una vista nel database per ogni file Parquet, leggendo direttamente da GitHub
     duckdb "${folder}"/../../data/italia-domani/parquet/pnrr.db -c "create or replace view \"${table}\" AS
@@ -28,7 +28,7 @@ select * from read_parquet('https://raw.githubusercontent.com/ondata/italian-pub
 done
 
 # Prepara i metadati delle tabelle
-find "${folder}"/../../data/italia-domani/parquet -name "*.parquet" | grep -Ff tmp.txt | mlr --inidx --ojsonl label file then put '$file=sub($file,"^(.+/)(.+)(\..+)$","\2.csv")' >"${folder}"/tmp/tmp.jsonl
+find "${folder}"/../../data/italia-domani/parquet -name "*.parquet" | grep -Ff "${folder}"/tmp/tmp.txt | mlr --inidx --ojsonl label file then put '$file=sub($file,"^(.+/)(.+)(\..+)$","\2.csv")' >"${folder}"/tmp/tmp.jsonl
 
 # Unisce i metadati delle tabelle con le informazioni complete
 mlr --jsonl join -j file -f "${folder}"/tmp/tmp.jsonl then unsparsify "${folder}"/../../data/italia-domani/lista_full.jsonl >"${folder}"/tmp/tmp2.jsonl
