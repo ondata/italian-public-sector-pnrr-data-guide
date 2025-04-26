@@ -16,6 +16,8 @@ L'URL è https://raw.githubusercontent.com/ondata/italian-public-sector-pnrr-dat
 
 È un database DuckDB che contiene le tabelle del catalogo dati di Italiadomani, ma come viste che puntano alla versione parquet dei file del catalogo.
 
+Rispetto alla versione CSV tutti i nomi dei campi sono normalizzati in `snake_case`, i campi con date sono stati convertiti in `DATE` e i campi con numeri in `INTEGER` o `FLOAT`, a seconda del caso.
+
 ### italia-domani_parquet.sh
 
 Converte i file CSV scaricati in formato Parquet, gestendo automaticamente le diverse codifiche dei caratteri. Da lanciare dopo `italia-domani-pagina-catalogo.sh` per avere il puntamento alle ultime versioni dei file CSV.
