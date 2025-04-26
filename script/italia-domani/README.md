@@ -10,11 +10,16 @@ Script per la gestione e la pulizia dei dati PNRR, inclusa la conversione dei co
 
 Scarica e processa i dati dal catalogo open data di Italia Domani, generando una lista di risorse disponibili.
 
-## italia-domani_parquet.sh
+## Versione duckdb del catalogo dati di Italiadomani
 
-Converte i file CSV scaricati in formato Parquet, gestendo automaticamente le diverse codifiche dei caratteri.
+L'URL è https://raw.githubusercontent.com/ondata/italian-public-sector-pnrr-data-guide/main/data/italia-domani/parquet/pnrr.db
 
-## italia-domani_duckdb.sh
+È un database DuckDB che contiene le tabelle del catalogo dati di Italiadomani, ma come viste che puntano alla versione parquet dei file del catalogo.
 
-Crea un database DuckDB con viste sui file Parquet e genera metadati sulle tabelle disponibili.
+### italia-domani_parquet.sh
 
+Converte i file CSV scaricati in formato Parquet, gestendo automaticamente le diverse codifiche dei caratteri. Da lanciare dopo `italia-domani-pagina-catalogo.sh` per avere il puntamento alle ultime versioni dei file CSV.
+
+### italia-domani_duckdb.sh
+
+Crea un database DuckDB con viste sui file Parquet e genera metadati sulle tabelle disponibili. Da lanciare dopo `italia-domani_parquet.sh`.
