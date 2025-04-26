@@ -17,7 +17,7 @@ if [ -f "${folder}"/../../data/italia-domani/parquet/pnrr.db ]; then
 fi
 
 # Estrae i nomi dei file dal JSON e prepara la lista dei file da processare
-mlr --ijsonl --onidx cut -f file_url then put '$file_url=sub($file_url,"^(.+/)(.+)(\..+)$","\2.")' "${folder}"/../../data/italia-domani/lista_full.jsonl >"${folder}"/tmp/tmp.txt
+mlr --ijsonl --onidx cut -f file_url then put '$file_url=sub($file_url,"^(.+/)(.+)(\..+)$","\2.")' "${folder}"/../../data/italia-domani/lista_full.jsonl | sed -E 's/_v[0-9]+//' | sort >"${folder}"/tmp/tmp.txt
 
 # Crea viste nel database DuckDB per ogni file Parquet
 find "${folder}"/../../data/italia-domani/parquet -name "*.parquet" | grep -Ff "${folder}"/tmp/tmp.txt | while read -r file; do
