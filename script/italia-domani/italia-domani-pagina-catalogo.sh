@@ -74,6 +74,7 @@ mlr --nidx sort -f 1 then uniq -a "$folder"/tmp.txt >"$folder"/lista.txt
 mlr --nidx sort -f 1 then uniq -a "$folder"/tmp.txt >>"$folder"/lista_all_time.txt
 mlr --nidx sort -f 1 then uniq -a "$folder"/lista_all_time.txt >"$folder"/lista_all_time.txt.tmp
 mv "$folder"/lista_all_time.txt.tmp "$folder"/lista_all_time.txt
+mlr --ijsonl --onidx cut -f file_url then uniq -a "${folder}"/../../data/italia-domani/lista_full.jsonl >"${folder}"/lista_duckdb.txt
 
 # Genera una pagina HTML con i link ai file
 mlr --nidx sort -f 1 then uniq -a "$folder"/tmp.txt | sed 's|.*|- <&>|' |
