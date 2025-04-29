@@ -27,7 +27,7 @@ mkdir -p "${folder}"/../../data/italia-domani/parquet
 trap "rm -f '${folder}/tmp/tmp.csv'" EXIT
 
 # Elabora solo i CSV nella versione corrente (esclude versioni precedenti)
-<"${folder}"/lista.txt grep '.csv' | grep -vP "(_v|\d)" | while IFS= read -r url; do
+<"${folder}"/lista_duckdb.txt grep '.csv' | grep -vP "(_v|\d)" | while IFS= read -r url; do
     nome=$(basename "${url}" .csv | tr ' ' '_')
 
     # Verifica se il file Parquet non esiste già o se è stato richiesto il force
@@ -70,12 +70,16 @@ trap "rm -f '${folder}/tmp/tmp.csv'" EXIT
         if [[ "${nome}" == "PNRR_Gare" ]]; then
             duckdb -c "COPY (
                 WITH source AS (
-                    SELECT * FROM read_csv_auto('${folder}/tmp/tmp.csv',decimal_separator=',',sample_size=-1,nullstr = ['N/A',''],dateformat='%d/%m/%Y',normalize_names = true)
+                    SELECT
+                        *,
+                        CAST(importo_complessivo_gara AS VARCHAR) AS importo_complessivo_gara_str,
+                        CAST(importo_aggiudicazione AS VARCHAR) AS importo_aggiudicazione_str
+                    FROM read_csv_auto('${folder}/tmp/tmp.csv',decimal_separator=',',sample_size=-1,nullstr = ['N/A',''],dateformat='%d/%m/%Y',normalize_names = true)
                 )
                 SELECT
-                    * EXCLUDE (importo_complessivo_gara, importo_aggiudicazione),
-                    CAST(REPLACE(REPLACE(importo_complessivo_gara, '.', ''), ',', '.') AS FLOAT) AS importo_complessivo_gara,
-                    CAST(REPLACE(REPLACE(importo_aggiudicazione, '.', ''), ',', '.') AS FLOAT) AS importo_aggiudicazione
+                    * EXCLUDE (importo_complessivo_gara, importo_aggiudicazione, importo_complessivo_gara_str, importo_aggiudicazione_str),
+                    CAST(REPLACE(REPLACE(importo_complessivo_gara_str, '.', ''), ',', '.') AS FLOAT) AS importo_complessivo_gara,
+                    CAST(REPLACE(REPLACE(importo_aggiudicazione_str, '.', ''), ',', '.') AS FLOAT) AS importo_aggiudicazione
                 FROM source
             ) TO '${folder}/../../data/italia-domani/parquet/${nome}.parquet' (FORMAT 'parquet', CODEC 'ZSTD')"
         else
