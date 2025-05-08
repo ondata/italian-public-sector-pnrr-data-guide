@@ -5,9 +5,6 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/PNRR_MeT_OAprog
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/monitoraggio-delle-misure-del-pnrr-attraverso-gli-indicatori-di-sviluppo-sostenibile-(sdgs)-e-dell'agenda-2030-/Mappatura_PNRR_SNSvS_Agenda2030_v3.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/monitoraggio-delle-misure-del-pnrr-attraverso-gli-indicatori-di-sviluppo-sostenibile-(sdgs)-e-dell'agenda-2030-/Mappatura_PNRR_SNSvS_Agenda2030_v3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/monitoraggio-delle-misure-del-pnrr-attraverso-gli-indicatori-di-sviluppo-sostenibile-(sdgs)-e-dell'agenda-2030-/Mappatura_PNRR_SNSvS_Agenda2030_v3.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/pnrr_aggiudicatari_gare-dati_validati/PNRR_Aggiudicatari_Gare-Dati_Validati.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/pnrr_aggiudicatari_gare-dati_validati/PNRR_Aggiudicatari_Gare-Dati_Validati.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/pnrr_aggiudicatari_gare-dati_validati/PNRR_Aggiudicatari_Gare-Dati_Validati.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/pnrr_aggiudicatari_gare-universo_regis/PNRR_%20Aggiudicatari_Gare-Universo_REGIS.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/pnrr_aggiudicatari_gare-universo_regis/PNRR_Aggiudicatari_Gare-Universo_REGIS.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_open_data_/pnrr_met_oaprogrammazione_v05/PNRR_MeT_OAprogrammazione_v05.csv
@@ -20,7 +17,6 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/OpenData_PNRR_Qua
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/OpenData_PNRR_QuadroFinProgrammazione_v06.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/OpenData_PNRR_QuadroFinProgrammazione_v06.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_%20Aggiudicatari_Gare-Universo_REGIS_v4.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Aggiudicatari_Gare-Dati_Validati_v3.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Gare-Universo_REGIS_v3%20.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Gare_Subappaltatori-Universo_REGIS_v4.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/PNRR_Indicatori_Comuni-Universo_REGIS_v1.xlsx
@@ -113,9 +109,6 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/ammtitolari_inter
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/ammtitolari_interoperabilita/AmmTitolari_interoperabilitàBDAP.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/ammtitolari_interoperabilita/AmmTitolari_interoperabilitàBDAP.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/ammtitolari_interoperabilita/AmmTitolari_interoperabilitàBDAP.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/gare/PNRR_Gare.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/gare/PNRR_Gare.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/gare/PNRR_Gare.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/indicatori-comuni/OpenData_PNRR_avanzamento_indicatori_comuni.xlsx
@@ -158,9 +151,6 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-c
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-complementare-open-data/OpenData_PNC_QuadroFinanziario.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-complementare-open-data/OpenData_PNC_QuadroFinanziario.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/piano-nazionale-complementare-open-data/OpenData_PNC_QuadroFinanziario.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-universo-regis/PNRR_Gare_Aggiudicatari-Universo_REGIS.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-universo-regis/PNRR_Gare_Aggiudicatari-Universo_REGIS.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data/pnrr-gare-aggiudicatari-universo-regis/PNRR_Gare_Aggiudicatari-Universo_REGIS.xlsx
@@ -200,12 +190,6 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_mappatura_i
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_universo/PNRR_Soggetti-Universo_REGIS_v3.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_universo/PNRR_Soggetti-Universo_REGIS_v3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open-data_/pnrr_soggetti_universo/PNRR_Soggetti-Universo_REGIS_v3.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati_v3.1.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati_v3.1.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati_v3.1.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati_v3.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati_v3.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/gare-aggiudicatari-dati-validati/PNRR_Gare_Aggiudicatari-Dati_Validati_v3.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/gare-aggiudicatari/PNRR_Gare_Aggiudicatari-Universo_REGIS_v2.1.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/gare-aggiudicatari/PNRR_Gare_Aggiudicatari-Universo_REGIS_v2.1.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data/gare-aggiudicatari/PNRR_Gare_Aggiudicatari-Universo_REGIS_v2.1.xlsx
@@ -255,8 +239,6 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/OpenData_PNRR_m
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/OpenData_PNRR_mappatura_indicatori_comuni_v5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_%20Aggiudicatari_Gare-Universo_REGIS_v4.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_%20Aggiudicatari_Gare-Universo_REGIS_v4.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Aggiudicatari_Gare-Dati_Validati_v3.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Aggiudicatari_Gare-Dati_Validati_v3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Gare-Universo_REGIS_v3.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Gare-Universo_REGIS_v3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Gare_Subappaltatori-Universo_REGIS_v4.csv
@@ -437,9 +419,6 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Subappaltator
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/TAG_sostegno_clima_digitale.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/TAG_sostegno_clima_digitale_v08.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/TAG_sostegno_clima_digitale_v08.xlsx
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_aggiudicatari_gare-dati_validati_v2/PNRR_Aggiudicatari_Gare-Dati_Validati_v2.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_aggiudicatari_gare-dati_validati_v2/PNRR_Aggiudicatari_Gare-Dati_Validati_v2.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_aggiudicatari_gare-dati_validati_v2/PNRR_Aggiudicatari_Gare-Dati_Validati_v2.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_aggiudicatari_gare-universo_regis_v2/PNRR_Aggiudicatari_Gare-Universo_REGIS_v3.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_aggiudicatari_gare-universo_regis_v2/PNRR_Aggiudicatari_Gare-Universo_REGIS_v3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_aggiudicatari_gare-universo_regis_v2/PNRR_Aggiudicatari_Gare-Universo_REGIS_v3.xlsx
