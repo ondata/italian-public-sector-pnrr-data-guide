@@ -693,6 +693,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_proge
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v4.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v4.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v5.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione_v8.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione_v8.xlsx
@@ -995,6 +997,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_It
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Iter_di_progetto_v3_M6.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Iter_di_progetto_v3_M7.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Iter_di_progetto_v3_M7.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Lista_Reg_UE.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Lista_Reg_UE_v4.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Lista_Reg_UE_v4.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Localizzazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Localizzazione_v8.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Localizzazione_v8.xlsx
