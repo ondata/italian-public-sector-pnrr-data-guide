@@ -592,6 +592,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare_v7.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare_v8.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare_v8.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare_v9.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare_v9.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_CSR.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_CSR_v02.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_CSR_v02.xlsx
@@ -600,6 +602,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare_v6.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare_v6.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare_v7.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare_v7.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare_v8.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare_v8.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Comuni_M1.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Comuni_M2.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Comuni_M3.csv
@@ -668,6 +672,10 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Ta
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Target_v6_M5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Target_v6_M6.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Target_v6_M6.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Target_v6_M7.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Target_v6_M7.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_Di_Progetto_v5.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_M1.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_M2.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_M3.csv
@@ -690,6 +698,16 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Proge
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v4_M6.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v4_M7.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v4_M7.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M1.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M1.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M2.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M2.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M3.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M3.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M4.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M4.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M5.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M6.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M6.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M7.json
