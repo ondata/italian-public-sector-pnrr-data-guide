@@ -793,6 +793,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_v10_
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_v10_M5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_v10_M6.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_v10_M6.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_v10_M7.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_v10_M7.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_v8.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_v8.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_v8_M1.json
@@ -835,6 +837,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Soggetti_M6.c
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Soggetti_M7.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Soggetti_V9.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Soggetti_v10.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Soggetti_v10_M1.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Soggetti_v10_M1.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Soggetti_v10_M2.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Soggetti_v10_M2.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Soggetti_v10_M3.json
