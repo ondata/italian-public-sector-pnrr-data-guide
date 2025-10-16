@@ -328,8 +328,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Proge
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M7.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_v5_M7.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v5.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v5.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v6.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v6.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione_v10.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione_v10.xlsx
@@ -418,6 +418,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_progetti-uni
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_soggetti-universo_regis_v4/PNRR_Soggetti-Universo_REGIS_v4.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_soggetti-universo_regis_v4/PNRR_Soggetti-Universo_REGIS_v4.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_/pnrr_soggetti-universo_regis_v4/PNRR_Soggetti-Universo_REGIS_v4.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_aprile25/PNRR_Lista_Reg_UE.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_aprile25/PNRR_Lista_Reg_UE_v5.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_aprile25/PNRR_Lista_Reg_UE_v5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/Indicatori_Comuni.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/Indicatori_Comuni_v4.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/OpenData_PNRR_QuadroFinProgrammazione.csv
