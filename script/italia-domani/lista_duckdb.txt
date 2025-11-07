@@ -37,8 +37,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_giugno25/PNRR_Loca
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_LocalizzazioneGeografica.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_map_indicatori_comuni.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Map_Indicatori_Target.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_MeT_OAprogrammazione.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata/Mappatura_PNRR_SNSvS_Agenda2030.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_giugno25/PNRR_MeT_OAprogrammazione.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_giugno24/Mappatura_PNRR_SNSvS_Agenda2030.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_giugno25/PNRR_Pagamenti_di_Progetto.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_giugno25/PNRR_PRATT.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_giugno25/PNRR_Progetti.csv
