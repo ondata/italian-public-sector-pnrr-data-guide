@@ -7,7 +7,7 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_Qua
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_Gare.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_Subappaltatori.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Comuni.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/Indicatori_Comuni.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Comuni_M1.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Comuni_M2.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Comuni_M3.csv
