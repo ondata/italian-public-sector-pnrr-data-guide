@@ -337,8 +337,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Map_Indicator
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Map_Indicatori_Target_v4.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Map_Indicatori_Target_v4.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_MeT_OAprogrammazione.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_MeT_OAprogrammazione_v14.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_MeT_OAprogrammazione_v14.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_MeT_OAprogrammazione_v15.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_MeT_OAprogrammazione_v15.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_PRATT.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_PRATT_v8.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_PRATT_v8.xlsx
@@ -953,6 +953,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_Ite
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_Localizzazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_Localizzazione_v11.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_Localizzazione_v11.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_MeT_OAprogrammazione.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_MeT_OAprogrammazione_v14.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_MeT_OAprogrammazione_v14.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_PRATT.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_PRATT_v7.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_PRATT_v7.xlsx
