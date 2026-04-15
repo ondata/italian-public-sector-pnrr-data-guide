@@ -1245,6 +1245,7 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_agosto25/OpenData_
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_agosto25/OpenData_PNRR_avanzamento_indicatori_comuni_v8.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_agosto25/OpenData_PNRR_avanzamento_indicatori_comuni_v8.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_agosto25/OpenData_PNRR_map_indicatori_comuni.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_agosto25/OpenData_PNRR_map_indicatori_comuni_v9-3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_agosto25/OpenData_PNRR_map_indicatori_comuni_v9.3.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_agosto25/OpenData_PNRR_map_indicatori_comuni_v9.3.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_agosto25/PNRR_Spesa_Per_Misura_PNRR_v5.json
