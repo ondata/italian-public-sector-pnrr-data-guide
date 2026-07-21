@@ -255,8 +255,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Progetti-U
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Soggetti-Universo_REGIS_v5.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/open_data__/PNRR_Soggetti-Universo_REGIS_v5.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/Mappatura_PNRR_SNSvS_Agenda2030.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/Mappatura_PNRR_SNSvS_Agenda2030_v6.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/Mappatura_PNRR_SNSvS_Agenda2030_v6.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/Mappatura_PNRR_SNSvS_Agenda2030_v7.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/Mappatura_PNRR_SNSvS_Agenda2030_v7.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_QuadroFinProgrammazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_QuadroFinProgrammazione_v12.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_QuadroFinProgrammazione_v12.xlsx
@@ -270,8 +270,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare_v12.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare_v12.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_CSR.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_CSR_v02.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_CSR_v02.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_CSR_v03.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_CSR_v03.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare_v11.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare_v11.xlsx
@@ -353,8 +353,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazion
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione_v13.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione_v13.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Map_Indicatori_Target.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Map_Indicatori_Target_v4.json
-https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Map_Indicatori_Target_v4.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Map_Indicatori_Target_v5.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Map_Indicatori_Target_v5.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_MeT_OAprogrammazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_MeT_OAprogrammazione_v16.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_MeT_OAprogrammazione_v16.xlsx
@@ -460,6 +460,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/OpenDat
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Aggiudicatari_Gare.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Aggiudicatari_Gare_v7.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Aggiudicatari_Gare_v7.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_CSR.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_CSR_v02.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_CSR_v02.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Gare.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Gare_v6.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/PNRR_Gare_v6.xlsx
@@ -989,6 +992,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_Iter_
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_Localizzazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_Localizzazione_v9.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_Localizzazione_v9.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_Map_Indicatori_Target.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_Map_Indicatori_Target_v4.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_Map_Indicatori_Target_v4.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_MeT_OAprogrammazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_MeT_OAprogrammazione_v12.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_MeT_OAprogrammazione_v12.xlsx
@@ -1051,6 +1057,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/PNRR_Subap
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/TAG_sostegno_clima_digitale.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/TAG_sostegno_clima_digitale_v08.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_marzo25/TAG_sostegno_clima_digitale_v08.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/Mappatura_PNRR_SNSvS_Agenda2030.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/Mappatura_PNRR_SNSvS_Agenda2030_v6.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/Mappatura_PNRR_SNSvS_Agenda2030_v6.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_Aggiudicatari_Gare.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_Aggiudicatari_Gare_v10.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_ottobre25/PNRR_Aggiudicatari_Gare_v10.xlsx
