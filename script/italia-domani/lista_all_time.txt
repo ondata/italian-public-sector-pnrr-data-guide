@@ -905,6 +905,8 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v6.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v7.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v7.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v8.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE_v8.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione_v10.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione_v10.xlsx
@@ -1357,6 +1359,9 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_agosto25/PNRR_Spes
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_aprile25/PNRR_Lista_Reg_UE.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_aprile25/PNRR_Lista_Reg_UE_v5.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_aprile25/PNRR_Lista_Reg_UE_v5.xlsx
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_aprile26/PNRR_Lista_Reg_UE.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_aprile26/PNRR_Lista_Reg_UE_v7.json
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_aprile26/PNRR_Lista_Reg_UE_v7.xlsx
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/Indicatori_Comuni.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/Indicatori_Comuni_v4.json
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata_dicembre24/OpenData_PNRR_QuadroFinProgrammazione.csv
