@@ -1,12 +1,12 @@
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Aggiudicatari_Gare.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_Aggiudicatari.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNC_Aggiudicatari.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_avanzamento_indicatori_comuni.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_DescrizioneProgrammi_v2.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNC_DescrizioneProgrammi.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_Obiettivi_v2.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_QuadroFinanziario_v2.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNC_QuadroFinanziario.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_Gare.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_Subappaltatori.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNC_Gare.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNC_Subappaltatori.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Comuni.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Comuni_M1.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Indicatori_Comuni_M2.csv
@@ -34,7 +34,7 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Proge
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Iter_di_Progetto_M7.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Lista_Reg_UE.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Localizzazione.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_LocalizzazioneGeografica.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNC_LocalizzazioneGeografica.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_map_indicatori_comuni.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Map_Indicatori_Target.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_MeT_OAprogrammazione.csv
@@ -49,7 +49,7 @@ https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_M2.c
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_M4.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_M5.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti_M7.csv
-https://www.italiadomani.gov.it/content/dam/sogei-ng/_opendata_/OpenData_PNC_Progetti.csv
+https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNC_Progetti.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/OpenData_PNRR_QuadroFinProgrammazione.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_CSR.csv
 https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Soggetti.csv
