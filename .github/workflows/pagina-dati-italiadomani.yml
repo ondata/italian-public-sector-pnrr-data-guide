@@ -10,8 +10,8 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
-    - name: Utilizza l'action github checkout@v2, per automatizzare il check-out
-      uses: actions/checkout@v2
+    - name: Check out repository
+      uses: actions/checkout@v7.0.1
       with:
         fetch-depth: 0
 
